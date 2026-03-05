@@ -1,0 +1,1012 @@
+{
+  "Canadian GEM": {
+    "cities": {
+      "New York": {
+        "mae": 2.18,
+        "bias": -1.25,
+        "max_error": 9.0,
+        "rmse": 2.84,
+        "n": 365,
+        "within_1f": 33.4,
+        "within_2f": 58.1,
+        "within_3f": 74.2
+      },
+      "Chicago": {
+        "mae": 3.33,
+        "bias": -3.06,
+        "max_error": 13.2,
+        "rmse": 3.99,
+        "n": 363,
+        "within_1f": 13.2,
+        "within_2f": 29.2,
+        "within_3f": 51.8
+      },
+      "Miami": {
+        "mae": 1.61,
+        "bias": -1.27,
+        "max_error": 9.0,
+        "rmse": 2.21,
+        "n": 365,
+        "within_1f": 43.8,
+        "within_2f": 74.8,
+        "within_3f": 87.1
+      },
+      "Denver": {
+        "mae": 2.03,
+        "bias": -1.09,
+        "max_error": 10.5,
+        "rmse": 2.65,
+        "n": 360,
+        "within_1f": 33.1,
+        "within_2f": 60.0,
+        "within_3f": 77.8
+      },
+      "Austin": {
+        "mae": 2.34,
+        "bias": -1.37,
+        "max_error": 9.0,
+        "rmse": 2.92,
+        "n": 360,
+        "within_1f": 25.3,
+        "within_2f": 52.5,
+        "within_3f": 70.6
+      },
+      "Minneapolis": {
+        "mae": 2.2,
+        "bias": -1.26,
+        "max_error": 12.1,
+        "rmse": 2.79,
+        "n": 365,
+        "within_1f": 28.8,
+        "within_2f": 54.5,
+        "within_3f": 74.5
+      },
+      "Washington DC": {
+        "mae": 2.34,
+        "bias": -1.19,
+        "max_error": 11.8,
+        "rmse": 3.01,
+        "n": 365,
+        "within_1f": 28.2,
+        "within_2f": 52.6,
+        "within_3f": 73.2
+      },
+      "Atlanta": {
+        "mae": 3.51,
+        "bias": -2.93,
+        "max_error": 12.8,
+        "rmse": 4.06,
+        "n": 365,
+        "within_1f": 11.2,
+        "within_2f": 23.3,
+        "within_3f": 46.8
+      },
+      "Philadelphia": {
+        "mae": 2.39,
+        "bias": -1.8,
+        "max_error": 10.5,
+        "rmse": 3.1,
+        "n": 365,
+        "within_1f": 27.9,
+        "within_2f": 54.8,
+        "within_3f": 71.2
+      },
+      "Houston": {
+        "mae": 3.07,
+        "bias": -1.88,
+        "max_error": 10.2,
+        "rmse": 3.76,
+        "n": 365,
+        "within_1f": 20.0,
+        "within_2f": 39.2,
+        "within_3f": 56.2
+      },
+      "Dallas": {
+        "mae": 2.29,
+        "bias": -1.5,
+        "max_error": 9.8,
+        "rmse": 2.9,
+        "n": 365,
+        "within_1f": 27.4,
+        "within_2f": 53.4,
+        "within_3f": 74.0
+      },
+      "Seattle": {
+        "mae": 2.47,
+        "bias": -2.18,
+        "max_error": 7.8,
+        "rmse": 2.9,
+        "n": 365,
+        "within_1f": 19.5,
+        "within_2f": 43.3,
+        "within_3f": 65.5
+      },
+      "Boston": {
+        "mae": 4.17,
+        "bias": -4.01,
+        "max_error": 16.5,
+        "rmse": 5.23,
+        "n": 365,
+        "within_1f": 14.8,
+        "within_2f": 29.0,
+        "within_3f": 43.8
+      },
+      "Phoenix": {
+        "mae": 2.4,
+        "bias": -2.29,
+        "max_error": 9.3,
+        "rmse": 2.75,
+        "n": 365,
+        "within_1f": 14.0,
+        "within_2f": 44.4,
+        "within_3f": 72.6
+      },
+      "Oklahoma City": {
+        "mae": 1.97,
+        "bias": -0.65,
+        "max_error": 15.8,
+        "rmse": 2.66,
+        "n": 365,
+        "within_1f": 37.0,
+        "within_2f": 61.1,
+        "within_3f": 80.5
+      },
+      "Las Vegas": {
+        "mae": 1.85,
+        "bias": -1.72,
+        "max_error": 8.5,
+        "rmse": 2.23,
+        "n": 365,
+        "within_1f": 29.0,
+        "within_2f": 61.9,
+        "within_3f": 83.0
+      },
+      "San Francisco": {
+        "mae": 3.99,
+        "bias": -3.56,
+        "max_error": 13.2,
+        "rmse": 4.69,
+        "n": 365,
+        "within_1f": 9.6,
+        "within_2f": 22.2,
+        "within_3f": 39.7
+      },
+      "San Antonio": {
+        "mae": 2.36,
+        "bias": -1.4,
+        "max_error": 10.7,
+        "rmse": 3.02,
+        "n": 365,
+        "within_1f": 27.7,
+        "within_2f": 52.9,
+        "within_3f": 73.2
+      },
+      "New Orleans": {
+        "mae": 3.13,
+        "bias": -2.88,
+        "max_error": 9.3,
+        "rmse": 3.65,
+        "n": 365,
+        "within_1f": 16.7,
+        "within_2f": 32.9,
+        "within_3f": 50.7
+      }
+    },
+    "aggregate": {
+      "avg_mae": 2.61,
+      "min_mae": 1.61,
+      "max_mae": 4.17,
+      "total_days": 6923,
+      "cities_tested": 19,
+      "suggested_weight": 0.766
+    }
+  },
+  "JMA": {
+    "cities": {
+      "New York": {
+        "mae": 2.65,
+        "bias": -1.99,
+        "max_error": 10.2,
+        "rmse": 3.34,
+        "n": 365,
+        "within_1f": 23.0,
+        "within_2f": 47.9,
+        "within_3f": 66.0
+      },
+      "Chicago": {
+        "mae": 3.42,
+        "bias": -3.0,
+        "max_error": 14.9,
+        "rmse": 4.17,
+        "n": 363,
+        "within_1f": 15.7,
+        "within_2f": 32.5,
+        "within_3f": 51.0
+      },
+      "Miami": {
+        "mae": 2.28,
+        "bias": -1.31,
+        "max_error": 9.2,
+        "rmse": 2.86,
+        "n": 365,
+        "within_1f": 27.9,
+        "within_2f": 53.7,
+        "within_3f": 75.3
+      },
+      "Denver": {
+        "mae": 5.17,
+        "bias": -4.9,
+        "max_error": 20.0,
+        "rmse": 6.2,
+        "n": 360,
+        "within_1f": 8.6,
+        "within_2f": 17.5,
+        "within_3f": 32.8
+      },
+      "Austin": {
+        "mae": 5.9,
+        "bias": -5.67,
+        "max_error": 14.1,
+        "rmse": 6.5,
+        "n": 360,
+        "within_1f": 5.6,
+        "within_2f": 8.9,
+        "within_3f": 15.3
+      },
+      "Minneapolis": {
+        "mae": 3.58,
+        "bias": -2.9,
+        "max_error": 14.3,
+        "rmse": 4.31,
+        "n": 365,
+        "within_1f": 14.0,
+        "within_2f": 31.5,
+        "within_3f": 46.6
+      },
+      "Washington DC": {
+        "mae": 3.48,
+        "bias": -3.08,
+        "max_error": 11.4,
+        "rmse": 4.15,
+        "n": 365,
+        "within_1f": 15.1,
+        "within_2f": 29.6,
+        "within_3f": 46.8
+      },
+      "Atlanta": {
+        "mae": 4.41,
+        "bias": -4.0,
+        "max_error": 19.8,
+        "rmse": 5.11,
+        "n": 365,
+        "within_1f": 9.3,
+        "within_2f": 17.8,
+        "within_3f": 32.6
+      },
+      "Philadelphia": {
+        "mae": 3.47,
+        "bias": -3.06,
+        "max_error": 11.0,
+        "rmse": 4.1,
+        "n": 365,
+        "within_1f": 14.2,
+        "within_2f": 28.5,
+        "within_3f": 45.8
+      },
+      "Houston": {
+        "mae": 4.38,
+        "bias": -4.16,
+        "max_error": 10.1,
+        "rmse": 4.87,
+        "n": 365,
+        "within_1f": 5.5,
+        "within_2f": 13.7,
+        "within_3f": 27.4
+      },
+      "Dallas": {
+        "mae": 4.27,
+        "bias": -3.94,
+        "max_error": 13.6,
+        "rmse": 4.95,
+        "n": 365,
+        "within_1f": 10.1,
+        "within_2f": 22.7,
+        "within_3f": 34.5
+      },
+      "Seattle": {
+        "mae": 3.06,
+        "bias": -2.62,
+        "max_error": 8.9,
+        "rmse": 3.66,
+        "n": 365,
+        "within_1f": 17.5,
+        "within_2f": 38.1,
+        "within_3f": 55.1
+      },
+      "Boston": {
+        "mae": 2.96,
+        "bias": -2.46,
+        "max_error": 10.5,
+        "rmse": 3.67,
+        "n": 365,
+        "within_1f": 21.1,
+        "within_2f": 38.9,
+        "within_3f": 59.2
+      },
+      "Phoenix": {
+        "mae": 4.04,
+        "bias": -3.98,
+        "max_error": 12.1,
+        "rmse": 4.46,
+        "n": 365,
+        "within_1f": 3.6,
+        "within_2f": 11.0,
+        "within_3f": 30.4
+      },
+      "Oklahoma City": {
+        "mae": 4.29,
+        "bias": -3.89,
+        "max_error": 15.5,
+        "rmse": 5.17,
+        "n": 365,
+        "within_1f": 11.2,
+        "within_2f": 24.1,
+        "within_3f": 39.5
+      },
+      "Las Vegas": {
+        "mae": 2.61,
+        "bias": -2.4,
+        "max_error": 8.2,
+        "rmse": 2.94,
+        "n": 365,
+        "within_1f": 9.6,
+        "within_2f": 34.5,
+        "within_3f": 69.3
+      },
+      "San Francisco": {
+        "mae": 6.44,
+        "bias": -5.68,
+        "max_error": 19.7,
+        "rmse": 7.35,
+        "n": 365,
+        "within_1f": 6.0,
+        "within_2f": 10.1,
+        "within_3f": 15.9
+      },
+      "San Antonio": {
+        "mae": 4.91,
+        "bias": -4.67,
+        "max_error": 11.8,
+        "rmse": 5.42,
+        "n": 365,
+        "within_1f": 4.1,
+        "within_2f": 9.9,
+        "within_3f": 21.4
+      },
+      "New Orleans": {
+        "mae": 3.37,
+        "bias": -3.09,
+        "max_error": 10.7,
+        "rmse": 4.0,
+        "n": 365,
+        "within_1f": 12.6,
+        "within_2f": 30.1,
+        "within_3f": 48.8
+      }
+    },
+    "aggregate": {
+      "avg_mae": 3.93,
+      "min_mae": 2.28,
+      "max_mae": 6.44,
+      "total_days": 6923,
+      "cities_tested": 19,
+      "suggested_weight": 0.509
+    }
+  },
+  "UKMO": {
+    "cities": {
+      "New York": {
+        "mae": 1.88,
+        "bias": -1.16,
+        "max_error": 9.0,
+        "rmse": 2.39,
+        "n": 365,
+        "within_1f": 34.5,
+        "within_2f": 64.1,
+        "within_3f": 80.8
+      },
+      "Chicago": {
+        "mae": 2.64,
+        "bias": -2.38,
+        "max_error": 13.0,
+        "rmse": 3.22,
+        "n": 363,
+        "within_1f": 20.4,
+        "within_2f": 42.7,
+        "within_3f": 64.2
+      },
+      "Miami": {
+        "mae": 1.99,
+        "bias": -1.82,
+        "max_error": 6.0,
+        "rmse": 2.34,
+        "n": 365,
+        "within_1f": 25.2,
+        "within_2f": 55.6,
+        "within_3f": 81.1
+      },
+      "Denver": {
+        "mae": 2.65,
+        "bias": -2.17,
+        "max_error": 16.9,
+        "rmse": 3.39,
+        "n": 360,
+        "within_1f": 20.8,
+        "within_2f": 45.0,
+        "within_3f": 65.8
+      },
+      "Austin": {
+        "mae": 2.67,
+        "bias": -2.36,
+        "max_error": 10.6,
+        "rmse": 3.15,
+        "n": 360,
+        "within_1f": 20.0,
+        "within_2f": 37.8,
+        "within_3f": 61.1
+      },
+      "Minneapolis": {
+        "mae": 2.01,
+        "bias": -1.29,
+        "max_error": 9.0,
+        "rmse": 2.54,
+        "n": 365,
+        "within_1f": 31.2,
+        "within_2f": 59.5,
+        "within_3f": 80.0
+      },
+      "Washington DC": {
+        "mae": 2.69,
+        "bias": -1.99,
+        "max_error": 12.8,
+        "rmse": 3.48,
+        "n": 365,
+        "within_1f": 24.4,
+        "within_2f": 48.2,
+        "within_3f": 64.7
+      },
+      "Atlanta": {
+        "mae": 4.2,
+        "bias": -4.19,
+        "max_error": 11.3,
+        "rmse": 4.76,
+        "n": 365,
+        "within_1f": 7.1,
+        "within_2f": 18.9,
+        "within_3f": 33.4
+      },
+      "Philadelphia": {
+        "mae": 2.97,
+        "bias": -2.79,
+        "max_error": 16.5,
+        "rmse": 3.59,
+        "n": 365,
+        "within_1f": 15.1,
+        "within_2f": 36.7,
+        "within_3f": 58.6
+      },
+      "Houston": {
+        "mae": 3.35,
+        "bias": -3.23,
+        "max_error": 9.4,
+        "rmse": 3.78,
+        "n": 365,
+        "within_1f": 7.9,
+        "within_2f": 24.4,
+        "within_3f": 46.8
+      },
+      "Dallas": {
+        "mae": 2.37,
+        "bias": -1.72,
+        "max_error": 8.9,
+        "rmse": 2.97,
+        "n": 365,
+        "within_1f": 28.2,
+        "within_2f": 49.9,
+        "within_3f": 66.6
+      },
+      "Seattle": {
+        "mae": 1.89,
+        "bias": -1.08,
+        "max_error": 8.4,
+        "rmse": 2.32,
+        "n": 365,
+        "within_1f": 30.1,
+        "within_2f": 61.1,
+        "within_3f": 81.4
+      },
+      "Boston": {
+        "mae": 1.88,
+        "bias": -0.91,
+        "max_error": 9.9,
+        "rmse": 2.43,
+        "n": 365,
+        "within_1f": 34.0,
+        "within_2f": 61.6,
+        "within_3f": 83.0
+      },
+      "Phoenix": {
+        "mae": 3.21,
+        "bias": -3.07,
+        "max_error": 8.8,
+        "rmse": 3.64,
+        "n": 365,
+        "within_1f": 11.2,
+        "within_2f": 25.5,
+        "within_3f": 49.3
+      },
+      "Oklahoma City": {
+        "mae": 2.1,
+        "bias": -1.15,
+        "max_error": 8.7,
+        "rmse": 2.76,
+        "n": 365,
+        "within_1f": 36.4,
+        "within_2f": 58.1,
+        "within_3f": 74.5
+      },
+      "Las Vegas": {
+        "mae": 1.81,
+        "bias": -1.18,
+        "max_error": 8.0,
+        "rmse": 2.49,
+        "n": 365,
+        "within_1f": 45.5,
+        "within_2f": 68.5,
+        "within_3f": 82.2
+      },
+      "San Francisco": {
+        "mae": 2.28,
+        "bias": 1.42,
+        "max_error": 11.6,
+        "rmse": 3.02,
+        "n": 365,
+        "within_1f": 32.3,
+        "within_2f": 55.3,
+        "within_3f": 73.7
+      },
+      "San Antonio": {
+        "mae": 2.24,
+        "bias": -1.88,
+        "max_error": 8.8,
+        "rmse": 2.72,
+        "n": 365,
+        "within_1f": 24.7,
+        "within_2f": 51.8,
+        "within_3f": 74.0
+      },
+      "New Orleans": {
+        "mae": 1.61,
+        "bias": -0.79,
+        "max_error": 5.3,
+        "rmse": 1.99,
+        "n": 365,
+        "within_1f": 38.4,
+        "within_2f": 69.9,
+        "within_3f": 85.5
+      }
+    },
+    "aggregate": {
+      "avg_mae": 2.44,
+      "min_mae": 1.61,
+      "max_mae": 4.2,
+      "total_days": 6923,
+      "cities_tested": 19,
+      "suggested_weight": 0.818
+    }
+  },
+  "Meteo-France Arpege": {
+    "cities": {
+      "New York": {
+        "mae": 2.52,
+        "bias": -2.19,
+        "max_error": 9.7,
+        "rmse": 3.24,
+        "n": 365,
+        "within_1f": 25.8,
+        "within_2f": 51.8,
+        "within_3f": 69.0
+      },
+      "Chicago": {
+        "mae": 2.64,
+        "bias": -2.35,
+        "max_error": 10.5,
+        "rmse": 3.34,
+        "n": 363,
+        "within_1f": 26.4,
+        "within_2f": 49.3,
+        "within_3f": 61.2
+      },
+      "Miami": {
+        "mae": 1.99,
+        "bias": -1.5,
+        "max_error": 9.2,
+        "rmse": 2.71,
+        "n": 365,
+        "within_1f": 40.3,
+        "within_2f": 65.2,
+        "within_3f": 75.9
+      },
+      "Denver": {
+        "mae": 2.1,
+        "bias": -0.89,
+        "max_error": 10.0,
+        "rmse": 2.73,
+        "n": 360,
+        "within_1f": 34.7,
+        "within_2f": 58.6,
+        "within_3f": 76.4
+      },
+      "Austin": {
+        "mae": 2.26,
+        "bias": -1.08,
+        "max_error": 14.8,
+        "rmse": 3.08,
+        "n": 360,
+        "within_1f": 35.0,
+        "within_2f": 59.2,
+        "within_3f": 74.2
+      },
+      "Minneapolis": {
+        "mae": 2.45,
+        "bias": -2.14,
+        "max_error": 11.1,
+        "rmse": 3.15,
+        "n": 365,
+        "within_1f": 28.5,
+        "within_2f": 52.3,
+        "within_3f": 69.3
+      },
+      "Washington DC": {
+        "mae": 2.33,
+        "bias": -2.05,
+        "max_error": 8.8,
+        "rmse": 2.87,
+        "n": 365,
+        "within_1f": 26.6,
+        "within_2f": 51.5,
+        "within_3f": 68.8
+      },
+      "Atlanta": {
+        "mae": 2.64,
+        "bias": -2.1,
+        "max_error": 10.5,
+        "rmse": 3.32,
+        "n": 365,
+        "within_1f": 25.8,
+        "within_2f": 44.1,
+        "within_3f": 68.8
+      },
+      "Philadelphia": {
+        "mae": 2.53,
+        "bias": -2.22,
+        "max_error": 14.7,
+        "rmse": 3.15,
+        "n": 365,
+        "within_1f": 25.5,
+        "within_2f": 45.2,
+        "within_3f": 66.6
+      },
+      "Houston": {
+        "mae": 3.72,
+        "bias": -3.39,
+        "max_error": 11.2,
+        "rmse": 4.51,
+        "n": 365,
+        "within_1f": 17.3,
+        "within_2f": 30.7,
+        "within_3f": 46.0
+      },
+      "Dallas": {
+        "mae": 2.92,
+        "bias": -2.48,
+        "max_error": 11.2,
+        "rmse": 3.7,
+        "n": 365,
+        "within_1f": 26.0,
+        "within_2f": 42.7,
+        "within_3f": 55.3
+      },
+      "Seattle": {
+        "mae": 2.34,
+        "bias": -2.19,
+        "max_error": 8.8,
+        "rmse": 2.77,
+        "n": 365,
+        "within_1f": 22.2,
+        "within_2f": 45.2,
+        "within_3f": 71.5
+      },
+      "Boston": {
+        "mae": 2.25,
+        "bias": -0.85,
+        "max_error": 8.5,
+        "rmse": 2.83,
+        "n": 365,
+        "within_1f": 30.1,
+        "within_2f": 52.9,
+        "within_3f": 72.6
+      },
+      "Phoenix": {
+        "mae": 2.21,
+        "bias": -2.06,
+        "max_error": 8.5,
+        "rmse": 2.71,
+        "n": 365,
+        "within_1f": 24.9,
+        "within_2f": 55.3,
+        "within_3f": 75.1
+      },
+      "Oklahoma City": {
+        "mae": 2.68,
+        "bias": -1.82,
+        "max_error": 11.6,
+        "rmse": 3.32,
+        "n": 365,
+        "within_1f": 23.8,
+        "within_2f": 44.4,
+        "within_3f": 61.9
+      },
+      "Las Vegas": {
+        "mae": 1.28,
+        "bias": 0.82,
+        "max_error": 8.5,
+        "rmse": 1.74,
+        "n": 365,
+        "within_1f": 54.5,
+        "within_2f": 82.2,
+        "within_3f": 92.3
+      },
+      "San Francisco": {
+        "mae": 8.84,
+        "bias": -8.64,
+        "max_error": 25.7,
+        "rmse": 10.3,
+        "n": 365,
+        "within_1f": 6.6,
+        "within_2f": 11.5,
+        "within_3f": 17.5
+      },
+      "San Antonio": {
+        "mae": 2.21,
+        "bias": -1.2,
+        "max_error": 10.2,
+        "rmse": 3.03,
+        "n": 365,
+        "within_1f": 39.7,
+        "within_2f": 59.5,
+        "within_3f": 73.2
+      },
+      "New Orleans": {
+        "mae": 4.22,
+        "bias": -4.13,
+        "max_error": 10.8,
+        "rmse": 4.77,
+        "n": 365,
+        "within_1f": 9.9,
+        "within_2f": 16.7,
+        "within_3f": 32.6
+      }
+    },
+    "aggregate": {
+      "avg_mae": 2.85,
+      "min_mae": 1.28,
+      "max_mae": 8.84,
+      "total_days": 6923,
+      "cities_tested": 19,
+      "suggested_weight": 0.702
+    }
+  },
+  "GFS": {
+    "cities": {
+      "New York": {
+        "mae": 1.15,
+        "bias": 0.26,
+        "max_error": 4.6,
+        "rmse": 1.48,
+        "n": 365,
+        "within_1f": 54.0,
+        "within_2f": 84.9,
+        "within_3f": 94.5
+      },
+      "Chicago": {
+        "mae": 1.52,
+        "bias": -1.42,
+        "max_error": 6.0,
+        "rmse": 1.9,
+        "n": 363,
+        "within_1f": 45.7,
+        "within_2f": 71.6,
+        "within_3f": 88.4
+      },
+      "Miami": {
+        "mae": 1.26,
+        "bias": -1.06,
+        "max_error": 5.0,
+        "rmse": 1.56,
+        "n": 365,
+        "within_1f": 50.7,
+        "within_2f": 82.5,
+        "within_3f": 94.8
+      },
+      "Denver": {
+        "mae": 1.49,
+        "bias": -1.35,
+        "max_error": 5.9,
+        "rmse": 1.87,
+        "n": 360,
+        "within_1f": 42.8,
+        "within_2f": 71.4,
+        "within_3f": 89.4
+      },
+      "Austin": {
+        "mae": 1.16,
+        "bias": -1.07,
+        "max_error": 4.2,
+        "rmse": 1.42,
+        "n": 360,
+        "within_1f": 51.9,
+        "within_2f": 85.3,
+        "within_3f": 97.5
+      },
+      "Minneapolis": {
+        "mae": 1.05,
+        "bias": -0.77,
+        "max_error": 5.0,
+        "rmse": 1.37,
+        "n": 365,
+        "within_1f": 59.7,
+        "within_2f": 86.0,
+        "within_3f": 96.7
+      },
+      "Washington DC": {
+        "mae": 1.2,
+        "bias": -0.6,
+        "max_error": 5.2,
+        "rmse": 1.54,
+        "n": 365,
+        "within_1f": 53.7,
+        "within_2f": 80.8,
+        "within_3f": 93.7
+      },
+      "Atlanta": {
+        "mae": 1.94,
+        "bias": -1.91,
+        "max_error": 6.6,
+        "rmse": 2.21,
+        "n": 365,
+        "within_1f": 20.0,
+        "within_2f": 57.8,
+        "within_3f": 86.3
+      },
+      "Philadelphia": {
+        "mae": 1.29,
+        "bias": -1.16,
+        "max_error": 5.7,
+        "rmse": 1.61,
+        "n": 365,
+        "within_1f": 48.8,
+        "within_2f": 82.7,
+        "within_3f": 94.0
+      },
+      "Houston": {
+        "mae": 1.57,
+        "bias": -1.38,
+        "max_error": 6.2,
+        "rmse": 2.02,
+        "n": 365,
+        "within_1f": 40.5,
+        "within_2f": 68.8,
+        "within_3f": 87.7
+      },
+      "Dallas": {
+        "mae": 1.08,
+        "bias": -0.87,
+        "max_error": 4.3,
+        "rmse": 1.36,
+        "n": 365,
+        "within_1f": 53.7,
+        "within_2f": 87.9,
+        "within_3f": 97.8
+      },
+      "Seattle": {
+        "mae": 1.54,
+        "bias": -1.47,
+        "max_error": 5.0,
+        "rmse": 1.82,
+        "n": 365,
+        "within_1f": 33.7,
+        "within_2f": 73.7,
+        "within_3f": 92.6
+      },
+      "Boston": {
+        "mae": 1.33,
+        "bias": -0.2,
+        "max_error": 5.6,
+        "rmse": 1.68,
+        "n": 365,
+        "within_1f": 48.5,
+        "within_2f": 78.6,
+        "within_3f": 93.7
+      },
+      "Phoenix": {
+        "mae": 1.7,
+        "bias": -1.67,
+        "max_error": 5.8,
+        "rmse": 1.92,
+        "n": 365,
+        "within_1f": 23.0,
+        "within_2f": 67.7,
+        "within_3f": 92.9
+      },
+      "Oklahoma City": {
+        "mae": 0.89,
+        "bias": -0.59,
+        "max_error": 3.9,
+        "rmse": 1.14,
+        "n": 365,
+        "within_1f": 66.6,
+        "within_2f": 92.6,
+        "within_3f": 98.4
+      },
+      "Las Vegas": {
+        "mae": 0.61,
+        "bias": -0.43,
+        "max_error": 2.7,
+        "rmse": 0.78,
+        "n": 365,
+        "within_1f": 83.8,
+        "within_2f": 98.4,
+        "within_3f": 100.0
+      },
+      "San Francisco": {
+        "mae": 1.54,
+        "bias": 0.34,
+        "max_error": 11.8,
+        "rmse": 2.22,
+        "n": 365,
+        "within_1f": 44.1,
+        "within_2f": 76.2,
+        "within_3f": 89.0
+      },
+      "San Antonio": {
+        "mae": 0.86,
+        "bias": -0.54,
+        "max_error": 5.9,
+        "rmse": 1.13,
+        "n": 365,
+        "within_1f": 69.3,
+        "within_2f": 93.4,
+        "within_3f": 98.9
+      },
+      "New Orleans": {
+        "mae": 1.54,
+        "bias": -1.35,
+        "max_error": 5.3,
+        "rmse": 1.88,
+        "n": 365,
+        "within_1f": 40.3,
+        "within_2f": 67.7,
+        "within_3f": 91.0
+      }
+    },
+    "aggregate": {
+      "avg_mae": 1.3,
+      "min_mae": 0.61,
+      "max_mae": 1.94,
+      "total_days": 6923,
+      "cities_tested": 19,
+      "suggested_weight": 1.537
+    }
+  }
+}

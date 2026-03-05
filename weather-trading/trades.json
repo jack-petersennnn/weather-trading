@@ -1,0 +1,23 @@
+{
+  "trades": [],
+  "summary": {
+    "total_trades": 50,
+    "open": 26,
+    "resting": 15,
+    "resting_contracts": 1872,
+    "settled": 14,
+    "won": 0,
+    "lost": 0,
+    "pnl_cents": -7271,
+    "realized_pnl_cents": -1054,
+    "unrealized_pnl_cents": -6217,
+    "total_invested_cents": 132967,
+    "portfolio_value_cents": 43805,
+    "available_capital_cents": 9376,
+    "open_cost_cents": 77304,
+    "mode": "LIVE",
+    "started_at": "2026-02-19T00:28:00+00:00",
+    "starting_capital_cents": 51076,
+    "synced_from_kalshi": "2026-02-21T04:59:03.843108+00:00"
+  }
+}

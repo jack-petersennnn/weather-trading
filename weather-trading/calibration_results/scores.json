@@ -1,0 +1,22 @@
+{
+  "threshold_yes": {
+    "brier_score": 0.04994967086679967,
+    "log_loss": 0.17288541732154125
+  },
+  "threshold_no": {
+    "brier_score": 0.05204757668599013,
+    "log_loss": 0.17686731101889006
+  },
+  "bracket_yes": {
+    "brier_score": 0.038044325931042657,
+    "log_loss": 0.13809713262512222
+  },
+  "bracket_no": {
+    "brier_score": 0.038044325931042657,
+    "log_loss": 0.13809713262512222
+  },
+  "overall": {
+    "brier_score": 0.044521474853705126,
+    "log_loss": 0.15648674839754748
+  }
+}

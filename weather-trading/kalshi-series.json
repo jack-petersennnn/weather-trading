@@ -1,0 +1,21 @@
+{
+  "discovered": "2026-02-13",
+  "daily_high_temp_series": {
+    "KXHIGHNY": {"city": "New York City", "station": "Central Park", "source": "NWS Climatological Report"},
+    "KXHIGHCHI": {"city": "Chicago", "station": "TBD", "source": "NWS Climatological Report"},
+    "KXHIGHMIA": {"city": "Miami", "station": "TBD", "source": "NWS Climatological Report"},
+    "KXHIGHDEN": {"city": "Denver", "station": "TBD", "source": "NWS Climatological Report"},
+    "KXHIGHLAX": {"city": "Los Angeles", "station": "TBD", "source": "NWS Climatological Report"},
+    "KXHIGHAUS": {"city": "Austin", "station": "TBD", "source": "NWS Climatological Report"}
+  },
+  "api_base": "https://api.elections.kalshi.com/trade-api/v2",
+  "event_pattern": "{series}-26{MON}{DD}",
+  "market_pattern": "{event}-T{strike} or {event}-B{strike}",
+  "notes": [
+    "Markets open ~1 day before the date",
+    "Close at midnight ET on the day",
+    "Settle next morning based on NWS data",
+    "Strike types: 'less' (below X), 'between' (range), 'greater' (above X)",
+    "Prices in cents (1-99), representing probability percentage"
+  ]
+}

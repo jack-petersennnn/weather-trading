@@ -1,0 +1,62 @@
+{
+  "overall": {
+    "1sigma_rate": 0.632279534109817,
+    "1sigma_count": 1803,
+    "2sigma_rate": 0.8929561841375485,
+    "2sigma_count": 1803,
+    "3sigma_rate": 0.9606211869107044,
+    "3sigma_count": 1803
+  },
+  "per_city": {
+    "Chicago": {
+      "1sigma_rate": 0.40166204986149584,
+      "1sigma_count": 361,
+      "2sigma_rate": 0.7202216066481995,
+      "2sigma_count": 361,
+      "3sigma_rate": 0.8614958448753463,
+      "3sigma_count": 361
+    },
+    "New York": {
+      "1sigma_rate": 0.6831955922865014,
+      "1sigma_count": 363,
+      "2sigma_rate": 0.9366391184573003,
+      "2sigma_count": 363,
+      "3sigma_rate": 0.9752066115702479,
+      "3sigma_count": 363
+    },
+    "Austin": {
+      "1sigma_rate": 0.8240223463687151,
+      "1sigma_count": 358,
+      "2sigma_rate": 0.9748603351955307,
+      "2sigma_count": 358,
+      "3sigma_rate": 0.994413407821229,
+      "3sigma_count": 358
+    },
+    "Denver": {
+      "1sigma_rate": 0.5279329608938548,
+      "1sigma_count": 358,
+      "2sigma_rate": 0.88268156424581,
+      "2sigma_count": 358,
+      "3sigma_rate": 0.9776536312849162,
+      "3sigma_count": 358
+    },
+    "Miami": {
+      "1sigma_rate": 0.7245179063360881,
+      "1sigma_count": 363,
+      "2sigma_rate": 0.9504132231404959,
+      "2sigma_count": 363,
+      "3sigma_rate": 0.9944903581267218,
+      "3sigma_count": 363
+    }
+  },
+  "theoretical": {
+    "1sigma": 0.683,
+    "2sigma": 0.954,
+    "3sigma": 0.997
+  },
+  "comparison": {
+    "1sigma_diff": -0.050720465890183086,
+    "2sigma_diff": -0.061043815862451445,
+    "3sigma_diff": -0.03637881308929558
+  }
+}

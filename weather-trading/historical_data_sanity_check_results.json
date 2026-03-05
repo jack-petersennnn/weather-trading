@@ -1,0 +1,974 @@
+[
+  {
+    "date": "2025-07-15",
+    "description": "Mid-summer heat conditions",
+    "city_results": [
+      {
+        "city": "Chicago",
+        "date_data": {
+          "date": "2025-07-15",
+          "city": "Chicago",
+          "actual_temp": 92.0,
+          "forecasts": {
+            "Best Match": 87.1,
+            "ECMWF": 87.1,
+            "GFS": 85.7,
+            "ICON": 90.6
+          },
+          "forecast_stats": {
+            "mean": 87.625,
+            "median": 87.1,
+            "min": 85.7,
+            "max": 90.6,
+            "std": 1.8102140757380027,
+            "range": 4.8999999999999915,
+            "model_count": 4,
+            "mean_error": -4.375,
+            "median_error": -4.900000000000006,
+            "abs_mean_error": 4.375
+          },
+          "model_errors": {
+            "Best Match": -4.900000000000006,
+            "ECMWF": -4.900000000000006,
+            "GFS": -6.299999999999997,
+            "ICON": -1.4000000000000057
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-07-15",
+          "city": "Chicago",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Good model spread (1.8\u00b0F)",
+            "Reasonable forecast error (4.4\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (1.8\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 92.0,
+          "model_performance": [
+            {
+              "model": "ICON",
+              "forecast": 90.6,
+              "error": -1.4000000000000057,
+              "abs_error": 1.4000000000000057,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 87.1,
+              "error": -4.900000000000006,
+              "abs_error": 4.900000000000006,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 87.1,
+              "error": -4.900000000000006,
+              "abs_error": 4.900000000000006,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "GFS",
+              "forecast": 85.7,
+              "error": -6.299999999999997,
+              "abs_error": 6.299999999999997,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "ICON",
+          "worst_model": "GFS",
+          "ensemble_performance": {
+            "mean": 87.625,
+            "median": 87.1,
+            "min": 85.7,
+            "max": 90.6,
+            "std": 1.8102140757380027,
+            "range": 4.8999999999999915,
+            "model_count": 4,
+            "mean_error": -4.375,
+            "median_error": -4.900000000000006,
+            "abs_mean_error": 4.375
+          }
+        }
+      },
+      {
+        "city": "Denver",
+        "date_data": {
+          "date": "2025-07-15",
+          "city": "Denver",
+          "actual_temp": 95.0,
+          "forecasts": {
+            "Best Match": 96.8,
+            "ECMWF": 93.3,
+            "GFS": 93.7,
+            "ICON": 93.9
+          },
+          "forecast_stats": {
+            "mean": 94.425,
+            "median": 93.80000000000001,
+            "min": 93.3,
+            "max": 96.8,
+            "std": 1.3881192311901724,
+            "range": 3.5,
+            "model_count": 4,
+            "mean_error": -0.5750000000000028,
+            "median_error": -1.1999999999999886,
+            "abs_mean_error": 0.5750000000000028
+          },
+          "model_errors": {
+            "Best Match": 1.7999999999999972,
+            "ECMWF": -1.7000000000000028,
+            "GFS": -1.2999999999999972,
+            "ICON": -1.0999999999999943
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-07-15",
+          "city": "Denver",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Good model spread (1.4\u00b0F)",
+            "Reasonable forecast error (0.6\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (1.4\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 95.0,
+          "model_performance": [
+            {
+              "model": "ICON",
+              "forecast": 93.9,
+              "error": -1.0999999999999943,
+              "abs_error": 1.0999999999999943,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "GFS",
+              "forecast": 93.7,
+              "error": -1.2999999999999972,
+              "abs_error": 1.2999999999999972,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 93.3,
+              "error": -1.7000000000000028,
+              "abs_error": 1.7000000000000028,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 96.8,
+              "error": 1.7999999999999972,
+              "abs_error": 1.7999999999999972,
+              "bias_direction": "warm"
+            }
+          ],
+          "best_model": "ICON",
+          "worst_model": "Best Match",
+          "ensemble_performance": {
+            "mean": 94.425,
+            "median": 93.80000000000001,
+            "min": 93.3,
+            "max": 96.8,
+            "std": 1.3881192311901724,
+            "range": 3.5,
+            "model_count": 4,
+            "mean_error": -0.5750000000000028,
+            "median_error": -1.1999999999999886,
+            "abs_mean_error": 0.5750000000000028
+          }
+        }
+      },
+      {
+        "city": "Austin",
+        "date_data": {
+          "date": "2025-07-15",
+          "city": "Austin",
+          "actual_temp": 93.0,
+          "forecasts": {
+            "Best Match": 90.8,
+            "ECMWF": 89.0,
+            "GFS": 93.1,
+            "ICON": 91.6
+          },
+          "forecast_stats": {
+            "mean": 91.125,
+            "median": 91.19999999999999,
+            "min": 89.0,
+            "max": 93.1,
+            "std": 1.478808642117023,
+            "range": 4.099999999999994,
+            "model_count": 4,
+            "mean_error": -1.875,
+            "median_error": -1.8000000000000114,
+            "abs_mean_error": 1.875
+          },
+          "model_errors": {
+            "Best Match": -2.200000000000003,
+            "ECMWF": -4.0,
+            "GFS": 0.09999999999999432,
+            "ICON": -1.4000000000000057
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-07-15",
+          "city": "Austin",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Good model spread (1.5\u00b0F)",
+            "Reasonable forecast error (1.9\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (1.5\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 93.0,
+          "model_performance": [
+            {
+              "model": "GFS",
+              "forecast": 93.1,
+              "error": 0.09999999999999432,
+              "abs_error": 0.09999999999999432,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "ICON",
+              "forecast": 91.6,
+              "error": -1.4000000000000057,
+              "abs_error": 1.4000000000000057,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 90.8,
+              "error": -2.200000000000003,
+              "abs_error": 2.200000000000003,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 89.0,
+              "error": -4.0,
+              "abs_error": 4.0,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "GFS",
+          "worst_model": "ECMWF",
+          "ensemble_performance": {
+            "mean": 91.125,
+            "median": 91.19999999999999,
+            "min": 89.0,
+            "max": 93.1,
+            "std": 1.478808642117023,
+            "range": 4.099999999999994,
+            "model_count": 4,
+            "mean_error": -1.875,
+            "median_error": -1.8000000000000114,
+            "abs_mean_error": 1.875
+          }
+        }
+      }
+    ]
+  },
+  {
+    "date": "2025-08-05",
+    "description": "Late summer weather patterns",
+    "city_results": [
+      {
+        "city": "Miami",
+        "date_data": {
+          "date": "2025-08-05",
+          "city": "Miami",
+          "actual_temp": 93.0,
+          "forecasts": {
+            "Best Match": 93.4,
+            "ECMWF": 92.1,
+            "GFS": 92.7,
+            "ICON": 93.3
+          },
+          "forecast_stats": {
+            "mean": 92.875,
+            "median": 93.0,
+            "min": 92.1,
+            "max": 93.4,
+            "std": 0.521416340365358,
+            "range": 1.3000000000000114,
+            "model_count": 4,
+            "mean_error": -0.125,
+            "median_error": 0.0,
+            "abs_mean_error": 0.125
+          },
+          "model_errors": {
+            "Best Match": 0.4000000000000057,
+            "ECMWF": -0.9000000000000057,
+            "GFS": -0.29999999999999716,
+            "ICON": 0.29999999999999716
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-08-05",
+          "city": "Miami",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Limited model coverage (4 models)",
+            "Good model error diversity (0.5\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [
+            "Suspiciously accurate (0.1\u00b0F error)"
+          ],
+          "overall_quality": "medium_with_concerns"
+        },
+        "model_analysis": {
+          "actual_temp": 93.0,
+          "model_performance": [
+            {
+              "model": "GFS",
+              "forecast": 92.7,
+              "error": -0.29999999999999716,
+              "abs_error": 0.29999999999999716,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ICON",
+              "forecast": 93.3,
+              "error": 0.29999999999999716,
+              "abs_error": 0.29999999999999716,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 93.4,
+              "error": 0.4000000000000057,
+              "abs_error": 0.4000000000000057,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 92.1,
+              "error": -0.9000000000000057,
+              "abs_error": 0.9000000000000057,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "GFS",
+          "worst_model": "ECMWF",
+          "ensemble_performance": {
+            "mean": 92.875,
+            "median": 93.0,
+            "min": 92.1,
+            "max": 93.4,
+            "std": 0.521416340365358,
+            "range": 1.3000000000000114,
+            "model_count": 4,
+            "mean_error": -0.125,
+            "median_error": 0.0,
+            "abs_mean_error": 0.125
+          }
+        }
+      },
+      {
+        "city": "New York",
+        "date_data": {
+          "date": "2025-08-05",
+          "city": "New York",
+          "actual_temp": 86.0,
+          "forecasts": {
+            "Best Match": 86.6,
+            "ECMWF": 86.0,
+            "GFS": 85.7,
+            "ICON": 86.2
+          },
+          "forecast_stats": {
+            "mean": 86.125,
+            "median": 86.1,
+            "min": 85.7,
+            "max": 86.6,
+            "std": 0.3269174207655477,
+            "range": 0.8999999999999915,
+            "model_count": 4,
+            "mean_error": 0.125,
+            "median_error": 0.09999999999999432,
+            "abs_mean_error": 0.125
+          },
+          "model_errors": {
+            "Best Match": 0.5999999999999943,
+            "ECMWF": 0.0,
+            "GFS": -0.29999999999999716,
+            "ICON": 0.20000000000000284
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-08-05",
+          "city": "New York",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Limited model coverage (4 models)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [
+            "Unusually low model spread (0.3\u00b0F)",
+            "Suspiciously accurate (0.1\u00b0F error)"
+          ],
+          "overall_quality": "suspicious"
+        },
+        "model_analysis": {
+          "actual_temp": 86.0,
+          "model_performance": [
+            {
+              "model": "ECMWF",
+              "forecast": 86.0,
+              "error": 0.0,
+              "abs_error": 0.0,
+              "bias_direction": "perfect"
+            },
+            {
+              "model": "ICON",
+              "forecast": 86.2,
+              "error": 0.20000000000000284,
+              "abs_error": 0.20000000000000284,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "GFS",
+              "forecast": 85.7,
+              "error": -0.29999999999999716,
+              "abs_error": 0.29999999999999716,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 86.6,
+              "error": 0.5999999999999943,
+              "abs_error": 0.5999999999999943,
+              "bias_direction": "warm"
+            }
+          ],
+          "best_model": "ECMWF",
+          "worst_model": "Best Match",
+          "ensemble_performance": {
+            "mean": 86.125,
+            "median": 86.1,
+            "min": 85.7,
+            "max": 86.6,
+            "std": 0.3269174207655477,
+            "range": 0.8999999999999915,
+            "model_count": 4,
+            "mean_error": 0.125,
+            "median_error": 0.09999999999999432,
+            "abs_mean_error": 0.125
+          }
+        }
+      }
+    ]
+  },
+  {
+    "date": "2025-12-15",
+    "description": "Winter weather patterns",
+    "city_results": [
+      {
+        "city": "Chicago",
+        "date_data": {
+          "date": "2025-12-15",
+          "city": "Chicago",
+          "actual_temp": 22.0,
+          "forecasts": {
+            "Best Match": 20.5,
+            "ECMWF": 19.9,
+            "GFS": 19.7,
+            "ICON": 21.9
+          },
+          "forecast_stats": {
+            "mean": 20.5,
+            "median": 20.2,
+            "min": 19.7,
+            "max": 21.9,
+            "std": 0.8602325267042625,
+            "range": 2.1999999999999993,
+            "model_count": 4,
+            "mean_error": -1.5,
+            "median_error": -1.8000000000000007,
+            "abs_mean_error": 1.5
+          },
+          "model_errors": {
+            "Best Match": -1.5,
+            "ECMWF": -2.1000000000000014,
+            "GFS": -2.3000000000000007,
+            "ICON": -0.10000000000000142
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-12-15",
+          "city": "Chicago",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Reasonable forecast error (1.5\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (0.9\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 22.0,
+          "model_performance": [
+            {
+              "model": "ICON",
+              "forecast": 21.9,
+              "error": -0.10000000000000142,
+              "abs_error": 0.10000000000000142,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 20.5,
+              "error": -1.5,
+              "abs_error": 1.5,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 19.9,
+              "error": -2.1000000000000014,
+              "abs_error": 2.1000000000000014,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "GFS",
+              "forecast": 19.7,
+              "error": -2.3000000000000007,
+              "abs_error": 2.3000000000000007,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "ICON",
+          "worst_model": "GFS",
+          "ensemble_performance": {
+            "mean": 20.5,
+            "median": 20.2,
+            "min": 19.7,
+            "max": 21.9,
+            "std": 0.8602325267042625,
+            "range": 2.1999999999999993,
+            "model_count": 4,
+            "mean_error": -1.5,
+            "median_error": -1.8000000000000007,
+            "abs_mean_error": 1.5
+          }
+        }
+      },
+      {
+        "city": "New York",
+        "date_data": {
+          "date": "2025-12-15",
+          "city": "New York",
+          "actual_temp": 29.0,
+          "forecasts": {
+            "Best Match": 26.8,
+            "ECMWF": 26.3,
+            "GFS": 29.4,
+            "ICON": 29.3
+          },
+          "forecast_stats": {
+            "mean": 27.95,
+            "median": 28.05,
+            "min": 26.3,
+            "max": 29.4,
+            "std": 1.41155942134931,
+            "range": 3.099999999999998,
+            "model_count": 4,
+            "mean_error": -1.0500000000000007,
+            "median_error": -0.9499999999999993,
+            "abs_mean_error": 1.0500000000000007
+          },
+          "model_errors": {
+            "Best Match": -2.1999999999999993,
+            "ECMWF": -2.6999999999999993,
+            "GFS": 0.3999999999999986,
+            "ICON": 0.3000000000000007
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-12-15",
+          "city": "New York",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Good model spread (1.4\u00b0F)",
+            "Reasonable forecast error (1.1\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (1.4\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 29.0,
+          "model_performance": [
+            {
+              "model": "ICON",
+              "forecast": 29.3,
+              "error": 0.3000000000000007,
+              "abs_error": 0.3000000000000007,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "GFS",
+              "forecast": 29.4,
+              "error": 0.3999999999999986,
+              "abs_error": 0.3999999999999986,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 26.8,
+              "error": -2.1999999999999993,
+              "abs_error": 2.1999999999999993,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 26.3,
+              "error": -2.6999999999999993,
+              "abs_error": 2.6999999999999993,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "ICON",
+          "worst_model": "ECMWF",
+          "ensemble_performance": {
+            "mean": 27.95,
+            "median": 28.05,
+            "min": 26.3,
+            "max": 29.4,
+            "std": 1.41155942134931,
+            "range": 3.099999999999998,
+            "model_count": 4,
+            "mean_error": -1.0500000000000007,
+            "median_error": -0.9499999999999993,
+            "abs_mean_error": 1.0500000000000007
+          }
+        }
+      },
+      {
+        "city": "Denver",
+        "date_data": {
+          "date": "2025-12-15",
+          "city": "Denver",
+          "actual_temp": 68.0,
+          "forecasts": {
+            "Best Match": 60.2,
+            "ECMWF": 60.2,
+            "GFS": 68.7,
+            "ICON": 68.9
+          },
+          "forecast_stats": {
+            "mean": 64.5,
+            "median": 64.45,
+            "min": 60.2,
+            "max": 68.9,
+            "std": 4.300581356049436,
+            "range": 8.700000000000003,
+            "model_count": 4,
+            "mean_error": -3.5,
+            "median_error": -3.549999999999997,
+            "abs_mean_error": 3.5
+          },
+          "model_errors": {
+            "Best Match": -7.799999999999997,
+            "ECMWF": -7.799999999999997,
+            "GFS": 0.7000000000000028,
+            "ICON": 0.9000000000000057
+          }
+        },
+        "quality_assessment": {
+          "date": "2025-12-15",
+          "city": "Denver",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Good model spread (4.3\u00b0F)",
+            "Reasonable forecast error (3.5\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (4.3\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 68.0,
+          "model_performance": [
+            {
+              "model": "GFS",
+              "forecast": 68.7,
+              "error": 0.7000000000000028,
+              "abs_error": 0.7000000000000028,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "ICON",
+              "forecast": 68.9,
+              "error": 0.9000000000000057,
+              "abs_error": 0.9000000000000057,
+              "bias_direction": "warm"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 60.2,
+              "error": -7.799999999999997,
+              "abs_error": 7.799999999999997,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 60.2,
+              "error": -7.799999999999997,
+              "abs_error": 7.799999999999997,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "GFS",
+          "worst_model": "ECMWF",
+          "ensemble_performance": {
+            "mean": 64.5,
+            "median": 64.45,
+            "min": 60.2,
+            "max": 68.9,
+            "std": 4.300581356049436,
+            "range": 8.700000000000003,
+            "model_count": 4,
+            "mean_error": -3.5,
+            "median_error": -3.549999999999997,
+            "abs_mean_error": 3.5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "date": "2026-01-20",
+    "description": "Mid-winter conditions",
+    "city_results": [
+      {
+        "city": "Austin",
+        "date_data": {
+          "date": "2026-01-20",
+          "city": "Austin",
+          "actual_temp": 60.0,
+          "forecasts": {
+            "Best Match": 58.9,
+            "ECMWF": 59.0,
+            "GFS": 59.3,
+            "ICON": 56.5
+          },
+          "forecast_stats": {
+            "mean": 58.425,
+            "median": 58.95,
+            "min": 56.5,
+            "max": 59.3,
+            "std": 1.1211043662389324,
+            "range": 2.799999999999997,
+            "model_count": 4,
+            "mean_error": -1.5750000000000028,
+            "median_error": -1.0499999999999972,
+            "abs_mean_error": 1.5750000000000028
+          },
+          "model_errors": {
+            "Best Match": -1.1000000000000014,
+            "ECMWF": -1.0,
+            "GFS": -0.7000000000000028,
+            "ICON": -3.5
+          }
+        },
+        "quality_assessment": {
+          "date": "2026-01-20",
+          "city": "Austin",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Good model spread (1.1\u00b0F)",
+            "Reasonable forecast error (1.6\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (1.1\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 60.0,
+          "model_performance": [
+            {
+              "model": "GFS",
+              "forecast": 59.3,
+              "error": -0.7000000000000028,
+              "abs_error": 0.7000000000000028,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 59.0,
+              "error": -1.0,
+              "abs_error": 1.0,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 58.9,
+              "error": -1.1000000000000014,
+              "abs_error": 1.1000000000000014,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ICON",
+              "forecast": 56.5,
+              "error": -3.5,
+              "abs_error": 3.5,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "GFS",
+          "worst_model": "ICON",
+          "ensemble_performance": {
+            "mean": 58.425,
+            "median": 58.95,
+            "min": 56.5,
+            "max": 59.3,
+            "std": 1.1211043662389324,
+            "range": 2.799999999999997,
+            "model_count": 4,
+            "mean_error": -1.5750000000000028,
+            "median_error": -1.0499999999999972,
+            "abs_mean_error": 1.5750000000000028
+          }
+        }
+      },
+      {
+        "city": "Miami",
+        "date_data": {
+          "date": "2026-01-20",
+          "city": "Miami",
+          "actual_temp": 74.0,
+          "forecasts": {
+            "Best Match": 72.4,
+            "ECMWF": 72.3,
+            "GFS": 71.8,
+            "ICON": 74.0
+          },
+          "forecast_stats": {
+            "mean": 72.625,
+            "median": 72.35,
+            "min": 71.8,
+            "max": 74.0,
+            "std": 0.8257572282456879,
+            "range": 2.200000000000003,
+            "model_count": 4,
+            "mean_error": -1.375,
+            "median_error": -1.6500000000000057,
+            "abs_mean_error": 1.375
+          },
+          "model_errors": {
+            "Best Match": -1.5999999999999943,
+            "ECMWF": -1.7000000000000028,
+            "GFS": -2.200000000000003,
+            "ICON": 0.0
+          }
+        },
+        "quality_assessment": {
+          "date": "2026-01-20",
+          "city": "Miami",
+          "has_actual": true,
+          "has_forecasts": true,
+          "model_count": 4,
+          "quality_flags": [
+            "Reasonable forecast error (1.4\u00b0F)",
+            "Limited model coverage (4 models)",
+            "Good model error diversity (0.8\u00b0F)",
+            "Reasonable actual temperature"
+          ],
+          "suspicious_flags": [],
+          "overall_quality": "high"
+        },
+        "model_analysis": {
+          "actual_temp": 74.0,
+          "model_performance": [
+            {
+              "model": "ICON",
+              "forecast": 74.0,
+              "error": 0.0,
+              "abs_error": 0.0,
+              "bias_direction": "perfect"
+            },
+            {
+              "model": "Best Match",
+              "forecast": 72.4,
+              "error": -1.5999999999999943,
+              "abs_error": 1.5999999999999943,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "ECMWF",
+              "forecast": 72.3,
+              "error": -1.7000000000000028,
+              "abs_error": 1.7000000000000028,
+              "bias_direction": "cool"
+            },
+            {
+              "model": "GFS",
+              "forecast": 71.8,
+              "error": -2.200000000000003,
+              "abs_error": 2.200000000000003,
+              "bias_direction": "cool"
+            }
+          ],
+          "best_model": "ICON",
+          "worst_model": "GFS",
+          "ensemble_performance": {
+            "mean": 72.625,
+            "median": 72.35,
+            "min": 71.8,
+            "max": 74.0,
+            "std": 0.8257572282456879,
+            "range": 2.200000000000003,
+            "model_count": 4,
+            "mean_error": -1.375,
+            "median_error": -1.6500000000000057,
+            "abs_mean_error": 1.375
+          }
+        }
+      }
+    ]
+  }
+]

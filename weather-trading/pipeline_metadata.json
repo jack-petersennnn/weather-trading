@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-02-20T05:10:08.558870+00:00",
+  "version": "3.0-calibrated",
+  "elapsed_seconds": 62.2,
+  "results": {
+    "kalshi_sync": "ok",
+    "balance": 34970,
+    "calibration": "ok",
+    "opportunities": 5,
+    "analyzer_version": "3.1-per-city",
+    "trades_summary": {
+      "total_trades": 20,
+      "open": 16,
+      "pending_settlement": 0,
+      "settled": 0,
+      "won": 0,
+      "lost": 0,
+      "pnl_cents": -73,
+      "total_invested_cents": 19713,
+      "portfolio_value_cents": 51003,
+      "available_capital_cents": 45902,
+      "open_cost_cents": 15840,
+      "avg_kelly": 0.0
+    },
+    "new_orders": 0,
+    "mode": "LIVE",
+    "accuracy_tracker": "error: 'comparisons'"
+  }
+}

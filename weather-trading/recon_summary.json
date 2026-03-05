@@ -1,0 +1,26 @@
+{
+  "cashflow_summary": {
+    "starting_balance": 510.76,
+    "current_balance": 187.54,
+    "actual_balance_change": -323.22,
+    "calculated_net_cashflow": 3845.61,
+    "difference": 4168.83,
+    "fills_cash_out": 1753.07,
+    "fills_cash_in": 5232.68,
+    "settlements_revenue": 366.0,
+    "total_fees": 89.76
+  },
+  "fills_summary": {
+    "total_fills": 1766,
+    "buy_fills": 954,
+    "sell_fills": 812,
+    "total_cash_out": 175307.0,
+    "total_cash_in": 523268.0,
+    "total_fees": 8976.0,
+    "net_from_fills": 347961.0
+  },
+  "settlements_summary": {
+    "total_settlements": 233,
+    "total_revenue": 36600
+  }
+}

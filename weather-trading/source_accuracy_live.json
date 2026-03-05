@@ -1,0 +1,1825 @@
+{
+  "checked_dates": {
+    "Chicago|2026-02-19": "2026-02-20T15:00:01.698406+00:00",
+    "Denver|2026-02-19": "2026-02-20T15:00:01.698406+00:00",
+    "Los Angeles|2026-02-19": "2026-02-20T15:00:01.698406+00:00",
+    "Austin|2026-02-19": "2026-02-20T15:00:01.698406+00:00",
+    "New York|2026-02-20": "2026-02-21T15:00:03.958629+00:00",
+    "Chicago|2026-02-20": "2026-02-21T15:00:03.958629+00:00",
+    "Miami|2026-02-20": "2026-02-21T15:00:03.958629+00:00",
+    "Denver|2026-02-20": "2026-02-21T15:00:03.958629+00:00",
+    "Los Angeles|2026-02-20": "2026-02-21T15:00:03.958629+00:00",
+    "Austin|2026-02-20": "2026-02-21T15:00:03.958629+00:00"
+  },
+  "comparisons": [
+    {
+      "city": "Chicago",
+      "target_date": "2026-02-19",
+      "actual": 56.8,
+      "ensemble_mean": 48.8,
+      "ensemble_error": 8.0,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 37.0,
+          "error": -19.8,
+          "abs_error": 19.8
+        },
+        "NWS Hourly": {
+          "predicted": 42.0,
+          "error": -14.8,
+          "abs_error": 14.8
+        },
+        "ECMWF": {
+          "predicted": 53.4,
+          "error": -3.4,
+          "abs_error": 3.4
+        },
+        "GFS": {
+          "predicted": 47.9,
+          "error": -8.9,
+          "abs_error": 8.9
+        },
+        "Best Match": {
+          "predicted": 47.9,
+          "error": -8.9,
+          "abs_error": 8.9
+        },
+        "Ensemble ICON": {
+          "predicted": 53.9,
+          "error": -2.9,
+          "abs_error": 2.9
+        },
+        "Ensemble GFS": {
+          "predicted": 50.1,
+          "error": -6.7,
+          "abs_error": 6.7
+        },
+        "Ensemble ECMWF": {
+          "predicted": 51.9,
+          "error": -4.9,
+          "abs_error": 4.9
+        },
+        "Tomorrow.io": {
+          "predicted": 48.2,
+          "error": -8.6,
+          "abs_error": 8.6
+        },
+        "Visual Crossing": {
+          "predicted": 56.4,
+          "error": -0.4,
+          "abs_error": 0.4
+        }
+      },
+      "checked_at": "2026-02-20T15:00:01.698406+00:00"
+    },
+    {
+      "city": "Denver",
+      "target_date": "2026-02-19",
+      "actual": 38.4,
+      "ensemble_mean": 34.7,
+      "ensemble_error": 3.7,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 35.0,
+          "error": -3.4,
+          "abs_error": 3.4
+        },
+        "NWS Hourly": {
+          "predicted": 26.0,
+          "error": -12.4,
+          "abs_error": 12.4
+        },
+        "ECMWF": {
+          "predicted": 37.9,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        "GFS": {
+          "predicted": 36.1,
+          "error": -2.3,
+          "abs_error": 2.3
+        },
+        "Best Match": {
+          "predicted": 36.1,
+          "error": -2.3,
+          "abs_error": 2.3
+        },
+        "Ensemble ICON": {
+          "predicted": 33.2,
+          "error": -5.2,
+          "abs_error": 5.2
+        },
+        "Ensemble GFS": {
+          "predicted": 35.0,
+          "error": -3.4,
+          "abs_error": 3.4
+        },
+        "Ensemble ECMWF": {
+          "predicted": 37.3,
+          "error": -1.1,
+          "abs_error": 1.1
+        },
+        "Tomorrow.io": {
+          "predicted": 35.8,
+          "error": -2.6,
+          "abs_error": 2.6
+        },
+        "Visual Crossing": {
+          "predicted": 35.0,
+          "error": -3.4,
+          "abs_error": 3.4
+        }
+      },
+      "checked_at": "2026-02-20T15:00:01.698406+00:00"
+    },
+    {
+      "city": "Los Angeles",
+      "target_date": "2026-02-19",
+      "actual": 55.8,
+      "ensemble_mean": 55.3,
+      "ensemble_error": 0.5,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 59.0,
+          "error": 3.2,
+          "abs_error": 3.2
+        },
+        "NWS Hourly": {
+          "predicted": 47.0,
+          "error": -8.8,
+          "abs_error": 8.8
+        },
+        "ECMWF": {
+          "predicted": 55.8,
+          "error": 0.0,
+          "abs_error": 0.0
+        },
+        "GFS": {
+          "predicted": 55.3,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        "Best Match": {
+          "predicted": 55.3,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        "Ensemble ICON": {
+          "predicted": 57.6,
+          "error": 1.8,
+          "abs_error": 1.8
+        },
+        "Ensemble GFS": {
+          "predicted": 54.4,
+          "error": -1.4,
+          "abs_error": 1.4
+        },
+        "Ensemble ECMWF": {
+          "predicted": 55.6,
+          "error": -0.2,
+          "abs_error": 0.2
+        },
+        "Tomorrow.io": {
+          "predicted": 56.5,
+          "error": 0.7,
+          "abs_error": 0.7
+        },
+        "Visual Crossing": {
+          "predicted": 56.7,
+          "error": 0.9,
+          "abs_error": 0.9
+        }
+      },
+      "checked_at": "2026-02-20T15:00:01.698406+00:00"
+    },
+    {
+      "city": "Austin",
+      "target_date": "2026-02-19",
+      "actual": 82.1,
+      "ensemble_mean": 82.1,
+      "ensemble_error": 0.0,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 76.0,
+          "error": -6.1,
+          "abs_error": 6.1
+        },
+        "NWS Hourly": {
+          "predicted": 66.0,
+          "error": -16.1,
+          "abs_error": 16.1
+        },
+        "ECMWF": {
+          "predicted": 82.1,
+          "error": 0.0,
+          "abs_error": 0.0
+        },
+        "GFS": {
+          "predicted": 85.8,
+          "error": 3.7,
+          "abs_error": 3.7
+        },
+        "Best Match": {
+          "predicted": 85.8,
+          "error": 3.7,
+          "abs_error": 3.7
+        },
+        "Ensemble ICON": {
+          "predicted": 86.4,
+          "error": 4.3,
+          "abs_error": 4.3
+        },
+        "Ensemble GFS": {
+          "predicted": 83.9,
+          "error": 1.8,
+          "abs_error": 1.8
+        },
+        "Ensemble ECMWF": {
+          "predicted": 83.1,
+          "error": 1.0,
+          "abs_error": 1.0
+        },
+        "Tomorrow.io": {
+          "predicted": 85.5,
+          "error": 3.4,
+          "abs_error": 3.4
+        },
+        "Visual Crossing": {
+          "predicted": 84.7,
+          "error": 2.6,
+          "abs_error": 2.6
+        }
+      },
+      "checked_at": "2026-02-20T15:00:01.698406+00:00"
+    },
+    {
+      "city": "New York",
+      "target_date": "2026-02-20",
+      "actual": 40.2,
+      "ensemble_mean": 39.7,
+      "ensemble_error": 0.5,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 40.0,
+          "error": -0.2,
+          "abs_error": 0.2
+        },
+        "NWS Hourly": {
+          "predicted": 40.0,
+          "error": -0.2,
+          "abs_error": 0.2
+        },
+        "ECMWF": {
+          "predicted": 42.0,
+          "error": 1.8,
+          "abs_error": 1.8
+        },
+        "GFS": {
+          "predicted": 38.4,
+          "error": -1.8,
+          "abs_error": 1.8
+        },
+        "Best Match": {
+          "predicted": 38.4,
+          "error": -1.8,
+          "abs_error": 1.8
+        },
+        "Ensemble ICON": {
+          "predicted": 37.4,
+          "error": -2.8,
+          "abs_error": 2.8
+        },
+        "Ensemble GFS": {
+          "predicted": 40.3,
+          "error": 0.1,
+          "abs_error": 0.1
+        },
+        "Ensemble ECMWF": {
+          "predicted": 42.9,
+          "error": 2.7,
+          "abs_error": 2.7
+        },
+        "Tomorrow.io": {
+          "predicted": 38.8,
+          "error": -1.4,
+          "abs_error": 1.4
+        },
+        "Visual Crossing": {
+          "predicted": 40.0,
+          "error": -0.2,
+          "abs_error": 0.2
+        }
+      },
+      "checked_at": "2026-02-21T15:00:03.958629+00:00"
+    },
+    {
+      "city": "Chicago",
+      "target_date": "2026-02-20",
+      "actual": 45.0,
+      "ensemble_mean": 44.2,
+      "ensemble_error": 0.8,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 37.0,
+          "error": -8.0,
+          "abs_error": 8.0
+        },
+        "NWS Hourly": {
+          "predicted": 46.0,
+          "error": 1.0,
+          "abs_error": 1.0
+        },
+        "ECMWF": {
+          "predicted": 43.9,
+          "error": -1.1,
+          "abs_error": 1.1
+        },
+        "GFS": {
+          "predicted": 45.5,
+          "error": 0.5,
+          "abs_error": 0.5
+        },
+        "Best Match": {
+          "predicted": 45.5,
+          "error": 0.5,
+          "abs_error": 0.5
+        },
+        "Ensemble ICON": {
+          "predicted": 48.9,
+          "error": 3.9,
+          "abs_error": 3.9
+        },
+        "Ensemble GFS": {
+          "predicted": 47.2,
+          "error": 2.2,
+          "abs_error": 2.2
+        },
+        "Ensemble ECMWF": {
+          "predicted": 44.1,
+          "error": -0.9,
+          "abs_error": 0.9
+        },
+        "Tomorrow.io": {
+          "predicted": 36.9,
+          "error": -8.1,
+          "abs_error": 8.1
+        },
+        "Visual Crossing": {
+          "predicted": 47.0,
+          "error": 2.0,
+          "abs_error": 2.0
+        }
+      },
+      "checked_at": "2026-02-21T15:00:03.958629+00:00"
+    },
+    {
+      "city": "Miami",
+      "target_date": "2026-02-20",
+      "actual": 79.8,
+      "ensemble_mean": 79.7,
+      "ensemble_error": 0.1,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 79.0,
+          "error": -0.8,
+          "abs_error": 0.8
+        },
+        "NWS Hourly": {
+          "predicted": 79.0,
+          "error": -0.8,
+          "abs_error": 0.8
+        },
+        "ECMWF": {
+          "predicted": 79.0,
+          "error": -0.8,
+          "abs_error": 0.8
+        },
+        "GFS": {
+          "predicted": 79.3,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        "Best Match": {
+          "predicted": 79.3,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        "Ensemble ICON": {
+          "predicted": 84.2,
+          "error": 4.4,
+          "abs_error": 4.4
+        },
+        "Ensemble GFS": {
+          "predicted": 79.3,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        "Ensemble ECMWF": {
+          "predicted": 79.9,
+          "error": 0.1,
+          "abs_error": 0.1
+        },
+        "Tomorrow.io": {
+          "predicted": 79.3,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        "Visual Crossing": {
+          "predicted": 78.0,
+          "error": -1.8,
+          "abs_error": 1.8
+        }
+      },
+      "checked_at": "2026-02-21T15:00:03.958629+00:00"
+    },
+    {
+      "city": "Denver",
+      "target_date": "2026-02-20",
+      "actual": 28.9,
+      "ensemble_mean": 33.0,
+      "ensemble_error": 4.1,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 35.0,
+          "error": 6.1,
+          "abs_error": 6.1
+        },
+        "NWS Hourly": {
+          "predicted": 34.0,
+          "error": 5.1,
+          "abs_error": 5.1
+        },
+        "ECMWF": {
+          "predicted": 30.8,
+          "error": 1.9,
+          "abs_error": 1.9
+        },
+        "GFS": {
+          "predicted": 35.0,
+          "error": 6.1,
+          "abs_error": 6.1
+        },
+        "Best Match": {
+          "predicted": 35.0,
+          "error": 6.1,
+          "abs_error": 6.1
+        },
+        "Ensemble ICON": {
+          "predicted": 27.6,
+          "error": -1.3,
+          "abs_error": 1.3
+        },
+        "Ensemble GFS": {
+          "predicted": 32.4,
+          "error": 3.5,
+          "abs_error": 3.5
+        },
+        "Ensemble ECMWF": {
+          "predicted": 30.4,
+          "error": 1.5,
+          "abs_error": 1.5
+        },
+        "Tomorrow.io": {
+          "predicted": 35.1,
+          "error": 6.2,
+          "abs_error": 6.2
+        },
+        "Visual Crossing": {
+          "predicted": 34.1,
+          "error": 5.2,
+          "abs_error": 5.2
+        }
+      },
+      "checked_at": "2026-02-21T15:00:03.958629+00:00"
+    },
+    {
+      "city": "Los Angeles",
+      "target_date": "2026-02-20",
+      "actual": 58.2,
+      "ensemble_mean": 57.1,
+      "ensemble_error": 1.1,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 59.0,
+          "error": 0.8,
+          "abs_error": 0.8
+        },
+        "NWS Hourly": {
+          "predicted": 59.0,
+          "error": 0.8,
+          "abs_error": 0.8
+        },
+        "ECMWF": {
+          "predicted": 57.3,
+          "error": -0.9,
+          "abs_error": 0.9
+        },
+        "GFS": {
+          "predicted": 55.3,
+          "error": -2.9,
+          "abs_error": 2.9
+        },
+        "Best Match": {
+          "predicted": 55.3,
+          "error": -2.9,
+          "abs_error": 2.9
+        },
+        "Ensemble ICON": {
+          "predicted": 54.9,
+          "error": -3.3,
+          "abs_error": 3.3
+        },
+        "Ensemble GFS": {
+          "predicted": 57.5,
+          "error": -0.7,
+          "abs_error": 0.7
+        },
+        "Ensemble ECMWF": {
+          "predicted": 57.5,
+          "error": -0.7,
+          "abs_error": 0.7
+        },
+        "Tomorrow.io": {
+          "predicted": 55.1,
+          "error": -3.1,
+          "abs_error": 3.1
+        },
+        "Visual Crossing": {
+          "predicted": 58.9,
+          "error": 0.7,
+          "abs_error": 0.7
+        }
+      },
+      "checked_at": "2026-02-21T15:00:03.958629+00:00"
+    },
+    {
+      "city": "Austin",
+      "target_date": "2026-02-20",
+      "actual": 69.0,
+      "ensemble_mean": 71.2,
+      "ensemble_error": 2.2,
+      "sources": {
+        "NWS Forecast": {
+          "predicted": 76.0,
+          "error": 7.0,
+          "abs_error": 7.0
+        },
+        "NWS Hourly": {
+          "predicted": 76.0,
+          "error": 7.0,
+          "abs_error": 7.0
+        },
+        "ECMWF": {
+          "predicted": 69.0,
+          "error": 0.0,
+          "abs_error": 0.0
+        },
+        "GFS": {
+          "predicted": 69.9,
+          "error": 0.9,
+          "abs_error": 0.9
+        },
+        "Best Match": {
+          "predicted": 69.9,
+          "error": 0.9,
+          "abs_error": 0.9
+        },
+        "Ensemble ICON": {
+          "predicted": 70.3,
+          "error": 1.3,
+          "abs_error": 1.3
+        },
+        "Ensemble GFS": {
+          "predicted": 66.8,
+          "error": -2.2,
+          "abs_error": 2.2
+        },
+        "Ensemble ECMWF": {
+          "predicted": 70.3,
+          "error": 1.3,
+          "abs_error": 1.3
+        },
+        "Tomorrow.io": {
+          "predicted": 69.5,
+          "error": 0.5,
+          "abs_error": 0.5
+        },
+        "Visual Crossing": {
+          "predicted": 74.9,
+          "error": 5.9,
+          "abs_error": 5.9
+        }
+      },
+      "checked_at": "2026-02-21T15:00:03.958629+00:00"
+    }
+  ],
+  "source_errors": {
+    "Chicago": {
+      "NWS Forecast": [
+        {
+          "date": "2026-02-19",
+          "predicted": 37.0,
+          "actual": 56.8,
+          "error": -19.8,
+          "abs_error": 19.8
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 37.0,
+          "actual": 45.0,
+          "error": -8.0,
+          "abs_error": 8.0
+        }
+      ],
+      "NWS Hourly": [
+        {
+          "date": "2026-02-19",
+          "predicted": 42.0,
+          "actual": 56.8,
+          "error": -14.8,
+          "abs_error": 14.8
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 46.0,
+          "actual": 45.0,
+          "error": 1.0,
+          "abs_error": 1.0
+        }
+      ],
+      "ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 53.4,
+          "actual": 56.8,
+          "error": -3.4,
+          "abs_error": 3.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 43.9,
+          "actual": 45.0,
+          "error": -1.1,
+          "abs_error": 1.1
+        }
+      ],
+      "GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 47.9,
+          "actual": 56.8,
+          "error": -8.9,
+          "abs_error": 8.9
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 45.5,
+          "actual": 45.0,
+          "error": 0.5,
+          "abs_error": 0.5
+        }
+      ],
+      "Best Match": [
+        {
+          "date": "2026-02-19",
+          "predicted": 47.9,
+          "actual": 56.8,
+          "error": -8.9,
+          "abs_error": 8.9
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 45.5,
+          "actual": 45.0,
+          "error": 0.5,
+          "abs_error": 0.5
+        }
+      ],
+      "Ensemble ICON": [
+        {
+          "date": "2026-02-19",
+          "predicted": 53.9,
+          "actual": 56.8,
+          "error": -2.9,
+          "abs_error": 2.9
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 48.9,
+          "actual": 45.0,
+          "error": 3.9,
+          "abs_error": 3.9
+        }
+      ],
+      "Ensemble GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 50.1,
+          "actual": 56.8,
+          "error": -6.7,
+          "abs_error": 6.7
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 47.2,
+          "actual": 45.0,
+          "error": 2.2,
+          "abs_error": 2.2
+        }
+      ],
+      "Ensemble ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 51.9,
+          "actual": 56.8,
+          "error": -4.9,
+          "abs_error": 4.9
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 44.1,
+          "actual": 45.0,
+          "error": -0.9,
+          "abs_error": 0.9
+        }
+      ],
+      "Tomorrow.io": [
+        {
+          "date": "2026-02-19",
+          "predicted": 48.2,
+          "actual": 56.8,
+          "error": -8.6,
+          "abs_error": 8.6
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 36.9,
+          "actual": 45.0,
+          "error": -8.1,
+          "abs_error": 8.1
+        }
+      ],
+      "Visual Crossing": [
+        {
+          "date": "2026-02-19",
+          "predicted": 56.4,
+          "actual": 56.8,
+          "error": -0.4,
+          "abs_error": 0.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 47.0,
+          "actual": 45.0,
+          "error": 2.0,
+          "abs_error": 2.0
+        }
+      ]
+    },
+    "Denver": {
+      "NWS Forecast": [
+        {
+          "date": "2026-02-19",
+          "predicted": 35.0,
+          "actual": 38.4,
+          "error": -3.4,
+          "abs_error": 3.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 35.0,
+          "actual": 28.9,
+          "error": 6.1,
+          "abs_error": 6.1
+        }
+      ],
+      "NWS Hourly": [
+        {
+          "date": "2026-02-19",
+          "predicted": 26.0,
+          "actual": 38.4,
+          "error": -12.4,
+          "abs_error": 12.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 34.0,
+          "actual": 28.9,
+          "error": 5.1,
+          "abs_error": 5.1
+        }
+      ],
+      "ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 37.9,
+          "actual": 38.4,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 30.8,
+          "actual": 28.9,
+          "error": 1.9,
+          "abs_error": 1.9
+        }
+      ],
+      "GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 36.1,
+          "actual": 38.4,
+          "error": -2.3,
+          "abs_error": 2.3
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 35.0,
+          "actual": 28.9,
+          "error": 6.1,
+          "abs_error": 6.1
+        }
+      ],
+      "Best Match": [
+        {
+          "date": "2026-02-19",
+          "predicted": 36.1,
+          "actual": 38.4,
+          "error": -2.3,
+          "abs_error": 2.3
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 35.0,
+          "actual": 28.9,
+          "error": 6.1,
+          "abs_error": 6.1
+        }
+      ],
+      "Ensemble ICON": [
+        {
+          "date": "2026-02-19",
+          "predicted": 33.2,
+          "actual": 38.4,
+          "error": -5.2,
+          "abs_error": 5.2
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 27.6,
+          "actual": 28.9,
+          "error": -1.3,
+          "abs_error": 1.3
+        }
+      ],
+      "Ensemble GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 35.0,
+          "actual": 38.4,
+          "error": -3.4,
+          "abs_error": 3.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 32.4,
+          "actual": 28.9,
+          "error": 3.5,
+          "abs_error": 3.5
+        }
+      ],
+      "Ensemble ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 37.3,
+          "actual": 38.4,
+          "error": -1.1,
+          "abs_error": 1.1
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 30.4,
+          "actual": 28.9,
+          "error": 1.5,
+          "abs_error": 1.5
+        }
+      ],
+      "Tomorrow.io": [
+        {
+          "date": "2026-02-19",
+          "predicted": 35.8,
+          "actual": 38.4,
+          "error": -2.6,
+          "abs_error": 2.6
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 35.1,
+          "actual": 28.9,
+          "error": 6.2,
+          "abs_error": 6.2
+        }
+      ],
+      "Visual Crossing": [
+        {
+          "date": "2026-02-19",
+          "predicted": 35.0,
+          "actual": 38.4,
+          "error": -3.4,
+          "abs_error": 3.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 34.1,
+          "actual": 28.9,
+          "error": 5.2,
+          "abs_error": 5.2
+        }
+      ]
+    },
+    "Los Angeles": {
+      "NWS Forecast": [
+        {
+          "date": "2026-02-19",
+          "predicted": 59.0,
+          "actual": 55.8,
+          "error": 3.2,
+          "abs_error": 3.2
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 59.0,
+          "actual": 58.2,
+          "error": 0.8,
+          "abs_error": 0.8
+        }
+      ],
+      "NWS Hourly": [
+        {
+          "date": "2026-02-19",
+          "predicted": 47.0,
+          "actual": 55.8,
+          "error": -8.8,
+          "abs_error": 8.8
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 59.0,
+          "actual": 58.2,
+          "error": 0.8,
+          "abs_error": 0.8
+        }
+      ],
+      "ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 55.8,
+          "actual": 55.8,
+          "error": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 57.3,
+          "actual": 58.2,
+          "error": -0.9,
+          "abs_error": 0.9
+        }
+      ],
+      "GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 55.3,
+          "actual": 55.8,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 55.3,
+          "actual": 58.2,
+          "error": -2.9,
+          "abs_error": 2.9
+        }
+      ],
+      "Best Match": [
+        {
+          "date": "2026-02-19",
+          "predicted": 55.3,
+          "actual": 55.8,
+          "error": -0.5,
+          "abs_error": 0.5
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 55.3,
+          "actual": 58.2,
+          "error": -2.9,
+          "abs_error": 2.9
+        }
+      ],
+      "Ensemble ICON": [
+        {
+          "date": "2026-02-19",
+          "predicted": 57.6,
+          "actual": 55.8,
+          "error": 1.8,
+          "abs_error": 1.8
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 54.9,
+          "actual": 58.2,
+          "error": -3.3,
+          "abs_error": 3.3
+        }
+      ],
+      "Ensemble GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 54.4,
+          "actual": 55.8,
+          "error": -1.4,
+          "abs_error": 1.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 57.5,
+          "actual": 58.2,
+          "error": -0.7,
+          "abs_error": 0.7
+        }
+      ],
+      "Ensemble ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 55.6,
+          "actual": 55.8,
+          "error": -0.2,
+          "abs_error": 0.2
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 57.5,
+          "actual": 58.2,
+          "error": -0.7,
+          "abs_error": 0.7
+        }
+      ],
+      "Tomorrow.io": [
+        {
+          "date": "2026-02-19",
+          "predicted": 56.5,
+          "actual": 55.8,
+          "error": 0.7,
+          "abs_error": 0.7
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 55.1,
+          "actual": 58.2,
+          "error": -3.1,
+          "abs_error": 3.1
+        }
+      ],
+      "Visual Crossing": [
+        {
+          "date": "2026-02-19",
+          "predicted": 56.7,
+          "actual": 55.8,
+          "error": 0.9,
+          "abs_error": 0.9
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 58.9,
+          "actual": 58.2,
+          "error": 0.7,
+          "abs_error": 0.7
+        }
+      ]
+    },
+    "Austin": {
+      "NWS Forecast": [
+        {
+          "date": "2026-02-19",
+          "predicted": 76.0,
+          "actual": 82.1,
+          "error": -6.1,
+          "abs_error": 6.1
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 76.0,
+          "actual": 69.0,
+          "error": 7.0,
+          "abs_error": 7.0
+        }
+      ],
+      "NWS Hourly": [
+        {
+          "date": "2026-02-19",
+          "predicted": 66.0,
+          "actual": 82.1,
+          "error": -16.1,
+          "abs_error": 16.1
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 76.0,
+          "actual": 69.0,
+          "error": 7.0,
+          "abs_error": 7.0
+        }
+      ],
+      "ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 82.1,
+          "actual": 82.1,
+          "error": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 69.0,
+          "actual": 69.0,
+          "error": 0.0,
+          "abs_error": 0.0
+        }
+      ],
+      "GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 85.8,
+          "actual": 82.1,
+          "error": 3.7,
+          "abs_error": 3.7
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 69.9,
+          "actual": 69.0,
+          "error": 0.9,
+          "abs_error": 0.9
+        }
+      ],
+      "Best Match": [
+        {
+          "date": "2026-02-19",
+          "predicted": 85.8,
+          "actual": 82.1,
+          "error": 3.7,
+          "abs_error": 3.7
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 69.9,
+          "actual": 69.0,
+          "error": 0.9,
+          "abs_error": 0.9
+        }
+      ],
+      "Ensemble ICON": [
+        {
+          "date": "2026-02-19",
+          "predicted": 86.4,
+          "actual": 82.1,
+          "error": 4.3,
+          "abs_error": 4.3
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 70.3,
+          "actual": 69.0,
+          "error": 1.3,
+          "abs_error": 1.3
+        }
+      ],
+      "Ensemble GFS": [
+        {
+          "date": "2026-02-19",
+          "predicted": 83.9,
+          "actual": 82.1,
+          "error": 1.8,
+          "abs_error": 1.8
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 66.8,
+          "actual": 69.0,
+          "error": -2.2,
+          "abs_error": 2.2
+        }
+      ],
+      "Ensemble ECMWF": [
+        {
+          "date": "2026-02-19",
+          "predicted": 83.1,
+          "actual": 82.1,
+          "error": 1.0,
+          "abs_error": 1.0
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 70.3,
+          "actual": 69.0,
+          "error": 1.3,
+          "abs_error": 1.3
+        }
+      ],
+      "Tomorrow.io": [
+        {
+          "date": "2026-02-19",
+          "predicted": 85.5,
+          "actual": 82.1,
+          "error": 3.4,
+          "abs_error": 3.4
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 69.5,
+          "actual": 69.0,
+          "error": 0.5,
+          "abs_error": 0.5
+        }
+      ],
+      "Visual Crossing": [
+        {
+          "date": "2026-02-19",
+          "predicted": 84.7,
+          "actual": 82.1,
+          "error": 2.6,
+          "abs_error": 2.6
+        },
+        {
+          "date": "2026-02-20",
+          "predicted": 74.9,
+          "actual": 69.0,
+          "error": 5.9,
+          "abs_error": 5.9
+        }
+      ]
+    },
+    "New York": {
+      "NWS Forecast": [
+        {
+          "date": "2026-02-20",
+          "predicted": 40.0,
+          "actual": 40.2,
+          "error": -0.2,
+          "abs_error": 0.2
+        }
+      ],
+      "NWS Hourly": [
+        {
+          "date": "2026-02-20",
+          "predicted": 40.0,
+          "actual": 40.2,
+          "error": -0.2,
+          "abs_error": 0.2
+        }
+      ],
+      "ECMWF": [
+        {
+          "date": "2026-02-20",
+          "predicted": 42.0,
+          "actual": 40.2,
+          "error": 1.8,
+          "abs_error": 1.8
+        }
+      ],
+      "GFS": [
+        {
+          "date": "2026-02-20",
+          "predicted": 38.4,
+          "actual": 40.2,
+          "error": -1.8,
+          "abs_error": 1.8
+        }
+      ],
+      "Best Match": [
+        {
+          "date": "2026-02-20",
+          "predicted": 38.4,
+          "actual": 40.2,
+          "error": -1.8,
+          "abs_error": 1.8
+        }
+      ],
+      "Ensemble ICON": [
+        {
+          "date": "2026-02-20",
+          "predicted": 37.4,
+          "actual": 40.2,
+          "error": -2.8,
+          "abs_error": 2.8
+        }
+      ],
+      "Ensemble GFS": [
+        {
+          "date": "2026-02-20",
+          "predicted": 40.3,
+          "actual": 40.2,
+          "error": 0.1,
+          "abs_error": 0.1
+        }
+      ],
+      "Ensemble ECMWF": [
+        {
+          "date": "2026-02-20",
+          "predicted": 42.9,
+          "actual": 40.2,
+          "error": 2.7,
+          "abs_error": 2.7
+        }
+      ],
+      "Tomorrow.io": [
+        {
+          "date": "2026-02-20",
+          "predicted": 38.8,
+          "actual": 40.2,
+          "error": -1.4,
+          "abs_error": 1.4
+        }
+      ],
+      "Visual Crossing": [
+        {
+          "date": "2026-02-20",
+          "predicted": 40.0,
+          "actual": 40.2,
+          "error": -0.2,
+          "abs_error": 0.2
+        }
+      ]
+    },
+    "Miami": {
+      "NWS Forecast": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.0,
+          "actual": 79.8,
+          "error": -0.8,
+          "abs_error": 0.8
+        }
+      ],
+      "NWS Hourly": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.0,
+          "actual": 79.8,
+          "error": -0.8,
+          "abs_error": 0.8
+        }
+      ],
+      "ECMWF": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.0,
+          "actual": 79.8,
+          "error": -0.8,
+          "abs_error": 0.8
+        }
+      ],
+      "GFS": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.3,
+          "actual": 79.8,
+          "error": -0.5,
+          "abs_error": 0.5
+        }
+      ],
+      "Best Match": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.3,
+          "actual": 79.8,
+          "error": -0.5,
+          "abs_error": 0.5
+        }
+      ],
+      "Ensemble ICON": [
+        {
+          "date": "2026-02-20",
+          "predicted": 84.2,
+          "actual": 79.8,
+          "error": 4.4,
+          "abs_error": 4.4
+        }
+      ],
+      "Ensemble GFS": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.3,
+          "actual": 79.8,
+          "error": -0.5,
+          "abs_error": 0.5
+        }
+      ],
+      "Ensemble ECMWF": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.9,
+          "actual": 79.8,
+          "error": 0.1,
+          "abs_error": 0.1
+        }
+      ],
+      "Tomorrow.io": [
+        {
+          "date": "2026-02-20",
+          "predicted": 79.3,
+          "actual": 79.8,
+          "error": -0.5,
+          "abs_error": 0.5
+        }
+      ],
+      "Visual Crossing": [
+        {
+          "date": "2026-02-20",
+          "predicted": 78.0,
+          "actual": 79.8,
+          "error": -1.8,
+          "abs_error": 1.8
+        }
+      ]
+    }
+  },
+  "summary": {
+    "Chicago": {
+      "NWS Forecast": {
+        "mae": 13.9,
+        "n": 2,
+        "max_error": 19.8,
+        "bias": -13.9
+      },
+      "NWS Hourly": {
+        "mae": 7.9,
+        "n": 2,
+        "max_error": 14.8,
+        "bias": -6.9
+      },
+      "ECMWF": {
+        "mae": 2.25,
+        "n": 2,
+        "max_error": 3.4,
+        "bias": -2.25
+      },
+      "GFS": {
+        "mae": 4.7,
+        "n": 2,
+        "max_error": 8.9,
+        "bias": -4.2
+      },
+      "Best Match": {
+        "mae": 4.7,
+        "n": 2,
+        "max_error": 8.9,
+        "bias": -4.2
+      },
+      "Ensemble ICON": {
+        "mae": 3.4,
+        "n": 2,
+        "max_error": 3.9,
+        "bias": 0.5
+      },
+      "Ensemble GFS": {
+        "mae": 4.45,
+        "n": 2,
+        "max_error": 6.7,
+        "bias": -2.25
+      },
+      "Ensemble ECMWF": {
+        "mae": 2.9,
+        "n": 2,
+        "max_error": 4.9,
+        "bias": -2.9
+      },
+      "Tomorrow.io": {
+        "mae": 8.35,
+        "n": 2,
+        "max_error": 8.6,
+        "bias": -8.35
+      },
+      "Visual Crossing": {
+        "mae": 1.2,
+        "n": 2,
+        "max_error": 2.0,
+        "bias": 0.8
+      }
+    },
+    "Denver": {
+      "NWS Forecast": {
+        "mae": 4.75,
+        "n": 2,
+        "max_error": 6.1,
+        "bias": 1.35
+      },
+      "NWS Hourly": {
+        "mae": 8.75,
+        "n": 2,
+        "max_error": 12.4,
+        "bias": -3.65
+      },
+      "ECMWF": {
+        "mae": 1.2,
+        "n": 2,
+        "max_error": 1.9,
+        "bias": 0.7
+      },
+      "GFS": {
+        "mae": 4.2,
+        "n": 2,
+        "max_error": 6.1,
+        "bias": 1.9
+      },
+      "Best Match": {
+        "mae": 4.2,
+        "n": 2,
+        "max_error": 6.1,
+        "bias": 1.9
+      },
+      "Ensemble ICON": {
+        "mae": 3.25,
+        "n": 2,
+        "max_error": 5.2,
+        "bias": -3.25
+      },
+      "Ensemble GFS": {
+        "mae": 3.45,
+        "n": 2,
+        "max_error": 3.5,
+        "bias": 0.05
+      },
+      "Ensemble ECMWF": {
+        "mae": 1.3,
+        "n": 2,
+        "max_error": 1.5,
+        "bias": 0.2
+      },
+      "Tomorrow.io": {
+        "mae": 4.4,
+        "n": 2,
+        "max_error": 6.2,
+        "bias": 1.8
+      },
+      "Visual Crossing": {
+        "mae": 4.3,
+        "n": 2,
+        "max_error": 5.2,
+        "bias": 0.9
+      }
+    },
+    "Los Angeles": {
+      "NWS Forecast": {
+        "mae": 2.0,
+        "n": 2,
+        "max_error": 3.2,
+        "bias": 2.0
+      },
+      "NWS Hourly": {
+        "mae": 4.8,
+        "n": 2,
+        "max_error": 8.8,
+        "bias": -4.0
+      },
+      "ECMWF": {
+        "mae": 0.45,
+        "n": 2,
+        "max_error": 0.9,
+        "bias": -0.45
+      },
+      "GFS": {
+        "mae": 1.7,
+        "n": 2,
+        "max_error": 2.9,
+        "bias": -1.7
+      },
+      "Best Match": {
+        "mae": 1.7,
+        "n": 2,
+        "max_error": 2.9,
+        "bias": -1.7
+      },
+      "Ensemble ICON": {
+        "mae": 2.55,
+        "n": 2,
+        "max_error": 3.3,
+        "bias": -0.75
+      },
+      "Ensemble GFS": {
+        "mae": 1.05,
+        "n": 2,
+        "max_error": 1.4,
+        "bias": -1.05
+      },
+      "Ensemble ECMWF": {
+        "mae": 0.45,
+        "n": 2,
+        "max_error": 0.7,
+        "bias": -0.45
+      },
+      "Tomorrow.io": {
+        "mae": 1.9,
+        "n": 2,
+        "max_error": 3.1,
+        "bias": -1.2
+      },
+      "Visual Crossing": {
+        "mae": 0.8,
+        "n": 2,
+        "max_error": 0.9,
+        "bias": 0.8
+      }
+    },
+    "Austin": {
+      "NWS Forecast": {
+        "mae": 6.55,
+        "n": 2,
+        "max_error": 7.0,
+        "bias": 0.45
+      },
+      "NWS Hourly": {
+        "mae": 11.55,
+        "n": 2,
+        "max_error": 16.1,
+        "bias": -4.55
+      },
+      "ECMWF": {
+        "mae": 0.0,
+        "n": 2,
+        "max_error": 0.0,
+        "bias": 0.0
+      },
+      "GFS": {
+        "mae": 2.3,
+        "n": 2,
+        "max_error": 3.7,
+        "bias": 2.3
+      },
+      "Best Match": {
+        "mae": 2.3,
+        "n": 2,
+        "max_error": 3.7,
+        "bias": 2.3
+      },
+      "Ensemble ICON": {
+        "mae": 2.8,
+        "n": 2,
+        "max_error": 4.3,
+        "bias": 2.8
+      },
+      "Ensemble GFS": {
+        "mae": 2.0,
+        "n": 2,
+        "max_error": 2.2,
+        "bias": -0.2
+      },
+      "Ensemble ECMWF": {
+        "mae": 1.15,
+        "n": 2,
+        "max_error": 1.3,
+        "bias": 1.15
+      },
+      "Tomorrow.io": {
+        "mae": 1.95,
+        "n": 2,
+        "max_error": 3.4,
+        "bias": 1.95
+      },
+      "Visual Crossing": {
+        "mae": 4.25,
+        "n": 2,
+        "max_error": 5.9,
+        "bias": 4.25
+      }
+    },
+    "New York": {
+      "NWS Forecast": {
+        "mae": 0.2,
+        "n": 1,
+        "max_error": 0.2,
+        "bias": -0.2
+      },
+      "NWS Hourly": {
+        "mae": 0.2,
+        "n": 1,
+        "max_error": 0.2,
+        "bias": -0.2
+      },
+      "ECMWF": {
+        "mae": 1.8,
+        "n": 1,
+        "max_error": 1.8,
+        "bias": 1.8
+      },
+      "GFS": {
+        "mae": 1.8,
+        "n": 1,
+        "max_error": 1.8,
+        "bias": -1.8
+      },
+      "Best Match": {
+        "mae": 1.8,
+        "n": 1,
+        "max_error": 1.8,
+        "bias": -1.8
+      },
+      "Ensemble ICON": {
+        "mae": 2.8,
+        "n": 1,
+        "max_error": 2.8,
+        "bias": -2.8
+      },
+      "Ensemble GFS": {
+        "mae": 0.1,
+        "n": 1,
+        "max_error": 0.1,
+        "bias": 0.1
+      },
+      "Ensemble ECMWF": {
+        "mae": 2.7,
+        "n": 1,
+        "max_error": 2.7,
+        "bias": 2.7
+      },
+      "Tomorrow.io": {
+        "mae": 1.4,
+        "n": 1,
+        "max_error": 1.4,
+        "bias": -1.4
+      },
+      "Visual Crossing": {
+        "mae": 0.2,
+        "n": 1,
+        "max_error": 0.2,
+        "bias": -0.2
+      }
+    },
+    "Miami": {
+      "NWS Forecast": {
+        "mae": 0.8,
+        "n": 1,
+        "max_error": 0.8,
+        "bias": -0.8
+      },
+      "NWS Hourly": {
+        "mae": 0.8,
+        "n": 1,
+        "max_error": 0.8,
+        "bias": -0.8
+      },
+      "ECMWF": {
+        "mae": 0.8,
+        "n": 1,
+        "max_error": 0.8,
+        "bias": -0.8
+      },
+      "GFS": {
+        "mae": 0.5,
+        "n": 1,
+        "max_error": 0.5,
+        "bias": -0.5
+      },
+      "Best Match": {
+        "mae": 0.5,
+        "n": 1,
+        "max_error": 0.5,
+        "bias": -0.5
+      },
+      "Ensemble ICON": {
+        "mae": 4.4,
+        "n": 1,
+        "max_error": 4.4,
+        "bias": 4.4
+      },
+      "Ensemble GFS": {
+        "mae": 0.5,
+        "n": 1,
+        "max_error": 0.5,
+        "bias": -0.5
+      },
+      "Ensemble ECMWF": {
+        "mae": 0.1,
+        "n": 1,
+        "max_error": 0.1,
+        "bias": 0.1
+      },
+      "Tomorrow.io": {
+        "mae": 0.5,
+        "n": 1,
+        "max_error": 0.5,
+        "bias": -0.5
+      },
+      "Visual Crossing": {
+        "mae": 1.8,
+        "n": 1,
+        "max_error": 1.8,
+        "bias": -1.8
+      }
+    }
+  },
+  "last_run": "2026-03-05T15:00:01.240715+00:00"
+}

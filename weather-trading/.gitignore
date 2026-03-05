@@ -1,0 +1,21 @@
+# Secrets
+keys/
+*.pem
+*.key
+
+# Cached API data
+/tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# State files (rebuild from ledger)
+ledger_state.json
+
+# Large data files
+*.jsonl
+
+# OS
+.DS_Store

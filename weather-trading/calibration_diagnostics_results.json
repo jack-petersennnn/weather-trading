@@ -1,0 +1,116 @@
+{
+  "baseline": {
+    "overall_brier_score": 0.20673892090406926,
+    "climatology_baseline_brier": 0.2988527286825144,
+    "skill_score": 0.30822475064733995,
+    "total_predictions": 6024,
+    "threshold_yes_predictions": 3033,
+    "threshold_no_predictions": 2991,
+    "threshold_yes_brier": 0.20279639963262133,
+    "threshold_no_brier": 0.21073680355746335,
+    "city_results": {
+      "Miami": {
+        "brier_score": 0.16925099524764978,
+        "sample_size": 1097,
+        "threshold_yes_count": 558,
+        "threshold_no_count": 539,
+        "accuracy": 0.796718322698268,
+        "mean_predicted_prob": 0.4997361646220497,
+        "mean_actual_rate": 0.6280765724703737
+      },
+      "Denver": {
+        "brier_score": 0.22823237869865054,
+        "sample_size": 1446,
+        "threshold_yes_count": 726,
+        "threshold_no_count": 720,
+        "accuracy": 0.640387275242047,
+        "mean_predicted_prob": 0.48629713051243956,
+        "mean_actual_rate": 0.549792531120332
+      },
+      "Austin": {
+        "brier_score": 0.18062697797228947,
+        "sample_size": 1159,
+        "threshold_yes_count": 586,
+        "threshold_no_count": 573,
+        "accuracy": 0.7584124245038827,
+        "mean_predicted_prob": 0.49675650177366965,
+        "mean_actual_rate": 0.6082830025884383
+      },
+      "New York": {
+        "brier_score": 0.21289928410366624,
+        "sample_size": 1149,
+        "threshold_yes_count": 576,
+        "threshold_no_count": 573,
+        "accuracy": 0.6832027850304613,
+        "mean_predicted_prob": 0.48862672911157445,
+        "mean_actual_rate": 0.5953002610966057
+      },
+      "Chicago": {
+        "brier_score": 0.23506816132668104,
+        "sample_size": 1173,
+        "threshold_yes_count": 587,
+        "threshold_no_count": 586,
+        "accuracy": 0.6410912190963342,
+        "mean_predicted_prob": 0.49619577259233416,
+        "mean_actual_rate": 0.5720375106564365
+      }
+    }
+  },
+  "optimized": {
+    "overall_brier_score": 0.19508266220606846,
+    "climatology_baseline_brier": 0.30925625483500224,
+    "skill_score": 0.36918765859674824,
+    "total_predictions": 6958,
+    "threshold_yes_predictions": 3496,
+    "threshold_no_predictions": 3462,
+    "threshold_yes_brier": 0.1983940210274797,
+    "threshold_no_brier": 0.19173878281853127,
+    "city_results": {
+      "Miami": {
+        "brier_score": 0.16769295046737667,
+        "sample_size": 1293,
+        "threshold_yes_count": 660,
+        "threshold_no_count": 633,
+        "accuracy": 0.805877803557618,
+        "mean_predicted_prob": 0.46259200185615756,
+        "mean_actual_rate": 0.5723124516627996
+      },
+      "Denver": {
+        "brier_score": 0.22823237869865054,
+        "sample_size": 1446,
+        "threshold_yes_count": 726,
+        "threshold_no_count": 720,
+        "accuracy": 0.640387275242047,
+        "mean_predicted_prob": 0.48629713051243956,
+        "mean_actual_rate": 0.549792531120332
+      },
+      "Austin": {
+        "brier_score": 0.19007893383216812,
+        "sample_size": 931,
+        "threshold_yes_count": 471,
+        "threshold_no_count": 460,
+        "accuracy": 0.7346938775510204,
+        "mean_predicted_prob": 0.5573194884990343,
+        "mean_actual_rate": 0.682062298603652
+      },
+      "New York": {
+        "brier_score": 0.21196642383334713,
+        "sample_size": 895,
+        "threshold_yes_count": 444,
+        "threshold_no_count": 451,
+        "accuracy": 0.6737430167597765,
+        "mean_predicted_prob": 0.5669528722847609,
+        "mean_actual_rate": 0.6625698324022347
+      },
+      "Chicago": {
+        "brier_score": 0.1854829596108079,
+        "sample_size": 2393,
+        "threshold_yes_count": 1195,
+        "threshold_no_count": 1198,
+        "accuracy": 0.7367321353949018,
+        "mean_predicted_prob": 0.5168706114832327,
+        "mean_actual_rate": 0.5808608441287088
+      }
+    }
+  }
+}

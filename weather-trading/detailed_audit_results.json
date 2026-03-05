@@ -1,0 +1,693 @@
+{
+  "journal_analysis": {
+    "total_claimed_pnl_cents": 175787,
+    "total_claimed_pnl_dollars": 1757.87,
+    "settled_count": 140,
+    "entry_count": 104,
+    "exit_count": 89,
+    "pnl_by_status": {
+      "won": [
+        259,
+        3478,
+        6175,
+        462,
+        210,
+        7296,
+        33,
+        116,
+        96,
+        27,
+        1880,
+        1320,
+        128,
+        1246,
+        3648,
+        195,
+        46,
+        68,
+        3007,
+        774,
+        2068,
+        28,
+        58,
+        22,
+        540,
+        84,
+        36,
+        62,
+        12,
+        270,
+        12,
+        74,
+        32,
+        728,
+        164,
+        55,
+        39,
+        19,
+        164,
+        48,
+        20,
+        22,
+        156,
+        52,
+        135,
+        105,
+        39,
+        36,
+        22,
+        711,
+        108,
+        66,
+        28,
+        114,
+        44,
+        1632,
+        1056,
+        855,
+        32,
+        405,
+        26,
+        98,
+        25,
+        300,
+        1420,
+        208,
+        147,
+        153,
+        600,
+        96,
+        8820,
+        154,
+        1440,
+        3132,
+        16199,
+        2790,
+        203,
+        12028,
+        17266,
+        280,
+        23814,
+        280,
+        3264,
+        486,
+        180,
+        5225,
+        9021,
+        114,
+        6499,
+        140,
+        145,
+        2275,
+        84,
+        128,
+        20,
+        59,
+        3008,
+        6984,
+        134,
+        11956,
+        30,
+        23,
+        1222,
+        920,
+        1116,
+        104,
+        415,
+        1805,
+        128,
+        60
+      ],
+      "lost": [
+        -441,
+        -355,
+        -312,
+        -585,
+        -276,
+        -576,
+        -343,
+        -465,
+        -46,
+        -68,
+        -69,
+        -44,
+        -72,
+        -200,
+        -1092,
+        -182,
+        -544,
+        -162,
+        -414,
+        -850,
+        -140,
+        -413,
+        -345,
+        -130,
+        -441,
+        -396,
+        -201,
+        -204,
+        -80,
+        -408
+      ]
+    }
+  },
+  "kalshi_analysis": {
+    "total_spent_cents": 175307.0,
+    "total_received_cents": 559868.0,
+    "settlement_revenue_cents": 36600,
+    "total_fees_cents": 8976.0,
+    "net_cashflow_cents": 384561.0,
+    "net_cashflow_dollars": 3845.61,
+    "buy_count": 954,
+    "sell_count": 812,
+    "settlement_count": 233
+  },
+  "gap_dollars": 2087.7400000000002,
+  "exit_blown_analysis": [
+    {
+      "ticker": "KXHIGHMIA-26FEB20-B82.5",
+      "exit_time": "2026-02-20T20:10:11.324978+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 82.6\u00b0F landed IN our bracket [82.0-83.0\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTNOLA-26FEB20-B83.5",
+      "exit_time": "2026-02-20T20:11:55.807413+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 83.9\u00b0F landed IN our bracket [83.0-84.0\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHMIA-26FEB20-T78",
+      "exit_time": "2026-02-20T22:00:24.636317+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 78.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHMIA-26FEB21-T79",
+      "exit_time": "2026-02-20T22:10:23.734388+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 79.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHPHIL-26FEB20-T44",
+      "exit_time": "2026-02-20T22:10:27.102391+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 44.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHPHIL-26FEB21-T47",
+      "exit_time": "2026-02-20T22:10:33.404031+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 47.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-20T22:03:13.668087+00:00"
+    },
+    {
+      "ticker": "KXHIGHTBOS-26FEB20-T36",
+      "exit_time": "2026-02-20T22:10:36.779678+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 36.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTPHX-26FEB20-T61",
+      "exit_time": "2026-02-20T22:10:40.131474+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 61.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTDC-26FEB20-T54",
+      "exit_time": "2026-02-20T22:11:07.248388+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 54.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-20T20:23:07.009449+00:00"
+    },
+    {
+      "ticker": "KXHIGHTBOS-26FEB21-T32",
+      "exit_time": "2026-02-20T22:31:18.024194+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 32.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-20T19:24:02.463934+00:00"
+    },
+    {
+      "ticker": "KXHIGHCHI-26FEB20-T45",
+      "exit_time": "2026-02-20T23:00:10.633121+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 45.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTHOU-26FEB20-T78",
+      "exit_time": "2026-02-20T23:00:31.217834+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 0\u00b0F vs 78.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTMIN-26FEB21-T24",
+      "exit_time": "2026-02-21T00:01:14.084382+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (4:00), max only 18.4\u00b0F vs 24.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-20T20:22:57.601231+00:00"
+    },
+    {
+      "ticker": "KXHIGHTMIN-26FEB21-B28.5",
+      "exit_time": "2026-02-21T00:01:15.185971+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak, temp 18.4\u00b0F missed bracket [28.0-29.0\u00b0F]",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-20T21:22:38.677650+00:00"
+    },
+    {
+      "ticker": "KXHIGHTATL-26FEB21-T65",
+      "exit_time": "2026-02-21T05:00:34.934372+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 72.4\u00b0F hit/exceeded 65.0\u00b0F",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-20T19:23:16.321764+00:00"
+    },
+    {
+      "ticker": "KXHIGHTNOLA-26FEB21-T79",
+      "exit_time": "2026-02-21T05:00:46.820828+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 82.1\u00b0F hit/exceeded 79.0\u00b0F",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHCHI-26FEB21-T42",
+      "exit_time": "2026-02-21T05:01:34.248018+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (21:00), max only 34.5\u00b0F vs 42.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTSEA-26FEB21-T45",
+      "exit_time": "2026-02-21T07:00:13.676898+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 36.1\u00b0F vs 45.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTSATX-26FEB21-B75.5",
+      "exit_time": "2026-02-21T15:30:29.616194+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 76.0\u00b0F landed IN our bracket [75.0-76.0\u00b0F]",
+      "entry_found": true,
+      "direction": "NO",
+      "entry_time": "2026-02-20T19:24:48.369368+00:00"
+    },
+    {
+      "ticker": "KXHIGHTPHX-26FEB21-B72.5",
+      "exit_time": "2026-02-21T15:51:03.342869+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 72.1\u00b0F landed IN our bracket [72.0-73.0\u00b0F]",
+      "entry_found": true,
+      "direction": "NO",
+      "entry_time": "2026-02-20T19:44:11.946356+00:00"
+    },
+    {
+      "ticker": "KXHIGHTMIN-26FEB22-B15.5",
+      "exit_time": "2026-02-22T00:00:20.033813+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 15.6\u00b0F landed IN our bracket [15.0-16.0\u00b0F]",
+      "entry_found": true,
+      "direction": "NO",
+      "entry_time": "2026-02-21T15:03:27.070001+00:00"
+    },
+    {
+      "ticker": "KXHIGHTBOS-26FEB22-T34",
+      "exit_time": "2026-02-22T03:30:22.346419+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (20:00), max only 29.7\u00b0F vs 34.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-21T15:44:17.926979+00:00"
+    },
+    {
+      "ticker": "KXHIGHAUS-26FEB22-T69",
+      "exit_time": "2026-02-22T03:46:32.693773+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (0:00), max only 65.3\u00b0F vs 69.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHNY-26FEB22-B42.5",
+      "exit_time": "2026-02-22T03:47:01.311748+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 42.9\u00b0F landed IN our bracket [42.0-43.0\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHCHI-26FEB22-B28.5",
+      "exit_time": "2026-02-22T04:00:16.828486+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 28.9\u00b0F landed IN our bracket [28.0-29.0\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTMIN-26FEB22-T15",
+      "exit_time": "2026-02-22T04:30:27.981464+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 12.4\u00b0F vs 15.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-21T15:22:57.175146+00:00"
+    },
+    {
+      "ticker": "KXHIGHTATL-26FEB22-T55",
+      "exit_time": "2026-02-22T04:45:43.940824+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 53.4\u00b0F vs 55.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-21T15:03:45.656535+00:00"
+    },
+    {
+      "ticker": "KXHIGHMIA-26FEB22-T82",
+      "exit_time": "2026-02-22T04:46:50.791396+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (18:00), max only 75.5\u00b0F vs 82.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-22T04:02:20.642988+00:00"
+    },
+    {
+      "ticker": "KXHIGHNY-26FEB22-B38.5",
+      "exit_time": "2026-02-22T05:01:55.857691+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 38.2\u00b0F landed IN our bracket [38.0-39.0\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTSEA-26FEB22-T48",
+      "exit_time": "2026-02-22T07:01:07.007135+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (21:00), max only 41.7\u00b0F vs 48.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHMIA-26FEB22-B86.5",
+      "exit_time": "2026-02-22T18:01:43.255620+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 86.1\u00b0F landed IN our bracket [86.0-87.0\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTATL-26FEB23-T45",
+      "exit_time": "2026-02-23T00:01:17.408515+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (0:00), max only 39.9\u00b0F vs 45.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTSEA-26FEB23-B49.5",
+      "exit_time": "2026-02-23T00:31:40.575424+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 49.5\u00b0F landed IN our bracket [49.0-50.0\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTSFO-26FEB23-T67",
+      "exit_time": "2026-02-23T00:46:34.681927+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (0:00), max only 62.2\u00b0F vs 67.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHPHIL-26FEB23-T39",
+      "exit_time": "2026-02-23T03:00:25.451104+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (20:00), max only 31.3\u00b0F vs 39.0\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTDC-26FEB23-T44",
+      "exit_time": "2026-02-23T03:16:28.832353+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (20:00), max only 33.1\u00b0F vs 44.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-22T15:22:36.415481+00:00"
+    },
+    {
+      "ticker": "KXHIGHNY-26FEB23-T33",
+      "exit_time": "2026-02-23T04:45:56.334570+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (21:00), max only 30.3\u00b0F vs 33.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-22T15:02:08.462475+00:00"
+    },
+    {
+      "ticker": "KXHIGHCHI-26FEB23-T26",
+      "exit_time": "2026-02-23T05:16:27.972890+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (19:00), max only 24.6\u00b0F vs 26.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-23T05:02:16.203387+00:00"
+    },
+    {
+      "ticker": "KXHIGHTSEA-26FEB23-T45",
+      "exit_time": "2026-02-23T07:03:38.218510+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 43.8\u00b0F vs 45.0\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-22T16:22:59.926820+00:00"
+    },
+    {
+      "ticker": "KXHIGHTLV-26FEB24-B71.5",
+      "exit_time": "2026-02-24T03:00:16.283362+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak, temp 59.9\u00b0F missed bracket [71-72\u00b0F]",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTOKC-26FEB24-T68",
+      "exit_time": "2026-02-24T04:01:50.567965+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 42.6\u00b0F vs 69\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-23T16:44:17.127601+00:00"
+    },
+    {
+      "ticker": "KXHIGHTNOLA-26FEB24-T60",
+      "exit_time": "2026-02-24T05:01:39.756004+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (21:00), max only 54.3\u00b0F vs 61\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTBOS-26FEB24-T30",
+      "exit_time": "2026-02-24T23:03:57.671719+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (15:00), max only 22.1\u00b0F vs 31\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-24T00:43:57.675171+00:00"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26FEB25-T44",
+      "exit_time": "2026-02-25T03:00:31.696306+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (20:00), max only 28.4\u00b0F vs 45\u00b0F needed",
+      "entry_found": false
+    },
+    {
+      "ticker": "KXHIGHTDAL-26FEB25-T80",
+      "exit_time": "2026-02-25T05:00:33.086718+00:00",
+      "exit_reason": "BLOWN \u2014 Past peak (21:00), max only 70.3\u00b0F vs 81\u00b0F needed",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-24T17:44:49.050390+00:00"
+    },
+    {
+      "ticker": "KXHIGHTOKC-26FEB25-T73",
+      "exit_time": "2026-02-25T20:16:03.332894+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 73.1\u00b0F already \u2265 73\u00b0F \u2014 below market YES blown",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-25T00:24:13.847096+00:00"
+    },
+    {
+      "ticker": "KXHIGHNY-26FEB25-T39",
+      "exit_time": "2026-02-25T20:30:19.596007+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 40.0\u00b0F already \u2265 39\u00b0F \u2014 below market YES blown",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-24T15:22:16.071930+00:00"
+    },
+    {
+      "ticker": "KXHIGHTSATX-26FEB25-T85",
+      "exit_time": "2026-02-25T21:15:48.177971+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 86.1\u00b0F already \u2265 85\u00b0F \u2014 below market YES blown",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-25T00:24:44.093783+00:00"
+    },
+    {
+      "ticker": "KXHIGHDEN-26FEB25-T65",
+      "exit_time": "2026-02-25T21:30:19.140216+00:00",
+      "exit_reason": "BLOWN \u2014 Temp 65.1\u00b0F already \u2265 65\u00b0F \u2014 below market YES blown",
+      "entry_found": true,
+      "direction": "YES",
+      "entry_time": "2026-02-24T15:22:59.903362+00:00"
+    }
+  ],
+  "ticker_comparisons": [
+    {
+      "ticker": "KXHIGHTATL-26FEB21-T65",
+      "journal_entries": 2,
+      "kalshi_fills": 62,
+      "journal_pnl_cents": 3478,
+      "kalshi_net_cents": 66246.0,
+      "difference_cents": -62768.0,
+      "difference_dollars": -627.68
+    },
+    {
+      "ticker": "KXHIGHTOKC-26FEB23-T53",
+      "journal_entries": 2,
+      "kalshi_fills": 163,
+      "journal_pnl_cents": -850,
+      "kalshi_net_cents": 58753.0,
+      "difference_cents": -59603.0,
+      "difference_dollars": -596.03
+    },
+    {
+      "ticker": "KXHIGHTBOS-26FEB21-T32",
+      "journal_entries": 2,
+      "kalshi_fills": 61,
+      "journal_pnl_cents": 6175,
+      "kalshi_net_cents": 46016.0,
+      "difference_cents": -39841.0,
+      "difference_dollars": -398.41
+    },
+    {
+      "ticker": "KXHIGHCHI-26FEB21-T42",
+      "journal_entries": 1,
+      "kalshi_fills": 26,
+      "journal_pnl_cents": 0,
+      "kalshi_net_cents": 35360.0,
+      "difference_cents": -35360.0,
+      "difference_dollars": -353.6
+    },
+    {
+      "ticker": "KXHIGHTDC-26FEB23-T37",
+      "journal_entries": 2,
+      "kalshi_fills": 4,
+      "journal_pnl_cents": 23961,
+      "kalshi_net_cents": -4.0,
+      "difference_cents": 23965.0,
+      "difference_dollars": 239.65
+    },
+    {
+      "ticker": "KXHIGHTDC-26FEB23-T44",
+      "journal_entries": 2,
+      "kalshi_fills": 53,
+      "journal_pnl_cents": -182,
+      "kalshi_net_cents": 23678.0,
+      "difference_cents": -23860.0,
+      "difference_dollars": -238.6
+    },
+    {
+      "ticker": "KXHIGHAUS-26FEB20-T72",
+      "journal_entries": 0,
+      "kalshi_fills": 25,
+      "journal_pnl_cents": 0,
+      "kalshi_net_cents": 17589.0,
+      "difference_cents": -17589.0,
+      "difference_dollars": -175.89
+    },
+    {
+      "ticker": "KXHIGHTSFO-26FEB23-T60",
+      "journal_entries": 1,
+      "kalshi_fills": 5,
+      "journal_pnl_cents": 17266,
+      "kalshi_net_cents": 471.0,
+      "difference_cents": 16795.0,
+      "difference_dollars": 167.95
+    },
+    {
+      "ticker": "KXHIGHAUS-26FEB23-T63",
+      "journal_entries": 2,
+      "kalshi_fills": 13,
+      "journal_pnl_cents": 25220,
+      "kalshi_net_cents": 8790.0,
+      "difference_cents": 16430.0,
+      "difference_dollars": 164.3
+    },
+    {
+      "ticker": "KXHIGHTMIN-26FEB21-B28.5",
+      "journal_entries": 2,
+      "kalshi_fills": 7,
+      "journal_pnl_cents": -465,
+      "kalshi_net_cents": 15195.0,
+      "difference_cents": -15660.0,
+      "difference_dollars": -156.6
+    },
+    {
+      "ticker": "KXHIGHMIA-26FEB21-B79.5",
+      "journal_entries": 0,
+      "kalshi_fills": 11,
+      "journal_pnl_cents": 0,
+      "kalshi_net_cents": 13970.0,
+      "difference_cents": -13970.0,
+      "difference_dollars": -139.7
+    },
+    {
+      "ticker": "KXHIGHTLV-26FEB24-T71",
+      "journal_entries": 1,
+      "kalshi_fills": 3,
+      "journal_pnl_cents": 11956,
+      "kalshi_net_cents": -151.0,
+      "difference_cents": 12107.0,
+      "difference_dollars": 121.07
+    },
+    {
+      "ticker": "KXHIGHTATL-26FEB23-T38",
+      "journal_entries": 2,
+      "kalshi_fills": 33,
+      "journal_pnl_cents": 1440,
+      "kalshi_net_cents": 13078.0,
+      "difference_cents": -11638.0,
+      "difference_dollars": -116.38
+    },
+    {
+      "ticker": "KXHIGHNY-26FEB21-T43",
+      "journal_entries": 1,
+      "kalshi_fills": 31,
+      "journal_pnl_cents": 7296,
+      "kalshi_net_cents": -2119.0,
+      "difference_cents": 9415.0,
+      "difference_dollars": 94.15
+    },
+    {
+      "ticker": "KXHIGHPHIL-26FEB21-T47",
+      "journal_entries": 2,
+      "kalshi_fills": 7,
+      "journal_pnl_cents": 3648,
+      "kalshi_net_cents": 12713.0,
+      "difference_cents": -9065.0,
+      "difference_dollars": -90.65
+    },
+    {
+      "ticker": "KXHIGHTSEA-26FEB22-T48",
+      "journal_entries": 1,
+      "kalshi_fills": 10,
+      "journal_pnl_cents": 0,
+      "kalshi_net_cents": 8994.0,
+      "difference_cents": -8994.0,
+      "difference_dollars": -89.94
+    },
+    {
+      "ticker": "KXHIGHMIA-26FEB20-B80.5",
+      "journal_entries": 0,
+      "kalshi_fills": 8,
+      "journal_pnl_cents": 0,
+      "kalshi_net_cents": 8661.0,
+      "difference_cents": -8661.0,
+      "difference_dollars": -86.61
+    },
+    {
+      "ticker": "KXHIGHTDC-26FEB21-T51",
+      "journal_entries": 0,
+      "kalshi_fills": 42,
+      "journal_pnl_cents": 0,
+      "kalshi_net_cents": 5965.0,
+      "difference_cents": -5965.0,
+      "difference_dollars": -59.65
+    },
+    {
+      "ticker": "KXHIGHMIA-26FEB21-B85.5",
+      "journal_entries": 2,
+      "kalshi_fills": 40,
+      "journal_pnl_cents": 46,
+      "kalshi_net_cents": -5174.0,
+      "difference_cents": 5220.0,
+      "difference_dollars": 52.2
+    },
+    {
+      "ticker": "KXHIGHNY-26FEB23-T33",
+      "journal_entries": 2,
+      "kalshi_fills": 12,
+      "journal_pnl_cents": 208,
+      "kalshi_net_cents": 4593.0,
+      "difference_cents": -4385.0,
+      "difference_dollars": -43.85
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "consecutive_losses": 0,
+  "tripped_at": null,
+  "last_result": "win",
+  "history": [
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB22-T62",
+      "ts": "2026-02-23T14:00:02.199991+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB22-T62",
+      "ts": "2026-02-24T04:59:32.535646+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHAUS-26FEB23-B67.5",
+      "ts": "2026-02-24T14:00:01.782566+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTMIN-26FEB23-B22.5",
+      "ts": "2026-02-24T14:00:01.871827+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB23-B71.5",
+      "ts": "2026-02-24T14:00:01.993630+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTHOU-26FEB23-T62",
+      "ts": "2026-02-24T14:00:02.370587+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHMIA-26FEB23-T60",
+      "ts": "2026-02-24T14:00:02.545526+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHPHIL-26FEB23-T32",
+      "ts": "2026-02-24T14:00:02.690857+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTDAL-26FEB23-T57",
+      "ts": "2026-02-24T14:00:02.804985+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTNOLA-26FEB23-T53",
+      "ts": "2026-02-24T14:00:03.009440+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTPHX-26FEB23-B85.5",
+      "ts": "2026-02-24T14:00:03.216139+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB23-T67",
+      "ts": "2026-02-24T14:00:03.250410+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTATL-26FEB23-B42.5",
+      "ts": "2026-02-24T14:00:03.372009+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSFO-26FEB23-B64.5",
+      "ts": "2026-02-24T14:00:03.566232+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTATL-26FEB23-T38",
+      "ts": "2026-02-24T14:00:03.605673+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTDC-26FEB23-T37",
+      "ts": "2026-02-24T14:00:03.754752+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHCHI-26FEB23-T26",
+      "ts": "2026-02-24T14:00:03.886689+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHMIA-26FEB23-T67",
+      "ts": "2026-02-24T14:00:03.920479+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHDEN-26FEB23-T62",
+      "ts": "2026-02-24T14:00:04.041962+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTDAL-26FEB23-B61.5",
+      "ts": "2026-02-24T14:00:04.049814+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTOKC-26FEB23-B57.5",
+      "ts": "2026-02-24T14:00:04.138164+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTPHX-26FEB23-T83",
+      "ts": "2026-02-24T14:00:04.174695+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTMIN-26FEB23-T18",
+      "ts": "2026-02-24T14:00:04.212582+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSFO-26FEB23-B64.5",
+      "ts": "2026-02-24T16:00:01.999968+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTPHX-26FEB23-T83",
+      "ts": "2026-02-24T16:00:02.410853+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTPHX-26FEB23-B85.5",
+      "ts": "2026-02-24T16:00:02.421083+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTOKC-26FEB23-B57.5",
+      "ts": "2026-02-24T16:00:02.533840+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTNOLA-26FEB23-T53",
+      "ts": "2026-02-24T16:00:02.679235+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB24-B75.5",
+      "pnl_cents": -116,
+      "ts": "2026-02-25T14:00:01.481896+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSEA-26FEB24-T44",
+      "pnl_cents": 2275,
+      "ts": "2026-02-25T14:00:01.864987+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTDAL-26FEB24-B74.5",
+      "pnl_cents": -255,
+      "ts": "2026-02-25T14:00:02.058005+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTHOU-26FEB24-B71.5",
+      "pnl_cents": -441,
+      "ts": "2026-02-25T14:00:02.147522+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTATL-26FEB24-B55.5",
+      "pnl_cents": -260,
+      "ts": "2026-02-25T14:00:02.330042+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHAUS-26FEB24-B75.5",
+      "pnl_cents": -252,
+      "ts": "2026-02-25T14:00:02.424428+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHDEN-26FEB24-B70.5",
+      "pnl_cents": -130,
+      "ts": "2026-02-25T14:00:02.528149+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHCHI-26FEB24-B40.5",
+      "pnl_cents": -345,
+      "ts": "2026-02-25T14:00:02.622653+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTSATX-26FEB24-B75.5",
+      "pnl_cents": -396,
+      "ts": "2026-02-25T14:00:02.709893+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSATX-26FEB24-B79.5",
+      "pnl_cents": 20,
+      "ts": "2026-02-25T14:00:02.719422+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTBOS-26FEB24-T30",
+      "pnl_cents": -66,
+      "ts": "2026-02-25T14:00:03.030707+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB24-T71",
+      "pnl_cents": 11956,
+      "ts": "2026-02-25T14:00:03.067970+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTOKC-26FEB24-B72.5",
+      "pnl_cents": -201,
+      "ts": "2026-02-25T14:00:03.177120+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHPHIL-26FEB24-B37.5",
+      "pnl_cents": -50,
+      "ts": "2026-02-25T14:00:03.247705+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTBOS-26FEB24-T30",
+      "pnl_cents": 134,
+      "ts": "2026-02-25T14:00:03.289924+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB24-B75.5",
+      "pnl_cents": -116,
+      "ts": "2026-02-25T16:00:01.781601+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSEA-26FEB24-T44",
+      "pnl_cents": 2275,
+      "ts": "2026-02-25T16:00:02.227616+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTDAL-26FEB24-B74.5",
+      "pnl_cents": -255,
+      "ts": "2026-02-25T16:00:02.310119+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTHOU-26FEB24-B71.5",
+      "pnl_cents": -441,
+      "ts": "2026-02-25T16:00:02.542720+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTATL-26FEB24-B55.5",
+      "pnl_cents": -260,
+      "ts": "2026-02-25T16:00:02.723775+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHAUS-26FEB24-B75.5",
+      "pnl_cents": -252,
+      "ts": "2026-02-25T16:00:02.816496+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHDEN-26FEB24-B70.5",
+      "pnl_cents": -130,
+      "ts": "2026-02-25T16:00:03.000789+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHCHI-26FEB24-B40.5",
+      "pnl_cents": -345,
+      "ts": "2026-02-25T16:00:03.115110+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTSATX-26FEB24-B75.5",
+      "pnl_cents": -396,
+      "ts": "2026-02-25T16:00:03.208355+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSATX-26FEB24-B79.5",
+      "pnl_cents": 20,
+      "ts": "2026-02-25T16:00:03.217362+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTBOS-26FEB24-T30",
+      "pnl_cents": -66,
+      "ts": "2026-02-25T16:00:03.309835+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB24-T71",
+      "pnl_cents": 11956,
+      "ts": "2026-02-25T16:00:03.350886+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTOKC-26FEB24-B72.5",
+      "pnl_cents": -201,
+      "ts": "2026-02-25T16:00:03.441499+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHPHIL-26FEB24-B37.5",
+      "pnl_cents": -50,
+      "ts": "2026-02-25T16:00:03.526426+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTBOS-26FEB24-T30",
+      "pnl_cents": 134,
+      "ts": "2026-02-25T16:00:03.564210+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSEA-26FEB24-T44",
+      "pnl_cents": 2275,
+      "ts": "2026-02-26T04:59:12.521745+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTLV-26FEB25-B80.5",
+      "pnl_cents": 104,
+      "ts": "2026-02-26T14:00:01.682527+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTPHX-26FEB25-B89.5",
+      "pnl_cents": 128,
+      "ts": "2026-02-26T14:00:01.800476+00:00"
+    },
+    {
+      "result": "loss",
+      "ticker": "KXHIGHTDC-26FEB25-B55.5",
+      "pnl_cents": -408,
+      "ts": "2026-02-26T14:00:01.895488+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHTSATX-26FEB25-T85",
+      "pnl_cents": 1805,
+      "ts": "2026-02-26T14:00:02.813745+00:00"
+    },
+    {
+      "result": "win",
+      "ticker": "KXHIGHDEN-26FEB25-T65",
+      "pnl_cents": 736,
+      "ts": "2026-02-26T14:00:03.042662+00:00"
+    }
+  ],
+  "trip_reason": null
+}

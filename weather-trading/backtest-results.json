@@ -1,0 +1,1072 @@
+{
+  "generated": "2026-02-14T02:08:05.779102+00:00",
+  "backtester_version": "3.1-per-city",
+  "period": {
+    "start": "2026-01-14",
+    "end": "2026-02-12"
+  },
+  "strategies": {
+    "flat": {
+      "total_trades": 183,
+      "win_rate": 50.3,
+      "pnl": 880,
+      "pnl_dollars": 8.8,
+      "max_drawdown": 5510,
+      "max_drawdown_dollars": 55.1,
+      "sharpe": 0.033,
+      "longest_win_streak": 6,
+      "longest_lose_streak": 7,
+      "avg_edge": 0.2061
+    },
+    "per_city": {
+      "total_trades": 117,
+      "win_rate": 71.8,
+      "pnl": 18000,
+      "pnl_dollars": 180.0,
+      "max_drawdown": 9094,
+      "max_drawdown_dollars": 90.94,
+      "sharpe": 0.249,
+      "longest_win_streak": 13,
+      "longest_lose_streak": 3,
+      "avg_edge": 0.1328
+    }
+  },
+  "per_city_breakdown": {
+    "New York": {
+      "days_analyzed": 30,
+      "actual_mean": 28.4,
+      "mae": 0.68,
+      "strategy_style": "selective",
+      "flat_strategy": {
+        "total_trades": 25,
+        "win_rate": 60.0,
+        "pnl": 1220,
+        "pnl_dollars": 12.2,
+        "max_drawdown": 620,
+        "max_drawdown_dollars": 6.2,
+        "sharpe": 0.292,
+        "longest_win_streak": 3,
+        "longest_lose_streak": 1,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 4,
+        "win_rate": 100.0,
+        "pnl": 1336,
+        "pnl_dollars": 13.36,
+        "max_drawdown": 0,
+        "max_drawdown_dollars": 0.0,
+        "sharpe": 1.29,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 0,
+        "avg_edge": 0
+      }
+    },
+    "Chicago": {
+      "days_analyzed": 30,
+      "actual_mean": 25.0,
+      "mae": 0.9,
+      "strategy_style": "balanced",
+      "flat_strategy": {
+        "total_trades": 32,
+        "win_rate": 46.9,
+        "pnl": 340,
+        "pnl_dollars": 3.4,
+        "max_drawdown": 2110,
+        "max_drawdown_dollars": 21.1,
+        "sharpe": 0.036,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 4,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 34,
+        "win_rate": 52.9,
+        "pnl": -983,
+        "pnl_dollars": -9.83,
+        "max_drawdown": 3319,
+        "max_drawdown_dollars": 33.19,
+        "sharpe": -0.088,
+        "longest_win_streak": 3,
+        "longest_lose_streak": 3,
+        "avg_edge": 0
+      }
+    },
+    "Miami": {
+      "days_analyzed": 30,
+      "actual_mean": 71.2,
+      "mae": 0.82,
+      "strategy_style": "aggressive",
+      "flat_strategy": {
+        "total_trades": 32,
+        "win_rate": 43.8,
+        "pnl": -1330,
+        "pnl_dollars": -13.3,
+        "max_drawdown": 2420,
+        "max_drawdown_dollars": 24.2,
+        "sharpe": -0.138,
+        "longest_win_streak": 5,
+        "longest_lose_streak": 7,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 17,
+        "win_rate": 82.4,
+        "pnl": 2452,
+        "pnl_dollars": 24.52,
+        "max_drawdown": 4948,
+        "max_drawdown_dollars": 49.48,
+        "sharpe": 0.232,
+        "longest_win_streak": 6,
+        "longest_lose_streak": 2,
+        "avg_edge": 0
+      }
+    },
+    "Denver": {
+      "days_analyzed": 30,
+      "actual_mean": 49.3,
+      "mae": 0.68,
+      "strategy_style": "conservative",
+      "flat_strategy": {
+        "total_trades": 32,
+        "win_rate": 53.1,
+        "pnl": -760,
+        "pnl_dollars": -7.6,
+        "max_drawdown": 2400,
+        "max_drawdown_dollars": 24.0,
+        "sharpe": -0.084,
+        "longest_win_streak": 6,
+        "longest_lose_streak": 3,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 4,
+        "win_rate": 75.0,
+        "pnl": 115,
+        "pnl_dollars": 1.15,
+        "max_drawdown": 200,
+        "max_drawdown_dollars": 2.0,
+        "sharpe": 0.473,
+        "longest_win_streak": 3,
+        "longest_lose_streak": 1,
+        "avg_edge": 0
+      }
+    },
+    "Los Angeles": {
+      "days_analyzed": 30,
+      "actual_mean": 73.0,
+      "mae": 0.89,
+      "strategy_style": "aggressive",
+      "flat_strategy": {
+        "total_trades": 37,
+        "win_rate": 45.9,
+        "pnl": 480,
+        "pnl_dollars": 4.8,
+        "max_drawdown": 4260,
+        "max_drawdown_dollars": 42.6,
+        "sharpe": 0.042,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 5,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 33,
+        "win_rate": 81.8,
+        "pnl": 12063,
+        "pnl_dollars": 120.63,
+        "max_drawdown": 9094,
+        "max_drawdown_dollars": 90.94,
+        "sharpe": 0.405,
+        "longest_win_streak": 10,
+        "longest_lose_streak": 2,
+        "avg_edge": 0
+      }
+    },
+    "Austin": {
+      "days_analyzed": 30,
+      "actual_mean": 63.1,
+      "mae": 0.62,
+      "strategy_style": "balanced",
+      "flat_strategy": {
+        "total_trades": 25,
+        "win_rate": 56.0,
+        "pnl": 930,
+        "pnl_dollars": 9.3,
+        "max_drawdown": 1270,
+        "max_drawdown_dollars": 12.7,
+        "sharpe": 0.119,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 3,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 25,
+        "win_rate": 72.0,
+        "pnl": 3017,
+        "pnl_dollars": 30.17,
+        "max_drawdown": 1862,
+        "max_drawdown_dollars": 18.62,
+        "sharpe": 0.379,
+        "longest_win_streak": 6,
+        "longest_lose_streak": 2,
+        "avg_edge": 0
+      }
+    }
+  },
+  "daily_equity": [
+    {
+      "date": "2026-01-17",
+      "equity": 51186
+    },
+    {
+      "date": "2026-02-01",
+      "equity": 51336
+    },
+    {
+      "date": "2026-01-14",
+      "equity": 51261
+    },
+    {
+      "date": "2026-01-15",
+      "equity": 51477
+    },
+    {
+      "date": "2026-01-16",
+      "equity": 53457
+    },
+    {
+      "date": "2026-01-21",
+      "equity": 51076
+    },
+    {
+      "date": "2026-01-23",
+      "equity": 52159
+    },
+    {
+      "date": "2026-01-25",
+      "equity": 52159
+    },
+    {
+      "date": "2026-01-29",
+      "equity": 51473
+    },
+    {
+      "date": "2026-02-02",
+      "equity": 51267
+    },
+    {
+      "date": "2026-02-03",
+      "equity": 51444
+    },
+    {
+      "date": "2026-02-06",
+      "equity": 51061
+    },
+    {
+      "date": "2026-02-07",
+      "equity": 50543
+    },
+    {
+      "date": "2026-02-10",
+      "equity": 51036
+    },
+    {
+      "date": "2026-02-12",
+      "equity": 50353
+    },
+    {
+      "date": "2026-01-28",
+      "equity": 49969
+    },
+    {
+      "date": "2026-01-24",
+      "equity": 52920
+    },
+    {
+      "date": "2026-01-30",
+      "equity": 56933
+    },
+    {
+      "date": "2026-02-05",
+      "equity": 60159
+    },
+    {
+      "date": "2026-02-08",
+      "equity": 63683
+    },
+    {
+      "date": "2026-02-09",
+      "equity": 64983
+    },
+    {
+      "date": "2026-01-18",
+      "equity": 65352
+    },
+    {
+      "date": "2026-01-19",
+      "equity": 66688
+    },
+    {
+      "date": "2026-02-04",
+      "equity": 65531
+    }
+  ],
+  "comparison": {
+    "old_v2": {
+      "total_trades": 183,
+      "win_rate": 50.3,
+      "avg_edge": 0.2061,
+      "pnl_cents": 880,
+      "pnl_dollars": 8.8
+    },
+    "new_v3": {
+      "total_trades": 117,
+      "win_rate": 71.8,
+      "avg_edge": 0.1328,
+      "pnl_cents": 18000,
+      "pnl_dollars": 180.0
+    }
+  },
+  "summary": {
+    "total_trades": 117,
+    "win_rate": 71.8,
+    "avg_edge": 0.1328,
+    "mae": 0.77,
+    "pnl_cents": 18000,
+    "pnl_dollars": 180.0
+  },
+  "cities": {
+    "New York": {
+      "days_analyzed": 30,
+      "actual_mean": 28.4,
+      "mae": 0.68,
+      "strategy_style": "selective",
+      "flat_strategy": {
+        "total_trades": 25,
+        "win_rate": 60.0,
+        "pnl": 1220,
+        "pnl_dollars": 12.2,
+        "max_drawdown": 620,
+        "max_drawdown_dollars": 6.2,
+        "sharpe": 0.292,
+        "longest_win_streak": 3,
+        "longest_lose_streak": 1,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 4,
+        "win_rate": 100.0,
+        "pnl": 1336,
+        "pnl_dollars": 13.36,
+        "max_drawdown": 0,
+        "max_drawdown_dollars": 0.0,
+        "sharpe": 1.29,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 0,
+        "avg_edge": 0
+      }
+    },
+    "Chicago": {
+      "days_analyzed": 30,
+      "actual_mean": 25.0,
+      "mae": 0.9,
+      "strategy_style": "balanced",
+      "flat_strategy": {
+        "total_trades": 32,
+        "win_rate": 46.9,
+        "pnl": 340,
+        "pnl_dollars": 3.4,
+        "max_drawdown": 2110,
+        "max_drawdown_dollars": 21.1,
+        "sharpe": 0.036,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 4,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 34,
+        "win_rate": 52.9,
+        "pnl": -983,
+        "pnl_dollars": -9.83,
+        "max_drawdown": 3319,
+        "max_drawdown_dollars": 33.19,
+        "sharpe": -0.088,
+        "longest_win_streak": 3,
+        "longest_lose_streak": 3,
+        "avg_edge": 0
+      }
+    },
+    "Miami": {
+      "days_analyzed": 30,
+      "actual_mean": 71.2,
+      "mae": 0.82,
+      "strategy_style": "aggressive",
+      "flat_strategy": {
+        "total_trades": 32,
+        "win_rate": 43.8,
+        "pnl": -1330,
+        "pnl_dollars": -13.3,
+        "max_drawdown": 2420,
+        "max_drawdown_dollars": 24.2,
+        "sharpe": -0.138,
+        "longest_win_streak": 5,
+        "longest_lose_streak": 7,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 17,
+        "win_rate": 82.4,
+        "pnl": 2452,
+        "pnl_dollars": 24.52,
+        "max_drawdown": 4948,
+        "max_drawdown_dollars": 49.48,
+        "sharpe": 0.232,
+        "longest_win_streak": 6,
+        "longest_lose_streak": 2,
+        "avg_edge": 0
+      }
+    },
+    "Denver": {
+      "days_analyzed": 30,
+      "actual_mean": 49.3,
+      "mae": 0.68,
+      "strategy_style": "conservative",
+      "flat_strategy": {
+        "total_trades": 32,
+        "win_rate": 53.1,
+        "pnl": -760,
+        "pnl_dollars": -7.6,
+        "max_drawdown": 2400,
+        "max_drawdown_dollars": 24.0,
+        "sharpe": -0.084,
+        "longest_win_streak": 6,
+        "longest_lose_streak": 3,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 4,
+        "win_rate": 75.0,
+        "pnl": 115,
+        "pnl_dollars": 1.15,
+        "max_drawdown": 200,
+        "max_drawdown_dollars": 2.0,
+        "sharpe": 0.473,
+        "longest_win_streak": 3,
+        "longest_lose_streak": 1,
+        "avg_edge": 0
+      }
+    },
+    "Los Angeles": {
+      "days_analyzed": 30,
+      "actual_mean": 73.0,
+      "mae": 0.89,
+      "strategy_style": "aggressive",
+      "flat_strategy": {
+        "total_trades": 37,
+        "win_rate": 45.9,
+        "pnl": 480,
+        "pnl_dollars": 4.8,
+        "max_drawdown": 4260,
+        "max_drawdown_dollars": 42.6,
+        "sharpe": 0.042,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 5,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 33,
+        "win_rate": 81.8,
+        "pnl": 12063,
+        "pnl_dollars": 120.63,
+        "max_drawdown": 9094,
+        "max_drawdown_dollars": 90.94,
+        "sharpe": 0.405,
+        "longest_win_streak": 10,
+        "longest_lose_streak": 2,
+        "avg_edge": 0
+      }
+    },
+    "Austin": {
+      "days_analyzed": 30,
+      "actual_mean": 63.1,
+      "mae": 0.62,
+      "strategy_style": "balanced",
+      "flat_strategy": {
+        "total_trades": 25,
+        "win_rate": 56.0,
+        "pnl": 930,
+        "pnl_dollars": 9.3,
+        "max_drawdown": 1270,
+        "max_drawdown_dollars": 12.7,
+        "sharpe": 0.119,
+        "longest_win_streak": 4,
+        "longest_lose_streak": 3,
+        "avg_edge": 0.15
+      },
+      "per_city_strategy": {
+        "total_trades": 25,
+        "win_rate": 72.0,
+        "pnl": 3017,
+        "pnl_dollars": 30.17,
+        "max_drawdown": 1862,
+        "max_drawdown_dollars": 18.62,
+        "sharpe": 0.379,
+        "longest_win_streak": 6,
+        "longest_lose_streak": 2,
+        "avg_edge": 0
+      }
+    }
+  },
+  "sample_trades": [
+    {
+      "date": "2026-01-17",
+      "city": "New York",
+      "won": true,
+      "pnl_cents": 120,
+      "edge": 0.1131,
+      "contracts": 10,
+      "kelly": 0.9583,
+      "is_tail": true,
+      "strategy_style": "selective"
+    },
+    {
+      "date": "2026-01-17",
+      "city": "New York",
+      "won": true,
+      "pnl_cents": 1066,
+      "edge": 0.2025,
+      "contracts": 13,
+      "kelly": 0.2496,
+      "is_tail": false,
+      "strategy_style": "selective"
+    },
+    {
+      "date": "2026-02-01",
+      "city": "New York",
+      "won": true,
+      "pnl_cents": 70,
+      "edge": 0.067,
+      "contracts": 10,
+      "kelly": 0.9853,
+      "is_tail": true,
+      "strategy_style": "selective"
+    },
+    {
+      "date": "2026-02-01",
+      "city": "New York",
+      "won": true,
+      "pnl_cents": 80,
+      "edge": 0.074,
+      "contracts": 10,
+      "kelly": 0.9867,
+      "is_tail": true,
+      "strategy_style": "selective"
+    },
+    {
+      "date": "2026-01-14",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 189,
+      "edge": 0.0654,
+      "contracts": 27,
+      "kelly": 0.9768,
+      "is_tail": true,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-14",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -264,
+      "edge": 0.0829,
+      "contracts": 12,
+      "kelly": 0.1074,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-15",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 216,
+      "edge": 0.077,
+      "contracts": 27,
+      "kelly": 0.9872,
+      "is_tail": true,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-16",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 300,
+      "edge": 0.0971,
+      "contracts": 20,
+      "kelly": 0.6788,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-16",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -420,
+      "edge": 0.139,
+      "contracts": 30,
+      "kelly": 0.1628,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-16",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 2100,
+      "edge": 0.202,
+      "contracts": 28,
+      "kelly": 0.2708,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-17",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -418,
+      "edge": 0.1526,
+      "contracts": 209,
+      "kelly": 0.1557,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-17",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -820,
+      "edge": 0.2762,
+      "contracts": 82,
+      "kelly": 0.3076,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-17",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 266,
+      "edge": 0.0601,
+      "contracts": 7,
+      "kelly": 0.162,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-21",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 594,
+      "edge": 0.1789,
+      "contracts": 27,
+      "kelly": 0.8167,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-21",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -1475,
+      "edge": 0.2288,
+      "contracts": 25,
+      "kelly": 0.5594,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-21",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -528,
+      "edge": 0.178,
+      "contracts": 48,
+      "kelly": 0.202,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -360,
+      "edge": 0.1115,
+      "contracts": 15,
+      "kelly": 0.1472,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 1170,
+      "edge": 0.1009,
+      "contracts": 15,
+      "kelly": 0.1297,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 273,
+      "edge": 0.085,
+      "contracts": 13,
+      "kelly": 0.4168,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-29",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 210,
+      "edge": 0.0706,
+      "contracts": 21,
+      "kelly": 0.7352,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-29",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -196,
+      "edge": 0.0692,
+      "contracts": 28,
+      "kelly": 0.075,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-29",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -700,
+      "edge": 0.2383,
+      "contracts": 70,
+      "kelly": 0.2668,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-02",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 324,
+      "edge": 0.0909,
+      "contracts": 12,
+      "kelly": 0.3404,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-02",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -530,
+      "edge": 0.1012,
+      "contracts": 10,
+      "kelly": 0.2163,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-03",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 308,
+      "edge": 0.101,
+      "contracts": 28,
+      "kelly": 0.9902,
+      "is_tail": true,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-03",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 484,
+      "edge": 0.1473,
+      "contracts": 22,
+      "kelly": 0.6916,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-03",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -615,
+      "edge": 0.2031,
+      "contracts": 41,
+      "kelly": 0.2404,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-06",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 189,
+      "edge": 0.06,
+      "contracts": 27,
+      "kelly": 0.9836,
+      "is_tail": true,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-06",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 156,
+      "edge": 0.05,
+      "contracts": 12,
+      "kelly": 0.4133,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-06",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -728,
+      "edge": 0.2457,
+      "contracts": 56,
+      "kelly": 0.2853,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-07",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -437,
+      "edge": 0.1341,
+      "contracts": 19,
+      "kelly": 0.1744,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-07",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -486,
+      "edge": 0.0889,
+      "contracts": 9,
+      "kelly": 0.1957,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-07",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 405,
+      "edge": 0.1368,
+      "contracts": 27,
+      "kelly": 0.9243,
+      "is_tail": true,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-10",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 275,
+      "edge": 0.0935,
+      "contracts": 25,
+      "kelly": 0.8825,
+      "is_tail": true,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-10",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -250,
+      "edge": 0.0761,
+      "contracts": 10,
+      "kelly": 0.1021,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-10",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 468,
+      "edge": 0.1541,
+      "contracts": 26,
+      "kelly": 0.8658,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-12",
+      "city": "Chicago",
+      "won": true,
+      "pnl_cents": 325,
+      "edge": 0.109,
+      "contracts": 25,
+      "kelly": 0.8649,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-02-12",
+      "city": "Chicago",
+      "won": false,
+      "pnl_cents": -1008,
+      "edge": 0.1724,
+      "contracts": 18,
+      "kelly": 0.3926,
+      "is_tail": false,
+      "strategy_style": "balanced"
+    },
+    {
+      "date": "2026-01-21",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 130,
+      "edge": 0.045,
+      "contracts": 26,
+      "kelly": 0.9783,
+      "is_tail": true,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-21",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 704,
+      "edge": 0.1602,
+      "contracts": 32,
+      "kelly": 0.728,
+      "is_tail": false,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-21",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 589,
+      "edge": 0.1272,
+      "contracts": 31,
+      "kelly": 0.68,
+      "is_tail": false,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-21",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 252,
+      "edge": 0.083,
+      "contracts": 28,
+      "kelly": 0.9881,
+      "is_tail": true,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 285,
+      "edge": 0.047,
+      "contracts": 15,
+      "kelly": 0.2473,
+      "is_tail": false,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Miami",
+      "won": false,
+      "pnl_cents": -2516,
+      "edge": 0.3159,
+      "contracts": 74,
+      "kelly": 0.4837,
+      "is_tail": false,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Miami",
+      "won": false,
+      "pnl_cents": -2432,
+      "edge": 0.1679,
+      "contracts": 38,
+      "kelly": 0.4689,
+      "is_tail": false,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 405,
+      "edge": 0.1458,
+      "contracts": 27,
+      "kelly": 0.9852,
+      "is_tail": true,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-23",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 351,
+      "edge": 0.125,
+      "contracts": 27,
+      "kelly": 0.9921,
+      "is_tail": true,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-28",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 208,
+      "edge": 0.079,
+      "contracts": 26,
+      "kelly": 0.9875,
+      "is_tail": true,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-28",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 494,
+      "edge": 0.0751,
+      "contracts": 19,
+      "kelly": 0.2991,
+      "is_tail": false,
+      "strategy_style": "aggressive"
+    },
+    {
+      "date": "2026-01-28",
+      "city": "Miami",
+      "won": true,
+      "pnl_cents": 464,
+      "edge": 0.1314,
+      "contracts": 29,
+      "kelly": 0.8264,
+      "is_tail": true,
+      "strategy_style": "aggressive"
+    }
+  ]
+}

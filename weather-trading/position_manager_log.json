@@ -1,0 +1,5900 @@
+[
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB21-T42",
+    "direction": "yes",
+    "contracts": 63,
+    "sell_price": 1,
+    "entry_price": 4,
+    "pnl_cents": -189,
+    "reason": "Past peak (21:00), max only 34.5\u00b0F vs 42.0\u00b0F needed",
+    "ts": "2026-02-21T05:01:34.241188+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTATL-26FEB21-T65: Temp 72.4\u00b0F hit/exceeded 65.0\u00b0F",
+      "BLOWN EXIT KXHIGHTNOLA-26FEB21-T79: Temp 82.1\u00b0F hit/exceeded 79.0\u00b0F",
+      "BLOWN EXIT KXHIGHCHI-26FEB21-T42: Past peak (21:00), max only 34.5\u00b0F vs 42.0\u00b0F needed"
+    ],
+    "elapsed": 93.74826121330261,
+    "ts": "2026-02-21T05:01:35.287890+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 31,
+    "elapsed": 82.36840915679932,
+    "ts": "2026-02-21T05:11:24.438938+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 31,
+    "elapsed": 81.5780074596405,
+    "ts": "2026-02-21T05:21:23.437928+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 86.45336055755615,
+    "ts": "2026-02-21T05:31:28.193825+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 84.70067930221558,
+    "ts": "2026-02-21T05:41:26.378313+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB21-B74.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 71,
+    "entry_price": 71,
+    "pnl_cents": 0,
+    "reason": "Forecast shifted +1.0\u00b0F (70.4\u219271.4\u00b0F), severity 0.78x std, prob drop 1% - selling 1/2 (18% total, 18% incremental)",
+    "ts": "2026-02-21T05:51:14.710586+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/2 KXHIGHTPHX-26FEB21-B74.5 (severity=0.78, total sold 18%, keeping 1)"
+    ],
+    "elapsed": 84.40946936607361,
+    "ts": "2026-02-21T05:51:26.377052+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 99.67708396911621,
+    "ts": "2026-02-21T06:01:41.466239+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 102.02814531326294,
+    "ts": "2026-02-21T06:11:44.057487+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB21-T35",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 63,
+    "entry_price": 61,
+    "pnl_cents": 2,
+    "reason": "Forecast shifted +2.0\u00b0F (32.7\u219234.7\u00b0F), severity 1.33x std, prob drop 39% - selling 1/1 (80% total, 80% incremental)",
+    "ts": "2026-02-21T06:21:19.975542+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHCHI-26FEB21-T35 (severity=1.33, total sold 80%, keeping 0)"
+    ],
+    "elapsed": 101.28307175636292,
+    "ts": "2026-02-21T06:21:42.759549+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 87.1533875465393,
+    "ts": "2026-02-21T06:31:28.600611+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 83.99513483047485,
+    "ts": "2026-02-21T06:41:26.067875+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB21-B67.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 53,
+    "entry_price": 66,
+    "pnl_cents": -13,
+    "reason": "Forecast shifted +1.4\u00b0F (66.4\u219267.8\u00b0F), severity 0.93x std, prob drop 6% - selling 1/2 (29% total, 29% incremental)",
+    "ts": "2026-02-21T06:50:42.507497+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/2 KXHIGHTATL-26FEB21-B67.5 (severity=0.93, total sold 29%, keeping 1)"
+    ],
+    "elapsed": 84.16937375068665,
+    "ts": "2026-02-21T06:51:25.685320+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB21-T45",
+    "direction": "yes",
+    "contracts": 9,
+    "sell_price": 7,
+    "entry_price": 5,
+    "pnl_cents": 18,
+    "reason": "Past peak (15:00), max only 36.1\u00b0F vs 45.0\u00b0F needed",
+    "ts": "2026-02-21T07:00:13.669552+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTSEA-26FEB21-T45: Past peak (15:00), max only 36.1\u00b0F vs 45.0\u00b0F needed"
+    ],
+    "elapsed": 101.1533989906311,
+    "ts": "2026-02-21T07:01:43.249180+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 88.33082509040833,
+    "ts": "2026-02-21T07:11:30.016093+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 86.95905756950378,
+    "ts": "2026-02-21T07:21:28.444918+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 88.17239308357239,
+    "ts": "2026-02-21T07:31:29.880389+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 87.676837682724,
+    "ts": "2026-02-21T07:41:29.043067+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 90.1663806438446,
+    "ts": "2026-02-21T07:51:32.065870+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 108.18951225280762,
+    "ts": "2026-02-21T08:01:49.684883+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 88.84847974777222,
+    "ts": "2026-02-21T08:11:30.597684+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 87.37001633644104,
+    "ts": "2026-02-21T08:21:29.399680+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 88.79405450820923,
+    "ts": "2026-02-21T08:31:30.999983+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 88.47082376480103,
+    "ts": "2026-02-21T08:41:29.946888+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 87.44183039665222,
+    "ts": "2026-02-21T08:51:29.775448+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 93.77437829971313,
+    "ts": "2026-02-21T09:01:35.968630+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 87.38898658752441,
+    "ts": "2026-02-21T09:11:29.650022+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 88.03342032432556,
+    "ts": "2026-02-21T09:21:30.113688+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSFO-26FEB21-T56",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 2,
+    "entry_price": 6,
+    "pnl_cents": -12,
+    "reason": "Forecast shifted -0.8\u00b0F (57.4\u219256.6\u00b0F), severity 0.53x std, prob drop 17% - selling 3/22 (17% total, 17% incremental)",
+    "ts": "2026-02-21T09:31:31.174093+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 3/22 KXHIGHTSFO-26FEB21-T56 (severity=0.53, total sold 17%, keeping 19)"
+    ],
+    "elapsed": 106.57206344604492,
+    "ts": "2026-02-21T09:31:48.155026+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 87.96788811683655,
+    "ts": "2026-02-21T09:41:29.603459+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 86.33412551879883,
+    "ts": "2026-02-21T09:51:28.394105+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 94.48042416572571,
+    "ts": "2026-02-21T10:01:36.289258+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 89.51408576965332,
+    "ts": "2026-02-21T10:11:31.048362+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 102.31133818626404,
+    "ts": "2026-02-21T10:21:43.792055+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB21-B67.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 52,
+    "entry_price": 66,
+    "pnl_cents": -14,
+    "reason": "Forecast shifted +4.3\u00b0F (66.4\u219270.7\u00b0F), severity 2.87x std, prob drop -16% - selling 1/1 (100% total, 71% incremental)",
+    "ts": "2026-02-21T10:30:39.551166+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTATL-26FEB21-B67.5 (severity=2.87, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 90.94756960868835,
+    "ts": "2026-02-21T10:31:33.153140+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 87.74238801002502,
+    "ts": "2026-02-21T10:41:29.374429+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 87.347247838974,
+    "ts": "2026-02-21T10:51:29.529486+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 127.68359518051147,
+    "ts": "2026-02-21T11:02:09.623579+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 87.44057202339172,
+    "ts": "2026-02-21T11:11:29.007493+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB21-B67.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 58,
+    "entry_price": 60,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted +2.1\u00b0F (68.6\u219270.7\u00b0F), severity 1.40x std, prob drop -9% - selling 1/1 (60% total, 60% incremental)",
+    "ts": "2026-02-21T11:20:38.995740+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTATL-26FEB21-B67.5 (severity=1.40, total sold 60%, keeping 0)"
+    ],
+    "elapsed": 91.31713914871216,
+    "ts": "2026-02-21T11:21:32.745733+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 88.7859160900116,
+    "ts": "2026-02-21T11:31:31.092039+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 87.37259268760681,
+    "ts": "2026-02-21T11:41:28.943010+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 105.66955208778381,
+    "ts": "2026-02-21T11:51:47.034517+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 112.01803731918335,
+    "ts": "2026-02-21T12:01:53.469729+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 32,
+    "elapsed": 101.78559970855713,
+    "ts": "2026-02-21T12:11:43.611871+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 32,
+    "elapsed": 87.40500068664551,
+    "ts": "2026-02-21T12:21:29.433333+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 32,
+    "elapsed": 89.06371068954468,
+    "ts": "2026-02-21T12:31:31.355386+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 87.62728118896484,
+    "ts": "2026-02-21T12:41:29.458081+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 87.40813994407654,
+    "ts": "2026-02-21T12:51:29.394509+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 138.48659777641296,
+    "ts": "2026-02-21T13:02:20.289820+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 24,
+    "elapsed": 87.01341652870178,
+    "ts": "2026-02-21T13:11:29.046966+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 24,
+    "elapsed": 90.05208373069763,
+    "ts": "2026-02-21T13:21:31.525579+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 24,
+    "elapsed": 99.27697896957397,
+    "ts": "2026-02-21T13:31:41.068528+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 24,
+    "elapsed": 87.81750226020813,
+    "ts": "2026-02-21T13:41:29.357548+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 87.73797154426575,
+    "ts": "2026-02-21T13:51:29.729829+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 145.50821375846863,
+    "ts": "2026-02-21T14:02:27.649870+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 87.47653722763062,
+    "ts": "2026-02-21T14:11:29.650850+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 86.68873906135559,
+    "ts": "2026-02-21T14:21:28.755048+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSFO-26FEB21-T56",
+    "direction": "yes",
+    "contracts": 13,
+    "sell_price": 2,
+    "entry_price": 6,
+    "pnl_cents": -52,
+    "reason": "Forecast shifted -1.2\u00b0F (57.4\u219256.2\u00b0F), severity 0.80x std, prob drop 27% - selling 13/19 (80% total, 63% incremental)",
+    "ts": "2026-02-21T14:31:16.081954+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTHOU-26FEB21-B83.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 87,
+    "entry_price": 89,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted +1.2\u00b0F (77.9\u219279.1\u00b0F), severity 0.80x std, prob drop 0% - selling 1/2 (20% total, 20% incremental)",
+    "ts": "2026-02-21T14:31:27.647419+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 13/19 KXHIGHTSFO-26FEB21-T56 (severity=0.80, total sold 80%, keeping 6)",
+      "SELL 1/2 KXHIGHTHOU-26FEB21-B83.5 (severity=0.80, total sold 20%, keeping 1)"
+    ],
+    "elapsed": 91.65840101242065,
+    "ts": "2026-02-21T14:31:33.950173+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 87.80601859092712,
+    "ts": "2026-02-21T14:41:29.229129+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 87.26503562927246,
+    "ts": "2026-02-21T14:51:28.951863+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB21-B74.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 72,
+    "entry_price": 71,
+    "pnl_cents": 1,
+    "reason": "Forecast shifted +1.8\u00b0F (70.4\u219272.2\u00b0F), severity 1.20x std, prob drop 7% - selling 1/1 (47% total, 28% incremental)",
+    "ts": "2026-02-21T15:01:40.466320+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTPHX-26FEB21-B74.5 (severity=1.20, total sold 47%, keeping 0)"
+    ],
+    "elapsed": 129.6490547657013,
+    "ts": "2026-02-21T15:02:11.018561+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB21-B72.5",
+    "direction": "no",
+    "contracts": 2,
+    "sell_price": 49,
+    "entry_price": 52,
+    "pnl_cents": -6,
+    "reason": "Temp 72.2\u00b0F landed IN our bracket [72.0-73.0\u00b0F]",
+    "ts": "2026-02-21T15:11:02.825796+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB22-T38",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 17,
+    "entry_price": 64,
+    "pnl_cents": -47,
+    "reason": "Forecast shifted -8.5\u00b0F (44.8\u219236.3\u00b0F), severity 5.67x std, prob drop 87% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:11:34.880035+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHNY-26FEB22-B42.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 80,
+    "edge": 0.19993162434467826,
+    "ts": "2026-02-21T15:11:34.980076+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB22-T40",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 16,
+    "entry_price": 88,
+    "pnl_cents": -72,
+    "reason": "Forecast shifted -11.5\u00b0F (50.6\u219239.1\u00b0F), severity 7.67x std, prob drop 73% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:11:45.626436+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTDC-26FEB22-B42.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 84,
+    "edge": 0.13806361400270917,
+    "ts": "2026-02-21T15:11:45.747545+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 1,
+    "entry_price": 10,
+    "pnl_cents": -27,
+    "reason": "Forecast shifted -12.8\u00b0F (67.9\u219255.1\u00b0F), severity 6.21x std, prob drop 48% - selling 3/3 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:11:51.644016+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTHOU-26FEB22-T63",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 88,
+    "pnl_cents": -87,
+    "reason": "Forecast shifted -16.5\u00b0F (78.2\u219261.7\u00b0F), severity 11.00x std, prob drop 81% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:11:57.574949+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB22-B52.5",
+    "direction": "no",
+    "contracts": 2,
+    "sell_price": 62,
+    "entry_price": 63,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted +7.5\u00b0F (45.2\u219252.7\u00b0F), severity 4.78x std, prob drop 25% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:12:03.479403+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSEA-26FEB22-T48",
+    "direction": "yes",
+    "contracts": 50,
+    "price": 4,
+    "edge": 0.958621602404647,
+    "ts": "2026-02-21T15:12:03.587392+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSATX-26FEB22-T70",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 1,
+    "entry_price": 23,
+    "pnl_cents": -44,
+    "reason": "Forecast shifted -8.5\u00b0F (72.3\u219263.8\u00b0F), severity 5.67x std, prob drop 84% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:12:09.444683+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSATX-26FEB22-T63",
+    "direction": "yes",
+    "contracts": 100,
+    "price": 2,
+    "edge": 0.6830985713961482,
+    "ts": "2026-02-21T15:12:09.545108+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB22-T66",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 6,
+    "entry_price": 68,
+    "pnl_cents": -62,
+    "reason": "Forecast shifted -22.0\u00b0F (82.5\u219260.5\u00b0F), severity 17.19x std, prob drop 100% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:12:15.400498+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB22-T59",
+    "direction": "yes",
+    "contracts": 25,
+    "price": 8,
+    "edge": 0.7993763772294106,
+    "ts": "2026-02-21T15:12:15.511761+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTPHX-26FEB21-B72.5: Temp 72.2\u00b0F landed IN our bracket [72.0-73.0\u00b0F]",
+      "SELL 1/1 KXHIGHNY-26FEB22-T38 (severity=5.67, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHNY-26FEB22-B42.5 NO edge=20.0%",
+      "SELL 1/1 KXHIGHTDC-26FEB22-T40 (severity=7.67, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTDC-26FEB22-B42.5 NO edge=13.8%",
+      "SELL 3/3 KXHIGHTATL-26FEB22-T55 (severity=6.21, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTHOU-26FEB22-T63 (severity=11.00, total sold 100%, keeping 0)",
+      "SELL 2/2 KXHIGHTSEA-26FEB22-B52.5 (severity=4.78, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSEA-26FEB22-T48 YES edge=95.9%",
+      "SELL 2/2 KXHIGHTSATX-26FEB22-T70 (severity=5.67, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSATX-26FEB22-T63 YES edge=68.3%",
+      "SELL 1/1 KXHIGHTNOLA-26FEB22-T66 (severity=17.19, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTNOLA-26FEB22-T59 YES edge=79.9%"
+    ],
+    "elapsed": 134.60333466529846,
+    "ts": "2026-02-21T15:12:16.531848+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 92.25902700424194,
+    "ts": "2026-02-21T15:21:34.209169+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSATX-26FEB21-B75.5",
+    "direction": "no",
+    "contracts": 2,
+    "sell_price": 59,
+    "entry_price": 69,
+    "pnl_cents": -20,
+    "reason": "Temp 76.0\u00b0F landed IN our bracket [75.0-76.0\u00b0F]",
+    "ts": "2026-02-21T15:30:29.606187+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB21-B72.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 49,
+    "entry_price": 51,
+    "pnl_cents": -2,
+    "reason": "Temp 72.1\u00b0F landed IN our bracket [72.0-73.0\u00b0F]",
+    "ts": "2026-02-21T15:31:07.333371+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTMIN-26FEB22-T15",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 24,
+    "entry_price": 22,
+    "pnl_cents": 4,
+    "reason": "Forecast shifted -5.0\u00b0F (18.5\u219213.5\u00b0F), severity 3.33x std, prob drop 81% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:31:39.400883+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB22-T38",
+    "direction": "yes",
+    "contracts": 4,
+    "sell_price": 4,
+    "entry_price": 12,
+    "pnl_cents": -32,
+    "reason": "Forecast shifted -8.4\u00b0F (44.8\u219236.4\u00b0F), severity 5.60x std, prob drop 86% - selling 4/4 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:31:45.296146+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB22-T28",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 21,
+    "entry_price": 23,
+    "pnl_cents": -6,
+    "reason": "Forecast shifted -3.7\u00b0F (32.6\u219228.9\u00b0F), severity 2.47x std, prob drop 27% - selling 3/3 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:31:51.242255+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHAUS-26FEB22-T62",
+    "direction": "yes",
+    "contracts": 8,
+    "sell_price": 5,
+    "entry_price": 9,
+    "pnl_cents": -32,
+    "reason": "Forecast shifted -8.8\u00b0F (70.2\u219261.4\u00b0F), severity 6.88x std, prob drop 68% - selling 8/8 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:31:57.162020+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB22-T47",
+    "direction": "yes",
+    "contracts": 8,
+    "sell_price": 1,
+    "entry_price": 9,
+    "pnl_cents": -64,
+    "reason": "Forecast shifted -11.5\u00b0F (50.6\u219239.1\u00b0F), severity 7.67x std, prob drop 100% - selling 8/8 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:03.169719+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 4,
+    "sell_price": 4,
+    "entry_price": 7,
+    "pnl_cents": -12,
+    "reason": "Forecast shifted -14.3\u00b0F (67.9\u219253.6\u00b0F), severity 9.53x std, prob drop 82% - selling 4/4 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:09.126815+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTATL-26FEB22-B59.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 76,
+    "edge": 0.23985081217372795,
+    "ts": "2026-02-21T15:32:09.239192+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHPHIL-26FEB22-T35",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 1,
+    "entry_price": 18,
+    "pnl_cents": -34,
+    "reason": "Forecast shifted -9.2\u00b0F (47.4\u219238.2\u00b0F), severity 7.80x std, prob drop 0% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:15.198414+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDAL-26FEB22-T57",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 38,
+    "entry_price": 45,
+    "pnl_cents": -7,
+    "reason": "Forecast shifted -3.4\u00b0F (57.8\u219254.4\u00b0F), severity 2.27x std, prob drop 68% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:21.238757+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTDAL-26FEB22-B61.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 90,
+    "edge": 0.0999947898772402,
+    "ts": "2026-02-21T15:32:21.349930+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB22-B52.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 61,
+    "entry_price": 62,
+    "pnl_cents": -1,
+    "reason": "Forecast shifted +7.5\u00b0F (45.2\u219252.7\u00b0F), severity 4.78x std, prob drop 25% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:27.280199+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSEA-26FEB22-T48",
+    "direction": "yes",
+    "contracts": 50,
+    "price": 4,
+    "edge": 0.958621602404647,
+    "ts": "2026-02-21T15:32:27.388218+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTLV-26FEB22-B64.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 57,
+    "entry_price": 61,
+    "pnl_cents": -4,
+    "reason": "Forecast shifted +11.2\u00b0F (54.0\u219265.2\u00b0F), severity 2.48x std, prob drop 9% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:34.419621+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTLV-26FEB22-T69",
+    "direction": "yes",
+    "contracts": 200,
+    "price": 1,
+    "edge": 0.1897339107455832,
+    "ts": "2026-02-21T15:32:34.532710+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSATX-26FEB22-T63",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 12,
+    "entry_price": 18,
+    "pnl_cents": -12,
+    "reason": "Forecast shifted -8.5\u00b0F (72.3\u219263.8\u00b0F), severity 5.67x std, prob drop 30% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:45.511932+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSATX-26FEB22-B67.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 89,
+    "edge": 0.09610643450768264,
+    "ts": "2026-02-21T15:32:45.619401+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB22-T66",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 7,
+    "entry_price": 12,
+    "pnl_cents": -15,
+    "reason": "Forecast shifted -22.5\u00b0F (82.5\u219260.0\u00b0F), severity 12.71x std, prob drop 100% - selling 3/3 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:32:51.533501+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB22-T59",
+    "direction": "yes",
+    "contracts": 9,
+    "price": 21,
+    "edge": 0.5039535108292615,
+    "ts": "2026-02-21T15:32:51.643193+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTSATX-26FEB21-B75.5: Temp 76.0\u00b0F landed IN our bracket [75.0-76.0\u00b0F]",
+      "BLOWN EXIT KXHIGHTPHX-26FEB21-B72.5: Temp 72.1\u00b0F landed IN our bracket [72.0-73.0\u00b0F]",
+      "SELL 2/2 KXHIGHTMIN-26FEB22-T15 (severity=3.33, total sold 100%, keeping 0)",
+      "SELL 4/4 KXHIGHNY-26FEB22-T38 (severity=5.60, total sold 100%, keeping 0)",
+      "SELL 3/3 KXHIGHCHI-26FEB22-T28 (severity=2.47, total sold 100%, keeping 0)",
+      "SELL 8/8 KXHIGHAUS-26FEB22-T62 (severity=6.88, total sold 100%, keeping 0)",
+      "SELL 8/8 KXHIGHTDC-26FEB22-T47 (severity=7.67, total sold 100%, keeping 0)",
+      "SELL 4/4 KXHIGHTATL-26FEB22-T55 (severity=9.53, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTATL-26FEB22-B59.5 NO edge=24.0%",
+      "SELL 2/2 KXHIGHPHIL-26FEB22-T35 (severity=7.80, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTDAL-26FEB22-T57 (severity=2.27, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTDAL-26FEB22-B61.5 NO edge=10.0%",
+      "SELL 1/1 KXHIGHTSEA-26FEB22-B52.5 (severity=4.78, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSEA-26FEB22-T48 YES edge=95.9%",
+      "SELL 1/1 KXHIGHTLV-26FEB22-B64.5 (severity=2.48, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTLV-26FEB22-T69 YES edge=19.0%",
+      "SELL 2/2 KXHIGHTSATX-26FEB22-T63 (severity=5.67, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSATX-26FEB22-B67.5 NO edge=9.6%",
+      "SELL 3/3 KXHIGHTNOLA-26FEB22-T66 (severity=12.71, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTNOLA-26FEB22-T59 YES edge=50.4%"
+    ],
+    "elapsed": 170.39844584465027,
+    "ts": "2026-02-21T15:32:52.667687+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 118.98531985282898,
+    "ts": "2026-02-21T15:42:01.123025+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB21-B72.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 47,
+    "entry_price": 49,
+    "pnl_cents": -2,
+    "reason": "Temp 72.1\u00b0F landed IN our bracket [72.0-73.0\u00b0F]",
+    "ts": "2026-02-21T15:51:03.332484+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTPHX-26FEB21-B74.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 74,
+    "edge": 0.2308885431572505,
+    "ts": "2026-02-21T15:51:03.442999+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSFO-26FEB22-B64.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 83,
+    "entry_price": 81,
+    "pnl_cents": 2,
+    "reason": "Forecast shifted +1.3\u00b0F (56.8\u219258.1\u00b0F), severity 0.92x std, prob drop 0% - selling 1/1 (28% total, 28% incremental)",
+    "ts": "2026-02-21T15:51:40.220848+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB22-T38",
+    "direction": "yes",
+    "contracts": 7,
+    "sell_price": 6,
+    "entry_price": 5,
+    "pnl_cents": 7,
+    "reason": "Forecast shifted -8.4\u00b0F (44.8\u219236.4\u00b0F), severity 5.60x std, prob drop 86% - selling 7/7 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:51:46.129929+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHNY-26FEB22-B38.5",
+    "direction": "no",
+    "contracts": 3,
+    "price": 59,
+    "edge": 0.3084570274932701,
+    "ts": "2026-02-21T15:51:46.246521+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB22-T28",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 21,
+    "entry_price": 25,
+    "pnl_cents": -8,
+    "reason": "Forecast shifted -3.5\u00b0F (32.4\u219228.9\u00b0F), severity 2.33x std, prob drop 27% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:51:52.099663+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHCHI-26FEB22-B28.5",
+    "direction": "no",
+    "contracts": 3,
+    "price": 55,
+    "edge": 0.19767665344970842,
+    "ts": "2026-02-21T15:51:52.247783+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB22-T47",
+    "direction": "yes",
+    "contracts": 11,
+    "sell_price": 1,
+    "entry_price": 5,
+    "pnl_cents": -44,
+    "reason": "Forecast shifted -11.7\u00b0F (50.8\u219239.1\u00b0F), severity 7.80x std, prob drop 100% - selling 11/11 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:51:58.102709+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 2,
+    "entry_price": 10,
+    "pnl_cents": -24,
+    "reason": "Forecast shifted -14.9\u00b0F (68.5\u219253.6\u00b0F), severity 9.93x std, prob drop 82% - selling 3/3 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:52:04.051666+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTHOU-26FEB22-T63",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 9,
+    "entry_price": 16,
+    "pnl_cents": -21,
+    "reason": "Forecast shifted -16.2\u00b0F (77.9\u219261.7\u00b0F), severity 10.80x std, prob drop 81% - selling 3/3 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:52:09.941011+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTHOU-26FEB22-B65.5",
+    "direction": "no",
+    "contracts": 3,
+    "price": 55,
+    "edge": 0.4381706508500953,
+    "ts": "2026-02-21T15:52:10.046610+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDAL-26FEB22-T57",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 18,
+    "entry_price": 41,
+    "pnl_cents": -23,
+    "reason": "Forecast shifted -3.6\u00b0F (58.0\u219254.4\u00b0F), severity 2.40x std, prob drop 75% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:52:15.903543+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSATX-26FEB22-T63",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 9,
+    "entry_price": 19,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -9.2\u00b0F (73.0\u219263.8\u00b0F), severity 6.13x std, prob drop 30% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:52:26.633677+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSATX-26FEB22-B63.5",
+    "direction": "no",
+    "contracts": 3,
+    "price": 65,
+    "edge": 0.0838663119802372,
+    "ts": "2026-02-21T15:52:26.743683+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB22-T66",
+    "direction": "yes",
+    "contracts": 8,
+    "sell_price": 1,
+    "entry_price": 4,
+    "pnl_cents": -24,
+    "reason": "Forecast shifted -22.4\u00b0F (82.4\u219260.0\u00b0F), severity 12.66x std, prob drop 100% - selling 8/8 (100% total, 100% incremental)",
+    "ts": "2026-02-21T15:52:32.593666+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB22-T59",
+    "direction": "yes",
+    "contracts": 9,
+    "price": 21,
+    "edge": 0.5039535108292615,
+    "ts": "2026-02-21T15:52:32.722942+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTPHX-26FEB21-B72.5: Temp 72.1\u00b0F landed IN our bracket [72.0-73.0\u00b0F]",
+      "RE-ENTER KXHIGHTPHX-26FEB21-B74.5 NO edge=23.1%",
+      "SELL 1/1 KXHIGHTSFO-26FEB22-B64.5 (severity=0.92, total sold 28%, keeping 0)",
+      "SELL 7/7 KXHIGHNY-26FEB22-T38 (severity=5.60, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHNY-26FEB22-B38.5 NO edge=30.8%",
+      "SELL 2/2 KXHIGHCHI-26FEB22-T28 (severity=2.33, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHCHI-26FEB22-B28.5 NO edge=19.8%",
+      "SELL 11/11 KXHIGHTDC-26FEB22-T47 (severity=7.80, total sold 100%, keeping 0)",
+      "SELL 3/3 KXHIGHTATL-26FEB22-T55 (severity=9.93, total sold 100%, keeping 0)",
+      "SELL 3/3 KXHIGHTHOU-26FEB22-T63 (severity=10.80, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTHOU-26FEB22-B65.5 NO edge=43.8%",
+      "SELL 1/1 KXHIGHTDAL-26FEB22-T57 (severity=2.40, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTSATX-26FEB22-T63 (severity=6.13, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSATX-26FEB22-B63.5 NO edge=8.4%",
+      "SELL 8/8 KXHIGHTNOLA-26FEB22-T66 (severity=12.66, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTNOLA-26FEB22-T59 YES edge=50.4%"
+    ],
+    "elapsed": 151.6543197631836,
+    "ts": "2026-02-21T15:52:33.748885+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 132.4096896648407,
+    "ts": "2026-02-21T16:02:14.604722+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTMIN-26FEB22-T15",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 21,
+    "entry_price": 28,
+    "pnl_cents": -7,
+    "reason": "Forecast shifted -4.8\u00b0F (18.3\u219213.5\u00b0F), severity 3.20x std, prob drop 80% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:11:34.554814+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB22-T28",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 25,
+    "entry_price": 28,
+    "pnl_cents": -3,
+    "reason": "Forecast shifted -3.5\u00b0F (32.4\u219228.9\u00b0F), severity 2.33x std, prob drop 27% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:11:45.458826+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 2,
+    "entry_price": 11,
+    "pnl_cents": -18,
+    "reason": "Forecast shifted -14.9\u00b0F (68.5\u219253.6\u00b0F), severity 9.93x std, prob drop 82% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:11:51.437584+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHPHIL-26FEB22-T35",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 1,
+    "entry_price": 10,
+    "pnl_cents": -18,
+    "reason": "Forecast shifted -9.4\u00b0F (47.6\u219238.2\u00b0F), severity 7.97x std, prob drop 0% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:11:57.412527+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHPHIL-26FEB22-B35.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 89,
+    "edge": 0.08221299698707607,
+    "ts": "2026-02-21T16:11:57.534145+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDAL-26FEB22-T57",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 23,
+    "entry_price": 39,
+    "pnl_cents": -16,
+    "reason": "Forecast shifted -3.6\u00b0F (58.0\u219254.4\u00b0F), severity 2.40x std, prob drop 75% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:12:03.421626+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB22-B50.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 59,
+    "entry_price": 61,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted +7.7\u00b0F (45.0\u219252.7\u00b0F), severity 4.90x std, prob drop 9% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:12:09.307716+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB22-B82.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 61,
+    "entry_price": 64,
+    "pnl_cents": -3,
+    "reason": "Forecast shifted +12.4\u00b0F (70.2\u219282.6\u00b0F), severity 5.88x std, prob drop 19% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:12:15.201015+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTLV-26FEB22-B64.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 59,
+    "entry_price": 53,
+    "pnl_cents": 6,
+    "reason": "Forecast shifted +11.2\u00b0F (54.0\u219265.2\u00b0F), severity 2.48x std, prob drop 9% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:12:21.123403+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTLV-26FEB22-T69",
+    "direction": "yes",
+    "contracts": 200,
+    "price": 1,
+    "edge": 0.1897339107455832,
+    "ts": "2026-02-21T16:12:21.237818+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSATX-26FEB22-T63",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 13,
+    "pnl_cents": -12,
+    "reason": "Forecast shifted -9.2\u00b0F (73.0\u219263.8\u00b0F), severity 6.13x std, prob drop 30% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:12:27.100769+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB22-T66",
+    "direction": "yes",
+    "contracts": 4,
+    "sell_price": 1,
+    "entry_price": 4,
+    "pnl_cents": -12,
+    "reason": "Forecast shifted -22.4\u00b0F (82.4\u219260.0\u00b0F), severity 12.66x std, prob drop 100% - selling 4/4 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:12:33.011349+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB22-T59",
+    "direction": "yes",
+    "contracts": 9,
+    "price": 21,
+    "edge": 0.5039535108292615,
+    "ts": "2026-02-21T16:12:33.137985+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTMIN-26FEB22-T15 (severity=3.20, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHCHI-26FEB22-T28 (severity=2.33, total sold 100%, keeping 0)",
+      "SELL 2/2 KXHIGHTATL-26FEB22-T55 (severity=9.93, total sold 100%, keeping 0)",
+      "SELL 2/2 KXHIGHPHIL-26FEB22-T35 (severity=7.97, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHPHIL-26FEB22-B35.5 NO edge=8.2%",
+      "SELL 1/1 KXHIGHTDAL-26FEB22-T57 (severity=2.40, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTSEA-26FEB22-B50.5 (severity=4.90, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTPHX-26FEB22-B82.5 (severity=5.88, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTLV-26FEB22-B64.5 (severity=2.48, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTLV-26FEB22-T69 YES edge=19.0%",
+      "SELL 1/1 KXHIGHTSATX-26FEB22-T63 (severity=6.13, total sold 100%, keeping 0)",
+      "SELL 4/4 KXHIGHTNOLA-26FEB22-T66 (severity=12.66, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTNOLA-26FEB22-T59 YES edge=50.4%"
+    ],
+    "elapsed": 151.92022275924683,
+    "ts": "2026-02-21T16:12:34.166107+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 96.60849666595459,
+    "ts": "2026-02-21T16:21:38.193038+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTMIN-26FEB22-T15",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 21,
+    "entry_price": 28,
+    "pnl_cents": -7,
+    "reason": "Forecast shifted -4.8\u00b0F (18.3\u219213.5\u00b0F), severity 3.20x std, prob drop 80% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:31:37.138650+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB22-T28",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 27,
+    "entry_price": 30,
+    "pnl_cents": -3,
+    "reason": "Forecast shifted -3.8\u00b0F (32.4\u219228.6\u00b0F), severity 2.53x std, prob drop 34% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:31:47.929337+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHAUS-26FEB22-T62",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 6,
+    "entry_price": 9,
+    "pnl_cents": -9,
+    "reason": "Forecast shifted -9.2\u00b0F (70.6\u219261.4\u00b0F), severity 7.19x std, prob drop 68% - selling 3/3 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:31:53.938831+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHAUS-26FEB22-B64.5",
+    "direction": "no",
+    "contracts": 3,
+    "price": 64,
+    "edge": 0.34134308085748144,
+    "ts": "2026-02-21T16:31:54.062995+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 3,
+    "entry_price": 8,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -15.1\u00b0F (68.5\u219253.4\u00b0F), severity 10.07x std, prob drop 86% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:31:59.994335+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDAL-26FEB22-T57",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 25,
+    "entry_price": 33,
+    "pnl_cents": -8,
+    "reason": "Forecast shifted -3.6\u00b0F (58.0\u219254.4\u00b0F), severity 2.40x std, prob drop 75% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:32:05.956732+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB22-B50.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 59,
+    "entry_price": 61,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted +7.7\u00b0F (45.0\u219252.7\u00b0F), severity 4.90x std, prob drop 9% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:32:11.917804+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSEA-26FEB22-B52.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 67,
+    "edge": 0.08207959534081177,
+    "ts": "2026-02-21T16:32:12.035204+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB22-B82.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 61,
+    "entry_price": 63,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted +12.4\u00b0F (70.2\u219282.6\u00b0F), severity 5.88x std, prob drop 19% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:32:17.962680+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTMIN-26FEB22-T15 (severity=3.20, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHCHI-26FEB22-T28 (severity=2.53, total sold 100%, keeping 0)",
+      "SELL 3/3 KXHIGHAUS-26FEB22-T62 (severity=7.19, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHAUS-26FEB22-B64.5 NO edge=34.1%",
+      "SELL 2/2 KXHIGHTATL-26FEB22-T55 (severity=10.07, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTDAL-26FEB22-T57 (severity=2.40, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTSEA-26FEB22-B50.5 (severity=4.90, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSEA-26FEB22-B52.5 NO edge=8.2%",
+      "SELL 1/1 KXHIGHTPHX-26FEB22-B82.5 (severity=5.88, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 137.10900378227234,
+    "ts": "2026-02-21T16:32:19.061179+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 97.18750190734863,
+    "ts": "2026-02-21T16:41:38.726519+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTMIN-26FEB22-T15",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 22,
+    "entry_price": 26,
+    "pnl_cents": -4,
+    "reason": "Forecast shifted -4.6\u00b0F (18.1\u219213.5\u00b0F), severity 3.07x std, prob drop 81% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:51:34.323003+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTMIN-26FEB22-B19.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 86,
+    "edge": 0.13988447703387175,
+    "ts": "2026-02-21T16:51:34.448887+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB22-T28",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 27,
+    "entry_price": 30,
+    "pnl_cents": -3,
+    "reason": "Forecast shifted -4.0\u00b0F (32.6\u219228.6\u00b0F), severity 2.67x std, prob drop 34% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:51:45.122125+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 6,
+    "pnl_cents": -5,
+    "reason": "Forecast shifted -15.1\u00b0F (68.5\u219253.4\u00b0F), severity 10.07x std, prob drop 86% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:51:51.044019+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDAL-26FEB22-T57",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 31,
+    "entry_price": 33,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted -3.6\u00b0F (58.0\u219254.4\u00b0F), severity 2.40x std, prob drop 75% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:51:56.975774+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTDAL-26FEB22-B57.5",
+    "direction": "no",
+    "contracts": 3,
+    "price": 62,
+    "edge": 0.34667931623581694,
+    "ts": "2026-02-21T16:51:57.092151+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTPHX-26FEB22-B82.5",
+    "direction": "no",
+    "contracts": 1,
+    "sell_price": 61,
+    "entry_price": 63,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted +12.4\u00b0F (70.2\u219282.6\u00b0F), severity 5.88x std, prob drop 19% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:52:02.966346+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB22-T66",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 1,
+    "entry_price": 3,
+    "pnl_cents": -4,
+    "reason": "Forecast shifted -22.0\u00b0F (82.5\u219260.5\u00b0F), severity 16.67x std, prob drop 100% - selling 2/2 (100% total, 100% incremental)",
+    "ts": "2026-02-21T16:52:08.875660+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB22-B63.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 78,
+    "edge": 0.1948900484783681,
+    "ts": "2026-02-21T16:52:08.991517+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTMIN-26FEB22-T15 (severity=3.07, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTMIN-26FEB22-B19.5 NO edge=14.0%",
+      "SELL 1/1 KXHIGHCHI-26FEB22-T28 (severity=2.67, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTATL-26FEB22-T55 (severity=10.07, total sold 100%, keeping 0)",
+      "SELL 1/1 KXHIGHTDAL-26FEB22-T57 (severity=2.40, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTDAL-26FEB22-B57.5 NO edge=34.7%",
+      "SELL 1/1 KXHIGHTPHX-26FEB22-B82.5 (severity=5.88, total sold 100%, keeping 0)",
+      "SELL 2/2 KXHIGHTNOLA-26FEB22-T66 (severity=16.67, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTNOLA-26FEB22-B63.5 NO edge=19.5%"
+    ],
+    "elapsed": 128.0662980079651,
+    "ts": "2026-02-21T16:52:10.022446+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 121.20425629615784,
+    "ts": "2026-02-21T17:02:02.644945+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 2,
+    "entry_price": 7,
+    "pnl_cents": -5,
+    "reason": "Forecast shifted -15.1\u00b0F (68.5\u219253.4\u00b0F), severity 10.07x std, prob drop 86% - selling 1/1 (100% total, 100% incremental)",
+    "ts": "2026-02-21T17:11:44.191206+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTATL-26FEB22-T55 (severity=10.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 103.94226574897766,
+    "ts": "2026-02-21T17:11:45.310134+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 96.2939121723175,
+    "ts": "2026-02-21T17:21:38.021045+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 50.37075686454773,
+    "ts": "2026-02-21T17:30:51.846735+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 40.1212043762207,
+    "ts": "2026-02-21T17:40:42.445081+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 40.47554874420166,
+    "ts": "2026-02-21T17:50:42.282771+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 127.1887674331665,
+    "ts": "2026-02-21T18:02:08.897283+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 40.412901401519775,
+    "ts": "2026-02-21T18:10:42.174151+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 40.42557120323181,
+    "ts": "2026-02-21T18:20:42.031025+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 42.74345922470093,
+    "ts": "2026-02-21T18:30:45.027612+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 67.58805704116821,
+    "ts": "2026-02-21T18:41:09.122382+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 58.89079022407532,
+    "ts": "2026-02-21T18:51:00.272305+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 75.6846330165863,
+    "ts": "2026-02-21T19:01:17.378550+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 39.99163770675659,
+    "ts": "2026-02-21T19:10:41.478089+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 40.70873212814331,
+    "ts": "2026-02-21T19:20:42.610215+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 41.01770329475403,
+    "ts": "2026-02-21T19:30:42.884201+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 40.27487325668335,
+    "ts": "2026-02-21T19:40:41.640145+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 41.61704730987549,
+    "ts": "2026-02-21T19:50:43.618235+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 68.88800883293152,
+    "ts": "2026-02-21T20:01:10.920946+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 119.5482292175293,
+    "ts": "2026-02-21T20:12:01.655741+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 117.85295343399048,
+    "ts": "2026-02-21T20:21:59.928597+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 136.10756731033325,
+    "ts": "2026-02-21T20:32:18.394743+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 103.2921314239502,
+    "ts": "2026-02-21T20:41:45.178799+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 63.729663133621216,
+    "ts": "2026-02-21T20:51:05.601479+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 80.17676162719727,
+    "ts": "2026-02-21T21:01:22.209092+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.71712136268616,
+    "ts": "2026-02-21T21:11:06.199245+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.62411046028137,
+    "ts": "2026-02-21T21:21:06.243615+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 66.40376281738281,
+    "ts": "2026-02-21T21:31:08.055486+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.83781719207764,
+    "ts": "2026-02-21T21:41:06.378783+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.67716813087463,
+    "ts": "2026-02-21T21:51:06.085313+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 88.95633625984192,
+    "ts": "2026-02-21T22:01:30.477779+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.49917387962341,
+    "ts": "2026-02-21T22:11:06.517864+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.91097640991211,
+    "ts": "2026-02-21T22:21:06.849211+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 67.78298020362854,
+    "ts": "2026-02-21T22:31:09.764505+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 63.66694355010986,
+    "ts": "2026-02-21T22:41:05.926056+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 63.99607443809509,
+    "ts": "2026-02-21T22:51:06.157337+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 68.7739098072052,
+    "ts": "2026-02-21T23:01:10.376478+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.21622228622437,
+    "ts": "2026-02-21T23:11:06.542722+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.62324213981628,
+    "ts": "2026-02-21T23:21:06.592810+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 99.53939890861511,
+    "ts": "2026-02-21T23:31:41.612312+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 65.23370742797852,
+    "ts": "2026-02-21T23:41:07.328401+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 25,
+    "elapsed": 64.99074959754944,
+    "ts": "2026-02-21T23:51:06.862187+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTMIN-26FEB22-B15.5",
+    "direction": "no",
+    "contracts": 2,
+    "sell_price": 77,
+    "entry_price": 69,
+    "pnl_cents": 16,
+    "reason": "Temp 15.6\u00b0F landed IN our bracket [15.0-16.0\u00b0F]",
+    "ts": "2026-02-22T00:00:20.021652+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTBOS-26FEB22-T34",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 15,
+    "entry_price": 22,
+    "pnl_cents": -14,
+    "reason": "Past peak (16:00), max only 29.0\u00b0F vs 34.0\u00b0F needed",
+    "ts": "2026-02-22T00:00:32.276943+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTMIN-26FEB22-B15.5: Temp 15.6\u00b0F landed IN our bracket [15.0-16.0\u00b0F]",
+      "BLOWN EXIT KXHIGHTBOS-26FEB22-T34: Past peak (16:00), max only 29.0\u00b0F vs 34.0\u00b0F needed"
+    ],
+    "elapsed": 31.088698387145996,
+    "ts": "2026-02-22T00:00:33.387522+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.13443207740783691,
+    "ts": "2026-02-22T00:10:01.865375+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.12833619117736816,
+    "ts": "2026-02-22T00:20:02.455444+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.18423080444335938,
+    "ts": "2026-02-22T00:30:02.125352+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.12671923637390137,
+    "ts": "2026-02-22T00:40:01.735873+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.12113404273986816,
+    "ts": "2026-02-22T00:50:01.740859+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.1375267505645752,
+    "ts": "2026-02-22T01:00:02.296953+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.17699241638183594,
+    "ts": "2026-02-22T01:15:02.539635+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.14634466171264648,
+    "ts": "2026-02-22T01:30:02.158730+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.13213706016540527,
+    "ts": "2026-02-22T01:45:01.897409+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 1.5482239723205566,
+    "ts": "2026-02-22T02:00:03.884935+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.1323986053466797,
+    "ts": "2026-02-22T02:15:01.774483+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.13166356086730957,
+    "ts": "2026-02-22T02:30:02.092943+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 0.5534651279449463,
+    "ts": "2026-02-22T03:15:02.219796+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTBOS-26FEB22-T34",
+    "direction": "yes",
+    "contracts": 5,
+    "sell_price": 18,
+    "entry_price": 19,
+    "pnl_cents": -5,
+    "reason": "Past peak (20:00), max only 29.7\u00b0F vs 34.0\u00b0F needed",
+    "ts": "2026-02-22T03:30:22.334629+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTBOS-26FEB22-B38.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 84,
+    "edge": 0.140077988195752,
+    "ts": "2026-02-22T03:30:22.466698+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTBOS-26FEB22-T34: Past peak (20:00), max only 29.7\u00b0F vs 34.0\u00b0F needed",
+      "RE-ENTER KXHIGHTBOS-26FEB22-B38.5 NO edge=14.0%"
+    ],
+    "elapsed": 37.650134801864624,
+    "ts": "2026-02-22T03:30:39.605071+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHAUS-26FEB22-T69",
+    "direction": "yes",
+    "contracts": 5,
+    "sell_price": 1,
+    "entry_price": 50,
+    "pnl_cents": -245,
+    "reason": "Past peak (0:00), max only 65.3\u00b0F vs 69.0\u00b0F needed",
+    "ts": "2026-02-22T03:46:32.683860+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB22-B42.5",
+    "direction": "no",
+    "contracts": 2,
+    "sell_price": 67,
+    "entry_price": 50,
+    "pnl_cents": 34,
+    "reason": "Temp 42.9\u00b0F landed IN our bracket [42.0-43.0\u00b0F]",
+    "ts": "2026-02-22T03:47:01.301807+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHAUS-26FEB22-T69: Past peak (0:00), max only 65.3\u00b0F vs 69.0\u00b0F needed",
+      "BLOWN EXIT KXHIGHNY-26FEB22-B42.5: Temp 42.9\u00b0F landed IN our bracket [42.0-43.0\u00b0F]"
+    ],
+    "elapsed": 120.59578657150269,
+    "ts": "2026-02-22T03:47:02.400370+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB22-B28.5",
+    "direction": "no",
+    "contracts": 3,
+    "sell_price": 61,
+    "entry_price": 50,
+    "pnl_cents": 33,
+    "reason": "Temp 28.9\u00b0F landed IN our bracket [28.0-29.0\u00b0F]",
+    "ts": "2026-02-22T04:00:16.816106+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHCHI-26FEB22-B28.5: Temp 28.9\u00b0F landed IN our bracket [28.0-29.0\u00b0F]"
+    ],
+    "elapsed": 107.66213011741638,
+    "ts": "2026-02-22T04:01:49.489523+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHMIA-26FEB22-T82",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 2,
+    "pnl_cents": -1,
+    "reason": "Past peak (19:00), max only 75.5\u00b0F vs 82.0\u00b0F needed",
+    "ts": "2026-02-22T04:16:39.624366+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHMIA-26FEB22-B86.5",
+    "direction": "no",
+    "contracts": 5,
+    "price": 35,
+    "edge": 0.41598552904870056,
+    "ts": "2026-02-22T04:16:39.743755+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHMIA-26FEB22-T82: Past peak (19:00), max only 75.5\u00b0F vs 82.0\u00b0F needed",
+      "RE-ENTER KXHIGHMIA-26FEB22-B86.5 NO edge=41.6%"
+    ],
+    "elapsed": 98.69528722763062,
+    "ts": "2026-02-22T04:16:40.771591+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTMIN-26FEB22-T15",
+    "direction": "yes",
+    "contracts": 4,
+    "sell_price": 12,
+    "entry_price": 10,
+    "pnl_cents": 8,
+    "reason": "Past peak (15:00), max only 12.4\u00b0F vs 15.0\u00b0F needed",
+    "ts": "2026-02-22T04:30:27.968795+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHMIA-26FEB22-T82",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 50,
+    "pnl_cents": -49,
+    "reason": "Past peak (18:00), max only 75.5\u00b0F vs 82.0\u00b0F needed",
+    "ts": "2026-02-22T04:31:55.896565+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTMIN-26FEB22-T15: Past peak (15:00), max only 12.4\u00b0F vs 15.0\u00b0F needed",
+      "BLOWN EXIT KXHIGHMIA-26FEB22-T82: Past peak (18:00), max only 75.5\u00b0F vs 82.0\u00b0F needed"
+    ],
+    "elapsed": 114.90688800811768,
+    "ts": "2026-02-22T04:31:56.997385+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB22-T55",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 4,
+    "entry_price": 14,
+    "pnl_cents": -30,
+    "reason": "Past peak (15:00), max only 53.4\u00b0F vs 55.0\u00b0F needed",
+    "ts": "2026-02-22T04:45:43.930687+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHMIA-26FEB22-T82",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 50,
+    "pnl_cents": -49,
+    "reason": "Past peak (18:00), max only 75.5\u00b0F vs 82.0\u00b0F needed",
+    "ts": "2026-02-22T04:46:50.781190+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTATL-26FEB22-T55: Past peak (15:00), max only 53.4\u00b0F vs 55.0\u00b0F needed",
+      "BLOWN EXIT KXHIGHMIA-26FEB22-T82: Past peak (18:00), max only 75.5\u00b0F vs 82.0\u00b0F needed"
+    ],
+    "elapsed": 110.29905939102173,
+    "ts": "2026-02-22T04:46:51.838545+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB22-B38.5",
+    "direction": "no",
+    "contracts": 3,
+    "sell_price": 27,
+    "entry_price": 50,
+    "pnl_cents": -69,
+    "reason": "Temp 38.2\u00b0F landed IN our bracket [38.0-39.0\u00b0F]",
+    "ts": "2026-02-22T05:01:55.847385+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHNY-26FEB22-B38.5: Temp 38.2\u00b0F landed IN our bracket [38.0-39.0\u00b0F]"
+    ],
+    "elapsed": 120.27916145324707,
+    "ts": "2026-02-22T05:02:02.538475+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 65,
+    "elapsed": 92.04664325714111,
+    "ts": "2026-02-22T05:16:33.494524+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 66,
+    "elapsed": 117.6737129688263,
+    "ts": "2026-02-22T05:31:59.752052+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 67,
+    "elapsed": 97.3496322631836,
+    "ts": "2026-02-22T05:46:39.484561+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 67,
+    "elapsed": 120.58643102645874,
+    "ts": "2026-02-22T06:02:02.491376+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 67,
+    "elapsed": 97.62567257881165,
+    "ts": "2026-02-22T06:16:39.660520+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 67,
+    "elapsed": 127.24817323684692,
+    "ts": "2026-02-22T06:32:09.599854+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 100.84560489654541,
+    "ts": "2026-02-22T06:46:42.431647+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB22-T48",
+    "direction": "yes",
+    "contracts": 100,
+    "sell_price": 5,
+    "entry_price": 50,
+    "pnl_cents": -4500,
+    "reason": "Past peak (21:00), max only 41.7\u00b0F vs 48.0\u00b0F needed",
+    "ts": "2026-02-22T07:01:06.996731+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTSEA-26FEB22-T48: Past peak (21:00), max only 41.7\u00b0F vs 48.0\u00b0F needed"
+    ],
+    "elapsed": 110.68001222610474,
+    "ts": "2026-02-22T07:01:52.554161+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 97.3426604270935,
+    "ts": "2026-02-22T07:16:39.371116+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 101.0945475101471,
+    "ts": "2026-02-22T07:31:43.010443+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 98.31987810134888,
+    "ts": "2026-02-22T07:46:40.079493+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 125.3812084197998,
+    "ts": "2026-02-22T08:02:06.901479+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 99.90292716026306,
+    "ts": "2026-02-22T08:16:41.457713+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 101.36876130104065,
+    "ts": "2026-02-22T08:31:43.637640+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 110.24673271179199,
+    "ts": "2026-02-22T08:46:51.866680+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTSEA-26FEB22-T55",
+    "direction": "no",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 84,
+    "order_id": "067484f3-e99c-42c0-84b2-f54d5ec882e9",
+    "reason": "Forecast shifted +0.9\u00b0F (51.2\u219252.1\u00b0F), severity 0.78x std, prob drop -4% - selling 1/1 (18% total, 18% incremental)",
+    "ts": "2026-02-22T09:01:31.131366+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTSEA-26FEB22-T55 (severity=0.78, total sold 18%, keeping 0)"
+    ],
+    "elapsed": 132.62504315376282,
+    "ts": "2026-02-22T09:02:14.906757+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTSEA-26FEB22-T55",
+    "direction": "no",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 84,
+    "order_id": "05b141bd-5858-4252-b82f-a23c67a480fe",
+    "reason": "Forecast shifted +0.9\u00b0F (51.2\u219252.1\u00b0F), severity 0.78x std, prob drop -4% - selling 1/1 (18% total, 18% incremental)",
+    "ts": "2026-02-22T09:15:55.285437+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTSEA-26FEB22-T55 (severity=0.78, total sold 18%, keeping 0)"
+    ],
+    "elapsed": 96.51787161827087,
+    "ts": "2026-02-22T09:16:38.575857+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 116.4449028968811,
+    "ts": "2026-02-22T09:31:58.200250+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 95.37626934051514,
+    "ts": "2026-02-22T09:46:37.091202+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 118.67061448097229,
+    "ts": "2026-02-22T10:02:00.187009+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 96.23931455612183,
+    "ts": "2026-02-22T10:16:38.374175+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 105.61552906036377,
+    "ts": "2026-02-22T10:31:47.913608+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 107.8397867679596,
+    "ts": "2026-02-22T10:46:49.810900+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 108.96753168106079,
+    "ts": "2026-02-22T11:01:51.198489+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 97.11877965927124,
+    "ts": "2026-02-22T11:16:38.948138+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 100.84202647209167,
+    "ts": "2026-02-22T11:31:43.190462+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 97.2126202583313,
+    "ts": "2026-02-22T11:46:39.208776+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 68,
+    "elapsed": 140.80985236167908,
+    "ts": "2026-02-22T12:02:22.437724+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 64,
+    "elapsed": 97.63852167129517,
+    "ts": "2026-02-22T12:16:39.452255+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 64,
+    "elapsed": 102.958083152771,
+    "ts": "2026-02-22T12:31:44.474165+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 102.70811724662781,
+    "ts": "2026-02-22T12:46:44.126185+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 114.00404500961304,
+    "ts": "2026-02-22T13:01:55.563237+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 103.08860445022583,
+    "ts": "2026-02-22T13:16:45.391664+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 106.07981944084167,
+    "ts": "2026-02-22T13:31:47.700289+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 104.77564692497253,
+    "ts": "2026-02-22T13:46:46.290814+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 112.15063571929932,
+    "ts": "2026-02-22T14:01:53.911844+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 102.94353318214417,
+    "ts": "2026-02-22T14:16:44.463676+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 114.93107867240906,
+    "ts": "2026-02-22T14:31:57.204795+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 102.69323706626892,
+    "ts": "2026-02-22T14:46:44.252747+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 33,
+    "elapsed": 124.97562837600708,
+    "ts": "2026-02-22T15:02:06.648566+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB23-T53",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 12,
+    "entry_price": 49,
+    "pnl_cents": -111,
+    "reason": "Forecast shifted -7.5\u00b0F (64.9\u219257.4\u00b0F), severity 4.03x std, prob drop -4% - selling 3/3 (100% total, 100% incremental)",
+    "ts": "2026-02-22T15:16:59.121038+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB23-T60",
+    "direction": "no",
+    "contracts": 12,
+    "price": 50,
+    "edge": 0.41892086125542494,
+    "ts": "2026-02-22T15:16:59.238814+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 3/3 KXHIGHTNOLA-26FEB23-T53 (severity=4.03, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTNOLA-26FEB23-T60 NO edge=41.9%"
+    ],
+    "elapsed": 123.81788301467896,
+    "ts": "2026-02-22T15:17:05.202088+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB23-T33",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 3,
+    "entry_price": 48,
+    "pnl_cents": -135,
+    "reason": "Forecast shifted -3.3\u00b0F (37.9\u219234.6\u00b0F), severity 1.89x std, prob drop 13% - selling 3/4 (92% total, 92% incremental)",
+    "ts": "2026-02-22T15:31:55.835450+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHNY-26FEB23-B37.5",
+    "direction": "no",
+    "contracts": 7,
+    "price": 78,
+    "edge": 0.16089601272559273,
+    "ts": "2026-02-22T15:31:55.951949+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHPHIL-26FEB23-T32",
+    "direction": "yes",
+    "contracts": 90,
+    "sell_price": 1,
+    "entry_price": 2,
+    "pnl_cents": -90,
+    "reason": "Forecast shifted -4.3\u00b0F (41.9\u219237.6\u00b0F), severity 2.49x std, prob drop -5% - selling 90/90 (100% total, 100% incremental)",
+    "ts": "2026-02-22T15:32:07.086121+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTNOLA-26FEB23-T53",
+    "direction": "yes",
+    "contracts": 22,
+    "filled": 21,
+    "sell_price": 2,
+    "order_id": "8342e7ee-c624-4ac0-af4c-6c9400e754cb",
+    "reason": "Forecast shifted -7.5\u00b0F (64.9\u219257.4\u00b0F), severity 4.03x std, prob drop -4% - selling 22/22 (100% total, 100% incremental)",
+    "ts": "2026-02-22T15:32:23.276482+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB23-B57.5",
+    "direction": "no",
+    "contracts": 8,
+    "price": 68,
+    "edge": 0.10836912777081653,
+    "ts": "2026-02-22T15:32:23.390954+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 3/4 KXHIGHNY-26FEB23-T33 (severity=1.89, total sold 92%, keeping 1)",
+      "HEDGE KXHIGHNY-26FEB23-B37.5 NO edge=16.1%",
+      "SELL 90/90 KXHIGHPHIL-26FEB23-T32 (severity=2.49, total sold 100%, keeping 0)",
+      "SELL 22/22 KXHIGHTNOLA-26FEB23-T53 (severity=4.03, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTNOLA-26FEB23-B57.5 NO edge=10.8%"
+    ],
+    "elapsed": 182.94885754585266,
+    "ts": "2026-02-22T15:33:04.837891+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB23-T33",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 48,
+    "pnl_cents": -47,
+    "reason": "Forecast shifted -3.4\u00b0F (37.9\u219234.5\u00b0F), severity 2.14x std, prob drop 12% - selling 1/1 (100% total, 8% incremental)",
+    "ts": "2026-02-22T15:47:01.970075+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHAUS-26FEB23-B67.5",
+    "direction": "no",
+    "contracts": 10,
+    "filled": 0,
+    "sell_price": 80,
+    "order_id": "7a37bd19-c81a-4fa8-b16a-a878a030f576",
+    "reason": "Forecast shifted +1.6\u00b0F (62.9\u219264.5\u00b0F), severity 1.58x std, prob drop -4% - selling 10/14 (72% total, 72% incremental)",
+    "ts": "2026-02-22T15:47:18.230385+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHAUS-26FEB23-T63",
+    "direction": "yes",
+    "contracts": 167,
+    "price": 3,
+    "edge": 0.9012477565505868,
+    "ts": "2026-02-22T15:47:18.349518+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 16,
+    "sell_price": 8,
+    "entry_price": 10,
+    "pnl_cents": -32,
+    "reason": "Forecast shifted -17.6\u00b0F (58.2\u219240.6\u00b0F), severity 11.73x std, prob drop -1% - selling 16/16 (100% total, 100% incremental)",
+    "ts": "2026-02-22T15:47:54.365729+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHMIA-26FEB23-T67",
+    "direction": "yes",
+    "contracts": 54,
+    "filled": 33,
+    "sell_price": 3,
+    "order_id": "a0829096-43f2-44b5-8669-50c7dc756dff",
+    "reason": "Forecast shifted -20.9\u00b0F (87.0\u219266.1\u00b0F), severity 15.95x std, prob drop 70% - selling 54/54 (100% total, 100% incremental)",
+    "ts": "2026-02-22T15:48:05.534033+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB23-T53",
+    "direction": "yes",
+    "contracts": 19,
+    "sell_price": 2,
+    "entry_price": 8,
+    "pnl_cents": -114,
+    "reason": "Forecast shifted -7.5\u00b0F (64.9\u219257.4\u00b0F), severity 4.26x std, prob drop -4% - selling 19/19 (100% total, 100% incremental)",
+    "ts": "2026-02-22T15:48:16.647647+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHNY-26FEB23-T33 (severity=2.14, total sold 100%, keeping 0)",
+      "SELL 10/14 KXHIGHAUS-26FEB23-B67.5 (severity=1.58, total sold 72%, keeping 4)",
+      "HEDGE KXHIGHAUS-26FEB23-T63 YES edge=90.1%",
+      "SELL 16/16 KXHIGHTATL-26FEB23-T38 (severity=11.73, total sold 100%, keeping 0)",
+      "SELL 54/54 KXHIGHMIA-26FEB23-T67 (severity=15.95, total sold 100%, keeping 0)",
+      "SELL 19/19 KXHIGHTNOLA-26FEB23-T53 (severity=4.26, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 196.20446705818176,
+    "ts": "2026-02-22T15:48:17.738834+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHPHIL-26FEB23-T32",
+    "direction": "yes",
+    "contracts": 78,
+    "filled": 0,
+    "sell_price": 1,
+    "order_id": "368c30cf-b4db-459a-8125-e2d992919268",
+    "reason": "Forecast shifted -4.1\u00b0F (41.9\u219237.8\u00b0F), severity 1.98x std, prob drop -5% - selling 78/80 (99% total, 99% incremental)",
+    "ts": "2026-02-22T16:02:01.473930+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTMIN-26FEB23-B22.5",
+    "direction": "no",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 83,
+    "order_id": "f3b5790f-7bf1-4c1e-91fc-335a5d0a44c9",
+    "reason": "Forecast shifted +2.4\u00b0F (16.0\u219218.4\u00b0F), severity 0.82x std, prob drop 0% - selling 1/4 (21% total, 21% incremental)",
+    "ts": "2026-02-22T16:02:12.442133+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTMIN-26FEB23-T18",
+    "direction": "yes",
+    "contracts": 56,
+    "price": 9,
+    "edge": 0.4642944069514078,
+    "ts": "2026-02-22T16:02:12.565226+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTPHX-26FEB23-B85.5",
+    "direction": "no",
+    "contracts": 6,
+    "filled": 0,
+    "sell_price": 71,
+    "order_id": "d59d4e48-54c0-4a50-97d4-52cbd3310576",
+    "reason": "Forecast shifted +2.5\u00b0F (82.6\u219285.1\u00b0F), severity 1.85x std, prob drop 23% - selling 6/6 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:02:33.424480+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 78/80 KXHIGHPHIL-26FEB23-T32 (severity=1.98, total sold 99%, keeping 2)",
+      "SELL 1/4 KXHIGHTMIN-26FEB23-B22.5 (severity=0.82, total sold 21%, keeping 3)",
+      "HEDGE KXHIGHTMIN-26FEB23-T18 YES edge=46.4%",
+      "SELL 6/6 KXHIGHTPHX-26FEB23-B85.5 (severity=1.85, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 186.92197561264038,
+    "ts": "2026-02-22T16:03:09.073638+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB23-T44",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 2,
+    "entry_price": 7,
+    "pnl_cents": -5,
+    "reason": "Forecast shifted -1.1\u00b0F (42.6\u219241.5\u00b0F), severity 0.61x std, prob drop 14% - selling 1/26 (7% total, 7% incremental)",
+    "ts": "2026-02-22T16:16:47.811641+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHPHIL-26FEB23-T32",
+    "direction": "yes",
+    "contracts": 77,
+    "filled": 0,
+    "sell_price": 1,
+    "order_id": "cb0c846a-d641-4f40-994e-9e131e469af1",
+    "reason": "Forecast shifted -3.9\u00b0F (41.9\u219238.0\u00b0F), severity 1.95x std, prob drop -5% - selling 77/80 (97% total, 97% incremental)",
+    "ts": "2026-02-22T16:16:53.819184+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTOKC-26FEB23-T53",
+    "direction": "no",
+    "contracts": 10,
+    "filled": 0,
+    "sell_price": 85,
+    "order_id": "1ae4591d-8bd4-4c8f-b84b-2601da8cf94c",
+    "reason": "Forecast shifted +5.5\u00b0F (48.7\u219254.2\u00b0F), severity 3.67x std, prob drop 74% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:17:19.073974+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTPHX-26FEB23-B85.5",
+    "direction": "no",
+    "contracts": 6,
+    "filled": 0,
+    "sell_price": 70,
+    "order_id": "3dda370e-0ebb-4119-89dd-91404887f7f5",
+    "reason": "Forecast shifted +3.9\u00b0F (82.6\u219286.5\u00b0F), severity 2.58x std, prob drop 16% - selling 6/6 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:17:25.044935+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 13,
+    "sell_price": 9,
+    "entry_price": 11,
+    "pnl_cents": -26,
+    "reason": "Forecast shifted -17.7\u00b0F (58.2\u219240.5\u00b0F), severity 11.80x std, prob drop -0% - selling 13/13 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:17:35.809165+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHMIA-26FEB23-T67",
+    "direction": "yes",
+    "contracts": 50,
+    "filled": 8,
+    "sell_price": 3,
+    "order_id": "6d68beb0-88fd-428b-8115-c731fd5161f8",
+    "reason": "Forecast shifted -20.8\u00b0F (86.9\u219266.1\u00b0F), severity 13.96x std, prob drop 68% - selling 50/50 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:17:46.672333+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB23-T33",
+    "direction": "yes",
+    "contracts": 30,
+    "sell_price": 4,
+    "entry_price": 5,
+    "pnl_cents": -30,
+    "reason": "Forecast shifted -3.5\u00b0F (37.9\u219234.4\u00b0F), severity 2.02x std, prob drop 16% - selling 30/30 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:18:02.349820+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/26 KXHIGHTDC-26FEB23-T44 (severity=0.61, total sold 7%, keeping 25)",
+      "SELL 77/80 KXHIGHPHIL-26FEB23-T32 (severity=1.95, total sold 97%, keeping 3)",
+      "SELL 10/10 KXHIGHTOKC-26FEB23-T53 (severity=3.67, total sold 100%, keeping 0)",
+      "SELL 6/6 KXHIGHTPHX-26FEB23-B85.5 (severity=2.58, total sold 100%, keeping 0)",
+      "SELL 13/13 KXHIGHTATL-26FEB23-T38 (severity=11.80, total sold 100%, keeping 0)",
+      "SELL 50/50 KXHIGHMIA-26FEB23-T67 (severity=13.96, total sold 100%, keeping 0)",
+      "SELL 30/30 KXHIGHNY-26FEB23-T33 (severity=2.02, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 181.14319396018982,
+    "ts": "2026-02-22T16:18:03.422794+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 14,
+    "sell_price": 9,
+    "entry_price": 10,
+    "pnl_cents": -14,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 14/14 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:32:39.610076+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHNY-26FEB23-T33",
+    "direction": "yes",
+    "contracts": 20,
+    "filled": 11,
+    "sell_price": 11,
+    "order_id": "6c8c627e-2c4a-449c-b9f3-6c3a9c88c653",
+    "reason": "Forecast shifted -3.8\u00b0F (38.2\u219234.4\u00b0F), severity 2.20x std, prob drop 16% - selling 20/20 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:33:05.165046+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTSEA-26FEB23-T45",
+    "direction": "yes",
+    "contracts": 31,
+    "filled": 1,
+    "sell_price": 7,
+    "order_id": "37aea17b-c968-4f4b-99c4-f9f00e4e1689",
+    "reason": "Forecast shifted -4.5\u00b0F (53.2\u219248.7\u00b0F), severity 2.68x std, prob drop -4% - selling 31/31 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:33:11.140399+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSEA-26FEB23-B49.5",
+    "direction": "no",
+    "contracts": 6,
+    "price": 71,
+    "edge": 0.08038460456007912,
+    "ts": "2026-02-22T16:33:11.256718+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 14/14 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)",
+      "SELL 20/20 KXHIGHNY-26FEB23-T33 (severity=2.20, total sold 100%, keeping 0)",
+      "SELL 31/31 KXHIGHTSEA-26FEB23-T45 (severity=2.68, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSEA-26FEB23-B49.5 NO edge=8.0%"
+    ],
+    "elapsed": 190.161958694458,
+    "ts": "2026-02-22T16:33:12.291362+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 13,
+    "sell_price": 9,
+    "entry_price": 10,
+    "pnl_cents": -13,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 13/13 (100% total, 100% incremental)",
+    "ts": "2026-02-22T16:47:32.634760+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 13/13 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 180.78148674964905,
+    "ts": "2026-02-22T16:48:02.810864+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 57,
+    "elapsed": 185.09484839439392,
+    "ts": "2026-02-22T17:03:07.335590+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 13,
+    "sell_price": 9,
+    "entry_price": 10,
+    "pnl_cents": -13,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 13/13 (100% total, 100% incremental)",
+    "ts": "2026-02-22T17:17:31.044007+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 13/13 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 179.62485909461975,
+    "ts": "2026-02-22T17:18:01.271534+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 13,
+    "sell_price": 11,
+    "entry_price": 10,
+    "pnl_cents": 13,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 13/13 (100% total, 100% incremental)",
+    "ts": "2026-02-22T17:32:38.127538+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 13/13 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 186.5046193599701,
+    "ts": "2026-02-22T17:33:08.383722+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 11,
+    "sell_price": 12,
+    "entry_price": 12,
+    "pnl_cents": 0,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 11/11 (100% total, 100% incremental)",
+    "ts": "2026-02-22T17:47:31.200437+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 11/11 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 179.07463121414185,
+    "ts": "2026-02-22T17:48:01.345003+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHMIA-26FEB22-B86.5",
+    "direction": "no",
+    "contracts": 5,
+    "sell_price": 95,
+    "entry_price": 50,
+    "pnl_cents": 225,
+    "reason": "Temp 86.1\u00b0F landed IN our bracket [86.0-87.0\u00b0F]",
+    "ts": "2026-02-22T18:01:43.244305+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHMIA-26FEB22-B86.5: Temp 86.1\u00b0F landed IN our bracket [86.0-87.0\u00b0F]"
+    ],
+    "elapsed": 190.61129641532898,
+    "ts": "2026-02-22T18:03:12.376698+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 12,
+    "entry_price": 13,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T18:17:30.794121+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 179.2991337776184,
+    "ts": "2026-02-22T18:18:00.823096+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 12,
+    "entry_price": 13,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T18:32:36.861074+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 184.92245388031006,
+    "ts": "2026-02-22T18:33:07.122048+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 12,
+    "entry_price": 13,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T18:47:47.334580+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 197.85058760643005,
+    "ts": "2026-02-22T18:48:19.832011+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 57,
+    "elapsed": 192.92908811569214,
+    "ts": "2026-02-22T19:03:15.177658+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 12,
+    "entry_price": 13,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -19.1\u00b0F (59.6\u219240.5\u00b0F), severity 12.73x std, prob drop -0% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T19:17:31.187005+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=12.73, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 179.56800961494446,
+    "ts": "2026-02-22T19:18:01.430847+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 12,
+    "entry_price": 13,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T19:32:34.866198+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 182.60771250724792,
+    "ts": "2026-02-22T19:33:04.930910+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 12,
+    "entry_price": 13,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T19:47:33.227616+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 182.009357213974,
+    "ts": "2026-02-22T19:48:03.787439+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 58,
+    "elapsed": 185.08573055267334,
+    "ts": "2026-02-22T20:03:07.294381+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 12,
+    "entry_price": 13,
+    "pnl_cents": -10,
+    "reason": "Forecast shifted -18.1\u00b0F (58.6\u219240.5\u00b0F), severity 12.07x std, prob drop -0% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-22T20:17:30.888947+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=12.07, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 179.34991931915283,
+    "ts": "2026-02-22T20:18:00.956075+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 182.43584561347961,
+    "ts": "2026-02-22T20:33:03.968549+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 197.8177399635315,
+    "ts": "2026-02-22T20:48:19.965184+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 181.63932275772095,
+    "ts": "2026-02-22T21:03:03.035490+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 178.10431098937988,
+    "ts": "2026-02-22T21:17:59.864737+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 179.22982001304626,
+    "ts": "2026-02-22T21:33:01.233519+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 178.1906955242157,
+    "ts": "2026-02-22T21:47:59.759246+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 217.5598111152649,
+    "ts": "2026-02-22T22:03:39.740862+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 178.06704378128052,
+    "ts": "2026-02-22T22:18:00.231093+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 205.91311144828796,
+    "ts": "2026-02-22T22:33:28.216466+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 179.04399752616882,
+    "ts": "2026-02-22T22:48:00.622254+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 180.77555084228516,
+    "ts": "2026-02-22T23:03:02.831630+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 60,
+    "elapsed": 178.24451518058777,
+    "ts": "2026-02-22T23:17:59.837639+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 58,
+    "elapsed": 176.38048434257507,
+    "ts": "2026-02-22T23:32:58.145740+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 58,
+    "elapsed": 189.24309277534485,
+    "ts": "2026-02-22T23:48:11.591656+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTMIN-26FEB23-B22.5",
+    "direction": "no",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 80,
+    "order_id": "8fc63aea-95ef-4234-b63e-8d89669879f5",
+    "reason": "Forecast shifted +2.4\u00b0F (16.0\u219218.4\u00b0F), severity 0.83x std, prob drop 0% - selling 1/4 (22% total, 22% incremental)",
+    "ts": "2026-02-23T00:00:33.372344+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTMIN-26FEB23-T18",
+    "direction": "yes",
+    "contracts": 47,
+    "price": 12,
+    "edge": 0.43523102437548566,
+    "ts": "2026-02-23T00:00:33.489227+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T45",
+    "direction": "yes",
+    "contracts": 15,
+    "sell_price": 2,
+    "entry_price": 50,
+    "pnl_cents": -720,
+    "reason": "Past peak (0:00), max only 39.9\u00b0F vs 45.0\u00b0F needed",
+    "ts": "2026-02-23T00:01:17.397012+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTATL-26FEB23-B42.5",
+    "direction": "no",
+    "contracts": 7,
+    "price": 71,
+    "edge": 0.14937797883058979,
+    "ts": "2026-02-23T00:01:17.529647+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTATL-26FEB23-T38",
+    "direction": "yes",
+    "contracts": 10,
+    "sell_price": 10,
+    "entry_price": 13,
+    "pnl_cents": -30,
+    "reason": "Forecast shifted -17.8\u00b0F (58.6\u219240.8\u00b0F), severity 11.87x std, prob drop -2% - selling 10/10 (100% total, 100% incremental)",
+    "ts": "2026-02-23T00:01:18.637502+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/4 KXHIGHTMIN-26FEB23-B22.5 (severity=0.83, total sold 22%, keeping 3)",
+      "HEDGE KXHIGHTMIN-26FEB23-T18 YES edge=43.5%",
+      "BLOWN EXIT KXHIGHTATL-26FEB23-T45: Past peak (0:00), max only 39.9\u00b0F vs 45.0\u00b0F needed",
+      "RE-ENTER KXHIGHTATL-26FEB23-B42.5 NO edge=14.9%",
+      "SELL 10/10 KXHIGHTATL-26FEB23-T38 (severity=11.87, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 118.95917129516602,
+    "ts": "2026-02-23T00:02:01.038626+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 92.35422110557556,
+    "ts": "2026-02-23T00:16:34.485155+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSFO-26FEB23-T67",
+    "direction": "yes",
+    "contracts": 18,
+    "sell_price": 13,
+    "entry_price": 50,
+    "pnl_cents": -666,
+    "reason": "Past peak (0:00), max only 62.2\u00b0F vs 67.0\u00b0F needed",
+    "ts": "2026-02-23T00:30:35.051307+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSFO-26FEB23-T60",
+    "direction": "yes",
+    "contracts": 178,
+    "price": 3,
+    "edge": 0.9694398414551609,
+    "ts": "2026-02-23T00:30:35.164612+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB23-B49.5",
+    "direction": "no",
+    "contracts": 2,
+    "sell_price": 67,
+    "entry_price": 50,
+    "pnl_cents": 34,
+    "reason": "Temp 49.5\u00b0F landed IN our bracket [49.0-50.0\u00b0F]",
+    "ts": "2026-02-23T00:31:40.563660+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTSFO-26FEB23-T67: Past peak (0:00), max only 62.2\u00b0F vs 67.0\u00b0F needed",
+      "RE-ENTER KXHIGHTSFO-26FEB23-T60 YES edge=96.9%",
+      "BLOWN EXIT KXHIGHTSEA-26FEB23-B49.5: Temp 49.5\u00b0F landed IN our bracket [49.0-50.0\u00b0F]"
+    ],
+    "elapsed": 115.49796843528748,
+    "ts": "2026-02-23T00:31:57.718832+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSFO-26FEB23-T67",
+    "direction": "yes",
+    "contracts": 13,
+    "sell_price": 9,
+    "entry_price": 50,
+    "pnl_cents": -533,
+    "reason": "Past peak (0:00), max only 62.2\u00b0F vs 67.0\u00b0F needed",
+    "ts": "2026-02-23T00:46:34.668204+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSFO-26FEB23-B64.5",
+    "direction": "no",
+    "contracts": 8,
+    "price": 65,
+    "edge": 0.17939396630710058,
+    "ts": "2026-02-23T00:46:34.791101+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTSFO-26FEB23-T67: Past peak (0:00), max only 62.2\u00b0F vs 67.0\u00b0F needed",
+      "RE-ENTER KXHIGHTSFO-26FEB23-B64.5 NO edge=17.9%"
+    ],
+    "elapsed": 93.53196597099304,
+    "ts": "2026-02-23T00:46:35.830876+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 102.20396518707275,
+    "ts": "2026-02-23T01:01:44.476638+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 92.22210717201233,
+    "ts": "2026-02-23T01:16:34.336092+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 98.20944166183472,
+    "ts": "2026-02-23T01:31:39.981739+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 91.96380066871643,
+    "ts": "2026-02-23T01:46:33.382696+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 100.65246915817261,
+    "ts": "2026-02-23T02:01:42.453662+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 92.23485398292542,
+    "ts": "2026-02-23T02:16:33.600086+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 97.14731359481812,
+    "ts": "2026-02-23T02:31:39.444735+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 92.07644844055176,
+    "ts": "2026-02-23T02:46:34.303312+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB23-T37",
+    "direction": "yes",
+    "contracts": 3,
+    "sell_price": 1,
+    "entry_price": 51,
+    "pnl_cents": -150,
+    "reason": "Past peak (20:00), max only 33.1\u00b0F vs 37.0\u00b0F needed",
+    "ts": "2026-02-23T03:00:16.404856+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB23-T44",
+    "direction": "yes",
+    "contracts": 25,
+    "sell_price": 2,
+    "entry_price": 7,
+    "pnl_cents": -125,
+    "reason": "Past peak (20:00), max only 33.1\u00b0F vs 44.0\u00b0F needed",
+    "ts": "2026-02-23T03:00:17.553517+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTDC-26FEB23-T37",
+    "direction": "yes",
+    "contracts": 231,
+    "price": 2,
+    "edge": 0.9746629602977404,
+    "ts": "2026-02-23T03:00:17.686997+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHPHIL-26FEB23-T39",
+    "direction": "yes",
+    "contracts": 5,
+    "sell_price": 29,
+    "entry_price": 50,
+    "pnl_cents": -105,
+    "reason": "Past peak (20:00), max only 31.3\u00b0F vs 39.0\u00b0F needed",
+    "ts": "2026-02-23T03:00:25.439373+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB23-T26",
+    "direction": "yes",
+    "contracts": 37,
+    "sell_price": 1,
+    "entry_price": 50,
+    "pnl_cents": -1813,
+    "reason": "Past peak (19:00), max only 24.6\u00b0F vs 26.0\u00b0F needed",
+    "ts": "2026-02-23T03:01:36.962537+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHCHI-26FEB23-B28.5",
+    "direction": "no",
+    "contracts": 7,
+    "price": 59,
+    "edge": 0.18586933574403675,
+    "ts": "2026-02-23T03:01:37.085091+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTDC-26FEB23-T37: Past peak (20:00), max only 33.1\u00b0F vs 37.0\u00b0F needed",
+      "BLOWN EXIT KXHIGHTDC-26FEB23-T44: Past peak (20:00), max only 33.1\u00b0F vs 44.0\u00b0F needed",
+      "RE-ENTER KXHIGHTDC-26FEB23-T37 YES edge=97.5%",
+      "BLOWN EXIT KXHIGHPHIL-26FEB23-T39: Past peak (20:00), max only 31.3\u00b0F vs 39.0\u00b0F needed",
+      "BLOWN EXIT KXHIGHCHI-26FEB23-T26: Past peak (19:00), max only 24.6\u00b0F vs 26.0\u00b0F needed",
+      "RE-ENTER KXHIGHCHI-26FEB23-B28.5 NO edge=18.6%"
+    ],
+    "elapsed": 107.4206759929657,
+    "ts": "2026-02-23T03:01:49.164195+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB23-T44",
+    "direction": "yes",
+    "contracts": 6,
+    "sell_price": 1,
+    "entry_price": 50,
+    "pnl_cents": -294,
+    "reason": "Past peak (20:00), max only 33.1\u00b0F vs 44.0\u00b0F needed",
+    "ts": "2026-02-23T03:16:28.820244+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTDC-26FEB23-T37",
+    "direction": "yes",
+    "contracts": 243,
+    "price": 2,
+    "edge": 0.9746629602977404,
+    "ts": "2026-02-23T03:16:28.938296+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTDC-26FEB23-T44: Past peak (20:00), max only 33.1\u00b0F vs 44.0\u00b0F needed",
+      "RE-ENTER KXHIGHTDC-26FEB23-T37 YES edge=97.5%"
+    ],
+    "elapsed": 93.20728039741516,
+    "ts": "2026-02-23T03:16:35.388012+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 53,
+    "elapsed": 96.99996709823608,
+    "ts": "2026-02-23T03:31:39.073778+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTMIN-26FEB23-B22.5",
+    "direction": "no",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 82,
+    "order_id": "f69e48d8-73d4-4837-9b2e-776dc8fcafdf",
+    "reason": "Forecast shifted +2.1\u00b0F (16.0\u219218.1\u00b0F), severity 1.37x std, prob drop -5% - selling 1/4 (58% total, 36% incremental)",
+    "ts": "2026-02-23T03:45:42.220345+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTMIN-26FEB23-T18",
+    "direction": "yes",
+    "contracts": 67,
+    "price": 7,
+    "edge": 0.4560561061853757,
+    "ts": "2026-02-23T03:45:42.337924+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/4 KXHIGHTMIN-26FEB23-B22.5 (severity=1.37, total sold 58%, keeping 3)",
+      "HEDGE KXHIGHTMIN-26FEB23-T18 YES edge=45.6%"
+    ],
+    "elapsed": 125.62118983268738,
+    "ts": "2026-02-23T03:47:07.357938+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 53,
+    "elapsed": 120.61638855934143,
+    "ts": "2026-02-23T04:02:02.398802+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 53,
+    "elapsed": 91.94648504257202,
+    "ts": "2026-02-23T04:16:33.624803+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 53,
+    "elapsed": 96.37097382545471,
+    "ts": "2026-02-23T04:31:38.742824+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB23-T33",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 12,
+    "entry_price": 50,
+    "pnl_cents": -38,
+    "reason": "Past peak (21:00), max only 30.3\u00b0F vs 33.0\u00b0F needed",
+    "ts": "2026-02-23T04:45:56.322689+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHNY-26FEB23-B33.5",
+    "direction": "no",
+    "contracts": 7,
+    "price": 60,
+    "edge": 0.22850026450397154,
+    "ts": "2026-02-23T04:45:56.440998+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHNY-26FEB23-T33: Past peak (21:00), max only 30.3\u00b0F vs 33.0\u00b0F needed",
+      "RE-ENTER KXHIGHNY-26FEB23-B33.5 NO edge=22.9%"
+    ],
+    "elapsed": 93.78769254684448,
+    "ts": "2026-02-23T04:46:35.593551+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 53,
+    "elapsed": 122.73575043678284,
+    "ts": "2026-02-23T05:02:04.741902+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHCHI-26FEB23-T26",
+    "direction": "yes",
+    "contracts": 34,
+    "sell_price": 1,
+    "entry_price": 4,
+    "pnl_cents": -102,
+    "reason": "Past peak (19:00), max only 24.6\u00b0F vs 26.0\u00b0F needed",
+    "ts": "2026-02-23T05:16:27.960774+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHCHI-26FEB23-T26: Past peak (19:00), max only 24.6\u00b0F vs 26.0\u00b0F needed"
+    ],
+    "elapsed": 92.97300028800964,
+    "ts": "2026-02-23T05:16:34.421252+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 111.29517936706543,
+    "ts": "2026-02-23T05:31:53.234095+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 92.57920217514038,
+    "ts": "2026-02-23T05:46:34.771629+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 129.1508948802948,
+    "ts": "2026-02-23T06:02:11.357120+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 92.56934762001038,
+    "ts": "2026-02-23T06:16:34.224965+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 98.17645692825317,
+    "ts": "2026-02-23T06:31:39.957051+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 283.59576082229614,
+    "ts": "2026-02-23T06:49:45.064250+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSEA-26FEB23-T45",
+    "direction": "yes",
+    "contracts": 30,
+    "sell_price": 2,
+    "entry_price": 10,
+    "pnl_cents": -240,
+    "reason": "Past peak (15:00), max only 43.8\u00b0F vs 45.0\u00b0F needed",
+    "ts": "2026-02-23T07:03:38.205696+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTSEA-26FEB23-T45: Past peak (15:00), max only 43.8\u00b0F vs 45.0\u00b0F needed"
+    ],
+    "elapsed": 318.9263620376587,
+    "ts": "2026-02-23T07:05:20.445673+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 243.21551060676575,
+    "ts": "2026-02-23T07:19:05.178424+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 245.8332486152649,
+    "ts": "2026-02-23T07:49:07.518197+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 53,
+    "elapsed": 298.63556361198425,
+    "ts": "2026-02-23T08:05:00.574417+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 243.22602772712708,
+    "ts": "2026-02-23T08:19:05.308115+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 246.9786524772644,
+    "ts": "2026-02-23T08:34:09.184884+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 243.07797241210938,
+    "ts": "2026-02-23T08:49:04.689856+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 273.0185589790344,
+    "ts": "2026-02-23T09:04:35.124387+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 243.11243963241577,
+    "ts": "2026-02-23T09:19:05.101251+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 270.6841583251953,
+    "ts": "2026-02-23T09:34:32.188469+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 243.12286972999573,
+    "ts": "2026-02-23T09:49:04.741308+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 297.22216415405273,
+    "ts": "2026-02-23T10:04:59.397166+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 227.87978053092957,
+    "ts": "2026-02-23T10:18:49.693796+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 274.2324137687683,
+    "ts": "2026-02-23T10:34:36.499923+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 56,
+    "elapsed": 244.8630301952362,
+    "ts": "2026-02-23T10:49:06.780258+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 279.0885329246521,
+    "ts": "2026-02-23T11:04:41.292469+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 227.98033165931702,
+    "ts": "2026-02-23T11:18:49.478480+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 55,
+    "elapsed": 248.33207201957703,
+    "ts": "2026-02-23T11:34:10.164235+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 243.16144514083862,
+    "ts": "2026-02-23T11:49:04.749000+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 54,
+    "elapsed": 275.6450083255768,
+    "ts": "2026-02-23T12:04:37.824880+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 49,
+    "elapsed": 229.55920433998108,
+    "ts": "2026-02-23T12:18:51.680035+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 50,
+    "elapsed": 250.68025541305542,
+    "ts": "2026-02-23T12:34:12.846439+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 32,
+    "elapsed": 258.74613308906555,
+    "ts": "2026-02-23T12:49:21.020229+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 32,
+    "elapsed": 268.63211584091187,
+    "ts": "2026-02-23T13:04:30.094722+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 28,
+    "elapsed": 254.16176676750183,
+    "ts": "2026-02-23T13:19:16.027720+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 30,
+    "elapsed": 261.38355350494385,
+    "ts": "2026-02-23T13:34:22.794178+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 30,
+    "elapsed": 258.38286781311035,
+    "ts": "2026-02-23T13:49:20.604663+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 30,
+    "elapsed": 322.4547288417816,
+    "ts": "2026-02-23T14:05:24.631246+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 27,
+    "elapsed": 258.36154651641846,
+    "ts": "2026-02-23T14:19:20.071378+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 30,
+    "elapsed": 264.7424838542938,
+    "ts": "2026-02-23T14:34:26.498206+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 30,
+    "elapsed": 258.3412103652954,
+    "ts": "2026-02-23T14:49:20.287389+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 29,
+    "elapsed": 287.7963559627533,
+    "ts": "2026-02-23T15:04:49.509830+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 28,
+    "elapsed": 258.1252694129944,
+    "ts": "2026-02-23T15:19:20.057198+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 27,
+    "elapsed": 247.35510563850403,
+    "ts": "2026-02-23T15:34:09.300683+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 243.21074390411377,
+    "ts": "2026-02-23T15:49:05.392058+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTPHX-26FEB23-T83",
+    "direction": "yes",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 1,
+    "order_id": "a510192f-cd50-442b-bc18-f88a98ffa77c",
+    "reason": "Forecast shifted -1.3\u00b0F (86.9\u219285.6\u00b0F), severity 1.08x std, prob drop -3% - selling 1/2 (39% total, 39% incremental)",
+    "ts": "2026-02-23T16:01:22.321191+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/2 KXHIGHTPHX-26FEB23-T83 (severity=1.08, total sold 39%, keeping 1)"
+    ],
+    "elapsed": 142.00975561141968,
+    "ts": "2026-02-23T16:02:23.831391+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 26,
+    "elapsed": 134.5702645778656,
+    "ts": "2026-02-23T16:17:16.103255+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTSATX-26FEB24-B75.5",
+    "direction": "no",
+    "contracts": 6,
+    "filled": 0,
+    "sell_price": 66,
+    "order_id": "bc849fc8-2617-4c8a-99e4-624c5c3b126b",
+    "reason": "Forecast shifted +9.1\u00b0F (65.2\u219274.3\u00b0F), severity 6.07x std, prob drop 14% - selling 6/6 (100% total, 100% incremental)",
+    "ts": "2026-02-23T16:32:36.241182+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTSATX-26FEB24-B79.5",
+    "direction": "no",
+    "contracts": 2,
+    "price": 90,
+    "edge": 0.09920818283482702,
+    "ts": "2026-02-23T16:32:36.391943+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTNOLA-26FEB24-B62.5",
+    "direction": "no",
+    "contracts": 4,
+    "filled": 0,
+    "sell_price": 68,
+    "order_id": "acefb69c-66ef-4af8-86ee-a5f9d21c6db7",
+    "reason": "Forecast shifted +5.6\u00b0F (58.1\u219263.7\u00b0F), severity 3.73x std, prob drop 14% - selling 4/4 (100% total, 100% incremental)",
+    "ts": "2026-02-23T16:32:45.437239+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 6/6 KXHIGHTSATX-26FEB24-B75.5 (severity=6.07, total sold 100%, keeping 0)",
+      "HEDGE KXHIGHTSATX-26FEB24-B79.5 NO edge=9.9%",
+      "SELL 4/4 KXHIGHTNOLA-26FEB24-B62.5 (severity=3.73, total sold 100%, keeping 0)"
+    ],
+    "elapsed": 220.35331344604492,
+    "ts": "2026-02-23T16:33:42.276156+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTLV-26FEB24-B75.5",
+    "direction": "no",
+    "contracts": 2,
+    "filled": 0,
+    "sell_price": 70,
+    "order_id": "123d7d72-e39e-490d-96a5-bb46e63d1f64",
+    "reason": "Forecast shifted +4.3\u00b0F (69.1\u219273.4\u00b0F), severity 1.91x std, prob drop 6% - selling 2/3 (94% total, 94% incremental)",
+    "ts": "2026-02-23T16:47:25.127465+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTLV-26FEB24-T71",
+    "direction": "yes",
+    "contracts": 70,
+    "price": 3,
+    "edge": 0.8269388078044915,
+    "ts": "2026-02-23T16:47:25.266617+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 2/3 KXHIGHTLV-26FEB24-B75.5 (severity=1.91, total sold 94%, keeping 1)",
+      "HEDGE KXHIGHTLV-26FEB24-T71 YES edge=82.7%"
+    ],
+    "elapsed": 232.19260668754578,
+    "ts": "2026-02-23T16:48:53.907078+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 292.64737701416016,
+    "ts": "2026-02-23T17:04:54.979986+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 229.45031189918518,
+    "ts": "2026-02-23T17:18:51.018576+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 233.7216775417328,
+    "ts": "2026-02-23T17:33:56.082228+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 229.58139395713806,
+    "ts": "2026-02-23T17:48:51.873805+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 282.93478322029114,
+    "ts": "2026-02-23T18:04:45.235590+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 229.85959601402283,
+    "ts": "2026-02-23T18:18:51.903990+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 235.98556089401245,
+    "ts": "2026-02-23T18:33:58.266322+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 244.8629002571106,
+    "ts": "2026-02-23T18:49:05.749750+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTMIN-26FEB23-B22.5",
+    "direction": "no",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 89,
+    "order_id": "65b97cab-91a1-4f93-bbd5-577a97ad6c19",
+    "reason": "Forecast shifted +2.5\u00b0F (16.0\u219218.5\u00b0F), severity 1.60x std, prob drop -2% - selling 1/3 (74% total, 15% incremental)",
+    "ts": "2026-02-23T19:00:43.702485+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTMIN-26FEB23-T18",
+    "direction": "yes",
+    "contracts": 72,
+    "price": 3,
+    "edge": 0.47,
+    "ts": "2026-02-23T19:00:43.963777+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/3 KXHIGHTMIN-26FEB23-B22.5 (severity=1.60, total sold 74%, keeping 2)",
+      "HEDGE KXHIGHTMIN-26FEB23-T18 YES edge=47.0%"
+    ],
+    "elapsed": 311.2030870914459,
+    "ts": "2026-02-23T19:05:13.380500+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 230.99073910713196,
+    "ts": "2026-02-23T19:18:52.896959+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 40,
+    "elapsed": 234.4654779434204,
+    "ts": "2026-02-23T19:33:56.294219+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 231.37961435317993,
+    "ts": "2026-02-23T19:48:52.762740+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 260.02832412719727,
+    "ts": "2026-02-23T20:04:22.249464+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 231.49693059921265,
+    "ts": "2026-02-23T20:18:53.738693+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 426.2816095352173,
+    "ts": "2026-02-23T20:37:08.590779+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 39,
+    "elapsed": 601.18980717659,
+    "ts": "2026-02-23T20:55:03.218931+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 38,
+    "elapsed": 835.0246710777283,
+    "ts": "2026-02-23T21:13:56.684949+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 38,
+    "elapsed": 780.4502990245819,
+    "ts": "2026-02-23T21:28:02.548305+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 803.6732969284058,
+    "ts": "2026-02-23T21:43:25.649766+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 779.9989562034607,
+    "ts": "2026-02-23T21:58:02.069478+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 811.187385559082,
+    "ts": "2026-02-23T22:13:32.691372+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 780.2919166088104,
+    "ts": "2026-02-23T22:28:02.404086+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 803.4487109184265,
+    "ts": "2026-02-23T22:43:25.273080+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 779.8189747333527,
+    "ts": "2026-02-23T22:58:01.524431+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 792.3716700077057,
+    "ts": "2026-02-23T23:13:14.309845+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 782.1003203392029,
+    "ts": "2026-02-23T23:28:03.831438+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 775.0241780281067,
+    "ts": "2026-02-23T23:42:57.272895+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 780.5128636360168,
+    "ts": "2026-02-23T23:58:02.203391+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 112.86649346351624,
+    "ts": "2026-02-24T00:01:54.499282+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 101.51243305206299,
+    "ts": "2026-02-24T00:16:43.536647+00:00"
+  },
+  {
+    "action": "resting_sell_placed",
+    "ticker": "KXHIGHTLV-26FEB24-B75.5",
+    "direction": "no",
+    "contracts": 1,
+    "filled": 0,
+    "sell_price": 71,
+    "order_id": "17f95a9a-cece-4d87-bc5a-2435b94ca75c",
+    "reason": "Forecast shifted +3.5\u00b0F (69.1\u219272.6\u00b0F), severity 2.33x std, prob drop 5% - selling 1/3 (100% total, 6% incremental)",
+    "ts": "2026-02-24T00:30:12.694827+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/3 KXHIGHTLV-26FEB24-B75.5 (severity=2.33, total sold 100%, keeping 2)"
+    ],
+    "elapsed": 105.09323811531067,
+    "ts": "2026-02-24T00:31:46.866087+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 110.56708240509033,
+    "ts": "2026-02-24T00:46:52.165273+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTLV-26FEB24-T71",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 2,
+    "entry_price": 3,
+    "pnl_cents": -1,
+    "reason": "Past peak (15:00), max only 66.3\u00b0F vs 72\u00b0F needed",
+    "ts": "2026-02-24T01:00:15.564236+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTLV-26FEB24-B71.5",
+    "direction": "yes",
+    "contracts": 48,
+    "price": 5,
+    "edge": 0.3426668764658648,
+    "ts": "2026-02-24T01:00:15.922320+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTLV-26FEB24-T71: Past peak (15:00), max only 66.3\u00b0F vs 72\u00b0F needed",
+      "RE-ENTER KXHIGHTLV-26FEB24-B71.5 YES edge=34.3%"
+    ],
+    "elapsed": 118.57256388664246,
+    "ts": "2026-02-24T01:02:00.165697+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 101.3241651058197,
+    "ts": "2026-02-24T01:16:43.623098+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 105.32599568367004,
+    "ts": "2026-02-24T01:31:47.151220+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 102.11271595954895,
+    "ts": "2026-02-24T01:46:43.744767+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 117.24425840377808,
+    "ts": "2026-02-24T02:01:59.421986+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 102.11542296409607,
+    "ts": "2026-02-24T02:16:43.651210+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 119.27313876152039,
+    "ts": "2026-02-24T02:32:01.219810+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 101.31055212020874,
+    "ts": "2026-02-24T02:46:43.100053+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTLV-26FEB24-B71.5",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 5,
+    "entry_price": 5,
+    "pnl_cents": 0,
+    "reason": "Past peak, temp 59.9\u00b0F missed bracket [71-72\u00b0F]",
+    "ts": "2026-02-24T03:00:16.275123+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTLV-26FEB24-T71",
+    "direction": "yes",
+    "contracts": 122,
+    "price": 2,
+    "edge": 0.8237765508250292,
+    "ts": "2026-02-24T03:00:16.575703+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTLV-26FEB24-B71.5: Past peak, temp 59.9\u00b0F missed bracket [71-72\u00b0F]",
+      "RE-ENTER KXHIGHTLV-26FEB24-T71 YES edge=82.4%"
+    ],
+    "elapsed": 111.0597894191742,
+    "ts": "2026-02-24T03:01:52.578658+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 101.417795419693,
+    "ts": "2026-02-24T03:16:43.412671+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 107.21369290351868,
+    "ts": "2026-02-24T03:31:49.480478+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 112.35992550849915,
+    "ts": "2026-02-24T03:46:54.335313+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTOKC-26FEB24-T68",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 2,
+    "entry_price": 6,
+    "pnl_cents": -4,
+    "reason": "Past peak (15:00), max only 42.6\u00b0F vs 69\u00b0F needed",
+    "ts": "2026-02-24T04:01:50.561404+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTOKC-26FEB24-B72.5",
+    "direction": "no",
+    "contracts": 3,
+    "price": 67,
+    "edge": 0.2548391617989735,
+    "ts": "2026-02-24T04:01:50.796061+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTOKC-26FEB24-T68: Past peak (15:00), max only 42.6\u00b0F vs 69\u00b0F needed",
+      "RE-ENTER KXHIGHTOKC-26FEB24-B72.5 NO edge=25.5%"
+    ],
+    "elapsed": 146.18503546714783,
+    "ts": "2026-02-24T04:02:27.940301+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 101.42284440994263,
+    "ts": "2026-02-24T04:16:43.522172+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 112.20402765274048,
+    "ts": "2026-02-24T04:31:53.994095+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 102.37384676933289,
+    "ts": "2026-02-24T04:46:44.488688+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTNOLA-26FEB24-T60",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 7,
+    "pnl_cents": -6,
+    "reason": "Past peak (21:00), max only 54.3\u00b0F vs 61\u00b0F needed",
+    "ts": "2026-02-24T05:01:39.747391+00:00"
+  },
+  {
+    "action": "reentry",
+    "ticker": "KXHIGHTNOLA-26FEB24-B64.5",
+    "direction": "yes",
+    "contracts": 6,
+    "price": 34,
+    "edge": 0.14838867578756199,
+    "ts": "2026-02-24T05:01:39.957633+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTNOLA-26FEB24-T60: Past peak (21:00), max only 54.3\u00b0F vs 61\u00b0F needed",
+      "RE-ENTER KXHIGHTNOLA-26FEB24-B64.5 YES edge=14.8%"
+    ],
+    "elapsed": 115.99806380271912,
+    "ts": "2026-02-24T05:01:57.937902+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 101.24488377571106,
+    "ts": "2026-02-24T05:16:43.611931+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 107.72418785095215,
+    "ts": "2026-02-24T05:31:49.144671+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 101.27354598045349,
+    "ts": "2026-02-24T05:46:42.913827+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 110.79816603660583,
+    "ts": "2026-02-24T06:01:53.157013+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 93.031494140625,
+    "ts": "2026-02-24T06:16:34.565096+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 111.32250332832336,
+    "ts": "2026-02-24T06:31:53.067632+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 103.89244985580444,
+    "ts": "2026-02-24T06:46:45.509174+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 105.54716777801514,
+    "ts": "2026-02-24T07:01:47.554853+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 93.09403896331787,
+    "ts": "2026-02-24T07:16:35.492665+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 97.23049521446228,
+    "ts": "2026-02-24T07:31:39.235995+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 182.6325421333313,
+    "ts": "2026-02-24T07:48:04.360440+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 207.15781593322754,
+    "ts": "2026-02-24T08:03:28.949500+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 183.34769010543823,
+    "ts": "2026-02-24T08:18:05.062341+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 187.11735367774963,
+    "ts": "2026-02-24T08:33:08.728168+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 183.06366896629333,
+    "ts": "2026-02-24T08:48:05.239510+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 35,
+    "elapsed": 193.70450854301453,
+    "ts": "2026-02-24T09:03:15.393851+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 197.83835983276367,
+    "ts": "2026-02-24T09:18:19.404495+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 205.13995027542114,
+    "ts": "2026-02-24T09:33:26.657535+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 198.03060054779053,
+    "ts": "2026-02-24T09:48:20.113038+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 203.98995423316956,
+    "ts": "2026-02-24T10:03:25.538066+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 197.7691249847412,
+    "ts": "2026-02-24T10:18:19.554079+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 208.2185459136963,
+    "ts": "2026-02-24T10:33:29.662657+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 199.800861120224,
+    "ts": "2026-02-24T10:48:21.931125+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 202.44993352890015,
+    "ts": "2026-02-24T11:03:24.804394+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 198.05818343162537,
+    "ts": "2026-02-24T11:18:20.167941+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 201.7315571308136,
+    "ts": "2026-02-24T11:33:24.047493+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 197.9029779434204,
+    "ts": "2026-02-24T11:48:19.383315+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 36,
+    "elapsed": 208.7641441822052,
+    "ts": "2026-02-24T12:03:30.568394+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 198.00059366226196,
+    "ts": "2026-02-24T12:18:19.797061+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 34,
+    "elapsed": 203.3603675365448,
+    "ts": "2026-02-24T12:33:24.865078+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 24,
+    "elapsed": 198.10545587539673,
+    "ts": "2026-02-24T12:48:20.397257+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 24,
+    "elapsed": 200.03420281410217,
+    "ts": "2026-02-24T13:03:21.849925+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 197.7485167980194,
+    "ts": "2026-02-24T13:18:19.779517+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 199.9895966053009,
+    "ts": "2026-02-24T13:33:22.049224+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 197.92887330055237,
+    "ts": "2026-02-24T13:48:19.416638+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 202.60773825645447,
+    "ts": "2026-02-24T14:03:24.445143+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 197.64132738113403,
+    "ts": "2026-02-24T14:18:19.269135+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 199.65833163261414,
+    "ts": "2026-02-24T14:33:21.221365+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 197.5506043434143,
+    "ts": "2026-02-24T14:48:19.190550+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 20,
+    "elapsed": 200.98906326293945,
+    "ts": "2026-02-24T15:03:22.623439+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 182.53232741355896,
+    "ts": "2026-02-24T15:18:04.011598+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 23,
+    "elapsed": 244.69356513023376,
+    "ts": "2026-02-24T15:34:06.975494+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 242.16880559921265,
+    "ts": "2026-02-24T15:49:03.582402+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 243.69964170455933,
+    "ts": "2026-02-24T16:04:05.721773+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 241.47451758384705,
+    "ts": "2026-02-24T16:19:02.871071+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 244.90549087524414,
+    "ts": "2026-02-24T16:34:06.427129+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 242.08728766441345,
+    "ts": "2026-02-24T16:49:03.940893+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 245.75184440612793,
+    "ts": "2026-02-24T17:04:08.119559+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 241.57087969779968,
+    "ts": "2026-02-24T17:19:03.052866+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 243.0933678150177,
+    "ts": "2026-02-24T17:34:04.918014+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 256.2443060874939,
+    "ts": "2026-02-24T17:49:18.676406+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 289.87708806991577,
+    "ts": "2026-02-24T18:04:51.978998+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 256.9537777900696,
+    "ts": "2026-02-24T18:19:18.507755+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 275.1619985103607,
+    "ts": "2026-02-24T18:34:36.977334+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 256.10108757019043,
+    "ts": "2026-02-24T18:49:17.509122+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 278.8140187263489,
+    "ts": "2026-02-24T19:04:40.753670+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 256.0847980976105,
+    "ts": "2026-02-24T19:19:18.408371+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTBOS-26FEB24-T30",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 1,
+    "entry_price": 33,
+    "pnl_cents": -64,
+    "reason": "Temp 31.1\u00b0F already \u2265 30\u00b0F \u2014 below market YES blown",
+    "ts": "2026-02-24T19:32:34.025763+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTBOS-26FEB24-T30: Temp 31.1\u00b0F already \u2265 30\u00b0F \u2014 below market YES blown"
+    ],
+    "elapsed": 256.3192813396454,
+    "ts": "2026-02-24T19:34:18.087560+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 256.76663875579834,
+    "ts": "2026-02-24T19:49:18.281870+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 272.7223517894745,
+    "ts": "2026-02-24T20:04:34.434983+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 19,
+    "elapsed": 256.61051869392395,
+    "ts": "2026-02-24T20:19:18.174990+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 242.67280864715576,
+    "ts": "2026-02-24T20:34:04.461479+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 241.1266007423401,
+    "ts": "2026-02-24T20:49:03.010626+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 245.4526014328003,
+    "ts": "2026-02-24T21:04:06.895907+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 241.00336337089539,
+    "ts": "2026-02-24T21:19:02.470116+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 16,
+    "elapsed": 224.105642080307,
+    "ts": "2026-02-24T21:33:45.715126+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 16,
+    "elapsed": 210.74893069267273,
+    "ts": "2026-02-24T21:48:32.885506+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 15,
+    "elapsed": 213.05624723434448,
+    "ts": "2026-02-24T22:03:35.363411+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 15,
+    "elapsed": 210.76098132133484,
+    "ts": "2026-02-24T22:18:32.537139+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 14,
+    "elapsed": 199.6319980621338,
+    "ts": "2026-02-24T22:33:21.972507+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 14,
+    "elapsed": 197.02680563926697,
+    "ts": "2026-02-24T22:48:18.426912+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTBOS-26FEB24-T30",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 1,
+    "entry_price": 33,
+    "pnl_cents": -64,
+    "reason": "Past peak (15:00), max only 22.1\u00b0F vs 31\u00b0F needed",
+    "ts": "2026-02-24T23:03:57.662427+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTBOS-26FEB24-T30: Past peak (15:00), max only 22.1\u00b0F vs 31\u00b0F needed"
+    ],
+    "elapsed": 235.8409903049469,
+    "ts": "2026-02-24T23:03:57.700643+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 14,
+    "elapsed": 195.63064765930176,
+    "ts": "2026-02-24T23:18:17.978063+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 14,
+    "elapsed": 197.4999485015869,
+    "ts": "2026-02-24T23:33:19.470130+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 14,
+    "elapsed": 195.58108973503113,
+    "ts": "2026-02-24T23:48:17.472613+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB25-T58",
+    "direction": "yes",
+    "contracts": 4,
+    "sell_price": 4,
+    "entry_price": 8,
+    "pnl_cents": -16,
+    "reason": "Forecast shifted -1.7\u00b0F (56.3\u219254.6\u00b0F), severity 0.90x std, prob drop 17% - selling 4/10 (42% total, 42% incremental)",
+    "ts": "2026-02-25T00:00:33.910858+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 4/10 KXHIGHTDC-26FEB25-T58 (severity=0.90, total sold 42%, keeping 6)"
+    ],
+    "elapsed": 49.32422661781311,
+    "ts": "2026-02-25T00:00:51.230432+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 15,
+    "elapsed": 51.31461215019226,
+    "ts": "2026-02-25T00:15:53.154724+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 72.94172644615173,
+    "ts": "2026-02-25T00:31:14.928674+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.68480467796326,
+    "ts": "2026-02-25T00:46:09.695155+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 70.64531970024109,
+    "ts": "2026-02-25T01:01:12.762465+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 68.84481453895569,
+    "ts": "2026-02-25T01:16:11.169979+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 70.75799942016602,
+    "ts": "2026-02-25T01:31:12.423283+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDC-26FEB25-T58",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 6,
+    "entry_price": 8,
+    "pnl_cents": -2,
+    "reason": "Forecast shifted -2.0\u00b0F (56.3\u219254.3\u00b0F), severity 1.14x std, prob drop 18% - selling 1/1 (57% total, 15% incremental)",
+    "ts": "2026-02-25T01:45:27.190976+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 1/1 KXHIGHTDC-26FEB25-T58 (severity=1.14, total sold 57%, keeping 0)"
+    ],
+    "elapsed": 88.33994698524475,
+    "ts": "2026-02-25T01:46:29.830952+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHDEN-26FEB25-T65",
+    "direction": "yes",
+    "contracts": 2,
+    "sell_price": 6,
+    "entry_price": 8,
+    "pnl_cents": -4,
+    "reason": "Forecast shifted +0.9\u00b0F (66.3\u219267.2\u00b0F), severity 0.60x std, prob drop 17% - selling 2/10 (22% total, 22% incremental)",
+    "ts": "2026-02-25T02:00:22.950769+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "SELL 2/10 KXHIGHDEN-26FEB25-T65 (severity=0.60, total sold 22%, keeping 8)"
+    ],
+    "elapsed": 64.52778220176697,
+    "ts": "2026-02-25T02:01:06.793901+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 16,
+    "elapsed": 59.47937488555908,
+    "ts": "2026-02-25T02:16:01.163147+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 16,
+    "elapsed": 63.17748951911926,
+    "ts": "2026-02-25T02:31:04.835766+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 16,
+    "elapsed": 59.11185884475708,
+    "ts": "2026-02-25T02:46:01.127341+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHPHIL-26FEB25-T44",
+    "direction": "yes",
+    "contracts": 5,
+    "sell_price": 3,
+    "entry_price": 2,
+    "pnl_cents": 5,
+    "reason": "Past peak (20:00), max only 28.4\u00b0F vs 45\u00b0F needed",
+    "ts": "2026-02-25T03:00:31.686821+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHPHIL-26FEB25-T44: Past peak (20:00), max only 28.4\u00b0F vs 45\u00b0F needed"
+    ],
+    "elapsed": 64.7002625465393,
+    "ts": "2026-02-25T03:01:06.258716+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 16,
+    "elapsed": 59.10189986228943,
+    "ts": "2026-02-25T03:16:01.314825+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 16,
+    "elapsed": 61.81439280509949,
+    "ts": "2026-02-25T03:31:03.565048+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 76.00151872634888,
+    "ts": "2026-02-25T03:46:17.612441+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 81.21532773971558,
+    "ts": "2026-02-25T04:01:23.244476+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 76.09731483459473,
+    "ts": "2026-02-25T04:16:18.018478+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 91.29106044769287,
+    "ts": "2026-02-25T04:31:32.760418+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 18,
+    "elapsed": 76.53389525413513,
+    "ts": "2026-02-25T04:46:18.779758+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTDAL-26FEB25-T80",
+    "direction": "yes",
+    "contracts": 12,
+    "sell_price": 1,
+    "entry_price": 7,
+    "pnl_cents": -72,
+    "reason": "Past peak (21:00), max only 70.3\u00b0F vs 81\u00b0F needed",
+    "ts": "2026-02-25T05:00:33.077320+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHTDAL-26FEB25-T80: Past peak (21:00), max only 70.3\u00b0F vs 81\u00b0F needed"
+    ],
+    "elapsed": 82.64228296279907,
+    "ts": "2026-02-25T05:01:24.875121+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.32333755493164,
+    "ts": "2026-02-25T05:16:09.248380+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 80.51562404632568,
+    "ts": "2026-02-25T05:31:22.205729+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 68.04718565940857,
+    "ts": "2026-02-25T05:46:09.754528+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 72.8055808544159,
+    "ts": "2026-02-25T06:01:14.982774+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.634122133255,
+    "ts": "2026-02-25T06:16:09.039106+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 73.0136079788208,
+    "ts": "2026-02-25T06:31:14.499190+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.37635684013367,
+    "ts": "2026-02-25T06:46:09.361904+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 81.73689556121826,
+    "ts": "2026-02-25T07:01:23.533708+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.37144470214844,
+    "ts": "2026-02-25T07:16:08.943159+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 70.10747981071472,
+    "ts": "2026-02-25T07:31:11.493274+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 68.12782454490662,
+    "ts": "2026-02-25T07:46:10.102037+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 85.25514912605286,
+    "ts": "2026-02-25T08:01:26.790471+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.34346294403076,
+    "ts": "2026-02-25T08:16:09.642224+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 71.43528008460999,
+    "ts": "2026-02-25T08:31:13.515312+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.34344792366028,
+    "ts": "2026-02-25T08:46:09.340785+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 75.1091058254242,
+    "ts": "2026-02-25T09:01:16.965898+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.42239046096802,
+    "ts": "2026-02-25T09:16:09.586561+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 79.65781211853027,
+    "ts": "2026-02-25T09:31:21.675736+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.36698603630066,
+    "ts": "2026-02-25T09:46:09.522028+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 73.3385899066925,
+    "ts": "2026-02-25T10:01:15.282615+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.373863697052,
+    "ts": "2026-02-25T10:16:09.094479+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 72.09901237487793,
+    "ts": "2026-02-25T10:31:13.619887+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.8089714050293,
+    "ts": "2026-02-25T10:46:09.908430+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 85.53898882865906,
+    "ts": "2026-02-25T11:01:27.865923+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.38105988502502,
+    "ts": "2026-02-25T11:16:09.604666+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 86.19241905212402,
+    "ts": "2026-02-25T11:31:28.219881+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 67.93076586723328,
+    "ts": "2026-02-25T11:46:09.627604+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 17,
+    "elapsed": 99.49996495246887,
+    "ts": "2026-02-25T12:01:41.546973+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 15,
+    "elapsed": 67.3262951374054,
+    "ts": "2026-02-25T12:16:09.551689+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 15,
+    "elapsed": 70.92495226860046,
+    "ts": "2026-02-25T12:31:12.898987+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 67.39046311378479,
+    "ts": "2026-02-25T12:46:08.768839+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 71.89312386512756,
+    "ts": "2026-02-25T13:01:14.092537+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 68.52673983573914,
+    "ts": "2026-02-25T13:16:10.664073+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 82.06563544273376,
+    "ts": "2026-02-25T13:31:24.163600+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 67.41590237617493,
+    "ts": "2026-02-25T13:46:09.062949+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 74.36850810050964,
+    "ts": "2026-02-25T14:01:15.864948+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 68.02033305168152,
+    "ts": "2026-02-25T14:16:09.696108+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 70.48475670814514,
+    "ts": "2026-02-25T14:31:12.639318+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 67.37727928161621,
+    "ts": "2026-02-25T14:46:09.502232+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 69.79688835144043,
+    "ts": "2026-02-25T15:01:11.810457+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 67.35739231109619,
+    "ts": "2026-02-25T15:16:09.299478+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 9,
+    "elapsed": 71.68115258216858,
+    "ts": "2026-02-25T15:31:13.405597+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 81.50361347198486,
+    "ts": "2026-02-25T15:46:23.402594+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 127.8708803653717,
+    "ts": "2026-02-25T16:02:09.693613+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.76973867416382,
+    "ts": "2026-02-25T16:17:03.153980+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 124.32926321029663,
+    "ts": "2026-02-25T16:32:05.916691+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 122.30748295783997,
+    "ts": "2026-02-25T16:47:03.703247+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 137.20543432235718,
+    "ts": "2026-02-25T17:02:19.334553+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.6889443397522,
+    "ts": "2026-02-25T17:17:03.420817+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 140.38982439041138,
+    "ts": "2026-02-25T17:32:22.228716+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.803391456604,
+    "ts": "2026-02-25T17:47:03.511294+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 125.42627239227295,
+    "ts": "2026-02-25T18:02:07.397706+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.65779376029968,
+    "ts": "2026-02-25T18:17:03.781784+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 125.2306706905365,
+    "ts": "2026-02-25T18:32:07.436124+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.64645671844482,
+    "ts": "2026-02-25T18:47:03.564309+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 144.70057368278503,
+    "ts": "2026-02-25T19:02:26.690167+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.65274333953857,
+    "ts": "2026-02-25T19:17:03.122003+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 123.90797090530396,
+    "ts": "2026-02-25T19:32:05.451502+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.7112238407135,
+    "ts": "2026-02-25T19:47:03.641118+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 128.95931839942932,
+    "ts": "2026-02-25T20:02:11.023113+00:00"
+  },
+  {
+    "action": "safe_sell_audit",
+    "ticker": "KXHIGHTOKC-26FEB25-T73",
+    "intended_side": "yes",
+    "intended_contracts": 5,
+    "intended_price": 1,
+    "position_side_held": "yes",
+    "position_count": 5,
+    "kalshi_position_raw": 5,
+    "clamped_contracts": 5,
+    "order_action": "sell",
+    "executed": true,
+    "post_sell_position": 5,
+    "ts": "2026-02-25T20:16:03.314839+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTOKC-26FEB25-T73",
+    "direction": "yes",
+    "contracts": 5,
+    "sell_price": 1,
+    "entry_price": 17,
+    "pnl_cents": -80,
+    "reason": "Temp 73.1\u00b0F already \u2265 73\u00b0F \u2014 below market YES blown",
+    "ts": "2026-02-25T20:16:03.324363+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "BLOWN EXIT KXHIGHTOKC-26FEB25-T73: Temp 73.1\u00b0F already \u2265 73\u00b0F \u2014 below market YES blown",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 122.0890805721283,
+    "ts": "2026-02-25T20:17:04.218063+00:00"
+  },
+  {
+    "action": "safe_sell_audit",
+    "ticker": "KXHIGHNY-26FEB25-T39",
+    "intended_side": "yes",
+    "intended_contracts": 1,
+    "intended_price": 1,
+    "position_side_held": "yes",
+    "position_count": 1,
+    "kalshi_position_raw": 1,
+    "clamped_contracts": 1,
+    "order_action": "sell",
+    "executed": true,
+    "post_sell_position": 1,
+    "ts": "2026-02-25T20:30:19.578637+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHNY-26FEB25-T39",
+    "direction": "yes",
+    "contracts": 1,
+    "sell_price": 1,
+    "entry_price": 6,
+    "pnl_cents": -5,
+    "reason": "Temp 40.0\u00b0F already \u2265 39\u00b0F \u2014 below market YES blown",
+    "ts": "2026-02-25T20:30:19.587099+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHNY-26FEB25-T39: Temp 40.0\u00b0F already \u2265 39\u00b0F \u2014 below market YES blown",
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 124.56514191627502,
+    "ts": "2026-02-25T20:32:06.200535+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.71760487556458,
+    "ts": "2026-02-25T20:47:03.399812+00:00"
+  },
+  {
+    "action": "safe_sell_audit",
+    "ticker": "KXHIGHTSATX-26FEB25-T85",
+    "intended_side": "yes",
+    "intended_contracts": 19,
+    "intended_price": 1,
+    "position_side_held": "yes",
+    "position_count": 19,
+    "kalshi_position_raw": 19,
+    "clamped_contracts": 19,
+    "order_action": "sell",
+    "executed": true,
+    "post_sell_position": 19,
+    "ts": "2026-02-25T21:00:50.261583+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSATX-26FEB25-T85",
+    "direction": "yes",
+    "contracts": 19,
+    "sell_price": 1,
+    "entry_price": 5,
+    "pnl_cents": -76,
+    "reason": "Temp 85.6\u00b0F already \u2265 85\u00b0F \u2014 below market YES blown",
+    "ts": "2026-02-25T21:00:50.271536+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "BLOWN EXIT KXHIGHTSATX-26FEB25-T85: Temp 85.6\u00b0F already \u2265 85\u00b0F \u2014 below market YES blown",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 124.39317107200623,
+    "ts": "2026-02-25T21:02:06.216570+00:00"
+  },
+  {
+    "action": "safe_sell_audit",
+    "ticker": "KXHIGHTSATX-26FEB25-T85",
+    "intended_side": "yes",
+    "intended_contracts": 19,
+    "intended_price": 1,
+    "position_side_held": "yes",
+    "position_count": 19,
+    "kalshi_position_raw": 19,
+    "clamped_contracts": 19,
+    "order_action": "sell",
+    "executed": true,
+    "post_sell_position": 19,
+    "ts": "2026-02-25T21:15:48.159502+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHTSATX-26FEB25-T85",
+    "direction": "yes",
+    "contracts": 19,
+    "sell_price": 1,
+    "entry_price": 5,
+    "pnl_cents": -76,
+    "reason": "Temp 86.1\u00b0F already \u2265 85\u00b0F \u2014 below market YES blown",
+    "ts": "2026-02-25T21:15:48.169208+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "BLOWN EXIT KXHIGHTSATX-26FEB25-T85: Temp 86.1\u00b0F already \u2265 85\u00b0F \u2014 below market YES blown",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 122.39701056480408,
+    "ts": "2026-02-25T21:17:04.416179+00:00"
+  },
+  {
+    "action": "safe_sell_audit",
+    "ticker": "KXHIGHDEN-26FEB25-T65",
+    "intended_side": "yes",
+    "intended_contracts": 8,
+    "intended_price": 1,
+    "position_side_held": "yes",
+    "position_count": 8,
+    "kalshi_position_raw": 8,
+    "clamped_contracts": 8,
+    "order_action": "sell",
+    "executed": true,
+    "post_sell_position": 8,
+    "ts": "2026-02-25T21:30:19.123135+00:00"
+  },
+  {
+    "action": "exit",
+    "ticker": "KXHIGHDEN-26FEB25-T65",
+    "direction": "yes",
+    "contracts": 8,
+    "sell_price": 1,
+    "entry_price": 8,
+    "pnl_cents": -56,
+    "reason": "Temp 65.1\u00b0F already \u2265 65\u00b0F \u2014 below market YES blown",
+    "ts": "2026-02-25T21:30:19.131458+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "BLOWN EXIT KXHIGHDEN-26FEB25-T65: Temp 65.1\u00b0F already \u2265 65\u00b0F \u2014 below market YES blown",
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 124.21822094917297,
+    "ts": "2026-02-25T21:32:06.071644+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.87160921096802,
+    "ts": "2026-02-25T21:47:03.423042+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 136.958815574646,
+    "ts": "2026-02-25T22:02:18.803445+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.7569010257721,
+    "ts": "2026-02-25T22:17:03.253935+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 138.12215518951416,
+    "ts": "2026-02-25T22:32:19.849247+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 122.10446786880493,
+    "ts": "2026-02-25T22:47:04.455971+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 140.47359108924866,
+    "ts": "2026-02-25T23:02:22.366700+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.8524477481842,
+    "ts": "2026-02-25T23:17:03.565459+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 129.27128982543945,
+    "ts": "2026-02-25T23:32:11.284573+00:00"
+  },
+  {
+    "action": "run_with_actions",
+    "actions": [
+      "HELD (rescue mode) KXHIGHTLV-26FEB25-B80.5",
+      "HELD (rescue mode) KXHIGHTPHX-26FEB25-B89.5",
+      "HELD (rescue mode) KXHIGHTDC-26FEB25-B55.5"
+    ],
+    "elapsed": 121.78678226470947,
+    "ts": "2026-02-25T23:47:03.562686+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.333341121673584,
+    "ts": "2026-02-26T00:00:02.358808+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.3142552375793457,
+    "ts": "2026-02-26T00:15:02.351984+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2753455638885498,
+    "ts": "2026-02-26T00:30:02.055706+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2420487403869629,
+    "ts": "2026-02-26T00:45:01.774755+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.3783133029937744,
+    "ts": "2026-02-26T01:00:02.576207+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.35100436210632324,
+    "ts": "2026-02-26T01:15:02.058827+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.25697779655456543,
+    "ts": "2026-02-26T01:30:01.757150+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2716989517211914,
+    "ts": "2026-02-26T01:45:02.516824+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2780797481536865,
+    "ts": "2026-02-26T02:00:02.218799+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.27739524841308594,
+    "ts": "2026-02-26T02:15:02.597509+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24587512016296387,
+    "ts": "2026-02-26T02:30:02.278827+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2527010440826416,
+    "ts": "2026-02-26T02:45:02.001074+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.27761316299438477,
+    "ts": "2026-02-26T03:00:01.722211+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.3215141296386719,
+    "ts": "2026-02-26T03:15:02.495420+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24218249320983887,
+    "ts": "2026-02-26T03:30:02.169096+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2878425121307373,
+    "ts": "2026-02-26T03:45:01.941585+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.27982544898986816,
+    "ts": "2026-02-26T04:00:01.667880+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2714226245880127,
+    "ts": "2026-02-26T04:15:02.140215+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2729473114013672,
+    "ts": "2026-02-26T04:30:01.835705+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2760913372039795,
+    "ts": "2026-02-26T04:45:02.596246+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2919471263885498,
+    "ts": "2026-02-26T05:00:02.307936+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2780444622039795,
+    "ts": "2026-02-26T05:15:02.296506+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2540879249572754,
+    "ts": "2026-02-26T05:30:01.975208+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.25367236137390137,
+    "ts": "2026-02-26T05:45:01.734438+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.258225679397583,
+    "ts": "2026-02-26T06:00:02.424355+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2548553943634033,
+    "ts": "2026-02-26T06:15:02.406395+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24666595458984375,
+    "ts": "2026-02-26T06:30:02.108405+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24892544746398926,
+    "ts": "2026-02-26T06:45:01.837926+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24445271492004395,
+    "ts": "2026-02-26T07:00:02.500620+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2494218349456787,
+    "ts": "2026-02-26T07:15:02.502643+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.22940325736999512,
+    "ts": "2026-02-26T07:30:02.159781+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24767804145812988,
+    "ts": "2026-02-26T07:45:01.892173+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.23357343673706055,
+    "ts": "2026-02-26T08:00:02.550494+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.19261431694030762,
+    "ts": "2026-02-26T08:15:02.439668+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24137449264526367,
+    "ts": "2026-02-26T08:30:02.128521+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.23937129974365234,
+    "ts": "2026-02-26T08:45:01.842898+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2124183177947998,
+    "ts": "2026-02-26T09:00:02.476194+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.24599981307983398,
+    "ts": "2026-02-26T09:15:02.478469+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.234511137008667,
+    "ts": "2026-02-26T09:30:02.138704+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.23300886154174805,
+    "ts": "2026-02-26T09:45:01.852003+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.22719335556030273,
+    "ts": "2026-02-26T10:00:02.512940+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.25526881217956543,
+    "ts": "2026-02-26T10:15:02.009019+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.3302910327911377,
+    "ts": "2026-02-26T10:30:01.776191+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2716059684753418,
+    "ts": "2026-02-26T10:45:02.527485+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2457747459411621,
+    "ts": "2026-02-26T11:00:02.200713+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.25040316581726074,
+    "ts": "2026-02-26T11:15:02.217474+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.2517721652984619,
+    "ts": "2026-02-26T11:30:01.948774+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.258253812789917,
+    "ts": "2026-02-26T11:45:01.690793+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 8,
+    "elapsed": 0.26184773445129395,
+    "ts": "2026-02-26T12:00:02.374047+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 6,
+    "elapsed": 0.2248826026916504,
+    "ts": "2026-02-26T12:15:02.513006+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 6,
+    "elapsed": 0.2280895709991455,
+    "ts": "2026-02-26T12:30:02.164069+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 1,
+    "elapsed": 0.16722345352172852,
+    "ts": "2026-02-26T12:45:01.812600+00:00"
+  },
+  {
+    "action": "run_clean",
+    "positions": 1,
+    "elapsed": 0.1577610969543457,
+    "ts": "2026-02-26T13:00:02.392896+00:00"
+  }
+]

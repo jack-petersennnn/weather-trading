@@ -1,0 +1,1203 @@
+{
+  "generated_at": "2026-03-01T19:03:14.463474+00:00",
+  "method": "ACIS_365d_corrected_MAE_threshold",
+  "max_corrected_mae_threshold": 2.0,
+  "formula": "corrected_mae = sqrt(raw_mae\u00b2 - bias\u00b2)",
+  "training_models": [
+    "HRRR",
+    "MET Norway",
+    "Tomorrow.io",
+    "Visual Crossing",
+    "NWS Forecast",
+    "NWS Hourly"
+  ],
+  "cities": {
+    "Atlanta": {
+      "weights": {
+        "GFS": 4.183,
+        "ICON": 2.593,
+        "ECMWF": 2.151,
+        "Canadian GEM": 1.027,
+        "JMA": 1.058,
+        "UKMO": 2.96,
+        "Meteo-France Arpege": 1.189,
+        "Ensemble ECMWF": 2.151,
+        "Ensemble GFS": 4.183,
+        "Ensemble ICON": 2.593,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.875,
+        "ICON": -2.727,
+        "ECMWF": -3.209,
+        "Canadian GEM": -2.885,
+        "JMA": -3.947,
+        "UKMO": -4.124,
+        "Meteo-France Arpege": -2.045,
+        "Ensemble ECMWF": -3.209,
+        "Ensemble GFS": -1.875,
+        "Ensemble ICON": -2.727
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.48,
+        "ICON": 0.77,
+        "ECMWF": 0.93,
+        "Canadian GEM": 1.95,
+        "JMA": 1.89,
+        "UKMO": 0.68,
+        "Meteo-France Arpege": 1.68
+      },
+      "raw_maes": {
+        "GFS": 1.935,
+        "ICON": 2.834,
+        "ECMWF": 3.341,
+        "Canadian GEM": 3.481,
+        "JMA": 4.376,
+        "UKMO": 4.179,
+        "Meteo-France Arpege": 2.648
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Austin": {
+      "weights": {
+        "GFS": 3.983,
+        "ICON": 2.172,
+        "ECMWF": 2.435,
+        "Canadian GEM": 1.052,
+        "JMA": 1.229,
+        "UKMO": 1.634,
+        "Meteo-France Arpege": 1.016,
+        "Ensemble ECMWF": 2.435,
+        "Ensemble GFS": 3.983,
+        "Ensemble ICON": 2.172,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.049,
+        "ICON": -1.986,
+        "ECMWF": -2.375,
+        "Canadian GEM": -1.355,
+        "JMA": -5.69,
+        "UKMO": -2.357,
+        "Meteo-France Arpege": -1.07,
+        "Ensemble ECMWF": -2.375,
+        "Ensemble GFS": -1.049,
+        "Ensemble ICON": -1.986
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.5,
+        "ICON": 0.92,
+        "ECMWF": 0.82,
+        "Canadian GEM": 1.9,
+        "JMA": 1.63,
+        "UKMO": 1.22,
+        "Meteo-France Arpege": 1.97
+      },
+      "raw_maes": {
+        "GFS": 1.163,
+        "ICON": 2.189,
+        "ECMWF": 2.513,
+        "Canadian GEM": 2.335,
+        "JMA": 5.918,
+        "UKMO": 2.656,
+        "Meteo-France Arpege": 2.24
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Boston": {
+      "weights": {
+        "GFS": 1.537,
+        "ICON": 0.0,
+        "ECMWF": 1.176,
+        "Canadian GEM": 1.815,
+        "JMA": 1.223,
+        "UKMO": 1.229,
+        "Meteo-France Arpege": 0.0,
+        "Ensemble ECMWF": 1.176,
+        "Ensemble GFS": 1.537,
+        "Ensemble ICON": 0.0,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -0.198,
+        "ICON": -0.201,
+        "ECMWF": -0.933,
+        "Canadian GEM": -3.972,
+        "JMA": -2.44,
+        "UKMO": -0.917,
+        "Meteo-France Arpege": -0.836,
+        "Ensemble ECMWF": -0.933,
+        "Ensemble GFS": -0.198,
+        "Ensemble ICON": -0.201
+      },
+      "disabled_models": [
+        "ICON",
+        "Meteo-France Arpege",
+        "Ensemble ICON"
+      ],
+      "corrected_maes": {
+        "GFS": 1.3,
+        "ICON": 2.0,
+        "ECMWF": 1.7,
+        "Canadian GEM": 1.1,
+        "JMA": 1.63,
+        "UKMO": 1.63,
+        "Meteo-France Arpege": 2.07
+      },
+      "raw_maes": {
+        "GFS": 1.316,
+        "ICON": 2.015,
+        "ECMWF": 1.94,
+        "Canadian GEM": 4.122,
+        "JMA": 2.937,
+        "UKMO": 1.868,
+        "Meteo-France Arpege": 2.235
+      },
+      "enabled_families": [
+        "ecmwf",
+        "gem",
+        "gfs",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 5
+    },
+    "Chicago": {
+      "weights": {
+        "GFS": 2.823,
+        "ICON": 1.699,
+        "ECMWF": 2.395,
+        "Canadian GEM": 1.537,
+        "JMA": 1.221,
+        "UKMO": 1.665,
+        "Meteo-France Arpege": 1.556,
+        "Ensemble ECMWF": 2.395,
+        "Ensemble GFS": 2.823,
+        "Ensemble ICON": 1.699,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.355,
+        "ICON": -1.2,
+        "ECMWF": -2.172,
+        "Canadian GEM": -3.048,
+        "JMA": -2.977,
+        "UKMO": -2.325,
+        "Meteo-France Arpege": -2.284,
+        "Ensemble ECMWF": -2.172,
+        "Ensemble GFS": -1.355,
+        "Ensemble ICON": -1.2
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.71,
+        "ICON": 1.18,
+        "ECMWF": 0.84,
+        "Canadian GEM": 1.3,
+        "JMA": 1.64,
+        "UKMO": 1.2,
+        "Meteo-France Arpege": 1.29
+      },
+      "raw_maes": {
+        "GFS": 1.529,
+        "ICON": 1.681,
+        "ECMWF": 2.327,
+        "Canadian GEM": 3.314,
+        "JMA": 3.398,
+        "UKMO": 2.617,
+        "Meteo-France Arpege": 2.621
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Dallas": {
+      "weights": {
+        "GFS": 3.082,
+        "ICON": 1.604,
+        "ECMWF": 1.785,
+        "Canadian GEM": 1.148,
+        "JMA": 1.219,
+        "UKMO": 1.226,
+        "Meteo-France Arpege": 1.315,
+        "Ensemble ECMWF": 1.785,
+        "Ensemble GFS": 3.082,
+        "Ensemble ICON": 1.604,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -0.857,
+        "ICON": -0.881,
+        "ECMWF": -2.531,
+        "Canadian GEM": -1.485,
+        "JMA": -3.963,
+        "UKMO": -1.747,
+        "Meteo-France Arpege": -2.508,
+        "Ensemble ECMWF": -2.531,
+        "Ensemble GFS": -0.857,
+        "Ensemble ICON": -0.881
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.65,
+        "ICON": 1.25,
+        "ECMWF": 1.12,
+        "Canadian GEM": 1.74,
+        "JMA": 1.64,
+        "UKMO": 1.63,
+        "Meteo-France Arpege": 1.52
+      },
+      "raw_maes": {
+        "GFS": 1.075,
+        "ICON": 1.527,
+        "ECMWF": 2.768,
+        "Canadian GEM": 2.289,
+        "JMA": 4.289,
+        "UKMO": 2.39,
+        "Meteo-France Arpege": 2.933
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Denver": {
+      "weights": {
+        "GFS": 2.922,
+        "ICON": 1.617,
+        "ECMWF": 1.44,
+        "Canadian GEM": 1.168,
+        "JMA": 1.202,
+        "UKMO": 1.315,
+        "Meteo-France Arpege": 1.062,
+        "Ensemble ECMWF": 1.44,
+        "Ensemble GFS": 2.922,
+        "Ensemble ICON": 1.617,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.337,
+        "ICON": -1.312,
+        "ECMWF": -1.411,
+        "Canadian GEM": -1.066,
+        "JMA": -4.913,
+        "UKMO": -2.16,
+        "Meteo-France Arpege": -0.88,
+        "Ensemble ECMWF": -1.411,
+        "Ensemble GFS": -1.337,
+        "Ensemble ICON": -1.312
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.68,
+        "ICON": 1.24,
+        "ECMWF": 1.39,
+        "Canadian GEM": 1.71,
+        "JMA": 1.66,
+        "UKMO": 1.52,
+        "Meteo-France Arpege": 1.88
+      },
+      "raw_maes": {
+        "GFS": 1.502,
+        "ICON": 1.803,
+        "ECMWF": 1.98,
+        "Canadian GEM": 2.017,
+        "JMA": 5.187,
+        "UKMO": 2.642,
+        "Meteo-France Arpege": 2.078
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Houston": {
+      "weights": {
+        "GFS": 2.531,
+        "ICON": 2.827,
+        "ECMWF": 3.066,
+        "Canadian GEM": 0.0,
+        "JMA": 1.433,
+        "UKMO": 2.267,
+        "Meteo-France Arpege": 1.309,
+        "Ensemble ECMWF": 3.066,
+        "Ensemble GFS": 2.531,
+        "Ensemble ICON": 2.827,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.352,
+        "ICON": -1.876,
+        "ECMWF": -3.516,
+        "Canadian GEM": -1.831,
+        "JMA": -4.157,
+        "UKMO": -3.212,
+        "Meteo-France Arpege": -3.363,
+        "Ensemble ECMWF": -3.516,
+        "Ensemble GFS": -1.352,
+        "Ensemble ICON": -1.876
+      },
+      "disabled_models": [
+        "Canadian GEM"
+      ],
+      "corrected_maes": {
+        "GFS": 0.79,
+        "ICON": 0.71,
+        "ECMWF": 0.65,
+        "Canadian GEM": 2.47,
+        "JMA": 1.4,
+        "UKMO": 0.88,
+        "Meteo-France Arpege": 1.53
+      },
+      "raw_maes": {
+        "GFS": 1.566,
+        "ICON": 2.005,
+        "ECMWF": 3.576,
+        "Canadian GEM": 3.075,
+        "JMA": 4.385,
+        "UKMO": 3.331,
+        "Meteo-France Arpege": 3.694
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 6
+    },
+    "Las Vegas": {
+      "weights": {
+        "GFS": 4.059,
+        "ICON": 2.18,
+        "ECMWF": 2.303,
+        "Canadian GEM": 2.947,
+        "JMA": 1.954,
+        "UKMO": 1.454,
+        "Meteo-France Arpege": 1.975,
+        "Ensemble ECMWF": 2.303,
+        "Ensemble GFS": 4.059,
+        "Ensemble ICON": 2.18,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -0.391,
+        "ICON": -1.523,
+        "ECMWF": -1.672,
+        "Canadian GEM": -1.75,
+        "JMA": -2.439,
+        "UKMO": -1.158,
+        "Meteo-France Arpege": 0.812,
+        "Ensemble ECMWF": -1.672,
+        "Ensemble GFS": -0.391,
+        "Ensemble ICON": -1.523
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.49,
+        "ICON": 0.92,
+        "ECMWF": 0.87,
+        "Canadian GEM": 0.68,
+        "JMA": 1.02,
+        "UKMO": 1.38,
+        "Meteo-France Arpege": 1.01
+      },
+      "raw_maes": {
+        "GFS": 0.629,
+        "ICON": 1.778,
+        "ECMWF": 1.884,
+        "Canadian GEM": 1.877,
+        "JMA": 2.645,
+        "UKMO": 1.798,
+        "Meteo-France Arpege": 1.298
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Miami": {
+      "weights": {
+        "GFS": 2.827,
+        "ICON": 2.45,
+        "ECMWF": 7.838,
+        "Canadian GEM": 1.985,
+        "JMA": 1.057,
+        "UKMO": 2.532,
+        "Meteo-France Arpege": 1.511,
+        "Ensemble ECMWF": 7.838,
+        "Ensemble GFS": 2.827,
+        "Ensemble ICON": 2.45,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.045,
+        "ICON": -1.125,
+        "ECMWF": -2.954,
+        "Canadian GEM": -1.253,
+        "JMA": -1.298,
+        "UKMO": -1.82,
+        "Meteo-France Arpege": -1.487,
+        "Ensemble ECMWF": -2.954,
+        "Ensemble GFS": -1.045,
+        "Ensemble ICON": -1.125
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.71,
+        "ICON": 0.82,
+        "ECMWF": 0.26,
+        "Canadian GEM": 1.01,
+        "JMA": 1.89,
+        "UKMO": 0.79,
+        "Meteo-France Arpege": 1.32
+      },
+      "raw_maes": {
+        "GFS": 1.262,
+        "ICON": 1.39,
+        "ECMWF": 2.965,
+        "Canadian GEM": 1.608,
+        "JMA": 2.295,
+        "UKMO": 1.984,
+        "Meteo-France Arpege": 1.991
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Minneapolis": {
+      "weights": {
+        "GFS": 2.376,
+        "ICON": 1.918,
+        "ECMWF": 2.273,
+        "Canadian GEM": 1.111,
+        "JMA": 0.0,
+        "UKMO": 1.198,
+        "Meteo-France Arpege": 1.63,
+        "Ensemble ECMWF": 2.273,
+        "Ensemble GFS": 2.376,
+        "Ensemble ICON": 1.918,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -0.694,
+        "ICON": -1.199,
+        "ECMWF": -2.235,
+        "Canadian GEM": -1.248,
+        "JMA": -2.838,
+        "UKMO": -1.188,
+        "Meteo-France Arpege": -2.1,
+        "Ensemble ECMWF": -2.235,
+        "Ensemble GFS": -0.694,
+        "Ensemble ICON": -1.199
+      },
+      "disabled_models": [
+        "JMA"
+      ],
+      "corrected_maes": {
+        "GFS": 0.84,
+        "ICON": 1.04,
+        "ECMWF": 0.88,
+        "Canadian GEM": 1.8,
+        "JMA": 2.11,
+        "UKMO": 1.67,
+        "Meteo-France Arpege": 1.23
+      },
+      "raw_maes": {
+        "GFS": 1.091,
+        "ICON": 1.589,
+        "ECMWF": 2.402,
+        "Canadian GEM": 2.191,
+        "JMA": 3.536,
+        "UKMO": 2.049,
+        "Meteo-France Arpege": 2.432
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "ukmo"
+      ],
+      "family_count": 6
+    },
+    "New Orleans": {
+      "weights": {
+        "GFS": 2.554,
+        "ICON": 1.941,
+        "ECMWF": 5.017,
+        "Canadian GEM": 1.591,
+        "JMA": 1.474,
+        "UKMO": 1.443,
+        "Meteo-France Arpege": 2.303,
+        "Ensemble ECMWF": 5.017,
+        "Ensemble GFS": 2.554,
+        "Ensemble ICON": 1.941,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.333,
+        "ICON": -1.551,
+        "ECMWF": -3.963,
+        "Canadian GEM": -2.85,
+        "JMA": -3.064,
+        "UKMO": -0.783,
+        "Meteo-France Arpege": -4.1,
+        "Ensemble ECMWF": -3.963,
+        "Ensemble GFS": -1.333,
+        "Ensemble ICON": -1.551
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.78,
+        "ICON": 1.03,
+        "ECMWF": 0.4,
+        "Canadian GEM": 1.26,
+        "JMA": 1.36,
+        "UKMO": 1.39,
+        "Meteo-France Arpege": 0.87
+      },
+      "raw_maes": {
+        "GFS": 1.546,
+        "ICON": 1.862,
+        "ECMWF": 3.983,
+        "Canadian GEM": 3.115,
+        "JMA": 3.351,
+        "UKMO": 1.592,
+        "Meteo-France Arpege": 4.191
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "New York": {
+      "weights": {
+        "GFS": 1.769,
+        "ICON": 1.528,
+        "ECMWF": 1.211,
+        "Canadian GEM": 1.131,
+        "JMA": 1.144,
+        "UKMO": 1.329,
+        "Meteo-France Arpege": 1.592,
+        "Ensemble ECMWF": 1.211,
+        "Ensemble GFS": 1.769,
+        "Ensemble ICON": 1.528,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": 0.265,
+        "ICON": -0.761,
+        "ECMWF": -1.104,
+        "Canadian GEM": -1.24,
+        "JMA": -1.98,
+        "UKMO": -1.135,
+        "Meteo-France Arpege": -2.165,
+        "Ensemble ECMWF": -1.104,
+        "Ensemble GFS": 0.265,
+        "Ensemble ICON": -0.761
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 1.13,
+        "ICON": 1.31,
+        "ECMWF": 1.65,
+        "Canadian GEM": 1.77,
+        "JMA": 1.75,
+        "UKMO": 1.5,
+        "Meteo-France Arpege": 1.26
+      },
+      "raw_maes": {
+        "GFS": 1.161,
+        "ICON": 1.514,
+        "ECMWF": 1.986,
+        "Canadian GEM": 2.16,
+        "JMA": 2.641,
+        "UKMO": 1.885,
+        "Meteo-France Arpege": 2.503
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Oklahoma City": {
+      "weights": {
+        "GFS": 2.946,
+        "ICON": 1.671,
+        "ECMWF": 1.574,
+        "Canadian GEM": 1.07,
+        "JMA": 1.109,
+        "UKMO": 1.142,
+        "Meteo-France Arpege": 1.025,
+        "Ensemble ECMWF": 1.574,
+        "Ensemble GFS": 2.946,
+        "Ensemble ICON": 1.671,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -0.577,
+        "ICON": -0.728,
+        "ECMWF": -1.722,
+        "Canadian GEM": -0.636,
+        "JMA": -3.909,
+        "UKMO": -1.157,
+        "Meteo-France Arpege": -1.844,
+        "Ensemble ECMWF": -1.722,
+        "Ensemble GFS": -0.577,
+        "Ensemble ICON": -0.728
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.68,
+        "ICON": 1.2,
+        "ECMWF": 1.27,
+        "Canadian GEM": 1.87,
+        "JMA": 1.8,
+        "UKMO": 1.75,
+        "Meteo-France Arpege": 1.95
+      },
+      "raw_maes": {
+        "GFS": 0.891,
+        "ICON": 1.401,
+        "ECMWF": 2.14,
+        "Canadian GEM": 1.975,
+        "JMA": 4.305,
+        "UKMO": 2.099,
+        "Meteo-France Arpege": 2.685
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Philadelphia": {
+      "weights": {
+        "GFS": 3.071,
+        "ICON": 2.475,
+        "ECMWF": 1.699,
+        "Canadian GEM": 1.264,
+        "JMA": 1.189,
+        "UKMO": 1.767,
+        "Meteo-France Arpege": 1.56,
+        "Ensemble ECMWF": 1.699,
+        "Ensemble GFS": 3.071,
+        "Ensemble ICON": 2.475,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.124,
+        "ICON": -2.101,
+        "ECMWF": -2.261,
+        "Canadian GEM": -1.769,
+        "JMA": -3.009,
+        "UKMO": -2.736,
+        "Meteo-France Arpege": -2.174,
+        "Ensemble ECMWF": -2.261,
+        "Ensemble GFS": -1.124,
+        "Ensemble ICON": -2.101
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.65,
+        "ICON": 0.81,
+        "ECMWF": 1.18,
+        "Canadian GEM": 1.58,
+        "JMA": 1.68,
+        "UKMO": 1.13,
+        "Meteo-France Arpege": 1.28
+      },
+      "raw_maes": {
+        "GFS": 1.299,
+        "ICON": 2.251,
+        "ECMWF": 2.549,
+        "Canadian GEM": 2.373,
+        "JMA": 3.447,
+        "UKMO": 2.961,
+        "Meteo-France Arpege": 2.524
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Phoenix": {
+      "weights": {
+        "GFS": 3.646,
+        "ICON": 2.902,
+        "ECMWF": 4.708,
+        "Canadian GEM": 2.679,
+        "JMA": 2.693,
+        "UKMO": 2.143,
+        "Meteo-France Arpege": 2.54,
+        "Ensemble ECMWF": 4.708,
+        "Ensemble GFS": 3.646,
+        "Ensemble ICON": 2.902,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.608,
+        "ICON": -1.837,
+        "ECMWF": -2.561,
+        "Canadian GEM": -2.242,
+        "JMA": -3.961,
+        "UKMO": -3.042,
+        "Meteo-France Arpege": -2.035,
+        "Ensemble ECMWF": -2.561,
+        "Ensemble GFS": -1.608,
+        "Ensemble ICON": -1.837
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.55,
+        "ICON": 0.69,
+        "ECMWF": 0.42,
+        "Canadian GEM": 0.75,
+        "JMA": 0.74,
+        "UKMO": 0.93,
+        "Meteo-France Arpege": 0.79
+      },
+      "raw_maes": {
+        "GFS": 1.699,
+        "ICON": 1.962,
+        "ECMWF": 2.596,
+        "Canadian GEM": 2.363,
+        "JMA": 4.03,
+        "UKMO": 3.182,
+        "Meteo-France Arpege": 2.182
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "San Antonio": {
+      "weights": {
+        "GFS": 2.813,
+        "ICON": 1.694,
+        "ECMWF": 1.954,
+        "Canadian GEM": 1.052,
+        "JMA": 1.324,
+        "UKMO": 1.614,
+        "Meteo-France Arpege": 1.085,
+        "Ensemble ECMWF": 1.954,
+        "Ensemble GFS": 2.813,
+        "Ensemble ICON": 1.694,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -0.51,
+        "ICON": -1.108,
+        "ECMWF": -2.194,
+        "Canadian GEM": -1.378,
+        "JMA": -4.673,
+        "UKMO": -1.854,
+        "Meteo-France Arpege": -1.18,
+        "Ensemble ECMWF": -2.194,
+        "Ensemble GFS": -0.51,
+        "Ensemble ICON": -1.108
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.71,
+        "ICON": 1.18,
+        "ECMWF": 1.02,
+        "Canadian GEM": 1.9,
+        "JMA": 1.51,
+        "UKMO": 1.24,
+        "Meteo-France Arpege": 1.84
+      },
+      "raw_maes": {
+        "GFS": 0.875,
+        "ICON": 1.619,
+        "ECMWF": 2.421,
+        "Canadian GEM": 2.348,
+        "JMA": 4.911,
+        "UKMO": 2.23,
+        "Meteo-France Arpege": 2.188
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "San Francisco": {
+      "weights": {
+        "GFS": 1.331,
+        "ICON": 0.0,
+        "ECMWF": 1.373,
+        "Canadian GEM": 1.116,
+        "JMA": 0.0,
+        "UKMO": 1.117,
+        "Meteo-France Arpege": 1.107,
+        "Ensemble ECMWF": 1.373,
+        "Ensemble GFS": 1.331,
+        "Ensemble ICON": 0.0,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": 0.331,
+        "ICON": -3.839,
+        "ECMWF": -2.162,
+        "Canadian GEM": -3.541,
+        "JMA": -5.645,
+        "UKMO": 1.407,
+        "Meteo-France Arpege": -8.591,
+        "Ensemble ECMWF": -2.162,
+        "Ensemble GFS": 0.331,
+        "Ensemble ICON": -3.839
+      },
+      "disabled_models": [
+        "ICON",
+        "JMA",
+        "Ensemble ICON"
+      ],
+      "corrected_maes": {
+        "GFS": 1.5,
+        "ICON": 3.18,
+        "ECMWF": 1.46,
+        "Canadian GEM": 1.79,
+        "JMA": 3.03,
+        "UKMO": 1.79,
+        "Meteo-France Arpege": 1.81
+      },
+      "raw_maes": {
+        "GFS": 1.539,
+        "ICON": 4.986,
+        "ECMWF": 2.607,
+        "Canadian GEM": 3.969,
+        "JMA": 6.407,
+        "UKMO": 2.277,
+        "Meteo-France Arpege": 8.779
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "ukmo"
+      ],
+      "family_count": 5
+    },
+    "Seattle": {
+      "weights": {
+        "GFS": 4.074,
+        "ICON": 2.781,
+        "ECMWF": 1.736,
+        "Canadian GEM": 1.757,
+        "JMA": 1.288,
+        "UKMO": 1.302,
+        "Meteo-France Arpege": 2.444,
+        "Ensemble ECMWF": 1.736,
+        "Ensemble GFS": 4.074,
+        "Ensemble ICON": 2.781,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -1.486,
+        "ICON": -2.318,
+        "ECMWF": -2.071,
+        "Canadian GEM": -2.201,
+        "JMA": -2.622,
+        "UKMO": -1.073,
+        "Meteo-France Arpege": -2.188,
+        "Ensemble ECMWF": -2.071,
+        "Ensemble GFS": -1.486,
+        "Ensemble ICON": -2.318
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 0.49,
+        "ICON": 0.72,
+        "ECMWF": 1.15,
+        "Canadian GEM": 1.14,
+        "JMA": 1.55,
+        "UKMO": 1.54,
+        "Meteo-France Arpege": 0.82
+      },
+      "raw_maes": {
+        "GFS": 1.565,
+        "ICON": 2.427,
+        "ECMWF": 2.37,
+        "Canadian GEM": 2.478,
+        "JMA": 3.047,
+        "UKMO": 1.874,
+        "Meteo-France Arpege": 2.336
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    },
+    "Washington DC": {
+      "weights": {
+        "GFS": 1.915,
+        "ICON": 1.74,
+        "ECMWF": 1.406,
+        "Canadian GEM": 1.004,
+        "JMA": 1.165,
+        "UKMO": 1.082,
+        "Meteo-France Arpege": 1.726,
+        "Ensemble ECMWF": 1.406,
+        "Ensemble GFS": 1.915,
+        "Ensemble ICON": 1.74,
+        "HRRR": 0.0,
+        "MET Norway": 0.0,
+        "Tomorrow.io": 0.0,
+        "Visual Crossing": 0.0,
+        "NWS Forecast": 0.0,
+        "NWS Hourly": 0.0
+      },
+      "biases": {
+        "GFS": -0.587,
+        "ICON": -1.528,
+        "ECMWF": -1.708,
+        "Canadian GEM": -1.173,
+        "JMA": -3.035,
+        "UKMO": -1.944,
+        "Meteo-France Arpege": -2.025,
+        "Ensemble ECMWF": -1.708,
+        "Ensemble GFS": -0.587,
+        "Ensemble ICON": -1.528
+      },
+      "disabled_models": [],
+      "corrected_maes": {
+        "GFS": 1.04,
+        "ICON": 1.15,
+        "ECMWF": 1.42,
+        "Canadian GEM": 1.99,
+        "JMA": 1.72,
+        "UKMO": 1.85,
+        "Meteo-France Arpege": 1.16
+      },
+      "raw_maes": {
+        "GFS": 1.198,
+        "ICON": 1.912,
+        "ECMWF": 2.223,
+        "Canadian GEM": 2.311,
+        "JMA": 3.487,
+        "UKMO": 2.683,
+        "Meteo-France Arpege": 2.333
+      },
+      "enabled_families": [
+        "arpege",
+        "ecmwf",
+        "gem",
+        "gfs",
+        "icon",
+        "jma",
+        "ukmo"
+      ],
+      "family_count": 7
+    }
+  },
+  "tradeable_cities": [
+    "Atlanta",
+    "Austin",
+    "Boston",
+    "Chicago",
+    "Dallas",
+    "Denver",
+    "Houston",
+    "Las Vegas",
+    "Miami",
+    "Minneapolis",
+    "New Orleans",
+    "New York",
+    "Oklahoma City",
+    "Philadelphia",
+    "Phoenix",
+    "San Antonio",
+    "San Francisco",
+    "Seattle",
+    "Washington DC"
+  ],
+  "tradeable_count": 19
+}

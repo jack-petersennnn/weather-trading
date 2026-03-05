@@ -1,0 +1,26 @@
+{
+  "specific_station_markets": {
+    "NHIGH":    {"city": "New York",     "station_desc": "Central Park, New York",    "type": "high", "last_trade": "11:59 PM ET"},
+    "CHIHIGH":  {"city": "Chicago",      "station_desc": "Chicago Midway, Illinois",  "type": "high", "last_trade": "11:59 PM ET"},
+    "MIAHIGH":  {"city": "Miami",        "station_desc": "Miami, FL",                 "type": "high", "last_trade": "11:59 PM ET"},
+    "LAHIGH":   {"city": "Los Angeles",  "station_desc": "Los Angeles Airport, CA",   "type": "high", "last_trade": "11:59 PM PT"},
+    "AUSHIGH":  {"city": "Austin",       "station_desc": "Austin Bergstrom",          "type": "high", "last_trade": "11:59 PM CT"},
+    "DENHIGH":  {"city": "Denver",       "station_desc": "Denver, CO",                "type": "high", "last_trade": "11:59 PM MT"},
+    "PHILHIGH": {"city": "Philadelphia", "station_desc": "Philadelphia, PA",          "type": "high", "last_trade": "11:59 PM ET"}
+  },
+  "globaltemperature_markets_high": [
+    "Phoenix", "Las Vegas", "Atlanta", "Boston", "Seattle",
+    "San Francisco", "Houston", "San Antonio", "New Orleans",
+    "Oklahoma City", "Dallas", "Minneapolis", "Washington DC"
+  ],
+  "globaltemperature_markets_low": [
+    "Miami", "Austin", "Los Angeles", "Chicago", "Denver",
+    "New York City", "Philadelphia"
+  ],
+  "globaltemperature_note": "Uses 'primary official weather measurement station' per NWS for each area. Station not explicitly named in rules.",
+  "monthly_anomaly": {
+    "HMONTHRANGE": {"source": "NOAA NCDC", "metric": "avg global land+ocean temp anomaly", "url": "https://www.ncdc.noaa.gov/cag/global/time-series"}
+  },
+  "settlement_source": "NWS Daily Climate Report",
+  "settlement_time": "7:00 or 8:00 AM ET following data release"
+}

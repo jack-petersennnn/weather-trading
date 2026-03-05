@@ -1,0 +1,943 @@
+{
+  "analysis_results": [
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTLV-26FEB24-B75.5",
+        "timestamp": "2026-02-23T16:18:24.102019+00:00",
+        "market_ticker": "KXHIGHTLV-26FEB24-B75.5",
+        "side": "no",
+        "fill_price": 0.72,
+        "quantity": 1,
+        "city": "Las Vegas",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 69.1,
+        "ensemble_std": 1.05,
+        "calibrated_std": 1.05,
+        "raw_p_model": 0.95,
+        "market_prob": 0.72,
+        "edge": 0.22999999999999998,
+        "source_spread": 6.7,
+        "threshold_temp": 75.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.22999999999999998,
+      "corrected_expected_value": -0.279,
+      "ev_improvement": -0.049000000000000044,
+      "corrected_analysis": {
+        "corrected_probability": 0.999,
+        "corrected_std": 1.05,
+        "original_multiplier": 1.0,
+        "optimized_multiplier": 1.0
+      },
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": false,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTSEA-26FEB24-T44",
+        "timestamp": "2026-02-23T16:30:01.922821+00:00",
+        "market_ticker": "KXHIGHTSEA-26FEB24-T44",
+        "side": "yes",
+        "fill_price": 0.09,
+        "quantity": 25,
+        "city": "Seattle",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.8445925276471458,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 18.86481319117864,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTDAL-26FEB24-B74.5",
+        "timestamp": "2026-02-23T16:30:01.922821+00:00",
+        "market_ticker": "KXHIGHTDAL-26FEB24-B74.5",
+        "side": "no",
+        "fill_price": 0.71,
+        "quantity": 1,
+        "city": "Dallas",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.9005598916589208,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 74.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.19055989165892082,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTHOU-26FEB24-B71.5",
+        "timestamp": "2026-02-23T16:30:01.922821+00:00",
+        "market_ticker": "KXHIGHTHOU-26FEB24-B71.5",
+        "side": "no",
+        "fill_price": 0.63,
+        "quantity": 2,
+        "city": "Houston",
+        "outcome": "synced_closed",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.508756827187248,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 71.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": 0.24248634562550397,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTATL-26FEB24-B55.5",
+        "timestamp": "2026-02-23T16:30:01.922821+00:00",
+        "market_ticker": "KXHIGHTATL-26FEB24-B55.5",
+        "side": "no",
+        "fill_price": 0.72,
+        "quantity": 1,
+        "city": "Atlanta",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.854644205239126,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 55.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.134644205239126,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHAUS-26FEB24-B75.5",
+        "timestamp": "2026-02-23T16:30:01.922821+00:00",
+        "market_ticker": "KXHIGHAUS-26FEB24-B75.5",
+        "side": "no",
+        "fill_price": 0.63,
+        "quantity": 1,
+        "city": "Austin",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.6969399612991022,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 75.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.06693996129910218,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHDEN-26FEB24-B70.5",
+        "timestamp": "2026-02-23T16:30:01.922821+00:00",
+        "market_ticker": "KXHIGHDEN-26FEB24-B70.5",
+        "side": "no",
+        "fill_price": 0.65,
+        "quantity": 2,
+        "city": "Denver",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.4633693443265906,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 70.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": 0.37326131134681884,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHCHI-26FEB24-B40.5",
+        "timestamp": "2026-02-23T16:30:01.922821+00:00",
+        "market_ticker": "KXHIGHCHI-26FEB24-B40.5",
+        "side": "no",
+        "fill_price": 0.69,
+        "quantity": 1,
+        "city": "Chicago",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.6969408542420111,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 40.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.006940854242011185,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTSATX-26FEB24-B75.5",
+        "timestamp": "2026-02-23T16:45:01.714456+00:00",
+        "market_ticker": "KXHIGHTSATX-26FEB24-B75.5",
+        "side": "no",
+        "fill_price": 0.66,
+        "quantity": 1,
+        "city": "San Antonio",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.6242684940376007,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 75.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": 0.03573150596239938,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTSATX-26FEB24-B79.5",
+        "timestamp": "2026-02-23T16:45:01.714456+00:00",
+        "market_ticker": "KXHIGHTSATX-26FEB24-B79.5",
+        "side": "no",
+        "fill_price": 0.9,
+        "quantity": 2,
+        "city": "San Antonio",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.95,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 79.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.09999999999999987,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTBOS-26FEB24-T30",
+        "timestamp": "2026-02-24T00:42:02.351006+00:00",
+        "market_ticker": "KXHIGHTBOS-26FEB24-T30",
+        "side": "yes",
+        "fill_price": 0.33,
+        "quantity": 2,
+        "city": "Boston",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 28.7,
+        "ensemble_std": 2.51,
+        "calibrated_std": 2.51,
+        "raw_p_model": 0.6250325101016201,
+        "market_prob": 0.33,
+        "edge": 0.29503251010162007,
+        "source_spread": 6.6,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 0.5900650202032401,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTLV-26FEB24-T71",
+        "timestamp": "2026-02-24T03:15:01.994864+00:00",
+        "market_ticker": "KXHIGHTLV-26FEB24-T71",
+        "side": "yes",
+        "fill_price": 0.02,
+        "quantity": 122,
+        "city": "Las Vegas",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.8437765508250292,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 100.50073920065357,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTOKC-26FEB24-B72.5",
+        "timestamp": "2026-02-24T04:01:50.793509+00:00",
+        "market_ticker": "KXHIGHTOKC-26FEB24-B72.5",
+        "side": "no",
+        "fill_price": 0.67,
+        "quantity": 2,
+        "city": "Oklahoma City",
+        "outcome": "synced_closed",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.9248391617989734,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 72.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.5096783235979467,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHPHIL-26FEB24-B37.5",
+        "timestamp": "2026-02-24T09:02:01.673774+00:00",
+        "market_ticker": "KXHIGHPHIL-26FEB24-B37.5",
+        "side": "no",
+        "fill_price": 0.75,
+        "quantity": 1,
+        "city": "Philadelphia",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 33.3,
+        "ensemble_std": 1.76,
+        "calibrated_std": 1.76,
+        "raw_p_model": 0.95,
+        "market_prob": 0.75,
+        "edge": 0.19999999999999996,
+        "source_spread": 4.5,
+        "threshold_temp": 37.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.19999999999999996,
+      "corrected_expected_value": -0.18749635525574315,
+      "ev_improvement": 0.012503644744256803,
+      "corrected_analysis": {
+        "corrected_probability": 0.9374963552557432,
+        "corrected_std": 1.76,
+        "original_multiplier": 1.0,
+        "optimized_multiplier": 1.0
+      },
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": false,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHNY-26FEB25-T39",
+        "timestamp": "2026-02-24T15:22:01.438211+00:00",
+        "market_ticker": "KXHIGHNY-26FEB25-T39",
+        "side": "yes",
+        "fill_price": 0.06,
+        "quantity": 1,
+        "city": "New York",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 40.4,
+        "ensemble_std": 2.99,
+        "calibrated_std": 2.99,
+        "raw_p_model": 0.26256699279880746,
+        "market_prob": 0.06,
+        "edge": 0.20256699279880747,
+        "source_spread": 9.4,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 0.20256699279880747,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHDEN-26FEB25-T65",
+        "timestamp": "2026-02-24T15:22:01.438211+00:00",
+        "market_ticker": "KXHIGHDEN-26FEB25-T65",
+        "side": "yes",
+        "fill_price": 0.08,
+        "quantity": 8,
+        "city": "Denver",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 66.3,
+        "ensemble_std": 2.23,
+        "calibrated_std": 2.23,
+        "raw_p_model": 0.20978286574301663,
+        "market_prob": 0.08,
+        "edge": 0.12978286574301662,
+        "source_spread": 6.6,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 1.0382629259441332,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTDC-26FEB25-T58",
+        "timestamp": "2026-02-24T15:22:01.438211+00:00",
+        "market_ticker": "KXHIGHTDC-26FEB25-T58",
+        "side": "yes",
+        "fill_price": 0.08,
+        "quantity": 0,
+        "city": "Washington DC",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 56.3,
+        "ensemble_std": 2.5,
+        "calibrated_std": 2.5,
+        "raw_p_model": 0.1894296547767118,
+        "market_prob": 0.08,
+        "edge": 0.10942965477671181,
+        "source_spread": 7.5,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 0.0,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHPHIL-26FEB25-T44",
+        "timestamp": "2026-02-24T15:30:02.281913+00:00",
+        "market_ticker": "KXHIGHPHIL-26FEB25-T44",
+        "side": "yes",
+        "fill_price": 0.02,
+        "quantity": 5,
+        "city": "Philadelphia",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.705252624137709,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 3.426263120688545,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTDAL-26FEB25-T80",
+        "timestamp": "2026-02-24T17:45:02.432087+00:00",
+        "market_ticker": "KXHIGHTDAL-26FEB25-T80",
+        "side": "yes",
+        "fill_price": 0.07,
+        "quantity": 12,
+        "city": "Dallas",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.7873738388723321,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 8.608486066467986,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTBOS-26FEB24-T30",
+        "timestamp": "2026-02-24T19:45:01.515218+00:00",
+        "market_ticker": "KXHIGHTBOS-26FEB24-T30",
+        "side": "yes",
+        "fill_price": 0.33,
+        "quantity": 2,
+        "city": "Boston",
+        "outcome": "unknown",
+        "realized_pnl": 0.0,
+        "ensemble_mean": 0,
+        "ensemble_std": 0,
+        "calibrated_std": 0,
+        "raw_p_model": 0.30610812750832295,
+        "market_prob": 0,
+        "edge": 0,
+        "source_spread": 0,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": -0.04778374498335414,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTLV-26FEB25-B80.5",
+        "timestamp": "2026-02-25T00:02:01.633811+00:00",
+        "market_ticker": "KXHIGHTLV-26FEB25-B80.5",
+        "side": "no",
+        "fill_price": 0.74,
+        "quantity": 4,
+        "city": "Las Vegas",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 77.8,
+        "ensemble_std": 1.19,
+        "calibrated_std": 1.19,
+        "raw_p_model": 0.9243741091954163,
+        "market_prob": 0.74,
+        "edge": 0.1843741091954163,
+        "source_spread": 7.4,
+        "threshold_temp": 80.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.7374964367816652,
+      "corrected_expected_value": -0.4134782801648713,
+      "ev_improvement": 0.3240181566167939,
+      "corrected_analysis": {
+        "corrected_probability": 0.8433695700412178,
+        "corrected_std": 1.19,
+        "original_multiplier": 1.0,
+        "optimized_multiplier": 1.0
+      },
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": false,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTOKC-26FEB25-T73",
+        "timestamp": "2026-02-25T00:22:01.569756+00:00",
+        "market_ticker": "KXHIGHTOKC-26FEB25-T73",
+        "side": "yes",
+        "fill_price": 0.17,
+        "quantity": 5,
+        "city": "Oklahoma City",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 73.8,
+        "ensemble_std": 2.43,
+        "calibrated_std": 2.43,
+        "raw_p_model": 0.2963320427956204,
+        "market_prob": 0.17,
+        "edge": 0.1263320427956204,
+        "source_spread": 9.3,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 0.6316602139781018,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTSATX-26FEB25-T85",
+        "timestamp": "2026-02-25T00:22:01.569756+00:00",
+        "market_ticker": "KXHIGHTSATX-26FEB25-T85",
+        "side": "yes",
+        "fill_price": 0.05,
+        "quantity": 19,
+        "city": "San Antonio",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 86.8,
+        "ensemble_std": 2.23,
+        "calibrated_std": 2.23,
+        "raw_p_model": 0.15117895266700954,
+        "market_prob": 0.05,
+        "edge": 0.10117895266700953,
+        "source_spread": 6.0,
+        "threshold_temp": 0,
+        "market_type": "threshold_yes"
+      },
+      "raw_expected_value": 1.922400100673181,
+      "corrected_expected_value": null,
+      "ev_improvement": null,
+      "corrected_analysis": null,
+      "should_have_traded_raw": true,
+      "should_have_traded_corrected": null,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTPHX-26FEB25-B89.5",
+        "timestamp": "2026-02-25T03:02:01.666211+00:00",
+        "market_ticker": "KXHIGHTPHX-26FEB25-B89.5",
+        "side": "no",
+        "fill_price": 0.68,
+        "quantity": 4,
+        "city": "Phoenix",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 87.5,
+        "ensemble_std": 1.12,
+        "calibrated_std": 1.12,
+        "raw_p_model": 0.8177300077778692,
+        "market_prob": 0.68,
+        "edge": 0.13773000777786915,
+        "source_spread": 5.8,
+        "threshold_temp": 89.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.5509200311114765,
+      "corrected_expected_value": 0.0305753962879991,
+      "ev_improvement": 0.5814954273994756,
+      "corrected_analysis": {
+        "corrected_probability": 0.6723561509280003,
+        "corrected_std": 1.12,
+        "original_multiplier": 1.0,
+        "optimized_multiplier": 1.0
+      },
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": true,
+      "trade_decision_change": "should_trade_more"
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHTDC-26FEB25-B55.5",
+        "timestamp": "2026-02-25T03:42:02.041225+00:00",
+        "market_ticker": "KXHIGHTDC-26FEB25-B55.5",
+        "side": "no",
+        "fill_price": 0.68,
+        "quantity": 6,
+        "city": "Washington DC",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 53.2,
+        "ensemble_std": 1.13,
+        "calibrated_std": 1.13,
+        "raw_p_model": 0.8767673334198227,
+        "market_prob": 0.68,
+        "edge": 0.19676733341982267,
+        "source_spread": 3.3,
+        "threshold_temp": 55.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -1.180604000518936,
+      "corrected_expected_value": -0.4830982797760023,
+      "ev_improvement": 0.6975057207429337,
+      "corrected_analysis": {
+        "corrected_probability": 0.7605163799626671,
+        "corrected_std": 1.13,
+        "original_multiplier": 1.0,
+        "optimized_multiplier": 1.0
+      },
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": false,
+      "trade_decision_change": null
+    },
+    {
+      "trade_data": {
+        "trade_id": "KXHIGHPHIL-26FEB25-B48.5",
+        "timestamp": "2026-02-25T03:42:02.041225+00:00",
+        "market_ticker": "KXHIGHPHIL-26FEB25-B48.5",
+        "side": "no",
+        "fill_price": 0.7,
+        "quantity": 2,
+        "city": "Philadelphia",
+        "outcome": null,
+        "realized_pnl": 0.0,
+        "ensemble_mean": 44.3,
+        "ensemble_std": 2.17,
+        "calibrated_std": 2.17,
+        "raw_p_model": 0.9381277188336627,
+        "market_prob": 0.7,
+        "edge": 0.2381277188336628,
+        "source_spread": 7.2,
+        "threshold_temp": 48.5,
+        "market_type": "threshold_no"
+      },
+      "raw_expected_value": -0.4762554376673256,
+      "corrected_expected_value": -0.38658861822221763,
+      "ev_improvement": 0.08966681944510796,
+      "corrected_analysis": {
+        "corrected_probability": 0.8932943091111087,
+        "corrected_std": 2.17,
+        "original_multiplier": 1.0,
+        "optimized_multiplier": 1.0
+      },
+      "should_have_traded_raw": false,
+      "should_have_traded_corrected": false,
+      "trade_decision_change": null
+    }
+  ],
+  "summary": {
+    "total_trades": 26,
+    "trades_with_correction": 6,
+    "average_ev_improvement": 0.2760316281580947,
+    "positive_improvements": 5,
+    "negative_improvements": 1,
+    "significant_improvements": 0,
+    "significant_degradations": 0,
+    "city_analysis": {
+      "Las Vegas": {
+        "raw_ev": [
+          -0.22999999999999998,
+          100.50073920065357,
+          -0.7374964367816652
+        ],
+        "corrected_ev": [
+          -0.279,
+          -0.4134782801648713
+        ],
+        "improvements": [
+          -0.049000000000000044,
+          0.3240181566167939
+        ]
+      },
+      "Seattle": {
+        "raw_ev": [
+          18.86481319117864
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Dallas": {
+        "raw_ev": [
+          -0.19055989165892082,
+          8.608486066467986
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Houston": {
+        "raw_ev": [
+          0.24248634562550397
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Atlanta": {
+        "raw_ev": [
+          -0.134644205239126
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Austin": {
+        "raw_ev": [
+          -0.06693996129910218
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Denver": {
+        "raw_ev": [
+          0.37326131134681884,
+          1.0382629259441332
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Chicago": {
+        "raw_ev": [
+          -0.006940854242011185
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "San Antonio": {
+        "raw_ev": [
+          0.03573150596239938,
+          -0.09999999999999987,
+          1.922400100673181
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Boston": {
+        "raw_ev": [
+          0.5900650202032401,
+          -0.04778374498335414
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Oklahoma City": {
+        "raw_ev": [
+          -0.5096783235979467,
+          0.6316602139781018
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Philadelphia": {
+        "raw_ev": [
+          -0.19999999999999996,
+          3.426263120688545,
+          -0.4762554376673256
+        ],
+        "corrected_ev": [
+          -0.18749635525574315,
+          -0.38658861822221763
+        ],
+        "improvements": [
+          0.012503644744256803,
+          0.08966681944510796
+        ]
+      },
+      "New York": {
+        "raw_ev": [
+          0.20256699279880747
+        ],
+        "corrected_ev": [],
+        "improvements": []
+      },
+      "Washington DC": {
+        "raw_ev": [
+          0.0,
+          -1.180604000518936
+        ],
+        "corrected_ev": [
+          -0.4830982797760023
+        ],
+        "improvements": [
+          0.6975057207429337
+        ]
+      },
+      "Phoenix": {
+        "raw_ev": [
+          -0.5509200311114765
+        ],
+        "corrected_ev": [
+          0.0305753962879991
+        ],
+        "improvements": [
+          0.5814954273994756
+        ]
+      }
+    }
+  },
+  "optimized_multipliers_used": {
+    "Miami": 1.2,
+    "Austin": 0.8,
+    "Chicago": 2.0,
+    "Denver": 1.0,
+    "New York": 0.8
+  },
+  "analysis_timestamp": "2026-02-25T14:23:25.879592"
+}

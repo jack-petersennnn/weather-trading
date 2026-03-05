@@ -1,0 +1,172 @@
+{
+  "threshold_yes": [
+    {
+      "raw_prob": 0.007807211643498966,
+      "calibrated_prob": 0.027582477014602487,
+      "bin_center": 0.05,
+      "sample_count": 7396
+    },
+    {
+      "raw_prob": 0.14760542920274722,
+      "calibrated_prob": 0.20325982742090123,
+      "bin_center": 0.15,
+      "sample_count": 1043
+    },
+    {
+      "raw_prob": 0.23827290238076365,
+      "calibrated_prob": 0.3158953722334004,
+      "bin_center": 0.25,
+      "sample_count": 497
+    },
+    {
+      "raw_prob": 0.33501240107866354,
+      "calibrated_prob": 0.49333333333333335,
+      "bin_center": 0.35,
+      "sample_count": 75
+    },
+    {
+      "raw_prob": 0.5475083172064921,
+      "calibrated_prob": 0.6373779637377964,
+      "bin_center": 0.55,
+      "sample_count": 717
+    },
+    {
+      "raw_prob": 0.6452075774920341,
+      "calibrated_prob": 0.7310030395136778,
+      "bin_center": 0.65,
+      "sample_count": 658
+    },
+    {
+      "raw_prob": 0.7362530122698159,
+      "calibrated_prob": 0.7961783439490446,
+      "bin_center": 0.75,
+      "sample_count": 471
+    },
+    {
+      "raw_prob": 0.8557544563982642,
+      "calibrated_prob": 0.8601398601398601,
+      "bin_center": 0.85,
+      "sample_count": 286
+    },
+    {
+      "raw_prob": 0.9901807123063298,
+      "calibrated_prob": 0.990444393276537,
+      "bin_center": 0.95,
+      "sample_count": 8686
+    }
+  ],
+  "threshold_no": [
+    {
+      "raw_prob": 0.006872273268975508,
+      "calibrated_prob": 0.019928517274991876,
+      "bin_center": 0.05,
+      "sample_count": 9233
+    },
+    {
+      "raw_prob": 0.14679809118602252,
+      "calibrated_prob": 0.25970149253731345,
+      "bin_center": 0.15,
+      "sample_count": 1005
+    },
+    {
+      "raw_prob": 0.24034150804080173,
+      "calibrated_prob": 0.38784067085953877,
+      "bin_center": 0.25,
+      "sample_count": 477
+    },
+    {
+      "raw_prob": 0.33284111166208363,
+      "calibrated_prob": 0.2653061224489796,
+      "bin_center": 0.35,
+      "sample_count": 98
+    },
+    {
+      "raw_prob": 0.41654326538558556,
+      "calibrated_prob": 0,
+      "bin_center": 0.45,
+      "sample_count": 5
+    },
+    {
+      "raw_prob": 0.5462602151112621,
+      "calibrated_prob": 0.6685962373371924,
+      "bin_center": 0.55,
+      "sample_count": 691
+    },
+    {
+      "raw_prob": 0.6450561698829003,
+      "calibrated_prob": 0.7786885245901639,
+      "bin_center": 0.65,
+      "sample_count": 732
+    },
+    {
+      "raw_prob": 0.735392687107618,
+      "calibrated_prob": 0.8385542168674699,
+      "bin_center": 0.75,
+      "sample_count": 415
+    },
+    {
+      "raw_prob": 0.8551232298153568,
+      "calibrated_prob": 0.8593155893536122,
+      "bin_center": 0.85,
+      "sample_count": 263
+    },
+    {
+      "raw_prob": 0.9875525055780875,
+      "calibrated_prob": 0.9829331790569859,
+      "bin_center": 0.95,
+      "sample_count": 6914
+    }
+  ],
+  "bracket_yes": [
+    {
+      "raw_prob": 0.01109568783005557,
+      "calibrated_prob": 0.014303717706364209,
+      "bin_center": 0.05,
+      "sample_count": 15870
+    },
+    {
+      "raw_prob": 0.13025416856276453,
+      "calibrated_prob": 0.1133636739760033,
+      "bin_center": 0.15,
+      "sample_count": 2417
+    },
+    {
+      "raw_prob": 0.2539130147136578,
+      "calibrated_prob": 0.2610508757297748,
+      "bin_center": 0.25,
+      "sample_count": 1199
+    },
+    {
+      "raw_prob": 0.3334197484707655,
+      "calibrated_prob": 0.23054755043227665,
+      "bin_center": 0.35,
+      "sample_count": 347
+    }
+  ],
+  "bracket_no": [
+    {
+      "raw_prob": 0.6665802515292345,
+      "calibrated_prob": 0.7694524495677233,
+      "bin_center": 0.65,
+      "sample_count": 347
+    },
+    {
+      "raw_prob": 0.7460869852863422,
+      "calibrated_prob": 0.7389491242702252,
+      "bin_center": 0.75,
+      "sample_count": 1199
+    },
+    {
+      "raw_prob": 0.8697458314372355,
+      "calibrated_prob": 0.8866363260239967,
+      "bin_center": 0.85,
+      "sample_count": 2417
+    },
+    {
+      "raw_prob": 0.9889043121699445,
+      "calibrated_prob": 0.9856962822936358,
+      "bin_center": 0.95,
+      "sample_count": 15870
+    }
+  ]
+}

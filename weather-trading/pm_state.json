@@ -1,0 +1,487 @@
+{
+  "KXHIGHMIA_2026-02-20": {
+    "forecast_high": 81.3,
+    "forecast_std": 1.09,
+    "updated": "2026-02-20T20:40:01.834765+00:00"
+  },
+  "KXHIGHNY_2026-02-20": {
+    "forecast_high": 37.7,
+    "forecast_std": 2.38,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHCHI_2026-02-20": {
+    "forecast_high": 44.8,
+    "forecast_std": 1.69,
+    "updated": "2026-02-20T20:40:01.834765+00:00"
+  },
+  "KXHIGHLAX_2026-02-20": {
+    "forecast_high": 57.2,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:40:01.834765+00:00"
+  },
+  "KXHIGHAUS_2026-02-20": {
+    "forecast_high": 66.5,
+    "forecast_std": 1.34,
+    "updated": "2026-02-20T20:40:01.834765+00:00"
+  },
+  "KXHIGHDEN_2026-02-20": {
+    "forecast_high": 29.6,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHNY_2026-02-21": {
+    "forecast_high": 44.9,
+    "forecast_std": 1.36,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHCHI_2026-02-21": {
+    "forecast_high": 32.6,
+    "forecast_std": 1.25,
+    "updated": "2026-02-21T20:30:02.287161+00:00"
+  },
+  "KXHIGHMIA_2026-02-21": {
+    "forecast_high": 82.2,
+    "forecast_std": 1.62,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHDEN_2026-02-21": {
+    "forecast_high": 42.4,
+    "forecast_std": 1.07,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTDC_2026-02-21": {
+    "forecast_high": 51.4,
+    "forecast_std": 1.42,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHPHIL_2026-02-20": {
+    "forecast_high": 48.4,
+    "forecast_std": 5.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTHOU_2026-02-21": {
+    "forecast_high": 77.7,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T20:30:02.287161+00:00"
+  },
+  "KXHIGHTDAL_2026-02-21": {
+    "forecast_high": 57.6,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T04:50:02.010089+00:00"
+  },
+  "KXHIGHAUS_2026-02-21": {
+    "forecast_high": 70.5,
+    "forecast_std": 1.17,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTMIN_2026-02-20": {
+    "forecast_high": 29.2,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHPHIL_2026-02-21": {
+    "forecast_high": 48.3,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTSEA_2026-02-21": {
+    "forecast_high": 43.8,
+    "forecast_std": 2.25,
+    "updated": "2026-02-21T20:30:02.287161+00:00"
+  },
+  "KXHIGHTBOS_2026-02-20": {
+    "forecast_high": 37.1,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTPHX_2026-02-20": {
+    "forecast_high": 62.6,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTOKC_2026-02-20": {
+    "forecast_high": 48.7,
+    "forecast_std": 1.44,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTLV_2026-02-20": {
+    "forecast_high": 53.0,
+    "forecast_std": 1.54,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTSFO_2026-02-20": {
+    "forecast_high": 51.2,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTHOU_2026-02-20": {
+    "forecast_high": 78.3,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTOKC_2026-02-21": {
+    "forecast_high": 47.6,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTMIN_2026-02-21": {
+    "forecast_high": 17.1,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTSEA_2026-02-20": {
+    "forecast_high": 40.4,
+    "forecast_std": 1.5,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHTPHX_2026-02-21": {
+    "forecast_high": 69.1,
+    "forecast_std": 1.44,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTLV_2026-02-21": {
+    "forecast_high": 56.0,
+    "forecast_std": 3.17,
+    "updated": "2026-02-21T04:50:02.010089+00:00"
+  },
+  "KXHIGHTSFO_2026-02-21": {
+    "forecast_high": 57.1,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTATL_2026-02-21": {
+    "forecast_high": 68.2,
+    "forecast_std": 4.21,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTBOS_2026-02-21": {
+    "forecast_high": 33.7,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTSATX_2026-02-21": {
+    "forecast_high": 72.6,
+    "forecast_std": 2.55,
+    "updated": "2026-02-21T20:40:01.886654+00:00"
+  },
+  "KXHIGHTNOLA_2026-02-21": {
+    "forecast_high": 81.3,
+    "forecast_std": 1.5,
+    "updated": "2026-02-21T05:00:01.539397+00:00"
+  },
+  "KXHIGHTNOLA_2026-02-20": {
+    "forecast_high": 82.3,
+    "forecast_std": 1.83,
+    "updated": "2026-02-20T20:10:02.199213+00:00"
+  },
+  "KXHIGHTDC_2026-02-20": {
+    "forecast_high": 57.9,
+    "forecast_std": 5.15,
+    "updated": "2026-02-20T20:30:01.547865+00:00"
+  },
+  "KXHIGHNY_2026-02-22": {
+    "forecast_high": 38.4,
+    "forecast_std": 1.73,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTMIN_2026-02-22": {
+    "forecast_high": 16.1,
+    "forecast_std": 1.56,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTDC_2026-02-22": {
+    "forecast_high": 41.6,
+    "forecast_std": 2.0,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTATL_2026-02-22": {
+    "forecast_high": 58.6,
+    "forecast_std": 2.15,
+    "updated": "2026-02-22T20:30:01.532650+00:00"
+  },
+  "KXHIGHTHOU_2026-02-22": {
+    "forecast_high": 63.8,
+    "forecast_std": 1.5,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTSEA_2026-02-22": {
+    "forecast_high": 52.6,
+    "forecast_std": 1.47,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTSATX_2026-02-22": {
+    "forecast_high": 65.4,
+    "forecast_std": 1.5,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTNOLA_2026-02-22": {
+    "forecast_high": 65.1,
+    "forecast_std": 1.35,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHCHI_2026-02-22": {
+    "forecast_high": 29.4,
+    "forecast_std": 1.5,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHAUS_2026-02-22": {
+    "forecast_high": 62.8,
+    "forecast_std": 1.5,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHPHIL_2026-02-22": {
+    "forecast_high": 41.9,
+    "forecast_std": 1.57,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTDAL_2026-02-22": {
+    "forecast_high": 56.4,
+    "forecast_std": 1.5,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTLV_2026-02-22": {
+    "forecast_high": 64.6,
+    "forecast_std": 1.81,
+    "updated": "2026-02-22T20:30:01.532650+00:00"
+  },
+  "KXHIGHTSFO_2026-02-22": {
+    "forecast_high": 64.5,
+    "forecast_std": 2.17,
+    "updated": "2026-02-22T20:30:01.532650+00:00"
+  },
+  "KXHIGHTBOS_2026-02-22": {
+    "forecast_high": 35.8,
+    "forecast_std": 1.88,
+    "updated": "2026-02-22T20:30:01.532650+00:00"
+  },
+  "KXHIGHTPHX_2026-02-22": {
+    "forecast_high": 83.4,
+    "forecast_std": 1.3,
+    "updated": "2026-02-22T20:30:01.532650+00:00"
+  },
+  "KXHIGHDEN_2026-02-22": {
+    "forecast_high": 50.0,
+    "forecast_std": 1.31,
+    "updated": "2026-02-22T20:30:01.532650+00:00"
+  },
+  "KXHIGHMIA_2026-02-22": {
+    "forecast_high": 87.3,
+    "forecast_std": 1.95,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHTOKC_2026-02-22": {
+    "forecast_high": 48.9,
+    "forecast_std": 1.5,
+    "updated": "2026-02-22T20:15:01.606138+00:00"
+  },
+  "KXHIGHNY_2026-02-23": {
+    "forecast_high": 35.3,
+    "forecast_std": 1.66,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTDC_2026-02-23": {
+    "forecast_high": 42.2,
+    "forecast_std": 1.64,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTNOLA_2026-02-23": {
+    "forecast_high": 58.1,
+    "forecast_std": 1.02,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHPHIL_2026-02-23": {
+    "forecast_high": 39.2,
+    "forecast_std": 1.56,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHAUS_2026-02-23": {
+    "forecast_high": 65.1,
+    "forecast_std": 1.5,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTMIN_2026-02-23": {
+    "forecast_high": 19.9,
+    "forecast_std": 2.62,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTSFO_2026-02-23": {
+    "forecast_high": 64.9,
+    "forecast_std": 2.45,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTLV_2026-02-23": {
+    "forecast_high": 70.2,
+    "forecast_std": 1.37,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTOKC_2026-02-23": {
+    "forecast_high": 53.6,
+    "forecast_std": 1.5,
+    "updated": "2026-02-23T20:30:02.309158+00:00"
+  },
+  "KXHIGHTPHX_2026-02-23": {
+    "forecast_high": 86.5,
+    "forecast_std": 1.5,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTHOU_2026-02-23": {
+    "forecast_high": 65.0,
+    "forecast_std": 1.5,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTATL_2026-02-23": {
+    "forecast_high": 40.6,
+    "forecast_std": 1.23,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHDEN_2026-02-23": {
+    "forecast_high": 65.7,
+    "forecast_std": 1.26,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHMIA_2026-02-23": {
+    "forecast_high": 66.6,
+    "forecast_std": 1.38,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTDAL_2026-02-23": {
+    "forecast_high": 58.1,
+    "forecast_std": 1.58,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTSEA_2026-02-23": {
+    "forecast_high": 49.2,
+    "forecast_std": 1.44,
+    "updated": "2026-02-23T07:00:01.519300+00:00"
+  },
+  "KXHIGHCHI_2026-02-23": {
+    "forecast_high": 29.5,
+    "forecast_std": 1.29,
+    "updated": "2026-02-23T20:45:02.029111+00:00"
+  },
+  "KXHIGHTSATX_2026-02-23": {
+    "forecast_high": 65.7,
+    "forecast_std": 1.5,
+    "updated": "2026-02-23T15:15:01.931912+00:00"
+  },
+  "KXHIGHTLV_2026-02-24": {
+    "forecast_high": 74.0,
+    "forecast_std": 1.02,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHTSATX_2026-02-24": {
+    "forecast_high": 75.3,
+    "forecast_std": 1.07,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHTNOLA_2026-02-24": {
+    "forecast_high": 63.9,
+    "forecast_std": 1.39,
+    "updated": "2026-02-24T05:00:01.939820+00:00"
+  },
+  "KXHIGHTSEA_2026-02-24": {
+    "forecast_high": 47.4,
+    "forecast_std": 1.51,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHTDAL_2026-02-24": {
+    "forecast_high": 72.8,
+    "forecast_std": 1.25,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHTHOU_2026-02-24": {
+    "forecast_high": 71.5,
+    "forecast_std": 1.5,
+    "updated": "2026-02-24T21:15:01.466738+00:00"
+  },
+  "KXHIGHTATL_2026-02-24": {
+    "forecast_high": 53.7,
+    "forecast_std": 1.37,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHAUS_2026-02-24": {
+    "forecast_high": 74.4,
+    "forecast_std": 1.5,
+    "updated": "2026-02-24T21:15:01.466738+00:00"
+  },
+  "KXHIGHDEN_2026-02-24": {
+    "forecast_high": 70.7,
+    "forecast_std": 1.21,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHCHI_2026-02-24": {
+    "forecast_high": 40.0,
+    "forecast_std": 1.66,
+    "updated": "2026-02-24T20:15:01.564460+00:00"
+  },
+  "KXHIGHTMIN_2026-02-24": {
+    "forecast_high": 35.9,
+    "forecast_std": 1.87,
+    "updated": "2026-02-24T01:00:01.593111+00:00"
+  },
+  "KXHIGHTOKC_2026-02-24": {
+    "forecast_high": 70.1,
+    "forecast_std": 1.82,
+    "updated": "2026-02-24T22:15:01.776145+00:00"
+  },
+  "KXHIGHTBOS_2026-02-24": {
+    "forecast_high": 30.3,
+    "forecast_std": 2.03,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHPHIL_2026-02-24": {
+    "forecast_high": 33.5,
+    "forecast_std": 1.12,
+    "updated": "2026-02-24T23:45:01.891510+00:00"
+  },
+  "KXHIGHTDC_2026-02-24": {
+    "forecast_high": 40.0,
+    "forecast_std": 1.79,
+    "updated": "2026-02-24T15:00:01.634363+00:00"
+  },
+  "KXHIGHNY_2026-02-25": {
+    "forecast_high": 39.8,
+    "forecast_std": 1.85,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  },
+  "KXHIGHDEN_2026-02-25": {
+    "forecast_high": 67.4,
+    "forecast_std": 1.5,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  },
+  "KXHIGHTDC_2026-02-25": {
+    "forecast_high": 55.2,
+    "forecast_std": 1.7,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  },
+  "KXHIGHPHIL_2026-02-25": {
+    "forecast_high": 44.6,
+    "forecast_std": 2.36,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  },
+  "KXHIGHTDAL_2026-02-25": {
+    "forecast_high": 81.3,
+    "forecast_std": 2.69,
+    "updated": "2026-02-25T05:00:02.232772+00:00"
+  },
+  "KXHIGHTLV_2026-02-25": {
+    "forecast_high": 78.6,
+    "forecast_std": 1.5,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  },
+  "KXHIGHTOKC_2026-02-25": {
+    "forecast_high": 74.3,
+    "forecast_std": 1.92,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  },
+  "KXHIGHTSATX_2026-02-25": {
+    "forecast_high": 87.3,
+    "forecast_std": 2.17,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  },
+  "KXHIGHTPHX_2026-02-25": {
+    "forecast_high": 88.4,
+    "forecast_std": 1.5,
+    "updated": "2026-02-25T23:45:01.775886+00:00"
+  }
+}

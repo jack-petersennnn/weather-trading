@@ -1,0 +1,462 @@
+{
+  "summary": {
+    "mae": 0,
+    "direction_accuracy": 0,
+    "total": 0,
+    "correct": 0,
+    "by_city": {}
+  },
+  "comparisons": [
+    {
+      "city": "Chicago",
+      "series": "KXHIGHCHI",
+      "target_date": "2026-02-19",
+      "predicted": 48.8,
+      "actual": 56.8,
+      "error": 8.0,
+      "direction_correct": false,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 37.0,
+        "NWS Hourly": 42.0,
+        "ECMWF": 53.4,
+        "GFS": 47.9,
+        "Best Match": 47.9,
+        "Ensemble ICON": 53.9,
+        "Ensemble GFS": 50.1,
+        "Ensemble ECMWF": 51.9,
+        "Tomorrow.io": 48.2,
+        "Visual Crossing": 56.4
+      },
+      "ensemble_std": null,
+      "calibrated_std": 6.69,
+      "checked_at": "2026-02-20T06:54:34.045257+00:00"
+    },
+    {
+      "city": "Denver",
+      "series": "KXHIGHDEN",
+      "target_date": "2026-02-19",
+      "predicted": 34.7,
+      "actual": 38.4,
+      "error": 3.7,
+      "direction_correct": false,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 35.0,
+        "NWS Hourly": 26.0,
+        "ECMWF": 37.9,
+        "GFS": 36.1,
+        "Best Match": 36.1,
+        "Ensemble ICON": 33.2,
+        "Ensemble GFS": 35.0,
+        "Ensemble ECMWF": 37.3,
+        "Tomorrow.io": 35.8,
+        "Visual Crossing": 35.0
+      },
+      "ensemble_std": null,
+      "calibrated_std": 4.44,
+      "checked_at": "2026-02-20T06:54:34.045257+00:00"
+    },
+    {
+      "city": "Los Angeles",
+      "series": "KXHIGHLAX",
+      "target_date": "2026-02-19",
+      "predicted": 55.3,
+      "actual": 55.8,
+      "error": 0.5,
+      "direction_correct": true,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 59.0,
+        "NWS Hourly": 47.0,
+        "ECMWF": 55.8,
+        "GFS": 55.3,
+        "Best Match": 55.3,
+        "Ensemble ICON": 57.6,
+        "Ensemble GFS": 54.4,
+        "Ensemble ECMWF": 55.6,
+        "Tomorrow.io": 56.5,
+        "Visual Crossing": 56.7
+      },
+      "ensemble_std": null,
+      "calibrated_std": 2.53,
+      "checked_at": "2026-02-20T06:54:34.045257+00:00"
+    },
+    {
+      "city": "Austin",
+      "series": "KXHIGHAUS",
+      "target_date": "2026-02-19",
+      "predicted": 82.1,
+      "actual": 82.1,
+      "error": 0.0,
+      "direction_correct": true,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 76.0,
+        "NWS Hourly": 66.0,
+        "ECMWF": 82.1,
+        "GFS": 85.8,
+        "Best Match": 85.8,
+        "Ensemble ICON": 86.4,
+        "Ensemble GFS": 83.9,
+        "Ensemble ECMWF": 83.1,
+        "Tomorrow.io": 85.5,
+        "Visual Crossing": 84.7
+      },
+      "ensemble_std": null,
+      "calibrated_std": 7.27,
+      "checked_at": "2026-02-20T06:54:34.045257+00:00"
+    },
+    {
+      "city": "New York",
+      "series": "KXHIGHNY",
+      "target_date": "2026-02-20",
+      "predicted": 39.7,
+      "actual": 38.3,
+      "error": 1.4,
+      "direction_correct": true,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 40.0,
+        "NWS Hourly": 40.0,
+        "ECMWF": 42.0,
+        "GFS": 38.4,
+        "Best Match": 38.4,
+        "Ensemble ICON": 37.4,
+        "Ensemble GFS": 40.3,
+        "Ensemble ECMWF": 42.9,
+        "Tomorrow.io": 38.8,
+        "Visual Crossing": 40.0
+      },
+      "ensemble_std": null,
+      "calibrated_std": 2.04,
+      "checked_at": "2026-02-21T15:00:01.086101+00:00"
+    },
+    {
+      "city": "Chicago",
+      "series": "KXHIGHCHI",
+      "target_date": "2026-02-20",
+      "predicted": 44.2,
+      "actual": 45.0,
+      "error": 0.8,
+      "direction_correct": true,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 37.0,
+        "NWS Hourly": 46.0,
+        "ECMWF": 43.9,
+        "GFS": 45.5,
+        "Best Match": 45.5,
+        "Ensemble ICON": 48.9,
+        "Ensemble GFS": 47.2,
+        "Ensemble ECMWF": 44.1,
+        "Tomorrow.io": 36.9,
+        "Visual Crossing": 47.0
+      },
+      "ensemble_std": null,
+      "calibrated_std": 4.75,
+      "checked_at": "2026-02-21T15:00:01.086101+00:00"
+    },
+    {
+      "city": "Miami",
+      "series": "KXHIGHMIA",
+      "target_date": "2026-02-20",
+      "predicted": 79.7,
+      "actual": 79.8,
+      "error": 0.1,
+      "direction_correct": true,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 79.0,
+        "NWS Hourly": 79.0,
+        "ECMWF": 79.0,
+        "GFS": 79.3,
+        "Best Match": 79.3,
+        "Ensemble ICON": 84.2,
+        "Ensemble GFS": 79.3,
+        "Ensemble ECMWF": 79.9,
+        "Tomorrow.io": 79.3,
+        "Visual Crossing": 78.0
+      },
+      "ensemble_std": null,
+      "calibrated_std": 1.39,
+      "checked_at": "2026-02-21T15:00:01.086101+00:00"
+    },
+    {
+      "city": "Denver",
+      "series": "KXHIGHDEN",
+      "target_date": "2026-02-20",
+      "predicted": 33.0,
+      "actual": 28.9,
+      "error": 4.1,
+      "direction_correct": false,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 35.0,
+        "NWS Hourly": 34.0,
+        "ECMWF": 30.8,
+        "GFS": 35.0,
+        "Best Match": 35.0,
+        "Ensemble ICON": 27.6,
+        "Ensemble GFS": 32.4,
+        "Ensemble ECMWF": 30.4,
+        "Tomorrow.io": 35.1,
+        "Visual Crossing": 34.1
+      },
+      "ensemble_std": null,
+      "calibrated_std": 3.43,
+      "checked_at": "2026-02-21T15:00:01.086101+00:00"
+    },
+    {
+      "city": "Los Angeles",
+      "series": "KXHIGHLAX",
+      "target_date": "2026-02-20",
+      "predicted": 57.1,
+      "actual": 58.2,
+      "error": 1.1,
+      "direction_correct": true,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 59.0,
+        "NWS Hourly": 59.0,
+        "ECMWF": 57.3,
+        "GFS": 55.3,
+        "Best Match": 55.3,
+        "Ensemble ICON": 54.9,
+        "Ensemble GFS": 57.5,
+        "Ensemble ECMWF": 57.5,
+        "Tomorrow.io": 55.1,
+        "Visual Crossing": 58.9
+      },
+      "ensemble_std": null,
+      "calibrated_std": 1.3,
+      "checked_at": "2026-02-21T15:00:01.086101+00:00"
+    },
+    {
+      "city": "Austin",
+      "series": "KXHIGHAUS",
+      "target_date": "2026-02-20",
+      "predicted": 71.2,
+      "actual": 69.0,
+      "error": 2.2,
+      "direction_correct": true,
+      "sources_used": [
+        "NWS Forecast",
+        "NWS Hourly",
+        "ECMWF",
+        "GFS",
+        "Best Match",
+        "Ensemble ICON",
+        "Ensemble GFS",
+        "Ensemble ECMWF",
+        "Tomorrow.io",
+        "Visual Crossing"
+      ],
+      "source_forecasts": {
+        "NWS Forecast": 76.0,
+        "NWS Hourly": 76.0,
+        "ECMWF": 69.0,
+        "GFS": 69.9,
+        "Best Match": 69.9,
+        "Ensemble ICON": 70.3,
+        "Ensemble GFS": 66.8,
+        "Ensemble ECMWF": 70.3,
+        "Tomorrow.io": 69.5,
+        "Visual Crossing": 74.9
+      },
+      "ensemble_std": null,
+      "calibrated_std": 3.61,
+      "checked_at": "2026-02-21T15:00:01.086101+00:00"
+    }
+  ],
+  "overall": {
+    "mae": 2.19,
+    "median_error": 1.25,
+    "max_error": 8.0,
+    "min_error": 0.0,
+    "total_predictions": 10,
+    "direction_accuracy": 70.0,
+    "updated": "2026-03-05T15:00:01.136805+00:00",
+    "best_city": "Miami",
+    "best_city_mae": 0.1,
+    "worst_city": "Chicago",
+    "worst_city_mae": 4.4
+  },
+  "city_stats": {
+    "Chicago": {
+      "mae": 4.4,
+      "predictions": 2,
+      "direction_accuracy": 50.0
+    },
+    "Denver": {
+      "mae": 3.9,
+      "predictions": 2,
+      "direction_accuracy": 0.0
+    },
+    "Los Angeles": {
+      "mae": 0.8,
+      "predictions": 2,
+      "direction_accuracy": 100.0
+    },
+    "Austin": {
+      "mae": 1.1,
+      "predictions": 2,
+      "direction_accuracy": 100.0
+    },
+    "New York": {
+      "mae": 1.4,
+      "predictions": 1,
+      "direction_accuracy": 100.0
+    },
+    "Miami": {
+      "mae": 0.1,
+      "predictions": 1,
+      "direction_accuracy": 100.0
+    }
+  },
+  "source_accuracy": {
+    "Ensemble GFS": {
+      "mae": 2.44,
+      "weight": 1.247
+    },
+    "NWS Hourly": {
+      "mae": 6.85,
+      "weight": 0.0
+    },
+    "Ensemble ICON": {
+      "mae": 2.93,
+      "weight": 1.061
+    },
+    "Tomorrow.io": {
+      "mae": 3.42,
+      "weight": 0.943
+    },
+    "Visual Crossing": {
+      "mae": 2.46,
+      "weight": 1.253
+    },
+    "ECMWF": {
+      "mae": 2.07,
+      "weight": 1.523
+    },
+    "Best Match": {
+      "mae": 2.97,
+      "weight": 1.08
+    },
+    "GFS": {
+      "mae": 2.66,
+      "weight": 1.171
+    },
+    "Ensemble ECMWF": {
+      "mae": 1.63,
+      "weight": 1.8
+    },
+    "NWS Forecast": {
+      "mae": 5.69,
+      "weight": 0.0
+    },
+    "ICON": {
+      "mae": 2.01,
+      "weight": 1.501
+    }
+  }
+}

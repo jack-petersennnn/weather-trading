@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "portfolio": {
+    "starting_capital_cents": 51076,
+    "max_single_trade_pct": 3.0,
+    "max_city_exposure_pct": 15.0,
+    "max_daily_risk_pct": 8.0,
+    "reserve_pct": 10.0
+  },
+  "cities": {
+    "Miami": {
+      "style": "aggressive",
+      "edge_threshold_base": 0.06,
+      "max_trades_per_day": 5,
+      "kelly_multiplier": 0.25,
+      "capital_allocation_pct": 8.0,
+      "min_sources_required": 6,
+      "max_source_spread_f": 5.0,
+      "skip_if_bimodal": false,
+      "notes": "Stable tropical climate, ensemble excels here"
+    },
+    "Los Angeles": {
+      "style": "aggressive",
+      "edge_threshold_base": 0.06,
+      "max_trades_per_day": 5,
+      "kelly_multiplier": 0.25,
+      "capital_allocation_pct": 8.0,
+      "min_sources_required": 6,
+      "max_source_spread_f": 5.0,
+      "skip_if_bimodal": false,
+      "notes": "Mediterranean climate, very predictable"
+    },
+    "Chicago": {
+      "style": "balanced",
+      "edge_threshold_base": 0.12,
+      "max_trades_per_day": 3,
+      "kelly_multiplier": 0.25,
+      "capital_allocation_pct": 8.0,
+      "min_sources_required": 7,
+      "max_source_spread_f": 6.0,
+      "skip_if_bimodal": false,
+      "notes": "Midwest, moderate variance"
+    },
+    "Austin": {
+      "style": "balanced",
+      "edge_threshold_base": 0.12,
+      "max_trades_per_day": 3,
+      "kelly_multiplier": 0.25,
+      "capital_allocation_pct": 8.0,
+      "min_sources_required": 7,
+      "max_source_spread_f": 6.0,
+      "skip_if_bimodal": false,
+      "notes": "Texas, decent predictability but can surprise"
+    },
+    "New York": {
+      "style": "selective",
+      "edge_threshold_base": 0.15,
+      "max_trades_per_day": 2,
+      "kelly_multiplier": 0.25,
+      "capital_allocation_pct": 8.0,
+      "min_sources_required": 8,
+      "max_source_spread_f": 4.0,
+      "skip_if_bimodal": true,
+      "notes": "Coastal, models disagree often, only trade on high consensus"
+    },
+    "Denver": {
+      "style": "conservative",
+      "edge_threshold_base": 0.18,
+      "max_trades_per_day": 2,
+      "kelly_multiplier": 0.2,
+      "capital_allocation_pct": 8.0,
+      "min_sources_required": 8,
+      "max_source_spread_f": 4.0,
+      "skip_if_bimodal": true,
+      "notes": "Mountain weather, extreme volatility, only trade slam dunks"
+    }
+  },
+  "defaults": {
+    "style": "balanced",
+    "edge_threshold_base": 0.12,
+    "max_trades_per_day": 3,
+    "kelly_multiplier": 0.25,
+    "capital_allocation_pct": 8.0,
+    "min_sources_required": 7,
+    "max_source_spread_f": 6.0,
+    "skip_if_bimodal": false
+  }
+}

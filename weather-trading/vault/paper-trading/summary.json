@@ -1,0 +1,13 @@
+{
+  "period": "Feb 13-18, 2026",
+  "starting_bankroll": 500,
+  "final_pnl": 1628.87,
+  "final_portfolio": 2128.87,
+  "total_trades": 110,
+  "wins": 20,
+  "losses": 44,
+  "exited": 46,
+  "win_rate": "31.2%",
+  "total_invested": 1846.12,
+  "strategy": "Kelly 35%, 5% max, $2 floor, ECMWF 1.65x weighting"
+}

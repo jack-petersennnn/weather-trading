@@ -1,0 +1,96 @@
+{
+    "risk": {
+        "kelly_fraction_max": 0.0,
+        "kill_switch_balance_cents": 5000,
+        "rolling_24h_drawdown_pct": 0.1
+    },
+    "scanner": {
+        "min_edge_threshold": 0.15,
+        "min_edge_bracket": 0.2,
+        "min_sources": 3,
+        "min_families": 4,
+        "max_trade_cost_cents": 200,
+        "max_trades_per_city": 1,
+        "max_source_spread": 8.0,
+        "spread_half_size_threshold": 5.0,
+        "spread_reduced_size_threshold": 3.0,
+        "reserve_cents": 5000,
+        "re_entry_min_edge": 0.2,
+        "min_strike_separation": 3.0,
+        "prob_cap": 0.95,
+        "lockout_hours": 4,
+        "evening_min_edge": 0.25,
+        "evening_max_spend_cents": 200,
+        "evening_start_utc": 22,
+        "evening_end_utc": 7,
+        "max_portfolio_exposure_pct": 0.15,
+        "max_per_day_exposure_cents": 1500,
+        "no_edge_discount": 0.02,
+        "no_selection_bonus": 0.03,
+        "rescue_mode": true,
+        "fixed_size_cents": 200,
+        "yes_banned_below_cents": 25,
+        "allowed_cities": [
+            "Chicago",
+            "Minneapolis",
+            "Phoenix",
+            "Las Vegas"
+        ],
+        "disable_adds": true,
+        "allowed_sides": [
+            "NO"
+        ],
+        "threshold_only": true,
+        "no_price_band_min_cents": 65,
+        "no_price_band_max_cents": 85,
+        "abstain_zone_min_prob": 0.4,
+        "abstain_zone_max_prob": 0.65,
+        "min_net_ev_cents": 8,
+        "max_spread_cents": 4,
+        "min_depth_factor": 1.0,
+        "max_quote_age_seconds": 120,
+        "disabled_cities": {
+            "Denver": {
+                "disabled_at": "2026-03-01T19:45:00Z",
+                "reason": "Poor 1\u03c3 coverage (52.8%), high source spread, all trades blocked by rescue filters"
+            }
+        }
+    },
+    "position_manager": {
+        "stale_order_hours": 2,
+        "re_entry_min_edge": 0.2,
+        "sell_discount_pct": 0.05,
+        "sell_discount_threshold": 20,
+        "sell_discount_flat": 1,
+        "min_severity_delta": 0.2,
+        "reserve_cents": 5000,
+        "hedge_enabled": false,
+        "reentry_enabled": false,
+        "graduated_exits_enabled": false,
+        "hold_to_settlement": true
+    },
+    "circuit_breaker": {
+        "enabled": true,
+        "consecutive_loss_limit": 3,
+        "cooldown_hours": 6,
+        "state_file": "circuit_breaker_state.json",
+        "daily_loss_limit_pct": 0.1,
+        "rolling_24h_drawdown_pct": 0.1,
+        "correlation_limit": 3,
+        "max_warm_cities": 3,
+        "max_cold_cities": 3
+    },
+    "spike_monitor": {
+        "enabled": false,
+        "poll_interval_sec": 0.75,
+        "min_profit_ratio": 1.2,
+        "min_spike_cents": 3,
+        "hold_if_prob_above": 0.7,
+        "partial_sell_prob_min": 0.4,
+        "sell_discount_cents": 1
+    },
+    "archive": {
+        "max_open_trades_in_file": 200,
+        "archive_file": "trades_archive.json"
+    }
+}
