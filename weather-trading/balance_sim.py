@@ -27,7 +27,7 @@ Usage:
 import json
 import os
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 def get_event_ticker(market_ticker):
@@ -164,12 +164,28 @@ def replay_from_cache(fills_path="/tmp/kalshi_fills_all.json",
     with open(settlements_path) as f:
         setts = json.load(f)
     
+    def parse_unix_ts(value):
+        """Parse API timestamps that may be in seconds or milliseconds."""
+        ts = float(value or 0)
+        if ts > 1e12:
+            ts /= 1000.0
+        return ts
+
+    def parse_iso_ts(value):
+        """Parse ISO timestamp strings as UTC."""
+        if not value:
+            return 0.0
+        dt = datetime.fromisoformat(value.replace('Z', '+00:00'))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.timestamp()
+
     # Build chronological event list
     events = []
     for f_data in fills:
-        events.append(('fill', f_data.get('ts', 0), f_data))
+        events.append(('fill', parse_unix_ts(f_data.get('ts', 0)), f_data))
     for s_data in setts:
-        ts = datetime.fromisoformat(s_data['settled_time'].rstrip('Z')).timestamp()
+        ts = parse_iso_ts(s_data.get('settled_time') or s_data.get('ts'))
         events.append(('settlement', ts, s_data))
     events.sort(key=lambda x: x[1])
     

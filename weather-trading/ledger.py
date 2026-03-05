@@ -2,16 +2,17 @@
 """
 Ledger — Append-only trade ledger with FIFO lot engine.
 
-All positions normalized to YES exposure:
-  BUY YES @ p  →  (+q, p)
-  SELL YES @ p →  (-q, p)
-  BUY NO @ p   →  (-q, 100-p)   (equivalent to SELL YES)
-  SELL NO @ p  →  (+q, 100-p)   (equivalent to BUY YES)
+Kalshi mechanics modeled explicitly:
+  - BUY SIDE: opens inventory on that side at side_price.
+  - SELL SIDE: equivalent to BUY opposite side at other_side_price.
+  - YES+NO pair on same market nets immediately for $1.00.
+  - Settlement pays winning side at $1.00 per contract.
 
-P&L rules:
-  - Exit: (exit_price - entry_price) * qty - fees
-  - Settlement: closes remaining lots at 100 (YES wins) or 0 (NO wins)
-  - Settlement on qty=0 produces zero P&L (prevents phantom P&L)
+Fill transformation (normalize_fill):
+  BUY YES @ p  → (YES, qty, p)
+  BUY NO @ p   → (NO, qty, p)
+  SELL YES @ p → (NO, qty, 100-p)   — sell YES = buy NO
+  SELL NO @ p  → (YES, qty, 100-p)  — sell NO = buy YES
 
 Storage:
   ledger.jsonl  — append-only event log (one JSON per line)
@@ -98,7 +99,8 @@ def log_fill(fill_id, order_id, market_ticker, side, direction,
 
 
 def log_settlement(market_ticker, result, settle_fee_cents=0,
-                   actual_temperature=None, model_forecast=None, ts=None):
+                   actual_temperature=None, model_forecast=None,
+                   payout_cents=None, ts=None):
     """Log a settlement from Kalshi."""
     event = {
         "type": "SETTLEMENT",
@@ -107,6 +109,8 @@ def log_settlement(market_ticker, result, settle_fee_cents=0,
         "settle_fee_cents": settle_fee_cents,
         "ts": ts or datetime.now(timezone.utc).timestamp(),
     }
+    if payout_cents is not None:
+        event["payout_cents"] = payout_cents
     if actual_temperature is not None:
         event["actual_temperature"] = actual_temperature
     if model_forecast is not None:
@@ -122,24 +126,25 @@ def log_settlement(market_ticker, result, settle_fee_cents=0,
 # ═══════════════════════════════════════════════════════════════
 
 def normalize_fill(side, direction, qty, price_cents):
-    """Convert any fill to YES terms.
+    """Transform fill to a synthetic BUY in Kalshi's internal accounting.
 
-    Returns (qty_signed_yes, effective_price_yes_cents).
-    Positive qty = opening/increasing YES. Negative = closing/reducing.
+    Returns (buy_side, qty, buy_price_cents):
+      BUY YES @ p  → ("YES", qty, p)
+      BUY NO  @ p  → ("NO",  qty, p)
+      SELL YES @ p → ("NO",  qty, 100-p)   — sell YES = buy NO
+      SELL NO  @ p → ("YES", qty, 100-p)   — sell NO  = buy YES
     """
     side = side.upper()
     direction = direction.upper()
 
     if side == "YES" and direction == "BUY":
-        return (+qty, price_cents)
-    elif side == "YES" and direction == "SELL":
-        return (-qty, price_cents)
+        return ("YES", qty, price_cents)
     elif side == "NO" and direction == "BUY":
-        # Buying NO = selling YES equivalent
-        return (-qty, 100 - price_cents)
+        return ("NO", qty, price_cents)
+    elif side == "YES" and direction == "SELL":
+        return ("NO", qty, 100 - price_cents)
     elif side == "NO" and direction == "SELL":
-        # Selling NO = buying YES equivalent
-        return (+qty, 100 - price_cents)
+        return ("YES", qty, 100 - price_cents)
     else:
         raise ValueError(f"Invalid side/direction: {side}/{direction}")
 
@@ -178,172 +183,150 @@ class Lot:
 
 
 class LotEngine:
-    """FIFO lot engine for YES-normalized positions."""
+    """FIFO lot engine tracking YES and NO inventory separately.
+    
+    Models Kalshi mechanics: every fill is a BUY (sells transformed to buy
+    opposite side). YES+NO pairs on the same market net immediately for $1.00.
+    """
 
     def __init__(self):
-        self.lots = defaultdict(deque)         # ticker -> deque of Lot
+        self.lots = defaultdict(lambda: {"YES": deque(), "NO": deque()})
         self.realized_pnl = defaultdict(int)   # ticker -> cents
         self.total_fees = defaultdict(int)      # ticker -> cents
         self.seen_fill_ids = set()
         self.pnl_by_decision = defaultdict(int) # decision_id -> cents
 
-    def apply_fill(self, ticker, qty_signed, price_cents, fee_cents=0,
+    def apply_fill(self, ticker, buy_side, qty, price_cents, fee_cents=0,
                    decision_id=None, fill_id=None, ts=None):
-        """Apply a YES-normalized fill. Returns realized P&L in cents (0 for opens).
-
-        Supports short lots: if selling more YES than held, excess opens short lots
-        (negative qty_remaining). Buying YES closes short lots first (FIFO), then
-        opens long lots with any remainder.
+        """Apply one fill transformed into a synthetic BUY.
+        
+        buy_side: "YES" or "NO" — which side we're buying
+        qty: number of contracts
+        price_cents: price paid per contract
+        
+        If the opposite side has inventory, nets YES+NO pairs for $1.00 each.
+        Returns realized P&L in cents (0 for pure opens).
         """
         if fill_id and fill_id in self.seen_fill_ids:
-            return 0  # Idempotent: already processed
+            return 0
         if fill_id:
             self.seen_fill_ids.add(fill_id)
 
         self.total_fees[ticker] += fee_cents
         ticker_lots = self.lots[ticker]
         pnl = 0
-        total_qty = abs(qty_signed)
-        closed_qty = 0
+        total_qty = qty
+        remaining = qty
 
-        if qty_signed > 0:
-            # BUY YES: close short lots first (FIFO), then open long lots
-            remaining = qty_signed
+        opposite = "NO" if buy_side == "YES" else "YES"
+        buy_queue = ticker_lots[buy_side]
+        opposite_queue = ticker_lots[opposite]
 
-            while remaining > 0 and ticker_lots and ticker_lots[0].qty_remaining < 0:
-                lot = ticker_lots[0]
-                short_qty = abs(lot.qty_remaining)
-                matched = min(remaining, short_qty)
+        # Net against opposite side (YES+NO pair = $1.00)
+        while remaining > 0 and opposite_queue:
+            lot = opposite_queue[0]
+            matched = min(remaining, lot.qty_remaining)
 
-                # Short P&L: entry_price - exit_price
-                lot_pnl = matched * (lot.entry_price - price_cents)
-                entry_fee_alloc = round(matched * lot.entry_fee_per_contract)
-                lot_pnl -= entry_fee_alloc
+            # Netting P&L: pair pays $1.00. We paid entry for opposite + price for this side.
+            # P&L = 100 - price_cents - lot.entry_price (per contract)
+            lot_pnl = matched * (100 - price_cents - lot.entry_price)
+            lot_pnl -= round(matched * lot.entry_fee_per_contract)
 
-                pnl += lot_pnl
-                if lot.decision_id:
-                    self.pnl_by_decision[lot.decision_id] += lot_pnl
+            pnl += lot_pnl
+            if lot.decision_id:
+                self.pnl_by_decision[lot.decision_id] += lot_pnl
 
-                lot.qty_remaining += matched
-                remaining -= matched
-                closed_qty += matched
+            lot.qty_remaining -= matched
+            remaining -= matched
 
-                if lot.qty_remaining == 0:
-                    ticker_lots.popleft()
+            if lot.qty_remaining == 0:
+                opposite_queue.popleft()
 
-            if remaining > 0:
-                # Allocate fee proportionally to opening portion
-                open_fee = round(fee_cents * remaining / total_qty) if total_qty > 0 else 0
-                ticker_lots.append(Lot(
-                    qty=remaining,
-                    entry_price=price_cents,
-                    fee_cents=open_fee,
-                    decision_id=decision_id,
-                    ts=ts,
-                ))
+        # Fee allocation: closing portion goes to P&L, opening portion to new lots
+        if total_qty > 0:
+            matched_qty = total_qty - remaining
+            if matched_qty > 0:
+                pnl -= round(fee_cents * matched_qty / total_qty)
+            open_fee = fee_cents - round(fee_cents * matched_qty / total_qty)
+        else:
+            open_fee = 0
 
-        elif qty_signed < 0:
-            # SELL YES: close long lots first (FIFO), then open short lots
-            to_close = abs(qty_signed)
+        # Open new lots for remaining quantity
+        if remaining > 0:
+            buy_queue.append(Lot(
+                qty=remaining,
+                entry_price=price_cents,
+                fee_cents=open_fee,
+                decision_id=decision_id,
+                ts=ts,
+            ))
 
-            while to_close > 0 and ticker_lots and ticker_lots[0].qty_remaining > 0:
-                lot = ticker_lots[0]
-                matched = min(to_close, lot.qty_remaining)
-
-                lot_pnl = matched * (price_cents - lot.entry_price)
-                entry_fee_alloc = round(matched * lot.entry_fee_per_contract)
-                lot_pnl -= entry_fee_alloc
-
-                pnl += lot_pnl
-                if lot.decision_id:
-                    self.pnl_by_decision[lot.decision_id] += lot_pnl
-
-                lot.qty_remaining -= matched
-                to_close -= matched
-                closed_qty += matched
-
-                if lot.qty_remaining <= 0:
-                    ticker_lots.popleft()
-
-            if to_close > 0:
-                open_fee = round(fee_cents * to_close / total_qty) if total_qty > 0 else 0
-                ticker_lots.append(Lot(
-                    qty=-to_close,
-                    entry_price=price_cents,
-                    fee_cents=open_fee,
-                    decision_id=decision_id,
-                    ts=ts,
-                ))
-
-        # Fee on closing portion goes to realized P&L
-        if closed_qty > 0:
-            close_fee = round(fee_cents * closed_qty / total_qty) if total_qty > 0 else 0
-            pnl -= close_fee
-
-        if pnl != 0 or closed_qty > 0:
+        if pnl != 0:
             self.realized_pnl[ticker] += pnl
 
         return pnl
 
-    def apply_settlement(self, ticker, result):
-        """Settle remaining lots. YES→exit at 100, NO→exit at 0, VOID→exit at entry (flat).
-
-        Returns realized P&L from settlement.
+    def apply_settlement(self, ticker, result, payout_cents=None):
+        """Settle any unpaired lots at market payout.
+        
+        YES wins: YES lots get 100¢, NO lots get 0¢
+        NO wins: YES lots get 0¢, NO lots get 100¢
+        Scalar: use payout_cents directly
         """
         ticker_lots = self.lots[ticker]
-        if not ticker_lots:
-            return 0  # Nothing to settle — prevents phantom P&L
+        if not ticker_lots["YES"] and not ticker_lots["NO"]:
+            return 0
 
-        if result.upper() == "YES":
-            payout = 100
-        elif result.upper() == "NO":
-            payout = 0
-        elif result.upper() == "VOID":
-            # Return entry price (flat)
-            pnl = 0
-            while ticker_lots:
-                lot = ticker_lots.popleft()
-                # Refund entry fees on void
-                pnl += 0  # Flat
-            self.realized_pnl[ticker] += pnl
-            return pnl
+        result_upper = result.upper()
+        if result_upper == "YES":
+            yes_payout = 100
+        elif result_upper == "NO":
+            yes_payout = 0
+        elif result_upper == "VOID":
+            ticker_lots["YES"].clear()
+            ticker_lots["NO"].clear()
+            return 0
         else:
-            # Scalar: treat result as payout value
-            try:
-                payout = int(result)
-            except (ValueError, TypeError):
-                payout = 0
+            # Scalar
+            if payout_cents is None:
+                try:
+                    payout_cents = int(result)
+                except (ValueError, TypeError):
+                    payout_cents = 0
+            yes_payout = max(0, min(100, int(payout_cents)))
 
+        no_payout = 100 - yes_payout
         pnl = 0
-        while ticker_lots:
-            lot = ticker_lots.popleft()
-            if lot.qty_remaining > 0:
-                # Long: profit when payout > entry
+
+        for side, payout in (("YES", yes_payout), ("NO", no_payout)):
+            queue = ticker_lots[side]
+            while queue:
+                lot = queue.popleft()
                 lot_pnl = lot.qty_remaining * (payout - lot.entry_price)
-                entry_fee_alloc = round(lot.qty_remaining * lot.entry_fee_per_contract)
-                lot_pnl -= entry_fee_alloc
-            elif lot.qty_remaining < 0:
-                # Short: profit when entry > payout
-                abs_qty = abs(lot.qty_remaining)
-                lot_pnl = abs_qty * (lot.entry_price - payout)
-                entry_fee_alloc = round(abs_qty * lot.entry_fee_per_contract)
-                lot_pnl -= entry_fee_alloc
-            else:
-                continue
-            pnl += lot_pnl
-            if lot.decision_id:
-                self.pnl_by_decision[lot.decision_id] += lot_pnl
+                lot_pnl -= round(lot.qty_remaining * lot.entry_fee_per_contract)
+                pnl += lot_pnl
+                if lot.decision_id:
+                    self.pnl_by_decision[lot.decision_id] += lot_pnl
 
         self.realized_pnl[ticker] += pnl
         return pnl
 
     def remaining_qty(self, ticker):
-        """Net YES contracts held for a ticker (negative = short)."""
-        return sum(lot.qty_remaining for lot in self.lots[ticker])
+        """Net contracts held for a ticker by side."""
+        lots = self.lots[ticker]
+        return {
+            "YES": sum(lot.qty_remaining for lot in lots["YES"]),
+            "NO": sum(lot.qty_remaining for lot in lots["NO"]),
+        }
 
     def open_positions(self):
-        """All tickers with remaining inventory (long or short)."""
-        return {t: self.remaining_qty(t) for t in self.lots if self.remaining_qty(t) != 0}
+        """All tickers with non-zero inventory."""
+        positions = {}
+        for ticker in self.lots:
+            qty = self.remaining_qty(ticker)
+            if qty["YES"] or qty["NO"]:
+                positions[ticker] = qty
+        return positions
 
     def total_realized_pnl(self):
         """Sum of all realized P&L across all tickers, in cents."""
@@ -368,7 +351,12 @@ class LotEngine:
         """Save checkpoint to JSON."""
         path = path or STATE_FILE
         state = {
-            "lots": {t: [l.to_dict() for l in lots] for t, lots in self.lots.items() if lots},
+            "lots": {
+                t: {side: [l.to_dict() for l in sides[side]]
+                    for side in ("YES", "NO") if sides[side]}
+                for t, sides in self.lots.items()
+                if sides["YES"] or sides["NO"]
+            },
             "realized_pnl": dict(self.realized_pnl),
             "total_fees": dict(self.total_fees),
             "seen_fill_ids": list(self.seen_fill_ids),
@@ -390,9 +378,12 @@ class LotEngine:
         try:
             with open(path) as f:
                 state = json.load(f)
-            self.lots = defaultdict(deque)
-            for t, lot_dicts in state.get("lots", {}).items():
-                self.lots[t] = deque(Lot.from_dict(d) for d in lot_dicts)
+            self.lots = defaultdict(lambda: {"YES": deque(), "NO": deque()})
+            for t, side_lots in state.get("lots", {}).items():
+                self.lots[t] = {
+                    "YES": deque(Lot.from_dict(d) for d in side_lots.get("YES", [])),
+                    "NO": deque(Lot.from_dict(d) for d in side_lots.get("NO", [])),
+                }
             self.realized_pnl = defaultdict(int, {k: v for k, v in state.get("realized_pnl", {}).items()})
             self.total_fees = defaultdict(int, {k: v for k, v in state.get("total_fees", {}).items()})
             self.seen_fill_ids = set(state.get("seen_fill_ids", []))
@@ -420,13 +411,14 @@ class LotEngine:
                     continue  # Skip corrupted lines (crash-safe)
 
                 if event["type"] == "FILL":
-                    qty_signed, eff_price = normalize_fill(
+                    buy_side, qty, eff_price = normalize_fill(
                         event["side"], event["dir"],
                         event["qty"], event["price_cents"]
                     )
                     self.apply_fill(
                         ticker=event["market_ticker"],
-                        qty_signed=qty_signed,
+                        buy_side=buy_side,
+                        qty=qty,
                         price_cents=eff_price,
                         fee_cents=event.get("fee_cents", 0),
                         decision_id=event.get("decision_id"),
@@ -434,9 +426,11 @@ class LotEngine:
                         ts=event.get("ts"),
                     )
                 elif event["type"] == "SETTLEMENT":
+                    payout_cents = event.get("payout_cents")
                     self.apply_settlement(
                         ticker=event["market_ticker"],
                         result=event["result"],
+                        payout_cents=payout_cents,
                     )
 
 
@@ -494,10 +488,11 @@ def ingest_fills(engine, kalshi_fills, decision_map=None):
         )
 
         # Normalize and apply
-        qty_signed, eff_price = normalize_fill(side, direction, qty, price)
+        buy_side, norm_qty, eff_price = normalize_fill(side, direction, qty, price)
         pnl = engine.apply_fill(
             ticker=ticker,
-            qty_signed=qty_signed,
+            buy_side=buy_side,
+            qty=norm_qty,
             price_cents=eff_price,
             fee_cents=fee_cents,
             decision_id=decision_id,
@@ -520,14 +515,17 @@ def ingest_settlements(engine, kalshi_settlements):
         result = s["market_result"].upper()
         fee_cents = round(float(s.get("fee_cost", 0)) * 100)
 
+        payout_cents = s.get("value")
+
         log_settlement(
             market_ticker=ticker,
             result=result,
             settle_fee_cents=fee_cents,
+            payout_cents=payout_cents,
             ts=s.get("settled_time"),
         )
 
-        pnl = engine.apply_settlement(ticker, result)
+        pnl = engine.apply_settlement(ticker, result, payout_cents=payout_cents)
         results.append((ticker, pnl))
 
     return results

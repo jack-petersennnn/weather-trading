@@ -3,6 +3,7 @@ Kalshi Trading Client — Real Money
 RSA-PSS signed requests for authenticated endpoints.
 """
 import base64, time, json, os, urllib.request, urllib.error
+from urllib.parse import quote
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.backends import default_backend
@@ -107,7 +108,7 @@ def get_orders(ticker=None, status=None):
 
 def get_market(ticker):
     """Get single market details."""
-    return _request("GET", f"/markets/{ticker}")
+    return _request("GET", f"/markets/{quote(str(ticker), safe=str())}")
 
 def get_markets(series_ticker=None, status="open", limit=200):
     """List markets with optional filters."""
@@ -118,7 +119,7 @@ def get_markets(series_ticker=None, status="open", limit=200):
 
 def get_orderbook(ticker):
     """Get orderbook for a market."""
-    return _request("GET", f"/markets/{ticker}/orderbook")
+    return _request("GET", f"/markets/{quote(str(ticker), safe=str())}/orderbook")
 
 # ── Trading ─────────────────────────────────────────────────────────
 
@@ -149,7 +150,7 @@ def place_order(ticker, side, contracts, price_cents, order_type="limit"):
 
 def cancel_order(order_id):
     """Cancel an open order."""
-    return _request("DELETE", f"/portfolio/orders/{order_id}")
+    return _request("DELETE", f"/portfolio/orders/{quote(str(order_id), safe=str())}")
 
 def sell_position(ticker, side, contracts, price_cents):
     """Sell (exit) an existing position. Use safe_sell_position() for verified sells."""
@@ -256,7 +257,7 @@ def safe_sell_position(ticker, contract_side, contracts, price_cents):
                     break
             else:
                 audit["post_sell_position"] = 0
-        except:
+        except Exception:
             audit["post_sell_position"] = "fetch_failed"
         
         return True, result, audit

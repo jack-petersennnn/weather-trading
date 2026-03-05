@@ -219,21 +219,20 @@ def parse_ticker(ticker, trade=None):
 
 
 def get_local_hour(tz_name):
-    """Get current local hour for a timezone (approximate using UTC offset)."""
-    offsets = {
-        "America/New_York": -5,
-        "America/Chicago": -6,
-        "America/Denver": -7,
-        "America/Los_Angeles": -8,
-    }
-    # During DST (roughly Mar-Nov), add 1
-    now = datetime.now(timezone.utc)
-    offset = offsets.get(tz_name, -5)
-    # Simple DST check: March 9 - Nov 2 (approximate)
-    if 3 <= now.month <= 10 or (now.month == 11 and now.day < 3):
-        offset += 1
-    local_hour = (now.hour + offset) % 24
-    return local_hour
+    """Get current local hour for a timezone using IANA zone data."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(timezone.utc).astimezone(ZoneInfo(tz_name)).hour
+    except Exception:
+        # Fallback for environments missing tzdata
+        offsets = {
+            "America/New_York": -5,
+            "America/Chicago": -6,
+            "America/Denver": -7,
+            "America/Los_Angeles": -8,
+            "America/Phoenix": -7,
+        }
+        return (datetime.now(timezone.utc).hour + offsets.get(tz_name, -5)) % 24
 
 
 def compute_dynamic_danger_zone(local_hour, peak_hour, forecast_std):

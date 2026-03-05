@@ -175,7 +175,9 @@ def check_lockout(ticker, series, target_date):
     lockout_time = lockouts.get(key)
     if not lockout_time:
         return False
-    lockout_dt = datetime.fromisoformat(lockout_time)
+    lockout_dt = datetime.fromisoformat(lockout_time.replace("Z", "+00:00"))
+    if lockout_dt.tzinfo is None:
+        lockout_dt = lockout_dt.replace(tzinfo=timezone.utc)
     elapsed_hours = (datetime.now(timezone.utc) - lockout_dt).total_seconds() / 3600
     return elapsed_hours < LOCKOUT_HOURS
 
