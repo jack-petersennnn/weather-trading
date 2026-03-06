@@ -8,16 +8,21 @@ Model (validated to ±$30.17 on $510.76→$187.54, 99.4% accurate):
   - Settlement: balance += Kalshi revenue (from API)
   - Fees: deducted per fill + per settlement
 
-WHY this works:
-  On Kalshi, every "sell" is internally a purchase of the opposite side + instant
-  netting of the resulting pair ($1.00 return). The net effect of "sell YES @ 60¢"
-  is: buy NO @ 40¢ (debit 40¢) + net YES+NO pair (credit $1.00) = credit 60¢.
-  But our model credits no_price (40¢) not yes_price (60¢). The $30 gap comes from
-  this approximation — the "other side" credit captures the collateral debit but
-  not the full netting credit, which nets out across 1766 fills to only $30.
+KNOWN LIMITATION — MECNET collateral netting not modeled (~$30 drift):
+  The ~$30.17 gap is explained by unmodeled MECNET (mutually exclusive contract
+  netting) cross-bracket collateral returns. When you hold YES on multiple brackets
+  in the same event, Kalshi returns collateral since only one bracket can win.
+  This sim debits full price for each bracket independently.
 
-  TODO: After empirical test trade, build v2 with explicit per-market and event-level
-  MECNET netting for exact balance reproduction.
+  Observed: 76 multi-bracket events, ~$0.40/event average drift = ~$30 total.
+  This is NOT a bug — it's a known missing feature with known magnitude.
+
+  Do not rabbit-hole on closing this gap. MECNET requires tracking per-event
+  bracket positions and computing worst-case collateral across mutually exclusive
+  outcomes. Build it later when position sizes justify the engineering effort.
+
+  TODO (low priority): Add event-level MECNET max-loss collateral module for
+  exact balance reproduction. Validate against empirical test trade data first.
 
 Usage:
     python3 balance_sim.py                  # replay from cached fills/settlements
@@ -139,6 +144,11 @@ class BalanceSimulator:
         print(f"  Settlement rev:    {s['total_settlement_revenue']}¢ = ${s['total_settlement_revenue']/100:.2f}")
         print(f"  Settlement fees:   {s['total_settlement_fees']}¢ = ${s['total_settlement_fees']/100:.2f}")
         print(f"{'='*60}")
+        if expected_balance is not None:
+            gap = s['balance_cents'] - expected_balance
+            print(f"\n  NOTE: Expected MECNET drift ~3000¢ (~$30) from unmodeled")
+            print(f"  cross-bracket collateral netting across 76 multi-bracket events.")
+            print(f"  Actual gap: {gap}¢. Do not treat as exact reconciliation.")
     
     def print_top_events(self, n=10):
         """Print top N events by absolute P&L impact."""

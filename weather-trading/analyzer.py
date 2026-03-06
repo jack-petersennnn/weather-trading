@@ -11,12 +11,13 @@ import statistics
 import time
 from datetime import datetime, timezone, timedelta
 
-MARKETS_FILE = "/home/ubuntu/.openclaw/workspace/weather-trading/active-markets.json"
-OUTPUT = "/home/ubuntu/.openclaw/workspace/weather-trading/analysis.json"
-WEIGHTS_FILE = "/home/ubuntu/.openclaw/workspace/weather-trading/source_weights.json"
-CALIBRATION_FILE = "/home/ubuntu/.openclaw/workspace/weather-trading/city_calibration.json"
-STRATEGIES_FILE = "/home/ubuntu/.openclaw/workspace/weather-trading/city_strategies.json"
-CITY_MODEL_CONFIG_FILE = "/home/ubuntu/.openclaw/workspace/weather-trading/city_model_config.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MARKETS_FILE = os.path.join(BASE_DIR, "active-markets.json")
+OUTPUT = os.path.join(BASE_DIR, "analysis.json")
+WEIGHTS_FILE = os.path.join(BASE_DIR, "source_weights.json")
+CALIBRATION_FILE = os.path.join(BASE_DIR, "city_calibration.json")
+STRATEGIES_FILE = os.path.join(BASE_DIR, "city_strategies.json")
+CITY_MODEL_CONFIG_FILE = os.path.join(BASE_DIR, "city_model_config.json")
 
 _city_model_config_cache = None
 _city_model_config_mtime = 0

@@ -4,22 +4,39 @@ RSA-PSS signed requests for authenticated endpoints.
 """
 import base64, time, json, os, urllib.request, urllib.error
 from urllib.parse import quote
-from cryptography.hazmat.primitives.asymmetric import padding
-from cryptography.hazmat.primitives import hashes, serialization
-from cryptography.hazmat.backends import default_backend
+try:
+    from cryptography.hazmat.primitives.asymmetric import padding
+    from cryptography.hazmat.primitives import hashes, serialization
+    from cryptography.hazmat.backends import default_backend
+    _CRYPTO_IMPORT_ERROR = None
+except Exception as e:
+    padding = hashes = serialization = default_backend = None
+    _CRYPTO_IMPORT_ERROR = e
 
 KEYS_DIR = os.path.join(os.path.dirname(__file__), "keys")
 BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
 
 def _load_key():
+    if _CRYPTO_IMPORT_ERROR is not None:
+        raise RuntimeError(
+            "cryptography is required for authenticated Kalshi requests"
+        ) from _CRYPTO_IMPORT_ERROR
     key_id = open(os.path.join(KEYS_DIR, "kalshi_key_id.txt")).read().strip()
     with open(os.path.join(KEYS_DIR, "kalshi_private_key.pem"), "rb") as f:
         pk = serialization.load_pem_private_key(f.read(), password=None, backend=default_backend())
     return key_id, pk
 
-_KEY_ID, _PRIVATE_KEY = _load_key()
+_KEY_ID = None
+_PRIVATE_KEY = None
+
+def _ensure_auth():
+    global _KEY_ID, _PRIVATE_KEY
+    if _KEY_ID is not None and _PRIVATE_KEY is not None:
+        return
+    _KEY_ID, _PRIVATE_KEY = _load_key()
 
 def _sign(method, path):
+    _ensure_auth()
     ts = int(time.time() * 1000)
     msg = f"{ts}{method}{path}".encode()
     sig = _PRIVATE_KEY.sign(
