@@ -20855,20 +20855,76 @@
           "Ensemble ECMWF": 67.4,
           "Ensemble GFS": 65.7
         }
+      },
+      {
+        "ts": "2026-03-05T22:05:02.563238+00:00",
+        "ensemble_mean": 68.1,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 71.1,
+          "Canadian GEM": 64.4,
+          "UKMO": 69.3,
+          "Meteo-France Arpege": 58.9,
+          "ECMWF": 66.1,
+          "Ensemble ECMWF": 67.4,
+          "Ensemble GFS": 65.7
+        }
+      },
+      {
+        "ts": "2026-03-06T10:04:36.229995+00:00",
+        "ensemble_mean": 68.7,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 71.3,
+          "Canadian GEM": 64.2,
+          "UKMO": 70.3,
+          "Meteo-France Arpege": 59.3,
+          "ECMWF": 68.9,
+          "Ensemble ECMWF": 67.0,
+          "Ensemble GFS": 66.3
+        }
+      },
+      {
+        "ts": "2026-03-06T11:05:13.071464+00:00",
+        "ensemble_mean": 68.5,
+        "calibrated_std": 1.13,
+        "sources": {
+          "GFS": 71.7,
+          "Canadian GEM": 64.2,
+          "UKMO": 70.3,
+          "Meteo-France Arpege": 58.2,
+          "ECMWF": 68.9,
+          "Ensemble ECMWF": 67.0,
+          "Ensemble GFS": 66.3
+        }
+      },
+      {
+        "ts": "2026-03-06T12:04:43.063992+00:00",
+        "ensemble_mean": 68.7,
+        "calibrated_std": 1.35,
+        "sources": {
+          "GFS": 71.9,
+          "Canadian GEM": 64.2,
+          "UKMO": 70.3,
+          "Meteo-France Arpege": 58.2,
+          "ECMWF": 68.9,
+          "Ensemble ECMWF": 68.3,
+          "Ensemble GFS": 66.5
+        }
       }
     ],
-    "final_ensemble_mean": 68.1,
-    "final_calibrated_std": 1.5,
+    "final_ensemble_mean": 68.7,
+    "final_calibrated_std": 1.35,
     "final_source_forecasts": {
-      "GFS": 71.1,
-      "Canadian GEM": 64.4,
-      "UKMO": 69.3,
-      "Meteo-France Arpege": 58.9,
-      "ECMWF": 66.1,
-      "Ensemble ECMWF": 67.4,
-      "Ensemble GFS": 65.7
+      "GFS": 71.9,
+      "Canadian GEM": 64.2,
+      "UKMO": 70.3,
+      "Meteo-France Arpege": 58.2,
+      "ECMWF": 68.9,
+      "Ensemble ECMWF": 68.3,
+      "Ensemble GFS": 66.5
     },
-    "last_updated": "2026-03-05T21:04:33.340514+00:00"
+    "last_updated": "2026-03-06T12:04:43.063992+00:00"
   },
   "San Antonio|26MAR06": {
     "city": "San Antonio",
@@ -20959,23 +21015,91 @@
           "Ensemble GFS": 77.7,
           "Ensemble ICON": 85.7
         }
+      },
+      {
+        "ts": "2026-03-05T22:05:13.871159+00:00",
+        "ensemble_mean": 83.0,
+        "calibrated_std": 2.67,
+        "sources": {
+          "GFS": 83.9,
+          "ICON": 84.3,
+          "Canadian GEM": 81.3,
+          "JMA": 73.4,
+          "UKMO": 83.1,
+          "Meteo-France Arpege": 85.9,
+          "ECMWF": 78.8,
+          "Ensemble ECMWF": 81.1,
+          "Ensemble GFS": 77.7,
+          "Ensemble ICON": 85.7
+        }
+      },
+      {
+        "ts": "2026-03-06T10:04:45.453728+00:00",
+        "ensemble_mean": 83.1,
+        "calibrated_std": 2.85,
+        "sources": {
+          "GFS": 81.4,
+          "ICON": 85.2,
+          "Canadian GEM": 80.0,
+          "JMA": 73.2,
+          "UKMO": 83.6,
+          "Meteo-France Arpege": 85.0,
+          "ECMWF": 82.2,
+          "Ensemble ECMWF": 80.9,
+          "Ensemble GFS": 79.7,
+          "Ensemble ICON": 86.1
+        }
+      },
+      {
+        "ts": "2026-03-06T11:05:22.106112+00:00",
+        "ensemble_mean": 82.9,
+        "calibrated_std": 2.77,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 85.2,
+          "Canadian GEM": 80.0,
+          "JMA": 73.2,
+          "UKMO": 83.6,
+          "Meteo-France Arpege": 83.3,
+          "ECMWF": 82.2,
+          "Ensemble ECMWF": 80.9,
+          "Ensemble GFS": 79.7,
+          "Ensemble ICON": 86.1
+        }
+      },
+      {
+        "ts": "2026-03-06T12:04:52.131592+00:00",
+        "ensemble_mean": 83.2,
+        "calibrated_std": 2.59,
+        "sources": {
+          "GFS": 83.3,
+          "ICON": 85.2,
+          "Canadian GEM": 80.0,
+          "JMA": 73.2,
+          "UKMO": 83.6,
+          "Meteo-France Arpege": 83.3,
+          "ECMWF": 82.2,
+          "Ensemble ECMWF": 81.3,
+          "Ensemble GFS": 79.8,
+          "Ensemble ICON": 86.1
+        }
       }
     ],
-    "final_ensemble_mean": 83.0,
-    "final_calibrated_std": 2.74,
+    "final_ensemble_mean": 83.2,
+    "final_calibrated_std": 2.59,
     "final_source_forecasts": {
-      "GFS": 83.9,
-      "ICON": 85.1,
-      "Canadian GEM": 81.3,
-      "JMA": 73.4,
-      "UKMO": 83.1,
-      "Meteo-France Arpege": 85.9,
-      "ECMWF": 78.8,
-      "Ensemble ECMWF": 81.1,
-      "Ensemble GFS": 77.7,
-      "Ensemble ICON": 85.7
+      "GFS": 83.3,
+      "ICON": 85.2,
+      "Canadian GEM": 80.0,
+      "JMA": 73.2,
+      "UKMO": 83.6,
+      "Meteo-France Arpege": 83.3,
+      "ECMWF": 82.2,
+      "Ensemble ECMWF": 81.3,
+      "Ensemble GFS": 79.8,
+      "Ensemble ICON": 86.1
     },
-    "last_updated": "2026-03-05T21:04:42.089751+00:00"
+    "last_updated": "2026-03-06T12:04:52.131592+00:00"
   },
   "New Orleans|26MAR06": {
     "city": "New Orleans",
@@ -21066,22 +21190,3010 @@
           "Ensemble GFS": 84.7,
           "Ensemble ICON": 81.8
         }
+      },
+      {
+        "ts": "2026-03-05T22:05:25.051978+00:00",
+        "ensemble_mean": 83.4,
+        "calibrated_std": 1.05,
+        "sources": {
+          "GFS": 83.4,
+          "ICON": 81.1,
+          "Canadian GEM": 80.6,
+          "JMA": 78.2,
+          "UKMO": 83.1,
+          "Meteo-France Arpege": 78.8,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 79.1,
+          "Ensemble GFS": 84.7,
+          "Ensemble ICON": 81.8
+        }
+      },
+      {
+        "ts": "2026-03-06T10:04:55.756636+00:00",
+        "ensemble_mean": 83.5,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 83.6,
+          "ICON": 80.9,
+          "Canadian GEM": 80.2,
+          "JMA": 79.6,
+          "UKMO": 81.8,
+          "Meteo-France Arpege": 79.9,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 79.2,
+          "Ensemble GFS": 84.3,
+          "Ensemble ICON": 81.6
+        }
+      },
+      {
+        "ts": "2026-03-06T11:05:31.221787+00:00",
+        "ensemble_mean": 83.5,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 83.7,
+          "ICON": 80.9,
+          "Canadian GEM": 80.2,
+          "JMA": 79.6,
+          "UKMO": 81.8,
+          "Meteo-France Arpege": 79.5,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 79.2,
+          "Ensemble GFS": 84.3,
+          "Ensemble ICON": 81.6
+        }
+      },
+      {
+        "ts": "2026-03-06T12:05:01.168976+00:00",
+        "ensemble_mean": 83.5,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 83.7,
+          "ICON": 80.9,
+          "Canadian GEM": 80.2,
+          "JMA": 79.6,
+          "UKMO": 81.8,
+          "Meteo-France Arpege": 79.5,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 79.5,
+          "Ensemble GFS": 83.8,
+          "Ensemble ICON": 81.6
+        }
       }
     ],
     "final_ensemble_mean": 83.5,
-    "final_calibrated_std": 1.04,
+    "final_calibrated_std": 1.5,
     "final_source_forecasts": {
-      "GFS": 83.4,
-      "ICON": 81.7,
-      "Canadian GEM": 80.6,
-      "JMA": 78.2,
-      "UKMO": 83.1,
-      "Meteo-France Arpege": 78.8,
+      "GFS": 83.7,
+      "ICON": 80.9,
+      "Canadian GEM": 80.2,
+      "JMA": 79.6,
+      "UKMO": 81.8,
+      "Meteo-France Arpege": 79.5,
       "ECMWF": 79.6,
-      "Ensemble ECMWF": 79.1,
-      "Ensemble GFS": 84.7,
-      "Ensemble ICON": 81.8
+      "Ensemble ECMWF": 79.5,
+      "Ensemble GFS": 83.8,
+      "Ensemble ICON": 81.6
     },
-    "last_updated": "2026-03-05T21:04:51.583744+00:00"
+    "last_updated": "2026-03-06T12:05:01.168976+00:00"
+  },
+  "Washington DC|26MAR06": {
+    "city": "Washington DC",
+    "series": "KXHIGHTDC",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:02:59.200482+00:00",
+        "ensemble_mean": 56.4,
+        "calibrated_std": 4.25,
+        "sources": {
+          "GFS": 51.8,
+          "ICON": 52.4,
+          "Canadian GEM": 55.2,
+          "JMA": 54.4,
+          "UKMO": 56.0,
+          "Meteo-France Arpege": 49.1,
+          "ECMWF": 63.6,
+          "Ensemble ECMWF": 63.7,
+          "Ensemble GFS": 58.1,
+          "Ensemble ICON": 51.5
+        }
+      },
+      {
+        "ts": "2026-03-06T11:03:40.069307+00:00",
+        "ensemble_mean": 56.3,
+        "calibrated_std": 4.33,
+        "sources": {
+          "GFS": 51.7,
+          "ICON": 52.4,
+          "Canadian GEM": 55.2,
+          "JMA": 54.4,
+          "UKMO": 56.0,
+          "Meteo-France Arpege": 48.7,
+          "ECMWF": 63.6,
+          "Ensemble ECMWF": 63.7,
+          "Ensemble GFS": 58.1,
+          "Ensemble ICON": 51.5
+        }
+      },
+      {
+        "ts": "2026-03-06T12:03:06.112384+00:00",
+        "ensemble_mean": 56.3,
+        "calibrated_std": 4.43,
+        "sources": {
+          "GFS": 51.3,
+          "ICON": 52.4,
+          "Canadian GEM": 55.2,
+          "JMA": 54.4,
+          "UKMO": 56.0,
+          "Meteo-France Arpege": 48.7,
+          "ECMWF": 63.6,
+          "Ensemble ECMWF": 64.3,
+          "Ensemble GFS": 58.1,
+          "Ensemble ICON": 51.5
+        }
+      }
+    ],
+    "final_ensemble_mean": 56.3,
+    "final_calibrated_std": 4.43,
+    "final_source_forecasts": {
+      "GFS": 51.3,
+      "ICON": 52.4,
+      "Canadian GEM": 55.2,
+      "JMA": 54.4,
+      "UKMO": 56.0,
+      "Meteo-France Arpege": 48.7,
+      "ECMWF": 63.6,
+      "Ensemble ECMWF": 64.3,
+      "Ensemble GFS": 58.1,
+      "Ensemble ICON": 51.5
+    },
+    "last_updated": "2026-03-06T12:03:06.112384+00:00"
+  },
+  "Atlanta|26MAR06": {
+    "city": "Atlanta",
+    "series": "KXHIGHTATL",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:03:08.327372+00:00",
+        "ensemble_mean": 80.9,
+        "calibrated_std": 1.71,
+        "sources": {
+          "GFS": 80.4,
+          "ICON": 76.9,
+          "Canadian GEM": 78.4,
+          "JMA": 74.8,
+          "UKMO": 74.9,
+          "Meteo-France Arpege": 82.3,
+          "ECMWF": 78.9,
+          "Ensemble ECMWF": 79.2,
+          "Ensemble GFS": 79.9,
+          "Ensemble ICON": 76.6
+        }
+      },
+      {
+        "ts": "2026-03-06T11:03:49.146203+00:00",
+        "ensemble_mean": 80.5,
+        "calibrated_std": 1.51,
+        "sources": {
+          "GFS": 80.5,
+          "ICON": 76.9,
+          "Canadian GEM": 78.4,
+          "JMA": 74.8,
+          "UKMO": 74.9,
+          "Meteo-France Arpege": 76.5,
+          "ECMWF": 78.9,
+          "Ensemble ECMWF": 79.2,
+          "Ensemble GFS": 79.9,
+          "Ensemble ICON": 76.6
+        }
+      },
+      {
+        "ts": "2026-03-06T12:03:15.020134+00:00",
+        "ensemble_mean": 80.6,
+        "calibrated_std": 1.65,
+        "sources": {
+          "GFS": 81.3,
+          "ICON": 76.9,
+          "Canadian GEM": 78.4,
+          "JMA": 74.8,
+          "UKMO": 74.9,
+          "Meteo-France Arpege": 76.5,
+          "ECMWF": 78.9,
+          "Ensemble ECMWF": 79.4,
+          "Ensemble GFS": 79.9,
+          "Ensemble ICON": 76.6
+        }
+      }
+    ],
+    "final_ensemble_mean": 80.6,
+    "final_calibrated_std": 1.65,
+    "final_source_forecasts": {
+      "GFS": 81.3,
+      "ICON": 76.9,
+      "Canadian GEM": 78.4,
+      "JMA": 74.8,
+      "UKMO": 74.9,
+      "Meteo-France Arpege": 76.5,
+      "ECMWF": 78.9,
+      "Ensemble ECMWF": 79.4,
+      "Ensemble GFS": 79.9,
+      "Ensemble ICON": 76.6
+    },
+    "last_updated": "2026-03-06T12:03:15.020134+00:00"
+  },
+  "Philadelphia|26MAR06": {
+    "city": "Philadelphia",
+    "series": "KXHIGHPHIL",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:03:20.115992+00:00",
+        "ensemble_mean": 49.4,
+        "calibrated_std": 2.87,
+        "sources": {
+          "GFS": 45.4,
+          "ICON": 45.7,
+          "Canadian GEM": 43.7,
+          "JMA": 46.5,
+          "UKMO": 47.9,
+          "Meteo-France Arpege": 43.5,
+          "ECMWF": 52.5,
+          "Ensemble ECMWF": 52.8,
+          "Ensemble GFS": 53.5,
+          "Ensemble ICON": 45.4
+        }
+      },
+      {
+        "ts": "2026-03-06T11:03:58.100179+00:00",
+        "ensemble_mean": 49.5,
+        "calibrated_std": 2.89,
+        "sources": {
+          "GFS": 46.1,
+          "ICON": 45.7,
+          "Canadian GEM": 43.7,
+          "JMA": 46.5,
+          "UKMO": 47.9,
+          "Meteo-France Arpege": 43.6,
+          "ECMWF": 52.5,
+          "Ensemble ECMWF": 52.8,
+          "Ensemble GFS": 53.5,
+          "Ensemble ICON": 45.4
+        }
+      },
+      {
+        "ts": "2026-03-06T12:03:23.933432+00:00",
+        "ensemble_mean": 49.4,
+        "calibrated_std": 2.83,
+        "sources": {
+          "GFS": 44.8,
+          "ICON": 45.7,
+          "Canadian GEM": 43.7,
+          "JMA": 46.5,
+          "UKMO": 47.9,
+          "Meteo-France Arpege": 43.6,
+          "ECMWF": 52.5,
+          "Ensemble ECMWF": 52.8,
+          "Ensemble GFS": 53.5,
+          "Ensemble ICON": 45.4
+        }
+      }
+    ],
+    "final_ensemble_mean": 49.4,
+    "final_calibrated_std": 2.83,
+    "final_source_forecasts": {
+      "GFS": 44.8,
+      "ICON": 45.7,
+      "Canadian GEM": 43.7,
+      "JMA": 46.5,
+      "UKMO": 47.9,
+      "Meteo-France Arpege": 43.6,
+      "ECMWF": 52.5,
+      "Ensemble ECMWF": 52.8,
+      "Ensemble GFS": 53.5,
+      "Ensemble ICON": 45.4
+    },
+    "last_updated": "2026-03-06T12:03:23.933432+00:00"
+  },
+  "Houston|26MAR06": {
+    "city": "Houston",
+    "series": "KXHIGHTHOU",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:03:28.974118+00:00",
+        "ensemble_mean": 83.6,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 81.7,
+          "ICON": 81.1,
+          "JMA": 78.3,
+          "UKMO": 81.0,
+          "Meteo-France Arpege": 78.0,
+          "ECMWF": 81.2,
+          "Ensemble ECMWF": 80.9,
+          "Ensemble GFS": 83.2,
+          "Ensemble ICON": 81.9
+        }
+      },
+      {
+        "ts": "2026-03-06T11:04:07.090130+00:00",
+        "ensemble_mean": 83.9,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 82.4,
+          "ICON": 81.1,
+          "JMA": 78.3,
+          "UKMO": 81.0,
+          "Meteo-France Arpege": 80.3,
+          "ECMWF": 81.2,
+          "Ensemble ECMWF": 80.9,
+          "Ensemble GFS": 83.2,
+          "Ensemble ICON": 81.9
+        }
+      },
+      {
+        "ts": "2026-03-06T12:03:33.312464+00:00",
+        "ensemble_mean": 83.8,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 81.1,
+          "JMA": 78.3,
+          "UKMO": 81.0,
+          "Meteo-France Arpege": 80.3,
+          "ECMWF": 81.2,
+          "Ensemble ECMWF": 80.5,
+          "Ensemble GFS": 83.2,
+          "Ensemble ICON": 81.9
+        }
+      }
+    ],
+    "final_ensemble_mean": 83.8,
+    "final_calibrated_std": 1.5,
+    "final_source_forecasts": {
+      "GFS": 82.6,
+      "ICON": 81.1,
+      "JMA": 78.3,
+      "UKMO": 81.0,
+      "Meteo-France Arpege": 80.3,
+      "ECMWF": 81.2,
+      "Ensemble ECMWF": 80.5,
+      "Ensemble GFS": 83.2,
+      "Ensemble ICON": 81.9
+    },
+    "last_updated": "2026-03-06T12:03:33.312464+00:00"
+  },
+  "Dallas|26MAR06": {
+    "city": "Dallas",
+    "series": "KXHIGHTDAL",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:03:38.352585+00:00",
+        "ensemble_mean": 79.3,
+        "calibrated_std": 1.72,
+        "sources": {
+          "GFS": 79.8,
+          "ICON": 78.1,
+          "Canadian GEM": 80.0,
+          "JMA": 72.7,
+          "UKMO": 75.4,
+          "Meteo-France Arpege": 80.0,
+          "ECMWF": 76.9,
+          "Ensemble ECMWF": 77.3,
+          "Ensemble GFS": 76.5,
+          "Ensemble ICON": 78.2
+        }
+      },
+      {
+        "ts": "2026-03-06T11:04:16.097759+00:00",
+        "ensemble_mean": 79.1,
+        "calibrated_std": 1.31,
+        "sources": {
+          "GFS": 80.7,
+          "ICON": 78.1,
+          "Canadian GEM": 80.0,
+          "JMA": 72.7,
+          "UKMO": 75.4,
+          "Meteo-France Arpege": 76.8,
+          "ECMWF": 76.9,
+          "Ensemble ECMWF": 77.3,
+          "Ensemble GFS": 76.5,
+          "Ensemble ICON": 78.2
+        }
+      },
+      {
+        "ts": "2026-03-06T12:03:43.033065+00:00",
+        "ensemble_mean": 79.1,
+        "calibrated_std": 1.31,
+        "sources": {
+          "GFS": 80.6,
+          "ICON": 78.1,
+          "Canadian GEM": 80.0,
+          "JMA": 72.7,
+          "UKMO": 75.4,
+          "Meteo-France Arpege": 76.8,
+          "ECMWF": 76.9,
+          "Ensemble ECMWF": 77.5,
+          "Ensemble GFS": 76.5,
+          "Ensemble ICON": 78.2
+        }
+      }
+    ],
+    "final_ensemble_mean": 79.1,
+    "final_calibrated_std": 1.31,
+    "final_source_forecasts": {
+      "GFS": 80.6,
+      "ICON": 78.1,
+      "Canadian GEM": 80.0,
+      "JMA": 72.7,
+      "UKMO": 75.4,
+      "Meteo-France Arpege": 76.8,
+      "ECMWF": 76.9,
+      "Ensemble ECMWF": 77.5,
+      "Ensemble GFS": 76.5,
+      "Ensemble ICON": 78.2
+    },
+    "last_updated": "2026-03-06T12:03:43.033065+00:00"
+  },
+  "Seattle|26MAR06": {
+    "city": "Seattle",
+    "series": "KXHIGHTSEA",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:03:47.569433+00:00",
+        "ensemble_mean": 50.8,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 49.0,
+          "ICON": 48.8,
+          "Canadian GEM": 48.6,
+          "JMA": 50.0,
+          "UKMO": 48.8,
+          "Meteo-France Arpege": 48.4,
+          "ECMWF": 49.3,
+          "Ensemble ECMWF": 49.4,
+          "Ensemble GFS": 47.7,
+          "Ensemble ICON": 49.7
+        }
+      },
+      {
+        "ts": "2026-03-06T11:04:25.224654+00:00",
+        "ensemble_mean": 50.7,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 48.7,
+          "ICON": 48.8,
+          "Canadian GEM": 48.6,
+          "JMA": 50.0,
+          "UKMO": 48.8,
+          "Meteo-France Arpege": 48.2,
+          "ECMWF": 49.3,
+          "Ensemble ECMWF": 49.4,
+          "Ensemble GFS": 47.7,
+          "Ensemble ICON": 49.7
+        }
+      },
+      {
+        "ts": "2026-03-06T12:03:52.658326+00:00",
+        "ensemble_mean": 50.7,
+        "calibrated_std": 1.03,
+        "sources": {
+          "GFS": 48.1,
+          "ICON": 48.8,
+          "Canadian GEM": 48.6,
+          "JMA": 50.0,
+          "UKMO": 48.8,
+          "Meteo-France Arpege": 48.2,
+          "ECMWF": 49.3,
+          "Ensemble ECMWF": 49.6,
+          "Ensemble GFS": 47.7,
+          "Ensemble ICON": 49.7
+        }
+      }
+    ],
+    "final_ensemble_mean": 50.7,
+    "final_calibrated_std": 1.03,
+    "final_source_forecasts": {
+      "GFS": 48.1,
+      "ICON": 48.8,
+      "Canadian GEM": 48.6,
+      "JMA": 50.0,
+      "UKMO": 48.8,
+      "Meteo-France Arpege": 48.2,
+      "ECMWF": 49.3,
+      "Ensemble ECMWF": 49.6,
+      "Ensemble GFS": 47.7,
+      "Ensemble ICON": 49.7
+    },
+    "last_updated": "2026-03-06T12:03:52.658326+00:00"
+  },
+  "Boston|26MAR06": {
+    "city": "Boston",
+    "series": "KXHIGHTBOS",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:03:56.875331+00:00",
+        "ensemble_mean": 37.8,
+        "calibrated_std": 1.26,
+        "sources": {
+          "GFS": 35.7,
+          "Canadian GEM": 35.8,
+          "JMA": 35.3,
+          "UKMO": 35.4,
+          "ECMWF": 36.3,
+          "Ensemble ECMWF": 36.3,
+          "Ensemble GFS": 38.0
+        }
+      },
+      {
+        "ts": "2026-03-06T11:04:34.712492+00:00",
+        "ensemble_mean": 37.7,
+        "calibrated_std": 1.3,
+        "sources": {
+          "GFS": 35.1,
+          "Canadian GEM": 35.8,
+          "JMA": 35.3,
+          "UKMO": 35.4,
+          "ECMWF": 36.3,
+          "Ensemble ECMWF": 36.3,
+          "Ensemble GFS": 38.0
+        }
+      },
+      {
+        "ts": "2026-03-06T12:04:02.265525+00:00",
+        "ensemble_mean": 37.7,
+        "calibrated_std": 1.32,
+        "sources": {
+          "GFS": 34.9,
+          "Canadian GEM": 35.8,
+          "JMA": 35.3,
+          "UKMO": 35.4,
+          "ECMWF": 36.3,
+          "Ensemble ECMWF": 36.1,
+          "Ensemble GFS": 38.0
+        }
+      }
+    ],
+    "final_ensemble_mean": 37.7,
+    "final_calibrated_std": 1.32,
+    "final_source_forecasts": {
+      "GFS": 34.9,
+      "Canadian GEM": 35.8,
+      "JMA": 35.3,
+      "UKMO": 35.4,
+      "ECMWF": 36.3,
+      "Ensemble ECMWF": 36.1,
+      "Ensemble GFS": 38.0
+    },
+    "last_updated": "2026-03-06T12:04:02.265525+00:00"
+  },
+  "Phoenix|26MAR06": {
+    "city": "Phoenix",
+    "series": "KXHIGHTPHX",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:04:06.420932+00:00",
+        "ensemble_mean": 73.6,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 71.8,
+          "ICON": 72.2,
+          "Canadian GEM": 71.5,
+          "JMA": 69.4,
+          "UKMO": 70.6,
+          "Meteo-France Arpege": 72.5,
+          "ECMWF": 71.6,
+          "Ensemble ECMWF": 70.8,
+          "Ensemble GFS": 69.6,
+          "Ensemble ICON": 72.7
+        }
+      },
+      {
+        "ts": "2026-03-06T11:04:43.950334+00:00",
+        "ensemble_mean": 73.5,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 72.4,
+          "ICON": 72.2,
+          "Canadian GEM": 71.5,
+          "JMA": 69.4,
+          "UKMO": 70.6,
+          "Meteo-France Arpege": 71.0,
+          "ECMWF": 71.6,
+          "Ensemble ECMWF": 70.8,
+          "Ensemble GFS": 69.6,
+          "Ensemble ICON": 72.7
+        }
+      },
+      {
+        "ts": "2026-03-06T12:04:12.864383+00:00",
+        "ensemble_mean": 73.5,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 72.7,
+          "ICON": 72.2,
+          "Canadian GEM": 71.5,
+          "JMA": 69.4,
+          "UKMO": 70.6,
+          "Meteo-France Arpege": 71.0,
+          "ECMWF": 71.6,
+          "Ensemble ECMWF": 71.3,
+          "Ensemble GFS": 69.0,
+          "Ensemble ICON": 72.7
+        }
+      }
+    ],
+    "final_ensemble_mean": 73.5,
+    "final_calibrated_std": 1.5,
+    "final_source_forecasts": {
+      "GFS": 72.7,
+      "ICON": 72.2,
+      "Canadian GEM": 71.5,
+      "JMA": 69.4,
+      "UKMO": 70.6,
+      "Meteo-France Arpege": 71.0,
+      "ECMWF": 71.6,
+      "Ensemble ECMWF": 71.3,
+      "Ensemble GFS": 69.0,
+      "Ensemble ICON": 72.7
+    },
+    "last_updated": "2026-03-06T12:04:12.864383+00:00"
+  },
+  "Oklahoma City|26MAR06": {
+    "city": "Oklahoma City",
+    "series": "KXHIGHTOKC",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:04:17.231763+00:00",
+        "ensemble_mean": 75.4,
+        "calibrated_std": 3.93,
+        "sources": {
+          "GFS": 81.1,
+          "ICON": 77.1,
+          "Canadian GEM": 74.7,
+          "JMA": 70.2,
+          "UKMO": 72.3,
+          "Meteo-France Arpege": 65.4,
+          "ECMWF": 66.9,
+          "Ensemble ECMWF": 73.5,
+          "Ensemble GFS": 77.5,
+          "Ensemble ICON": 77.3
+        }
+      },
+      {
+        "ts": "2026-03-06T11:04:53.970297+00:00",
+        "ensemble_mean": 75.7,
+        "calibrated_std": 3.53,
+        "sources": {
+          "GFS": 81.7,
+          "ICON": 77.1,
+          "Canadian GEM": 74.7,
+          "JMA": 70.2,
+          "UKMO": 72.3,
+          "Meteo-France Arpege": 68.2,
+          "ECMWF": 66.9,
+          "Ensemble ECMWF": 73.5,
+          "Ensemble GFS": 77.5,
+          "Ensemble ICON": 77.3
+        }
+      },
+      {
+        "ts": "2026-03-06T12:04:22.905216+00:00",
+        "ensemble_mean": 75.2,
+        "calibrated_std": 3.37,
+        "sources": {
+          "GFS": 79.0,
+          "ICON": 77.1,
+          "Canadian GEM": 74.7,
+          "JMA": 70.2,
+          "UKMO": 72.3,
+          "Meteo-France Arpege": 68.2,
+          "ECMWF": 66.9,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 77.9,
+          "Ensemble ICON": 77.3
+        }
+      }
+    ],
+    "final_ensemble_mean": 75.2,
+    "final_calibrated_std": 3.37,
+    "final_source_forecasts": {
+      "GFS": 79.0,
+      "ICON": 77.1,
+      "Canadian GEM": 74.7,
+      "JMA": 70.2,
+      "UKMO": 72.3,
+      "Meteo-France Arpege": 68.2,
+      "ECMWF": 66.9,
+      "Ensemble ECMWF": 71.0,
+      "Ensemble GFS": 77.9,
+      "Ensemble ICON": 77.3
+    },
+    "last_updated": "2026-03-06T12:04:22.905216+00:00"
+  },
+  "Las Vegas|26MAR06": {
+    "city": "Las Vegas",
+    "series": "KXHIGHTLV",
+    "target_date": "26MAR06",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T10:04:26.653305+00:00",
+        "ensemble_mean": 63.5,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 64.7,
+          "ICON": 62.1,
+          "Canadian GEM": 62.3,
+          "JMA": 60.0,
+          "UKMO": 64.2,
+          "Meteo-France Arpege": 64.3,
+          "ECMWF": 62.7,
+          "Ensemble ECMWF": 62.2,
+          "Ensemble GFS": 61.2,
+          "Ensemble ICON": 58.5
+        }
+      },
+      {
+        "ts": "2026-03-06T11:05:03.674499+00:00",
+        "ensemble_mean": 63.4,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 64.4,
+          "ICON": 62.1,
+          "Canadian GEM": 62.3,
+          "JMA": 60.0,
+          "UKMO": 64.2,
+          "Meteo-France Arpege": 64.2,
+          "ECMWF": 62.7,
+          "Ensemble ECMWF": 62.2,
+          "Ensemble GFS": 61.2,
+          "Ensemble ICON": 58.5
+        }
+      },
+      {
+        "ts": "2026-03-06T12:04:31.660915+00:00",
+        "ensemble_mean": 63.5,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 65.1,
+          "ICON": 62.1,
+          "Canadian GEM": 62.3,
+          "JMA": 60.0,
+          "UKMO": 64.2,
+          "Meteo-France Arpege": 64.2,
+          "ECMWF": 62.7,
+          "Ensemble ECMWF": 62.8,
+          "Ensemble GFS": 60.6,
+          "Ensemble ICON": 58.5
+        }
+      }
+    ],
+    "final_ensemble_mean": 63.5,
+    "final_calibrated_std": 1.5,
+    "final_source_forecasts": {
+      "GFS": 65.1,
+      "ICON": 62.1,
+      "Canadian GEM": 62.3,
+      "JMA": 60.0,
+      "UKMO": 64.2,
+      "Meteo-France Arpege": 64.2,
+      "ECMWF": 62.7,
+      "Ensemble ECMWF": 62.8,
+      "Ensemble GFS": 60.6,
+      "Ensemble ICON": 58.5
+    },
+    "last_updated": "2026-03-06T12:04:31.660915+00:00"
+  },
+  "San Francisco|26MAR07": {
+    "city": "San Francisco",
+    "series": "KXHIGHTSFO",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T16:04:54.235542+00:00",
+        "ensemble_mean": 73.0,
+        "calibrated_std": 1.93,
+        "sources": {
+          "GFS": 74.4,
+          "Canadian GEM": 73.3,
+          "UKMO": 73.0,
+          "Meteo-France Arpege": 64.5,
+          "ECMWF": 69.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.1
+        }
+      },
+      {
+        "ts": "2026-03-06T17:04:27.077084+00:00",
+        "ensemble_mean": 73.0,
+        "calibrated_std": 1.93,
+        "sources": {
+          "GFS": 74.4,
+          "Canadian GEM": 73.3,
+          "UKMO": 73.0,
+          "Meteo-France Arpege": 64.5,
+          "ECMWF": 69.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.1
+        }
+      },
+      {
+        "ts": "2026-03-06T18:04:34.020509+00:00",
+        "ensemble_mean": 73.0,
+        "calibrated_std": 1.97,
+        "sources": {
+          "GFS": 74.4,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.0,
+          "Meteo-France Arpege": 64.5,
+          "ECMWF": 69.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.1
+        }
+      },
+      {
+        "ts": "2026-03-06T19:04:47.061070+00:00",
+        "ensemble_mean": 73.0,
+        "calibrated_std": 1.98,
+        "sources": {
+          "GFS": 74.4,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.0,
+          "Meteo-France Arpege": 64.5,
+          "ECMWF": 69.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-06T20:04:54.724757+00:00",
+        "ensemble_mean": 73.1,
+        "calibrated_std": 1.9,
+        "sources": {
+          "GFS": 74.9,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.3,
+          "Meteo-France Arpege": 64.5,
+          "ECMWF": 69.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-06T21:05:07.366896+00:00",
+        "ensemble_mean": 73.4,
+        "calibrated_std": 1.87,
+        "sources": {
+          "GFS": 74.9,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.3,
+          "Meteo-France Arpege": 64.5,
+          "ECMWF": 72.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-06T22:04:29.855741+00:00",
+        "ensemble_mean": 73.4,
+        "calibrated_std": 1.87,
+        "sources": {
+          "GFS": 74.9,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.3,
+          "Meteo-France Arpege": 64.5,
+          "ECMWF": 72.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-06T23:06:03.931157+00:00",
+        "ensemble_mean": 73.4,
+        "calibrated_std": 1.87,
+        "sources": {
+          "GFS": 74.9,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.3,
+          "Meteo-France Arpege": 64.4,
+          "ECMWF": 72.4,
+          "Ensemble ECMWF": 71.0,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-07T00:05:01.109576+00:00",
+        "ensemble_mean": 73.5,
+        "calibrated_std": 1.9,
+        "sources": {
+          "GFS": 74.9,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.3,
+          "Meteo-France Arpege": 64.4,
+          "ECMWF": 72.4,
+          "Ensemble ECMWF": 71.7,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-07T01:04:56.522861+00:00",
+        "ensemble_mean": 73.5,
+        "calibrated_std": 1.9,
+        "sources": {
+          "GFS": 74.9,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.3,
+          "Meteo-France Arpege": 64.4,
+          "ECMWF": 72.4,
+          "Ensemble ECMWF": 71.7,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-07T02:04:42.768182+00:00",
+        "ensemble_mean": 73.5,
+        "calibrated_std": 1.92,
+        "sources": {
+          "GFS": 75.0,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.1,
+          "Meteo-France Arpege": 64.4,
+          "ECMWF": 72.3,
+          "Ensemble ECMWF": 71.7,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-07T03:04:32.277095+00:00",
+        "ensemble_mean": 73.4,
+        "calibrated_std": 1.9,
+        "sources": {
+          "GFS": 75.0,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.1,
+          "Meteo-France Arpege": 64.4,
+          "ECMWF": 72.3,
+          "Ensemble ECMWF": 71.3,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-07T04:04:26.527970+00:00",
+        "ensemble_mean": 73.0,
+        "calibrated_std": 2.18,
+        "sources": {
+          "GFS": 75.0,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.1,
+          "Meteo-France Arpege": 62.1,
+          "ECMWF": 72.3,
+          "Ensemble ECMWF": 71.3,
+          "Ensemble GFS": 69.0
+        }
+      },
+      {
+        "ts": "2026-03-07T05:04:36.504808+00:00",
+        "ensemble_mean": 73.0,
+        "calibrated_std": 2.18,
+        "sources": {
+          "GFS": 75.0,
+          "Canadian GEM": 73.4,
+          "UKMO": 73.1,
+          "Meteo-France Arpege": 62.1,
+          "ECMWF": 72.3,
+          "Ensemble ECMWF": 71.3,
+          "Ensemble GFS": 69.0
+        }
+      }
+    ],
+    "final_ensemble_mean": 73.0,
+    "final_calibrated_std": 2.18,
+    "final_source_forecasts": {
+      "GFS": 75.0,
+      "Canadian GEM": 73.4,
+      "UKMO": 73.1,
+      "Meteo-France Arpege": 62.1,
+      "ECMWF": 72.3,
+      "Ensemble ECMWF": 71.3,
+      "Ensemble GFS": 69.0
+    },
+    "last_updated": "2026-03-07T05:04:36.504808+00:00"
+  },
+  "San Antonio|26MAR07": {
+    "city": "San Antonio",
+    "series": "KXHIGHTSATX",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T16:05:02.872907+00:00",
+        "ensemble_mean": 81.5,
+        "calibrated_std": 2.91,
+        "sources": {
+          "GFS": 76.8,
+          "ICON": 84.3,
+          "Canadian GEM": 83.9,
+          "JMA": 74.2,
+          "UKMO": 82.6,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 76.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.3,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-06T17:04:35.719585+00:00",
+        "ensemble_mean": 81.5,
+        "calibrated_std": 2.91,
+        "sources": {
+          "GFS": 76.8,
+          "ICON": 84.3,
+          "Canadian GEM": 83.9,
+          "JMA": 74.2,
+          "UKMO": 82.6,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 76.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.3,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-06T18:04:46.899949+00:00",
+        "ensemble_mean": 81.0,
+        "calibrated_std": 2.67,
+        "sources": {
+          "GFS": 76.8,
+          "ICON": 84.3,
+          "Canadian GEM": 78.4,
+          "JMA": 74.2,
+          "UKMO": 82.6,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 76.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.3,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-06T19:04:57.284998+00:00",
+        "ensemble_mean": 81.0,
+        "calibrated_std": 2.68,
+        "sources": {
+          "GFS": 76.8,
+          "ICON": 84.3,
+          "Canadian GEM": 78.4,
+          "JMA": 74.2,
+          "UKMO": 82.6,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 76.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-06T20:05:09.649731+00:00",
+        "ensemble_mean": 81.1,
+        "calibrated_std": 3.25,
+        "sources": {
+          "GFS": 75.7,
+          "ICON": 84.3,
+          "Canadian GEM": 78.4,
+          "JMA": 74.2,
+          "UKMO": 84.6,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 76.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-06T21:05:18.146164+00:00",
+        "ensemble_mean": 81.2,
+        "calibrated_std": 3.24,
+        "sources": {
+          "GFS": 75.7,
+          "ICON": 84.3,
+          "Canadian GEM": 78.4,
+          "JMA": 74.2,
+          "UKMO": 84.6,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 77.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-06T22:04:38.803636+00:00",
+        "ensemble_mean": 81.2,
+        "calibrated_std": 3.0,
+        "sources": {
+          "GFS": 75.7,
+          "ICON": 82.2,
+          "Canadian GEM": 78.4,
+          "JMA": 75.2,
+          "UKMO": 84.6,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 77.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-06T23:06:13.156623+00:00",
+        "ensemble_mean": 81.6,
+        "calibrated_std": 3.42,
+        "sources": {
+          "GFS": 75.7,
+          "ICON": 82.2,
+          "Canadian GEM": 78.4,
+          "JMA": 75.2,
+          "UKMO": 84.6,
+          "Meteo-France Arpege": 85.6,
+          "ECMWF": 77.7,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 78.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-07T00:05:09.805801+00:00",
+        "ensemble_mean": 81.5,
+        "calibrated_std": 3.58,
+        "sources": {
+          "GFS": 75.7,
+          "ICON": 82.2,
+          "Canadian GEM": 78.4,
+          "JMA": 75.2,
+          "UKMO": 84.6,
+          "Meteo-France Arpege": 85.6,
+          "ECMWF": 77.7,
+          "Ensemble ECMWF": 79.2,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-07T01:05:05.243344+00:00",
+        "ensemble_mean": 81.5,
+        "calibrated_std": 3.58,
+        "sources": {
+          "GFS": 75.7,
+          "ICON": 82.2,
+          "Canadian GEM": 78.4,
+          "JMA": 75.2,
+          "UKMO": 84.6,
+          "Meteo-France Arpege": 85.6,
+          "ECMWF": 77.7,
+          "Ensemble ECMWF": 79.2,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-07T02:04:51.592687+00:00",
+        "ensemble_mean": 82.6,
+        "calibrated_std": 2.6,
+        "sources": {
+          "GFS": 83.7,
+          "ICON": 82.2,
+          "Canadian GEM": 78.4,
+          "JMA": 75.2,
+          "UKMO": 84.7,
+          "Meteo-France Arpege": 85.6,
+          "ECMWF": 78.7,
+          "Ensemble ECMWF": 79.2,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-07T03:04:41.037435+00:00",
+        "ensemble_mean": 82.6,
+        "calibrated_std": 2.57,
+        "sources": {
+          "GFS": 83.7,
+          "ICON": 82.2,
+          "Canadian GEM": 78.4,
+          "JMA": 75.2,
+          "UKMO": 84.7,
+          "Meteo-France Arpege": 85.6,
+          "ECMWF": 78.7,
+          "Ensemble ECMWF": 79.9,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 83.9
+        }
+      },
+      {
+        "ts": "2026-03-07T04:04:35.380916+00:00",
+        "ensemble_mean": 82.1,
+        "calibrated_std": 2.22,
+        "sources": {
+          "GFS": 83.7,
+          "ICON": 79.6,
+          "Canadian GEM": 78.4,
+          "JMA": 75.4,
+          "UKMO": 84.7,
+          "Meteo-France Arpege": 83.7,
+          "ECMWF": 78.7,
+          "Ensemble ECMWF": 79.9,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 80.9
+        }
+      },
+      {
+        "ts": "2026-03-07T05:04:45.728892+00:00",
+        "ensemble_mean": 81.4,
+        "calibrated_std": 3.07,
+        "sources": {
+          "GFS": 76.2,
+          "ICON": 79.6,
+          "Canadian GEM": 80.9,
+          "JMA": 75.4,
+          "UKMO": 84.7,
+          "Meteo-France Arpege": 83.7,
+          "ECMWF": 78.7,
+          "Ensemble ECMWF": 79.9,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 80.9
+        }
+      }
+    ],
+    "final_ensemble_mean": 81.4,
+    "final_calibrated_std": 3.07,
+    "final_source_forecasts": {
+      "GFS": 76.2,
+      "ICON": 79.6,
+      "Canadian GEM": 80.9,
+      "JMA": 75.4,
+      "UKMO": 84.7,
+      "Meteo-France Arpege": 83.7,
+      "ECMWF": 78.7,
+      "Ensemble ECMWF": 79.9,
+      "Ensemble GFS": 77.2,
+      "Ensemble ICON": 80.9
+    },
+    "last_updated": "2026-03-07T05:04:45.728892+00:00"
+  },
+  "New Orleans|26MAR07": {
+    "city": "New Orleans",
+    "series": "KXHIGHTNOLA",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-06T16:05:11.513240+00:00",
+        "ensemble_mean": 82.4,
+        "calibrated_std": 1.93,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 79.9,
+          "Canadian GEM": 81.0,
+          "JMA": 76.6,
+          "UKMO": 76.9,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 81.6,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-06T17:04:44.902149+00:00",
+        "ensemble_mean": 82.4,
+        "calibrated_std": 1.93,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 79.9,
+          "Canadian GEM": 81.0,
+          "JMA": 76.6,
+          "UKMO": 76.9,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 81.6,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-06T18:04:57.044459+00:00",
+        "ensemble_mean": 82.4,
+        "calibrated_std": 1.93,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 79.9,
+          "Canadian GEM": 81.0,
+          "JMA": 76.6,
+          "UKMO": 76.9,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 81.6,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-06T19:05:09.743014+00:00",
+        "ensemble_mean": 82.4,
+        "calibrated_std": 1.94,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 79.9,
+          "Canadian GEM": 81.0,
+          "JMA": 76.6,
+          "UKMO": 76.9,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 82.5,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-06T20:05:19.734391+00:00",
+        "ensemble_mean": 82.9,
+        "calibrated_std": 1.4,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 79.9,
+          "Canadian GEM": 81.0,
+          "JMA": 76.6,
+          "UKMO": 80.4,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 82.5,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-06T21:05:29.938760+00:00",
+        "ensemble_mean": 83.1,
+        "calibrated_std": 1.46,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 79.9,
+          "Canadian GEM": 81.0,
+          "JMA": 76.6,
+          "UKMO": 80.4,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 80.3,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 82.5,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-06T22:04:48.088044+00:00",
+        "ensemble_mean": 83.0,
+        "calibrated_std": 1.54,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.2,
+          "UKMO": 80.4,
+          "Meteo-France Arpege": 80.4,
+          "ECMWF": 80.3,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 82.5,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-06T23:06:22.971548+00:00",
+        "ensemble_mean": 82.9,
+        "calibrated_std": 1.44,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.2,
+          "UKMO": 80.4,
+          "Meteo-France Arpege": 79.4,
+          "ECMWF": 80.3,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 82.5,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-07T00:05:18.501297+00:00",
+        "ensemble_mean": 83.0,
+        "calibrated_std": 1.52,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.2,
+          "UKMO": 80.4,
+          "Meteo-France Arpege": 79.4,
+          "ECMWF": 80.3,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 83.3,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-07T01:05:15.157282+00:00",
+        "ensemble_mean": 83.0,
+        "calibrated_std": 1.52,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.2,
+          "UKMO": 80.4,
+          "Meteo-France Arpege": 79.4,
+          "ECMWF": 80.3,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 83.3,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-07T02:05:00.244402+00:00",
+        "ensemble_mean": 82.8,
+        "calibrated_std": 1.51,
+        "sources": {
+          "GFS": 82.3,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.2,
+          "UKMO": 79.8,
+          "Meteo-France Arpege": 79.4,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 79.6,
+          "Ensemble GFS": 83.3,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-07T03:04:50.646680+00:00",
+        "ensemble_mean": 82.6,
+        "calibrated_std": 1.44,
+        "sources": {
+          "GFS": 82.3,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.2,
+          "UKMO": 79.8,
+          "Meteo-France Arpege": 79.4,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 78.1,
+          "Ensemble GFS": 83.3,
+          "Ensemble ICON": 80.7
+        }
+      },
+      {
+        "ts": "2026-03-07T04:04:44.419219+00:00",
+        "ensemble_mean": 82.8,
+        "calibrated_std": 1.49,
+        "sources": {
+          "GFS": 82.3,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.3,
+          "UKMO": 79.8,
+          "Meteo-France Arpege": 80.2,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 78.1,
+          "Ensemble GFS": 83.3,
+          "Ensemble ICON": 81.4
+        }
+      },
+      {
+        "ts": "2026-03-07T05:04:55.077535+00:00",
+        "ensemble_mean": 82.8,
+        "calibrated_std": 1.52,
+        "sources": {
+          "GFS": 82.6,
+          "ICON": 80.1,
+          "Canadian GEM": 81.0,
+          "JMA": 76.3,
+          "UKMO": 79.8,
+          "Meteo-France Arpege": 80.2,
+          "ECMWF": 79.6,
+          "Ensemble ECMWF": 78.1,
+          "Ensemble GFS": 83.3,
+          "Ensemble ICON": 81.4
+        }
+      }
+    ],
+    "final_ensemble_mean": 82.8,
+    "final_calibrated_std": 1.52,
+    "final_source_forecasts": {
+      "GFS": 82.6,
+      "ICON": 80.1,
+      "Canadian GEM": 81.0,
+      "JMA": 76.3,
+      "UKMO": 79.8,
+      "Meteo-France Arpege": 80.2,
+      "ECMWF": 79.6,
+      "Ensemble ECMWF": 78.1,
+      "Ensemble GFS": 83.3,
+      "Ensemble ICON": 81.4
+    },
+    "last_updated": "2026-03-07T05:04:55.077535+00:00"
+  },
+  "Miami|26MAR07": {
+    "city": "Miami",
+    "series": "KXHIGHMIA",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:02:37.853128+00:00",
+        "ensemble_mean": 82.4,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 81.6,
+          "ICON": 83.1,
+          "Canadian GEM": 81.7,
+          "JMA": 81.2,
+          "UKMO": 80.0,
+          "Meteo-France Arpege": 82.2,
+          "ECMWF": 78.8,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 79.5,
+          "Ensemble ICON": 82.6
+        }
+      },
+      {
+        "ts": "2026-03-07T02:02:36.451604+00:00",
+        "ensemble_mean": 82.7,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 81.9,
+          "ICON": 83.1,
+          "Canadian GEM": 81.7,
+          "JMA": 81.2,
+          "UKMO": 80.8,
+          "Meteo-France Arpege": 82.2,
+          "ECMWF": 79.5,
+          "Ensemble ECMWF": 79.3,
+          "Ensemble GFS": 79.5,
+          "Ensemble ICON": 82.6
+        }
+      },
+      {
+        "ts": "2026-03-07T03:02:30.414590+00:00",
+        "ensemble_mean": 82.7,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 81.8,
+          "ICON": 83.1,
+          "Canadian GEM": 81.7,
+          "JMA": 81.2,
+          "UKMO": 80.8,
+          "Meteo-France Arpege": 82.2,
+          "ECMWF": 79.5,
+          "Ensemble ECMWF": 79.4,
+          "Ensemble GFS": 79.5,
+          "Ensemble ICON": 82.6
+        }
+      },
+      {
+        "ts": "2026-03-07T04:02:29.895691+00:00",
+        "ensemble_mean": 82.6,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 82.0,
+          "ICON": 82.7,
+          "Canadian GEM": 81.7,
+          "JMA": 81.2,
+          "UKMO": 80.8,
+          "Meteo-France Arpege": 81.4,
+          "ECMWF": 79.5,
+          "Ensemble ECMWF": 79.4,
+          "Ensemble GFS": 79.5,
+          "Ensemble ICON": 83.2
+        }
+      },
+      {
+        "ts": "2026-03-07T05:02:31.225234+00:00",
+        "ensemble_mean": 82.6,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 81.3,
+          "ICON": 82.7,
+          "Canadian GEM": 81.7,
+          "JMA": 81.2,
+          "UKMO": 80.8,
+          "Meteo-France Arpege": 81.4,
+          "ECMWF": 79.5,
+          "Ensemble ECMWF": 79.4,
+          "Ensemble GFS": 79.5,
+          "Ensemble ICON": 83.2
+        }
+      }
+    ],
+    "final_ensemble_mean": 82.6,
+    "final_calibrated_std": 1.5,
+    "final_source_forecasts": {
+      "GFS": 81.3,
+      "ICON": 82.7,
+      "Canadian GEM": 81.7,
+      "JMA": 81.2,
+      "UKMO": 80.8,
+      "Meteo-France Arpege": 81.4,
+      "ECMWF": 79.5,
+      "Ensemble ECMWF": 79.4,
+      "Ensemble GFS": 79.5,
+      "Ensemble ICON": 83.2
+    },
+    "last_updated": "2026-03-07T05:02:31.225234+00:00"
+  },
+  "Austin|26MAR07": {
+    "city": "Austin",
+    "series": "KXHIGHAUS",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:02:46.588739+00:00",
+        "ensemble_mean": 81.1,
+        "calibrated_std": 2.5,
+        "sources": {
+          "GFS": 78.0,
+          "ICON": 79.0,
+          "Canadian GEM": 84.7,
+          "JMA": 74.1,
+          "UKMO": 82.1,
+          "Meteo-France Arpege": 83.1,
+          "ECMWF": 77.0,
+          "Ensemble ECMWF": 77.7,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 79.9
+        }
+      },
+      {
+        "ts": "2026-03-07T02:02:46.221256+00:00",
+        "ensemble_mean": 81.2,
+        "calibrated_std": 2.74,
+        "sources": {
+          "GFS": 76.9,
+          "ICON": 79.0,
+          "Canadian GEM": 84.7,
+          "JMA": 74.1,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 83.1,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 77.7,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 79.9
+        }
+      },
+      {
+        "ts": "2026-03-07T03:02:39.065606+00:00",
+        "ensemble_mean": 81.2,
+        "calibrated_std": 2.84,
+        "sources": {
+          "GFS": 76.3,
+          "ICON": 79.0,
+          "Canadian GEM": 84.7,
+          "JMA": 74.1,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 83.1,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 78.3,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 79.9
+        }
+      },
+      {
+        "ts": "2026-03-07T04:02:38.514534+00:00",
+        "ensemble_mean": 81.0,
+        "calibrated_std": 3.16,
+        "sources": {
+          "GFS": 75.8,
+          "ICON": 78.6,
+          "Canadian GEM": 84.7,
+          "JMA": 74.1,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 85.1,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 78.3,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 77.5
+        }
+      },
+      {
+        "ts": "2026-03-07T05:02:40.278344+00:00",
+        "ensemble_mean": 81.1,
+        "calibrated_std": 3.11,
+        "sources": {
+          "GFS": 76.1,
+          "ICON": 78.6,
+          "Canadian GEM": 84.7,
+          "JMA": 74.1,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 85.1,
+          "ECMWF": 79.2,
+          "Ensemble ECMWF": 78.3,
+          "Ensemble GFS": 77.2,
+          "Ensemble ICON": 77.5
+        }
+      }
+    ],
+    "final_ensemble_mean": 81.1,
+    "final_calibrated_std": 3.11,
+    "final_source_forecasts": {
+      "GFS": 76.1,
+      "ICON": 78.6,
+      "Canadian GEM": 84.7,
+      "JMA": 74.1,
+      "UKMO": 82.9,
+      "Meteo-France Arpege": 85.1,
+      "ECMWF": 79.2,
+      "Ensemble ECMWF": 78.3,
+      "Ensemble GFS": 77.2,
+      "Ensemble ICON": 77.5
+    },
+    "last_updated": "2026-03-07T05:02:40.278344+00:00"
+  },
+  "Minneapolis|26MAR07": {
+    "city": "Minneapolis",
+    "series": "KXHIGHTMIN",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:02:55.355454+00:00",
+        "ensemble_mean": 42.7,
+        "calibrated_std": 1.03,
+        "sources": {
+          "GFS": 39.9,
+          "ICON": 38.9,
+          "Canadian GEM": 40.3,
+          "UKMO": 40.3,
+          "Meteo-France Arpege": 40.8,
+          "ECMWF": 41.6,
+          "Ensemble ECMWF": 42.3,
+          "Ensemble GFS": 44.8,
+          "Ensemble ICON": 41.8
+        }
+      },
+      {
+        "ts": "2026-03-07T02:02:56.343061+00:00",
+        "ensemble_mean": 42.2,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 39.4,
+          "ICON": 38.9,
+          "Canadian GEM": 40.3,
+          "UKMO": 39.7,
+          "Meteo-France Arpege": 40.8,
+          "ECMWF": 38.4,
+          "Ensemble ECMWF": 42.3,
+          "Ensemble GFS": 44.8,
+          "Ensemble ICON": 41.8
+        }
+      },
+      {
+        "ts": "2026-03-07T03:02:47.700690+00:00",
+        "ensemble_mean": 42.0,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 39.7,
+          "ICON": 38.9,
+          "Canadian GEM": 40.3,
+          "UKMO": 39.7,
+          "Meteo-France Arpege": 40.8,
+          "ECMWF": 38.4,
+          "Ensemble ECMWF": 40.7,
+          "Ensemble GFS": 44.8,
+          "Ensemble ICON": 41.8
+        }
+      },
+      {
+        "ts": "2026-03-07T04:02:47.460312+00:00",
+        "ensemble_mean": 42.1,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 40.3,
+          "ICON": 39.1,
+          "Canadian GEM": 40.3,
+          "UKMO": 39.7,
+          "Meteo-France Arpege": 41.1,
+          "ECMWF": 38.4,
+          "Ensemble ECMWF": 40.7,
+          "Ensemble GFS": 44.8,
+          "Ensemble ICON": 40.5
+        }
+      },
+      {
+        "ts": "2026-03-07T05:02:49.178053+00:00",
+        "ensemble_mean": 42.0,
+        "calibrated_std": 1.5,
+        "sources": {
+          "GFS": 40.0,
+          "ICON": 39.1,
+          "Canadian GEM": 40.3,
+          "UKMO": 39.7,
+          "Meteo-France Arpege": 41.1,
+          "ECMWF": 38.4,
+          "Ensemble ECMWF": 40.7,
+          "Ensemble GFS": 44.8,
+          "Ensemble ICON": 40.5
+        }
+      }
+    ],
+    "final_ensemble_mean": 42.0,
+    "final_calibrated_std": 1.5,
+    "final_source_forecasts": {
+      "GFS": 40.0,
+      "ICON": 39.1,
+      "Canadian GEM": 40.3,
+      "UKMO": 39.7,
+      "Meteo-France Arpege": 41.1,
+      "ECMWF": 38.4,
+      "Ensemble ECMWF": 40.7,
+      "Ensemble GFS": 44.8,
+      "Ensemble ICON": 40.5
+    },
+    "last_updated": "2026-03-07T05:02:49.178053+00:00"
+  },
+  "Washington DC|26MAR07": {
+    "city": "Washington DC",
+    "series": "KXHIGHTDC",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:03:19.618494+00:00",
+        "ensemble_mean": 67.5,
+        "calibrated_std": 6.88,
+        "sources": {
+          "GFS": 62.8,
+          "ICON": 62.7,
+          "Canadian GEM": 71.9,
+          "JMA": 68.8,
+          "UKMO": 64.8,
+          "Meteo-France Arpege": 53.5,
+          "Ensemble ECMWF": 76.7,
+          "Ensemble GFS": 69.4,
+          "Ensemble ICON": 65.6
+        }
+      },
+      {
+        "ts": "2026-03-07T02:03:06.043890+00:00",
+        "ensemble_mean": 67.7,
+        "calibrated_std": 6.96,
+        "sources": {
+          "GFS": 64.9,
+          "ICON": 62.7,
+          "Canadian GEM": 71.9,
+          "JMA": 68.8,
+          "UKMO": 64.2,
+          "Meteo-France Arpege": 53.5,
+          "ECMWF": 77.4,
+          "Ensemble ECMWF": 76.7,
+          "Ensemble GFS": 69.4,
+          "Ensemble ICON": 65.6
+        }
+      },
+      {
+        "ts": "2026-03-07T03:02:57.187308+00:00",
+        "ensemble_mean": 67.6,
+        "calibrated_std": 6.86,
+        "sources": {
+          "GFS": 64.9,
+          "ICON": 62.7,
+          "Canadian GEM": 71.9,
+          "JMA": 68.8,
+          "UKMO": 64.2,
+          "Meteo-France Arpege": 53.5,
+          "ECMWF": 77.4,
+          "Ensemble ECMWF": 75.8,
+          "Ensemble GFS": 69.4,
+          "Ensemble ICON": 65.6
+        }
+      },
+      {
+        "ts": "2026-03-07T04:02:56.870108+00:00",
+        "ensemble_mean": 67.7,
+        "calibrated_std": 6.45,
+        "sources": {
+          "GFS": 64.9,
+          "ICON": 62.8,
+          "Canadian GEM": 71.9,
+          "JMA": 68.5,
+          "UKMO": 64.2,
+          "Meteo-France Arpege": 54.9,
+          "ECMWF": 77.4,
+          "Ensemble ECMWF": 75.8,
+          "Ensemble GFS": 69.4,
+          "Ensemble ICON": 64.7
+        }
+      },
+      {
+        "ts": "2026-03-07T05:02:59.527934+00:00",
+        "ensemble_mean": 67.7,
+        "calibrated_std": 6.45,
+        "sources": {
+          "GFS": 64.9,
+          "ICON": 62.8,
+          "Canadian GEM": 71.9,
+          "JMA": 68.5,
+          "UKMO": 64.2,
+          "Meteo-France Arpege": 54.9,
+          "ECMWF": 77.4,
+          "Ensemble ECMWF": 75.8,
+          "Ensemble GFS": 69.4,
+          "Ensemble ICON": 64.7
+        }
+      }
+    ],
+    "final_ensemble_mean": 67.7,
+    "final_calibrated_std": 6.45,
+    "final_source_forecasts": {
+      "GFS": 64.9,
+      "ICON": 62.8,
+      "Canadian GEM": 71.9,
+      "JMA": 68.5,
+      "UKMO": 64.2,
+      "Meteo-France Arpege": 54.9,
+      "ECMWF": 77.4,
+      "Ensemble ECMWF": 75.8,
+      "Ensemble GFS": 69.4,
+      "Ensemble ICON": 64.7
+    },
+    "last_updated": "2026-03-07T05:02:59.527934+00:00"
+  },
+  "Atlanta|26MAR07": {
+    "city": "Atlanta",
+    "series": "KXHIGHTATL",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:03:28.259751+00:00",
+        "ensemble_mean": 80.1,
+        "calibrated_std": 2.09,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 78.0,
+          "Canadian GEM": 79.3,
+          "JMA": 71.4,
+          "UKMO": 74.5,
+          "Meteo-France Arpege": 75.0,
+          "ECMWF": 79.4,
+          "Ensemble ECMWF": 78.2,
+          "Ensemble GFS": 79.1,
+          "Ensemble ICON": 76.5
+        }
+      },
+      {
+        "ts": "2026-03-07T02:03:16.461879+00:00",
+        "ensemble_mean": 80.5,
+        "calibrated_std": 1.95,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 78.0,
+          "Canadian GEM": 79.3,
+          "JMA": 71.4,
+          "UKMO": 76.6,
+          "Meteo-France Arpege": 75.0,
+          "ECMWF": 79.1,
+          "Ensemble ECMWF": 78.2,
+          "Ensemble GFS": 79.1,
+          "Ensemble ICON": 76.5
+        }
+      },
+      {
+        "ts": "2026-03-07T03:03:06.764562+00:00",
+        "ensemble_mean": 80.6,
+        "calibrated_std": 1.99,
+        "sources": {
+          "GFS": 80.8,
+          "ICON": 78.0,
+          "Canadian GEM": 79.3,
+          "JMA": 71.4,
+          "UKMO": 76.6,
+          "Meteo-France Arpege": 75.0,
+          "ECMWF": 79.1,
+          "Ensemble ECMWF": 79.0,
+          "Ensemble GFS": 79.1,
+          "Ensemble ICON": 76.5
+        }
+      },
+      {
+        "ts": "2026-03-07T04:03:05.521572+00:00",
+        "ensemble_mean": 80.9,
+        "calibrated_std": 1.79,
+        "sources": {
+          "GFS": 80.9,
+          "ICON": 79.0,
+          "Canadian GEM": 79.3,
+          "JMA": 71.3,
+          "UKMO": 76.6,
+          "Meteo-France Arpege": 76.8,
+          "ECMWF": 79.1,
+          "Ensemble ECMWF": 79.0,
+          "Ensemble GFS": 79.1,
+          "Ensemble ICON": 77.9
+        }
+      },
+      {
+        "ts": "2026-03-07T05:03:09.256852+00:00",
+        "ensemble_mean": 81.0,
+        "calibrated_std": 1.85,
+        "sources": {
+          "GFS": 81.6,
+          "ICON": 79.0,
+          "Canadian GEM": 79.3,
+          "JMA": 71.3,
+          "UKMO": 76.6,
+          "Meteo-France Arpege": 76.8,
+          "ECMWF": 79.1,
+          "Ensemble ECMWF": 79.0,
+          "Ensemble GFS": 79.1,
+          "Ensemble ICON": 77.9
+        }
+      }
+    ],
+    "final_ensemble_mean": 81.0,
+    "final_calibrated_std": 1.85,
+    "final_source_forecasts": {
+      "GFS": 81.6,
+      "ICON": 79.0,
+      "Canadian GEM": 79.3,
+      "JMA": 71.3,
+      "UKMO": 76.6,
+      "Meteo-France Arpege": 76.8,
+      "ECMWF": 79.1,
+      "Ensemble ECMWF": 79.0,
+      "Ensemble GFS": 79.1,
+      "Ensemble ICON": 77.9
+    },
+    "last_updated": "2026-03-07T05:03:09.256852+00:00"
+  },
+  "Philadelphia|26MAR07": {
+    "city": "Philadelphia",
+    "series": "KXHIGHPHIL",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:03:37.439386+00:00",
+        "ensemble_mean": 57.3,
+        "calibrated_std": 4.93,
+        "sources": {
+          "GFS": 49.5,
+          "ICON": 52.1,
+          "Canadian GEM": 56.6,
+          "JMA": 60.0,
+          "UKMO": 59.1,
+          "Meteo-France Arpege": 45.1,
+          "ECMWF": 60.1,
+          "Ensemble ECMWF": 61.8,
+          "Ensemble GFS": 60.2,
+          "Ensemble ICON": 52.9
+        }
+      },
+      {
+        "ts": "2026-03-07T02:03:26.648464+00:00",
+        "ensemble_mean": 57.1,
+        "calibrated_std": 4.93,
+        "sources": {
+          "GFS": 48.3,
+          "ICON": 52.1,
+          "Canadian GEM": 56.6,
+          "JMA": 60.0,
+          "UKMO": 59.1,
+          "Meteo-France Arpege": 45.1,
+          "ECMWF": 59.6,
+          "Ensemble ECMWF": 61.8,
+          "Ensemble GFS": 60.2,
+          "Ensemble ICON": 52.9
+        }
+      },
+      {
+        "ts": "2026-03-07T03:03:16.072357+00:00",
+        "ensemble_mean": 57.0,
+        "calibrated_std": 4.79,
+        "sources": {
+          "GFS": 48.3,
+          "ICON": 52.1,
+          "Canadian GEM": 56.6,
+          "JMA": 60.0,
+          "UKMO": 59.1,
+          "Meteo-France Arpege": 45.1,
+          "ECMWF": 59.6,
+          "Ensemble ECMWF": 59.9,
+          "Ensemble GFS": 60.2,
+          "Ensemble ICON": 52.9
+        }
+      },
+      {
+        "ts": "2026-03-07T04:03:14.164132+00:00",
+        "ensemble_mean": 56.9,
+        "calibrated_std": 4.69,
+        "sources": {
+          "GFS": 48.3,
+          "ICON": 50.0,
+          "Canadian GEM": 56.6,
+          "JMA": 60.1,
+          "UKMO": 59.1,
+          "Meteo-France Arpege": 46.4,
+          "ECMWF": 59.6,
+          "Ensemble ECMWF": 59.9,
+          "Ensemble GFS": 60.2,
+          "Ensemble ICON": 52.1
+        }
+      },
+      {
+        "ts": "2026-03-07T05:03:18.183081+00:00",
+        "ensemble_mean": 56.9,
+        "calibrated_std": 4.69,
+        "sources": {
+          "GFS": 48.3,
+          "ICON": 50.0,
+          "Canadian GEM": 56.6,
+          "JMA": 60.1,
+          "UKMO": 59.1,
+          "Meteo-France Arpege": 46.4,
+          "ECMWF": 59.6,
+          "Ensemble ECMWF": 59.9,
+          "Ensemble GFS": 60.2,
+          "Ensemble ICON": 52.1
+        }
+      }
+    ],
+    "final_ensemble_mean": 56.9,
+    "final_calibrated_std": 4.69,
+    "final_source_forecasts": {
+      "GFS": 48.3,
+      "ICON": 50.0,
+      "Canadian GEM": 56.6,
+      "JMA": 60.1,
+      "UKMO": 59.1,
+      "Meteo-France Arpege": 46.4,
+      "ECMWF": 59.6,
+      "Ensemble ECMWF": 59.9,
+      "Ensemble GFS": 60.2,
+      "Ensemble ICON": 52.1
+    },
+    "last_updated": "2026-03-07T05:03:18.183081+00:00"
+  },
+  "Houston|26MAR07": {
+    "city": "Houston",
+    "series": "KXHIGHTHOU",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:03:46.259999+00:00",
+        "ensemble_mean": 83.7,
+        "calibrated_std": 1.92,
+        "sources": {
+          "GFS": 80.6,
+          "ICON": 80.1,
+          "JMA": 77.3,
+          "UKMO": 82.4,
+          "Meteo-France Arpege": 78.0,
+          "ECMWF": 83.2,
+          "Ensemble ECMWF": 81.9,
+          "Ensemble GFS": 84.3,
+          "Ensemble ICON": 79.8
+        }
+      },
+      {
+        "ts": "2026-03-07T02:03:35.361667+00:00",
+        "ensemble_mean": 83.7,
+        "calibrated_std": 1.88,
+        "sources": {
+          "GFS": 80.4,
+          "ICON": 80.1,
+          "JMA": 77.3,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 78.0,
+          "ECMWF": 82.1,
+          "Ensemble ECMWF": 81.9,
+          "Ensemble GFS": 84.3,
+          "Ensemble ICON": 79.8
+        }
+      },
+      {
+        "ts": "2026-03-07T03:03:24.773802+00:00",
+        "ensemble_mean": 83.4,
+        "calibrated_std": 1.91,
+        "sources": {
+          "GFS": 78.0,
+          "ICON": 80.1,
+          "JMA": 77.3,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 78.0,
+          "ECMWF": 82.1,
+          "Ensemble ECMWF": 81.7,
+          "Ensemble GFS": 84.3,
+          "Ensemble ICON": 79.8
+        }
+      },
+      {
+        "ts": "2026-03-07T04:03:23.488418+00:00",
+        "ensemble_mean": 84.1,
+        "calibrated_std": 1.58,
+        "sources": {
+          "GFS": 79.8,
+          "ICON": 82.1,
+          "JMA": 77.1,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 78.6,
+          "ECMWF": 82.1,
+          "Ensemble ECMWF": 81.7,
+          "Ensemble GFS": 84.3,
+          "Ensemble ICON": 82.7
+        }
+      },
+      {
+        "ts": "2026-03-07T05:03:28.130415+00:00",
+        "ensemble_mean": 84.5,
+        "calibrated_std": 1.57,
+        "sources": {
+          "GFS": 83.2,
+          "ICON": 82.1,
+          "JMA": 77.1,
+          "UKMO": 82.9,
+          "Meteo-France Arpege": 78.6,
+          "ECMWF": 82.1,
+          "Ensemble ECMWF": 81.7,
+          "Ensemble GFS": 84.3,
+          "Ensemble ICON": 82.7
+        }
+      }
+    ],
+    "final_ensemble_mean": 84.5,
+    "final_calibrated_std": 1.57,
+    "final_source_forecasts": {
+      "GFS": 83.2,
+      "ICON": 82.1,
+      "JMA": 77.1,
+      "UKMO": 82.9,
+      "Meteo-France Arpege": 78.6,
+      "ECMWF": 82.1,
+      "Ensemble ECMWF": 81.7,
+      "Ensemble GFS": 84.3,
+      "Ensemble ICON": 82.7
+    },
+    "last_updated": "2026-03-07T05:03:28.130415+00:00"
+  },
+  "Dallas|26MAR07": {
+    "city": "Dallas",
+    "series": "KXHIGHTDAL",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:03:57.223338+00:00",
+        "ensemble_mean": 71.3,
+        "calibrated_std": 1.53,
+        "sources": {
+          "GFS": 71.9,
+          "ICON": 68.0,
+          "Canadian GEM": 69.8,
+          "JMA": 69.5,
+          "UKMO": 70.5,
+          "Meteo-France Arpege": 67.6,
+          "ECMWF": 67.8,
+          "Ensemble ECMWF": 67.2,
+          "Ensemble GFS": 71.5,
+          "Ensemble ICON": 67.8
+        }
+      },
+      {
+        "ts": "2026-03-07T02:03:44.789398+00:00",
+        "ensemble_mean": 71.1,
+        "calibrated_std": 1.63,
+        "sources": {
+          "GFS": 71.6,
+          "ICON": 68.0,
+          "Canadian GEM": 69.8,
+          "JMA": 69.5,
+          "UKMO": 70.4,
+          "Meteo-France Arpege": 67.6,
+          "ECMWF": 66.0,
+          "Ensemble ECMWF": 67.2,
+          "Ensemble GFS": 71.5,
+          "Ensemble ICON": 67.8
+        }
+      },
+      {
+        "ts": "2026-03-07T03:03:33.650156+00:00",
+        "ensemble_mean": 71.1,
+        "calibrated_std": 1.66,
+        "sources": {
+          "GFS": 71.7,
+          "ICON": 68.0,
+          "Canadian GEM": 69.8,
+          "JMA": 69.5,
+          "UKMO": 70.4,
+          "Meteo-France Arpege": 67.6,
+          "ECMWF": 66.0,
+          "Ensemble ECMWF": 67.0,
+          "Ensemble GFS": 71.5,
+          "Ensemble ICON": 67.8
+        }
+      },
+      {
+        "ts": "2026-03-07T04:03:32.190783+00:00",
+        "ensemble_mean": 72.0,
+        "calibrated_std": 1.62,
+        "sources": {
+          "GFS": 72.1,
+          "ICON": 70.9,
+          "Canadian GEM": 69.8,
+          "JMA": 70.0,
+          "UKMO": 70.4,
+          "Meteo-France Arpege": 71.7,
+          "ECMWF": 66.0,
+          "Ensemble ECMWF": 67.0,
+          "Ensemble GFS": 71.5,
+          "Ensemble ICON": 69.6
+        }
+      },
+      {
+        "ts": "2026-03-07T05:03:38.467983+00:00",
+        "ensemble_mean": 72.3,
+        "calibrated_std": 1.75,
+        "sources": {
+          "GFS": 72.0,
+          "ICON": 70.9,
+          "Canadian GEM": 72.9,
+          "JMA": 70.0,
+          "UKMO": 70.4,
+          "Meteo-France Arpege": 71.7,
+          "ECMWF": 66.0,
+          "Ensemble ECMWF": 67.0,
+          "Ensemble GFS": 71.5,
+          "Ensemble ICON": 69.6
+        }
+      }
+    ],
+    "final_ensemble_mean": 72.3,
+    "final_calibrated_std": 1.75,
+    "final_source_forecasts": {
+      "GFS": 72.0,
+      "ICON": 70.9,
+      "Canadian GEM": 72.9,
+      "JMA": 70.0,
+      "UKMO": 70.4,
+      "Meteo-France Arpege": 71.7,
+      "ECMWF": 66.0,
+      "Ensemble ECMWF": 67.0,
+      "Ensemble GFS": 71.5,
+      "Ensemble ICON": 69.6
+    },
+    "last_updated": "2026-03-07T05:03:38.467983+00:00"
+  },
+  "Seattle|26MAR07": {
+    "city": "Seattle",
+    "series": "KXHIGHTSEA",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:04:05.982878+00:00",
+        "ensemble_mean": 54.4,
+        "calibrated_std": 1.17,
+        "sources": {
+          "GFS": 52.6,
+          "ICON": 51.8,
+          "Canadian GEM": 50.2,
+          "JMA": 53.0,
+          "UKMO": 54.5,
+          "Meteo-France Arpege": 50.6,
+          "ECMWF": 52.3,
+          "Ensemble ECMWF": 52.5,
+          "Ensemble GFS": 55.2,
+          "Ensemble ICON": 52.4
+        }
+      },
+      {
+        "ts": "2026-03-07T02:03:54.882013+00:00",
+        "ensemble_mean": 54.4,
+        "calibrated_std": 1.22,
+        "sources": {
+          "GFS": 52.7,
+          "ICON": 51.8,
+          "Canadian GEM": 50.2,
+          "JMA": 53.0,
+          "UKMO": 54.9,
+          "Meteo-France Arpege": 50.6,
+          "ECMWF": 52.4,
+          "Ensemble ECMWF": 52.5,
+          "Ensemble GFS": 55.2,
+          "Ensemble ICON": 52.4
+        }
+      },
+      {
+        "ts": "2026-03-07T03:03:42.435158+00:00",
+        "ensemble_mean": 54.4,
+        "calibrated_std": 1.22,
+        "sources": {
+          "GFS": 52.7,
+          "ICON": 51.8,
+          "Canadian GEM": 50.2,
+          "JMA": 53.0,
+          "UKMO": 54.9,
+          "Meteo-France Arpege": 50.6,
+          "ECMWF": 52.4,
+          "Ensemble ECMWF": 52.4,
+          "Ensemble GFS": 55.2,
+          "Ensemble ICON": 52.4
+        }
+      },
+      {
+        "ts": "2026-03-07T04:03:40.887525+00:00",
+        "ensemble_mean": 54.6,
+        "calibrated_std": 1.06,
+        "sources": {
+          "GFS": 52.7,
+          "ICON": 51.9,
+          "Canadian GEM": 50.2,
+          "JMA": 52.8,
+          "UKMO": 54.9,
+          "Meteo-France Arpege": 51.4,
+          "ECMWF": 52.4,
+          "Ensemble ECMWF": 52.4,
+          "Ensemble GFS": 55.2,
+          "Ensemble ICON": 52.6
+        }
+      },
+      {
+        "ts": "2026-03-07T05:03:48.249479+00:00",
+        "ensemble_mean": 54.6,
+        "calibrated_std": 1.06,
+        "sources": {
+          "GFS": 53.1,
+          "ICON": 51.9,
+          "Canadian GEM": 50.4,
+          "JMA": 52.8,
+          "UKMO": 54.9,
+          "Meteo-France Arpege": 51.4,
+          "ECMWF": 52.4,
+          "Ensemble ECMWF": 52.4,
+          "Ensemble GFS": 55.2,
+          "Ensemble ICON": 52.6
+        }
+      }
+    ],
+    "final_ensemble_mean": 54.6,
+    "final_calibrated_std": 1.06,
+    "final_source_forecasts": {
+      "GFS": 53.1,
+      "ICON": 51.9,
+      "Canadian GEM": 50.4,
+      "JMA": 52.8,
+      "UKMO": 54.9,
+      "Meteo-France Arpege": 51.4,
+      "ECMWF": 52.4,
+      "Ensemble ECMWF": 52.4,
+      "Ensemble GFS": 55.2,
+      "Ensemble ICON": 52.6
+    },
+    "last_updated": "2026-03-07T05:03:48.249479+00:00"
+  },
+  "Boston|26MAR07": {
+    "city": "Boston",
+    "series": "KXHIGHTBOS",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:04:19.234805+00:00",
+        "ensemble_mean": 47.0,
+        "calibrated_std": 2.39,
+        "sources": {
+          "GFS": 45.2,
+          "Canadian GEM": 41.3,
+          "JMA": 48.9,
+          "UKMO": 44.1,
+          "ECMWF": 44.5,
+          "Ensemble ECMWF": 44.2,
+          "Ensemble GFS": 51.2
+        }
+      },
+      {
+        "ts": "2026-03-07T02:04:03.600567+00:00",
+        "ensemble_mean": 46.9,
+        "calibrated_std": 2.43,
+        "sources": {
+          "GFS": 45.1,
+          "Canadian GEM": 41.3,
+          "JMA": 48.9,
+          "UKMO": 44.0,
+          "ECMWF": 44.0,
+          "Ensemble ECMWF": 44.2,
+          "Ensemble GFS": 51.2
+        }
+      },
+      {
+        "ts": "2026-03-07T03:03:52.179479+00:00",
+        "ensemble_mean": 46.9,
+        "calibrated_std": 2.45,
+        "sources": {
+          "GFS": 45.1,
+          "Canadian GEM": 41.3,
+          "JMA": 48.9,
+          "UKMO": 44.0,
+          "ECMWF": 44.0,
+          "Ensemble ECMWF": 43.9,
+          "Ensemble GFS": 51.2
+        }
+      },
+      {
+        "ts": "2026-03-07T04:03:49.611057+00:00",
+        "ensemble_mean": 47.0,
+        "calibrated_std": 2.67,
+        "sources": {
+          "GFS": 45.1,
+          "Canadian GEM": 41.3,
+          "JMA": 49.6,
+          "UKMO": 44.0,
+          "ECMWF": 44.0,
+          "Ensemble ECMWF": 43.9,
+          "Ensemble GFS": 51.2
+        }
+      },
+      {
+        "ts": "2026-03-07T05:03:57.822976+00:00",
+        "ensemble_mean": 47.0,
+        "calibrated_std": 2.71,
+        "sources": {
+          "GFS": 45.1,
+          "Canadian GEM": 41.1,
+          "JMA": 49.6,
+          "UKMO": 44.0,
+          "ECMWF": 44.0,
+          "Ensemble ECMWF": 43.9,
+          "Ensemble GFS": 51.2
+        }
+      }
+    ],
+    "final_ensemble_mean": 47.0,
+    "final_calibrated_std": 2.71,
+    "final_source_forecasts": {
+      "GFS": 45.1,
+      "Canadian GEM": 41.1,
+      "JMA": 49.6,
+      "UKMO": 44.0,
+      "ECMWF": 44.0,
+      "Ensemble ECMWF": 43.9,
+      "Ensemble GFS": 51.2
+    },
+    "last_updated": "2026-03-07T05:03:57.822976+00:00"
+  },
+  "Phoenix|26MAR07": {
+    "city": "Phoenix",
+    "series": "KXHIGHTPHX",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:04:28.982506+00:00",
+        "ensemble_mean": 79.3,
+        "calibrated_std": 1.28,
+        "sources": {
+          "GFS": 77.3,
+          "ICON": 77.2,
+          "Canadian GEM": 77.3,
+          "JMA": 74.0,
+          "UKMO": 77.6,
+          "Meteo-France Arpege": 79.1,
+          "ECMWF": 77.7,
+          "Ensemble ECMWF": 77.6,
+          "Ensemble GFS": 74.6,
+          "Ensemble ICON": 75.8
+        }
+      },
+      {
+        "ts": "2026-03-07T02:04:12.435336+00:00",
+        "ensemble_mean": 79.3,
+        "calibrated_std": 1.14,
+        "sources": {
+          "GFS": 78.4,
+          "ICON": 77.2,
+          "Canadian GEM": 77.3,
+          "JMA": 74.0,
+          "UKMO": 77.4,
+          "Meteo-France Arpege": 79.1,
+          "ECMWF": 77.6,
+          "Ensemble ECMWF": 77.6,
+          "Ensemble GFS": 74.6,
+          "Ensemble ICON": 75.8
+        }
+      },
+      {
+        "ts": "2026-03-07T03:04:00.887571+00:00",
+        "ensemble_mean": 79.4,
+        "calibrated_std": 1.16,
+        "sources": {
+          "GFS": 78.4,
+          "ICON": 77.2,
+          "Canadian GEM": 77.3,
+          "JMA": 74.0,
+          "UKMO": 77.4,
+          "Meteo-France Arpege": 79.1,
+          "ECMWF": 77.6,
+          "Ensemble ECMWF": 77.8,
+          "Ensemble GFS": 74.6,
+          "Ensemble ICON": 75.8
+        }
+      },
+      {
+        "ts": "2026-03-07T04:03:58.677531+00:00",
+        "ensemble_mean": 79.6,
+        "calibrated_std": 1.08,
+        "sources": {
+          "GFS": 78.4,
+          "ICON": 77.7,
+          "Canadian GEM": 77.3,
+          "JMA": 74.7,
+          "UKMO": 77.4,
+          "Meteo-France Arpege": 79.6,
+          "ECMWF": 77.6,
+          "Ensemble ECMWF": 77.8,
+          "Ensemble GFS": 74.6,
+          "Ensemble ICON": 77.0
+        }
+      },
+      {
+        "ts": "2026-03-07T05:04:07.207372+00:00",
+        "ensemble_mean": 79.7,
+        "calibrated_std": 1.11,
+        "sources": {
+          "GFS": 78.4,
+          "ICON": 77.7,
+          "Canadian GEM": 78.1,
+          "JMA": 74.7,
+          "UKMO": 77.4,
+          "Meteo-France Arpege": 79.6,
+          "ECMWF": 77.6,
+          "Ensemble ECMWF": 77.8,
+          "Ensemble GFS": 74.6,
+          "Ensemble ICON": 77.0
+        }
+      }
+    ],
+    "final_ensemble_mean": 79.7,
+    "final_calibrated_std": 1.11,
+    "final_source_forecasts": {
+      "GFS": 78.4,
+      "ICON": 77.7,
+      "Canadian GEM": 78.1,
+      "JMA": 74.7,
+      "UKMO": 77.4,
+      "Meteo-France Arpege": 79.6,
+      "ECMWF": 77.6,
+      "Ensemble ECMWF": 77.8,
+      "Ensemble GFS": 74.6,
+      "Ensemble ICON": 77.0
+    },
+    "last_updated": "2026-03-07T05:04:07.207372+00:00"
+  },
+  "Oklahoma City|26MAR07": {
+    "city": "Oklahoma City",
+    "series": "KXHIGHTOKC",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:04:38.463477+00:00",
+        "ensemble_mean": 66.0,
+        "calibrated_std": 2.11,
+        "sources": {
+          "GFS": 67.2,
+          "ICON": 64.5,
+          "Canadian GEM": 62.1,
+          "JMA": 66.8,
+          "UKMO": 67.0,
+          "Meteo-France Arpege": 63.3,
+          "ECMWF": 63.2,
+          "Ensemble ECMWF": 62.3,
+          "Ensemble GFS": 64.0,
+          "Ensemble ICON": 64.4
+        }
+      },
+      {
+        "ts": "2026-03-07T02:04:24.295789+00:00",
+        "ensemble_mean": 66.0,
+        "calibrated_std": 2.15,
+        "sources": {
+          "GFS": 67.4,
+          "ICON": 64.5,
+          "Canadian GEM": 62.1,
+          "JMA": 66.8,
+          "UKMO": 67.2,
+          "Meteo-France Arpege": 63.3,
+          "ECMWF": 63.0,
+          "Ensemble ECMWF": 62.3,
+          "Ensemble GFS": 64.0,
+          "Ensemble ICON": 64.4
+        }
+      },
+      {
+        "ts": "2026-03-07T03:04:10.312629+00:00",
+        "ensemble_mean": 66.2,
+        "calibrated_std": 2.16,
+        "sources": {
+          "GFS": 68.2,
+          "ICON": 64.5,
+          "Canadian GEM": 62.1,
+          "JMA": 66.8,
+          "UKMO": 67.2,
+          "Meteo-France Arpege": 63.3,
+          "ECMWF": 63.0,
+          "Ensemble ECMWF": 62.4,
+          "Ensemble GFS": 64.0,
+          "Ensemble ICON": 64.4
+        }
+      },
+      {
+        "ts": "2026-03-07T04:04:08.127697+00:00",
+        "ensemble_mean": 66.6,
+        "calibrated_std": 2.25,
+        "sources": {
+          "GFS": 69.7,
+          "ICON": 67.5,
+          "Canadian GEM": 62.1,
+          "JMA": 66.6,
+          "UKMO": 67.2,
+          "Meteo-France Arpege": 62.2,
+          "ECMWF": 63.0,
+          "Ensemble ECMWF": 62.4,
+          "Ensemble GFS": 64.0,
+          "Ensemble ICON": 65.7
+        }
+      },
+      {
+        "ts": "2026-03-07T05:04:17.320721+00:00",
+        "ensemble_mean": 67.0,
+        "calibrated_std": 1.93,
+        "sources": {
+          "GFS": 68.1,
+          "ICON": 67.5,
+          "Canadian GEM": 68.2,
+          "JMA": 66.6,
+          "UKMO": 67.2,
+          "Meteo-France Arpege": 62.2,
+          "ECMWF": 63.0,
+          "Ensemble ECMWF": 62.4,
+          "Ensemble GFS": 64.0,
+          "Ensemble ICON": 65.7
+        }
+      }
+    ],
+    "final_ensemble_mean": 67.0,
+    "final_calibrated_std": 1.93,
+    "final_source_forecasts": {
+      "GFS": 68.1,
+      "ICON": 67.5,
+      "Canadian GEM": 68.2,
+      "JMA": 66.6,
+      "UKMO": 67.2,
+      "Meteo-France Arpege": 62.2,
+      "ECMWF": 63.0,
+      "Ensemble ECMWF": 62.4,
+      "Ensemble GFS": 64.0,
+      "Ensemble ICON": 65.7
+    },
+    "last_updated": "2026-03-07T05:04:17.320721+00:00"
+  },
+  "Las Vegas|26MAR07": {
+    "city": "Las Vegas",
+    "series": "KXHIGHTLV",
+    "target_date": "26MAR07",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T01:04:47.163462+00:00",
+        "ensemble_mean": 67.1,
+        "calibrated_std": 1.55,
+        "sources": {
+          "GFS": 67.2,
+          "ICON": 65.8,
+          "Canadian GEM": 67.5,
+          "JMA": 64.2,
+          "UKMO": 68.0,
+          "Meteo-France Arpege": 67.7,
+          "ECMWF": 66.7,
+          "Ensemble ECMWF": 66.3,
+          "Ensemble GFS": 63.2,
+          "Ensemble ICON": 61.4
+        }
+      },
+      {
+        "ts": "2026-03-07T02:04:33.136198+00:00",
+        "ensemble_mean": 67.2,
+        "calibrated_std": 1.54,
+        "sources": {
+          "GFS": 67.8,
+          "ICON": 65.8,
+          "Canadian GEM": 67.5,
+          "JMA": 64.2,
+          "UKMO": 68.3,
+          "Meteo-France Arpege": 67.7,
+          "ECMWF": 67.0,
+          "Ensemble ECMWF": 66.3,
+          "Ensemble GFS": 63.2,
+          "Ensemble ICON": 61.4
+        }
+      },
+      {
+        "ts": "2026-03-07T03:04:19.012174+00:00",
+        "ensemble_mean": 67.2,
+        "calibrated_std": 1.55,
+        "sources": {
+          "GFS": 67.8,
+          "ICON": 65.8,
+          "Canadian GEM": 67.5,
+          "JMA": 64.2,
+          "UKMO": 68.3,
+          "Meteo-France Arpege": 67.7,
+          "ECMWF": 67.0,
+          "Ensemble ECMWF": 66.5,
+          "Ensemble GFS": 63.2,
+          "Ensemble ICON": 61.4
+        }
+      },
+      {
+        "ts": "2026-03-07T04:04:16.878401+00:00",
+        "ensemble_mean": 67.3,
+        "calibrated_std": 1.51,
+        "sources": {
+          "GFS": 67.8,
+          "ICON": 65.9,
+          "Canadian GEM": 67.5,
+          "JMA": 64.3,
+          "UKMO": 68.3,
+          "Meteo-France Arpege": 67.6,
+          "ECMWF": 67.0,
+          "Ensemble ECMWF": 66.5,
+          "Ensemble GFS": 63.2,
+          "Ensemble ICON": 61.7
+        }
+      },
+      {
+        "ts": "2026-03-07T05:04:26.639803+00:00",
+        "ensemble_mean": 67.2,
+        "calibrated_std": 1.39,
+        "sources": {
+          "GFS": 67.8,
+          "ICON": 65.9,
+          "Canadian GEM": 66.9,
+          "JMA": 64.3,
+          "UKMO": 68.3,
+          "Meteo-France Arpege": 67.6,
+          "ECMWF": 67.0,
+          "Ensemble ECMWF": 66.5,
+          "Ensemble GFS": 63.2,
+          "Ensemble ICON": 61.7
+        }
+      }
+    ],
+    "final_ensemble_mean": 67.2,
+    "final_calibrated_std": 1.39,
+    "final_source_forecasts": {
+      "GFS": 67.8,
+      "ICON": 65.9,
+      "Canadian GEM": 66.9,
+      "JMA": 64.3,
+      "UKMO": 68.3,
+      "Meteo-France Arpege": 67.6,
+      "ECMWF": 67.0,
+      "Ensemble ECMWF": 66.5,
+      "Ensemble GFS": 63.2,
+      "Ensemble ICON": 61.7
+    },
+    "last_updated": "2026-03-07T05:04:26.639803+00:00"
+  },
+  "San Francisco|26MAR08": {
+    "city": "San Francisco",
+    "series": "KXHIGHTSFO",
+    "target_date": "26MAR08",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T22:05:30.838596+00:00",
+        "ensemble_mean": 71.2,
+        "calibrated_std": 2.06,
+        "sources": {
+          "GFS": 74.8,
+          "Canadian GEM": 68.6,
+          "UKMO": 72.8,
+          "Meteo-France Arpege": 58.4,
+          "ECMWF": 69.8,
+          "Ensemble ECMWF": 69.8,
+          "Ensemble GFS": 71.8
+        }
+      }
+    ],
+    "final_ensemble_mean": 71.2,
+    "final_calibrated_std": 2.06,
+    "final_source_forecasts": {
+      "GFS": 74.8,
+      "Canadian GEM": 68.6,
+      "UKMO": 72.8,
+      "Meteo-France Arpege": 58.4,
+      "ECMWF": 69.8,
+      "Ensemble ECMWF": 69.8,
+      "Ensemble GFS": 71.8
+    },
+    "last_updated": "2026-03-07T22:05:30.838596+00:00"
+  },
+  "San Antonio|26MAR08": {
+    "city": "San Antonio",
+    "series": "KXHIGHTSATX",
+    "target_date": "26MAR08",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T22:05:40.916089+00:00",
+        "ensemble_mean": 70.4,
+        "calibrated_std": 4.3,
+        "sources": {
+          "GFS": 72.4,
+          "ICON": 66.3,
+          "Canadian GEM": 59.4,
+          "JMA": 68.4,
+          "UKMO": 70.8,
+          "Meteo-France Arpege": 63.2,
+          "ECMWF": 74.3,
+          "Ensemble ECMWF": 71.6,
+          "Ensemble GFS": 70.3,
+          "Ensemble ICON": 67.7
+        }
+      }
+    ],
+    "final_ensemble_mean": 70.4,
+    "final_calibrated_std": 4.3,
+    "final_source_forecasts": {
+      "GFS": 72.4,
+      "ICON": 66.3,
+      "Canadian GEM": 59.4,
+      "JMA": 68.4,
+      "UKMO": 70.8,
+      "Meteo-France Arpege": 63.2,
+      "ECMWF": 74.3,
+      "Ensemble ECMWF": 71.6,
+      "Ensemble GFS": 70.3,
+      "Ensemble ICON": 67.7
+    },
+    "last_updated": "2026-03-07T22:05:40.916089+00:00"
+  },
+  "New Orleans|26MAR08": {
+    "city": "New Orleans",
+    "series": "KXHIGHTNOLA",
+    "target_date": "26MAR08",
+    "snapshots": [
+      {
+        "ts": "2026-03-07T22:05:52.839060+00:00",
+        "ensemble_mean": 79.3,
+        "calibrated_std": 1.1,
+        "sources": {
+          "GFS": 73.4,
+          "ICON": 77.2,
+          "Canadian GEM": 74.0,
+          "JMA": 76.0,
+          "UKMO": 77.6,
+          "Meteo-France Arpege": 75.6,
+          "ECMWF": 76.4,
+          "Ensemble ECMWF": 76.8,
+          "Ensemble GFS": 81.6,
+          "Ensemble ICON": 78.2
+        }
+      }
+    ],
+    "final_ensemble_mean": 79.3,
+    "final_calibrated_std": 1.1,
+    "final_source_forecasts": {
+      "GFS": 73.4,
+      "ICON": 77.2,
+      "Canadian GEM": 74.0,
+      "JMA": 76.0,
+      "UKMO": 77.6,
+      "Meteo-France Arpege": 75.6,
+      "ECMWF": 76.4,
+      "Ensemble ECMWF": 76.8,
+      "Ensemble GFS": 81.6,
+      "Ensemble ICON": 78.2
+    },
+    "last_updated": "2026-03-07T22:05:52.839060+00:00"
   }
 }

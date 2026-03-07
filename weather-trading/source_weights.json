@@ -1,64 +1,32 @@
 {
   "weights": {
-    "Ensemble GFS": 1.247,
     "NWS Hourly": 0.0,
-    "Ensemble ICON": 1.061,
-    "Tomorrow.io": 0.943,
-    "Visual Crossing": 1.253,
-    "ECMWF": 1.523,
-    "Best Match": 1.08,
     "GFS": 1.171,
-    "Ensemble ECMWF": 1.8,
+    "ICON": 1.501,
+    "Best Match": 1.08,
     "NWS Forecast": 0.0,
-    "ICON": 1.501
+    "Tomorrow.io": 0.943,
+    "ECMWF": 1.523,
+    "Ensemble ECMWF": 1.8,
+    "Visual Crossing": 1.253,
+    "Ensemble GFS": 1.247,
+    "Ensemble ICON": 1.061
   },
-  "last_calibrated": "2026-03-05T15:00:01.145431+00:00",
+  "last_calibrated": "2026-03-07T15:00:01.929844+00:00",
   "source_mae": {
-    "Ensemble GFS": 2.44,
     "NWS Hourly": 6.85,
-    "Ensemble ICON": 2.93,
-    "Tomorrow.io": 3.42,
-    "Visual Crossing": 2.46,
-    "ECMWF": 2.07,
-    "Best Match": 2.97,
     "GFS": 2.66,
-    "Ensemble ECMWF": 1.63,
+    "ICON": 2.01,
+    "Best Match": 2.97,
     "NWS Forecast": 5.69,
-    "ICON": 2.01
+    "Tomorrow.io": 3.42,
+    "ECMWF": 2.07,
+    "Ensemble ECMWF": 1.63,
+    "Visual Crossing": 2.46,
+    "Ensemble GFS": 2.44,
+    "Ensemble ICON": 2.93
   },
   "calibration_history": [
-    {
-      "timestamp": "2026-02-24T15:00:01.351029+00:00",
-      "weights": {
-        "Ensemble GFS": 1.247,
-        "Ensemble ECMWF": 1.8,
-        "Visual Crossing": 1.253,
-        "ECMWF": 1.523,
-        "ICON": 1.501,
-        "NWS Hourly": 0.0,
-        "GFS": 1.171,
-        "Ensemble ICON": 1.061,
-        "NWS Forecast": 0.0,
-        "Tomorrow.io": 0.943,
-        "Best Match": 1.08
-      }
-    },
-    {
-      "timestamp": "2026-02-25T15:00:01.642919+00:00",
-      "weights": {
-        "NWS Forecast": 0.0,
-        "Visual Crossing": 1.253,
-        "Tomorrow.io": 0.943,
-        "Ensemble ECMWF": 1.8,
-        "ICON": 1.501,
-        "NWS Hourly": 0.0,
-        "Best Match": 1.08,
-        "Ensemble ICON": 1.061,
-        "Ensemble GFS": 1.247,
-        "GFS": 1.171,
-        "ECMWF": 1.523
-      }
-    },
     {
       "timestamp": "2026-02-26T15:00:01.251511+00:00",
       "weights": {
@@ -185,6 +153,38 @@
         "Ensemble ECMWF": 1.8,
         "NWS Forecast": 0.0,
         "ICON": 1.501
+      }
+    },
+    {
+      "timestamp": "2026-03-06T15:00:01.381914+00:00",
+      "weights": {
+        "Ensemble ECMWF": 1.8,
+        "Tomorrow.io": 0.943,
+        "Visual Crossing": 1.253,
+        "Ensemble GFS": 1.247,
+        "ECMWF": 1.523,
+        "ICON": 1.501,
+        "NWS Forecast": 0.0,
+        "GFS": 1.171,
+        "Ensemble ICON": 1.061,
+        "Best Match": 1.08,
+        "NWS Hourly": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-03-07T15:00:01.929989+00:00",
+      "weights": {
+        "NWS Hourly": 0.0,
+        "GFS": 1.171,
+        "ICON": 1.501,
+        "Best Match": 1.08,
+        "NWS Forecast": 0.0,
+        "Tomorrow.io": 0.943,
+        "ECMWF": 1.523,
+        "Ensemble ECMWF": 1.8,
+        "Visual Crossing": 1.253,
+        "Ensemble GFS": 1.247,
+        "Ensemble ICON": 1.061
       }
     }
   ]

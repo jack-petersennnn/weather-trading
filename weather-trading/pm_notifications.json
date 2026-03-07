@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "ts": "2026-03-07T11:39:00.104255+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T12:02:03.866238+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T13:02:04.005796+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T14:02:04.125314+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T15:02:03.693474+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T16:02:03.803850+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T17:02:03.974499+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T18:02:06.117944+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T19:02:04.227496+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T20:02:04.348509+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  },
+  {
+    "ts": "2026-03-07T21:02:03.459316+00:00",
+    "msg": "\ud83d\udea8 KILL SWITCH: Balance $0.00 < $50.00 \u2014 ALL TRADING HALTED"
+  }
+]
