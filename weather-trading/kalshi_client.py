@@ -121,6 +121,30 @@ def get_orders(ticker=None, status=None):
     path = "/portfolio/orders"
     return _request("GET", f"{path}?{qs}" if qs else path)
 
+def get_fills():
+    """Returns all historical fills using pagination."""
+    all_fills = []
+    cursor = None
+    
+    while True:
+        params = ["limit=1000"]  # Max per request
+        if cursor:
+            params.append(f"cursor={cursor}")
+        
+        path = "/portfolio/fills"
+        qs = "&".join(params)
+        response = _request("GET", f"{path}?{qs}")
+        
+        fills = response.get("fills", [])
+        all_fills.extend(fills)
+        
+        # Check if there are more pages
+        cursor = response.get("cursor")
+        if not cursor:
+            break
+    
+    return all_fills
+
 # ── Market Data ─────────────────────────────────────────────────────
 
 def get_market(ticker):

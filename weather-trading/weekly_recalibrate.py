@@ -371,6 +371,33 @@ def generate_report(bt, weekly_stats, actuals, changes, promotions, old_config, 
     else:
         lines.append("  No extreme biases (>3°F) this week")
     
+    # Bias drift analysis (7-day vs 14-day)
+    lines.append("\n🧭 Bias drift analysis (7d vs 14d):")
+    try:
+        from bias_drift_tracker import compute_bias_drift
+        bias_drift_results = compute_bias_drift()
+        
+        summary = bias_drift_results.get("summary", {})
+        lines.append(f"  Regime shifts detected: {summary.get('warming_shift', 0)} warming, {summary.get('cooling_shift', 0)} cooling")
+        
+        # Show cities with regime shifts
+        flagged_cities = []
+        for city, data in bias_drift_results.get("cities", {}).items():
+            if data["status"] in ["warming_shift", "cooling_shift"]:
+                shift_type = "🔴" if data["status"] == "warming_shift" else "🔵"
+                flagged_cities.append(f"  {shift_type} {city}: δ={data['delta']:+.1f}°F")
+        
+        if flagged_cities:
+            for fc in flagged_cities[:3]:  # Limit to top 3
+                lines.append(fc)
+            if len(flagged_cities) > 3:
+                lines.append(f"  ... and {len(flagged_cities) - 3} others")
+        else:
+            lines.append("  ✅ All cities stable (no regime shifts)")
+            
+    except Exception as e:
+        lines.append(f"  ⚠️  Bias drift analysis failed: {str(e)}")
+    
     # Data coverage
     covered_dates = set()
     for city in actuals:

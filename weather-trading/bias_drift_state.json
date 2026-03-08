@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-03-08T20:24:37.340722+00:00",
+  "cities": {
+    "New York": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 1.59,
+      "bias_14d": 1.26,
+      "delta": 0.33,
+      "absolute_delta": 0.33,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Chicago": {
+      "samples_7d": 7,
+      "samples_14d": 14,
+      "bias_7d": -0.64,
+      "bias_14d": -0.24,
+      "delta": -0.41,
+      "absolute_delta": 0.41,
+      "status": "stable",
+      "date_range_7d": "2026-03-01 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Miami": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 0.43,
+      "bias_14d": 0.12,
+      "delta": 0.31,
+      "absolute_delta": 0.31,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Denver": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 0.13,
+      "bias_14d": 0.67,
+      "delta": -0.54,
+      "absolute_delta": 0.54,
+      "status": "cooling_shift",
+      "date_range_7d": "2026-02-24 to 2026-03-02",
+      "date_range_14d": "2026-02-22 to 2026-03-02"
+    },
+    "Austin": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 1.04,
+      "bias_14d": 1.04,
+      "delta": -0.0,
+      "absolute_delta": 0.0,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Minneapolis": {
+      "samples_7d": 7,
+      "samples_14d": 14,
+      "bias_7d": -0.1,
+      "bias_14d": 0.3,
+      "delta": -0.4,
+      "absolute_delta": 0.4,
+      "status": "stable",
+      "date_range_7d": "2026-03-01 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Washington DC": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": -3.03,
+      "bias_14d": -2.52,
+      "delta": -0.51,
+      "absolute_delta": 0.51,
+      "status": "cooling_shift",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Atlanta": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 0.09,
+      "bias_14d": -0.07,
+      "delta": 0.15,
+      "absolute_delta": 0.15,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Philadelphia": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": -1.0,
+      "bias_14d": -0.87,
+      "delta": -0.13,
+      "absolute_delta": 0.13,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Dallas": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 1.83,
+      "bias_14d": 1.72,
+      "delta": 0.11,
+      "absolute_delta": 0.11,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Seattle": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": -0.44,
+      "bias_14d": -0.53,
+      "delta": 0.09,
+      "absolute_delta": 0.09,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Boston": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 1.64,
+      "bias_14d": 1.1,
+      "delta": 0.54,
+      "absolute_delta": 0.54,
+      "status": "warming_shift",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Phoenix": {
+      "samples_7d": 7,
+      "samples_14d": 14,
+      "bias_7d": 0.03,
+      "bias_14d": -0.58,
+      "delta": 0.61,
+      "absolute_delta": 0.61,
+      "status": "warming_shift",
+      "date_range_7d": "2026-03-01 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Oklahoma City": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 0.74,
+      "bias_14d": 0.8,
+      "delta": -0.06,
+      "absolute_delta": 0.06,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Las Vegas": {
+      "samples_7d": 7,
+      "samples_14d": 14,
+      "bias_7d": 1.09,
+      "bias_14d": 0.46,
+      "delta": 0.63,
+      "absolute_delta": 0.63,
+      "status": "warming_shift",
+      "date_range_7d": "2026-03-01 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "San Francisco": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": -0.26,
+      "bias_14d": -0.31,
+      "delta": 0.05,
+      "absolute_delta": 0.05,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "San Antonio": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": 0.87,
+      "bias_14d": 0.83,
+      "delta": 0.04,
+      "absolute_delta": 0.04,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "New Orleans": {
+      "samples_7d": 7,
+      "samples_14d": 9,
+      "bias_7d": -0.67,
+      "bias_14d": -0.88,
+      "delta": 0.21,
+      "absolute_delta": 0.21,
+      "status": "stable",
+      "date_range_7d": "2026-02-24 to 2026-03-07",
+      "date_range_14d": "2026-02-22 to 2026-03-07"
+    },
+    "Houston": {
+      "samples_7d": 4,
+      "samples_14d": 4,
+      "bias_7d": 0.02,
+      "bias_14d": 0.02,
+      "delta": 0.0,
+      "absolute_delta": 0.0,
+      "status": "stable",
+      "date_range_7d": "2026-03-04 to 2026-03-07",
+      "date_range_14d": "2026-03-04 to 2026-03-07"
+    }
+  },
+  "summary": {
+    "total_cities": 19,
+    "stable": 14,
+    "warming_shift": 3,
+    "cooling_shift": 2,
+    "insufficient_data": 0
+  }
+}

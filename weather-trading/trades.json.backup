@@ -1,0 +1,26 @@
+{
+  "trades": [],
+  "summary": {
+    "total_trades": 0,
+    "open": 0,
+    "resting": 0,
+    "resting_contracts": 0,
+    "settled": 0,
+    "won": 0,
+    "lost": 0,
+    "pnl_cents": -80634,
+    "realized_pnl_cents": -80634,
+    "unrealized_pnl_cents": 0,
+    "portfolio_value_cents": 0,
+    "available_capital_cents": 18754,
+    "open_cost_cents": 0,
+    "mode": "LIVE",
+    "started_at": "2026-02-19T00:28:00+00:00",
+    "starting_capital_cents": 51076,
+    "synced_from_kalshi": "2026-03-08T20:24:33.264914+00:00",
+    "total_fees_cents": 8976,
+    "tickers_traded": 227,
+    "fifo_enabled": true,
+    "ledger_state_file": "/home/ubuntu/.openclaw/workspace/weather-trading/ledger_state.json"
+  }
+}

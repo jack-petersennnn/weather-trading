@@ -1,0 +1,329 @@
+#!/usr/bin/env python3
+"""
+Portfolio Manager v2 - FIFO Lot-Based Accounting
+
+Replaces the current broken P&L calculation with proper FIFO lot matching.
+Uses the ledger.py engine for all position and P&L tracking.
+"""
+
+import json
+import os
+import sys
+from datetime import datetime, timezone
+from collections import defaultdict
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import ledger
+import kalshi_client
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TRADES_FILE = os.path.join(BASE_DIR, "trades.json")
+BACKUP_SUFFIX = datetime.now(timezone.utc).strftime("_%Y%m%d_%H%M%S")
+
+
+class PortfolioManagerV2:
+    """FIFO lot-based portfolio manager using the ledger system."""
+    
+    def __init__(self):
+        self.engine = ledger.LotEngine()
+        self.engine.load_state()  # Load existing state
+        self.starting_capital_cents = 51076  # $510.76 as mentioned in position_manager.py
+        
+    def sync_from_kalshi(self, dry_run=False):
+        """Sync fills from Kalshi API and update ledger."""
+        try:
+            # Get recent fills from Kalshi
+            fills_response = kalshi_client.get_fills()
+            fills = fills_response.get("fills", [])
+            
+            new_fills = []
+            for fill in fills:
+                fill_id = fill.get("fill_id")
+                if fill_id and fill_id not in self.engine.seen_fill_ids:
+                    new_fills.append(fill)
+            
+            print(f"Processing {len(new_fills)} new fills...")
+            
+            # Process new fills into ledger
+            realized_pnl_events = []
+            for fill in new_fills:
+                if dry_run:
+                    print(f"  [DRY RUN] Fill: {fill['market_ticker']} {fill['side']} {fill['dir']} {fill['qty']} @ {fill['price_cents']}¢")
+                    continue
+                    
+                # Log the raw fill
+                ledger.log_fill(
+                    fill_id=fill["fill_id"],
+                    order_id=fill["order_id"],
+                    market_ticker=fill["market_ticker"], 
+                    side=fill["side"],
+                    direction=fill["dir"],
+                    qty=fill["qty"],
+                    price_cents=fill["price_cents"],
+                    fee_cents=fill.get("fee_cents", 0),
+                    ts=fill.get("ts")
+                )
+                
+                # Apply to lot engine
+                buy_side, qty, price = ledger.normalize_fill(
+                    fill["side"], fill["dir"], fill["qty"], fill["price_cents"]
+                )
+                
+                realized_pnl = self.engine.apply_fill(
+                    ticker=fill["market_ticker"],
+                    buy_side=buy_side,
+                    qty=qty,
+                    price_cents=price,
+                    fee_cents=fill.get("fee_cents", 0),
+                    fill_id=fill["fill_id"],
+                    ts=fill.get("ts")
+                )
+                
+                if realized_pnl != 0:
+                    realized_pnl_events.append({
+                        "ticker": fill["market_ticker"],
+                        "realized_pnl": realized_pnl,
+                        "fill_id": fill["fill_id"]
+                    })
+                    
+                print(f"  ✓ {fill['market_ticker']} {fill['side']} {fill['dir']} {fill['qty']} @ {fill['price_cents']}¢ → P&L: {realized_pnl:+d}¢")
+            
+            if not dry_run and new_fills:
+                self.engine.save_state()
+                print(f"Ledger state updated with {len(new_fills)} new fills")
+                
+            return realized_pnl_events
+            
+        except Exception as e:
+            print(f"Error syncing from Kalshi: {e}")
+            return []
+    
+    def get_portfolio_summary(self):
+        """Get complete portfolio summary with FIFO-based P&L."""
+        try:
+            # Get Kalshi account balance
+            balance_response = kalshi_client.get_balance()
+            available_cash = balance_response.get("balance", 0)
+            portfolio_value = balance_response.get("portfolio_value", 0)
+            
+        except Exception as e:
+            print(f"Warning: Could not fetch Kalshi balance: {e}")
+            available_cash = 0
+            portfolio_value = 0
+        
+        # Get FIFO-based P&L from ledger
+        realized_pnl = self.engine.total_realized_pnl()
+        total_fees = self.engine.total_fees_paid()
+        open_positions = self.engine.open_positions()
+        
+        # Calculate unrealized P&L for open positions
+        unrealized_pnl = 0
+        open_cost_basis = 0
+        position_details = []
+        
+        try:
+            for ticker, sides in open_positions.items():
+                for side in ["YES", "NO"]:
+                    qty = sides.get(side, 0)
+                    if qty > 0:
+                        # Get current market price
+                        market = kalshi_client.get_market(ticker)
+                        if side == "YES":
+                            current_price = market.get("yes_bid", 50)
+                        else:
+                            current_price = market.get("no_bid", 50)
+                        
+                        # Calculate cost basis from lots
+                        ticker_lots = self.engine.lots[ticker][side]
+                        position_cost = sum(lot.qty_remaining * lot.entry_price for lot in ticker_lots)
+                        current_value = qty * current_price
+                        position_unrealized = current_value - position_cost
+                        
+                        unrealized_pnl += position_unrealized
+                        open_cost_basis += position_cost
+                        
+                        position_details.append({
+                            "ticker": ticker,
+                            "side": side,
+                            "qty": qty,
+                            "cost_basis": position_cost,
+                            "current_value": current_value,
+                            "unrealized_pnl": position_unrealized
+                        })
+                        
+        except Exception as e:
+            print(f"Warning: Could not calculate unrealized P&L: {e}")
+            # Fallback: use portfolio_value - available_cash as proxy for position value
+            if portfolio_value > available_cash:
+                open_cost_basis = portfolio_value - available_cash
+        
+        # Calculate total P&L
+        total_pnl = realized_pnl + unrealized_pnl
+        
+        return {
+            "available_capital_cents": available_cash,
+            "portfolio_value_cents": portfolio_value,
+            "realized_pnl_cents": realized_pnl,
+            "unrealized_pnl_cents": unrealized_pnl,
+            "total_pnl_cents": total_pnl,
+            "open_cost_cents": open_cost_basis,
+            "total_fees_cents": total_fees,
+            "starting_capital_cents": self.starting_capital_cents,
+            "open_positions": open_positions,
+            "position_details": position_details,
+            "tickers_traded": len(self.engine.realized_pnl),
+            "last_updated": datetime.now(timezone.utc).isoformat()
+        }
+    
+    def update_trades_json(self, backup=True):
+        """Update trades.json with FIFO-based portfolio summary."""
+        
+        # Backup existing trades.json
+        if backup and os.path.exists(TRADES_FILE):
+            backup_file = TRADES_FILE + ".backup" + BACKUP_SUFFIX
+            with open(TRADES_FILE, 'r') as src, open(backup_file, 'w') as dst:
+                dst.write(src.read())
+            print(f"Backed up existing trades.json to {backup_file}")
+        
+        # Load existing trades data to preserve trade list
+        existing_data = {}
+        if os.path.exists(TRADES_FILE):
+            try:
+                with open(TRADES_FILE, 'r') as f:
+                    existing_data = json.load(f)
+            except:
+                existing_data = {}
+        
+        # Get FIFO-based portfolio summary
+        portfolio = self.get_portfolio_summary()
+        
+        # Update trades.json with corrected summary
+        trades_data = {
+            "trades": existing_data.get("trades", []),  # Preserve existing trade list
+            "summary": {
+                "total_trades": len(existing_data.get("trades", [])),
+                "open": len([t for t in existing_data.get("trades", []) if t.get("status") == "open"]),
+                "resting": len([t for t in existing_data.get("trades", []) if t.get("status") == "resting"]), 
+                "resting_contracts": sum(t.get("resting_count", 0) for t in existing_data.get("trades", [])),
+                "settled": len([t for t in existing_data.get("trades", []) if t.get("status") in ["settled", "closed"]]),
+                "won": len([t for t in existing_data.get("trades", []) if t.get("pnl_cents", 0) > 0]),
+                "lost": len([t for t in existing_data.get("trades", []) if t.get("pnl_cents", 0) < 0]),
+                
+                # FIFO-based values (the fix!)
+                "pnl_cents": portfolio["total_pnl_cents"],
+                "realized_pnl_cents": portfolio["realized_pnl_cents"], 
+                "unrealized_pnl_cents": portfolio["unrealized_pnl_cents"],
+                "portfolio_value_cents": portfolio["portfolio_value_cents"],
+                "available_capital_cents": portfolio["available_capital_cents"],
+                "open_cost_cents": portfolio["open_cost_cents"],
+                
+                # Preserved values
+                "mode": existing_data.get("summary", {}).get("mode", "LIVE"),
+                "started_at": existing_data.get("summary", {}).get("started_at", "2026-02-19T00:28:00+00:00"),
+                "starting_capital_cents": self.starting_capital_cents,
+                "synced_from_kalshi": datetime.now(timezone.utc).isoformat(),
+                
+                # Additional FIFO details
+                "total_fees_cents": portfolio["total_fees_cents"],
+                "tickers_traded": portfolio["tickers_traded"],
+                "fifo_enabled": True,
+                "ledger_state_file": ledger.STATE_FILE
+            }
+        }
+        
+        # Write updated trades.json
+        with open(TRADES_FILE, 'w') as f:
+            json.dump(trades_data, f, indent=2)
+        
+        print("✅ Updated trades.json with FIFO-based P&L")
+        print(f"   Realized P&L: {portfolio['realized_pnl_cents']:+d}¢ (${portfolio['realized_pnl_cents']/100:+.2f})")
+        print(f"   Unrealized P&L: {portfolio['unrealized_pnl_cents']:+d}¢ (${portfolio['unrealized_pnl_cents']/100:+.2f})")
+        print(f"   Total P&L: {portfolio['total_pnl_cents']:+d}¢ (${portfolio['total_pnl_cents']/100:+.2f})")
+        print(f"   Open positions: {len(portfolio['open_positions'])} tickers")
+        
+        return trades_data
+    
+    def reconcile_accounting(self):
+        """Full accounting reconciliation report."""
+        print("🔍 FIFO Accounting Reconciliation")
+        print("=" * 50)
+        
+        portfolio = self.get_portfolio_summary()
+        
+        print(f"Starting Capital: ${self.starting_capital_cents/100:.2f}")
+        print(f"Current Available Cash: ${portfolio['available_capital_cents']/100:.2f}")  
+        print(f"Current Portfolio Value: ${portfolio['portfolio_value_cents']/100:.2f}")
+        print(f"Total Account Value: ${(portfolio['available_capital_cents'] + portfolio['portfolio_value_cents'])/100:.2f}")
+        print()
+        
+        print("FIFO P&L Breakdown:")
+        print(f"  Realized P&L: {portfolio['realized_pnl_cents']:+d}¢ (${portfolio['realized_pnl_cents']/100:+.2f})")
+        print(f"  Unrealized P&L: {portfolio['unrealized_pnl_cents']:+d}¢ (${portfolio['unrealized_pnl_cents']/100:+.2f})")
+        print(f"  Total P&L: {portfolio['total_pnl_cents']:+d}¢ (${portfolio['total_pnl_cents']/100:+.2f})")
+        print(f"  Total Fees Paid: {portfolio['total_fees_cents']}¢ (${portfolio['total_fees_cents']/100:.2f})")
+        print()
+        
+        print(f"Open Positions ({len(portfolio['open_positions'])} tickers):")
+        if portfolio['position_details']:
+            for pos in portfolio['position_details']:
+                print(f"  {pos['ticker']} {pos['side']} x{pos['qty']} | Cost: {pos['cost_basis']}¢ | Value: {pos['current_value']}¢ | P&L: {pos['unrealized_pnl']:+d}¢")
+        else:
+            print("  None")
+        
+        print()
+        print("Accounting Verification:")
+        expected_total = self.starting_capital_cents + portfolio['total_pnl_cents'] - portfolio['total_fees_cents']
+        actual_total = portfolio['available_capital_cents'] + portfolio['portfolio_value_cents'] 
+        
+        print(f"  Expected Total: {expected_total}¢")
+        print(f"  Actual Total: {actual_total}¢")
+        print(f"  Difference: {actual_total - expected_total:+d}¢")
+        
+        if abs(actual_total - expected_total) < 100:  # Within $1 is acceptable
+            print("  ✅ Accounting reconciles within tolerance")
+        else:
+            print("  ⚠️  Significant accounting discrepancy detected")
+        
+        return portfolio
+
+
+def migrate_legacy_portfolio():
+    """Migration utility to safely move from old to new accounting."""
+    print("🔄 Migrating from legacy P&L to FIFO accounting...")
+    
+    pm = PortfolioManagerV2()
+    
+    # Sync any missing fills first
+    print("\n1. Syncing fills from Kalshi...")
+    realized_events = pm.sync_from_kalshi()
+    
+    # Show current state
+    print("\n2. Current FIFO accounting state:")
+    portfolio = pm.reconcile_accounting()
+    
+    # Update trades.json with FIFO values
+    print("\n3. Updating trades.json...")
+    pm.update_trades_json(backup=True)
+    
+    print("\n✅ Migration complete!")
+    print("Old trades.json backed up automatically.")
+    print("New FIFO-based P&L is now active.")
+    
+    return pm
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "migrate":
+        migrate_legacy_portfolio()
+    elif len(sys.argv) > 1 and sys.argv[1] == "sync":
+        pm = PortfolioManagerV2()
+        pm.sync_from_kalshi(dry_run="--dry" in sys.argv)
+    elif len(sys.argv) > 1 and sys.argv[1] == "reconcile":
+        pm = PortfolioManagerV2()
+        pm.reconcile_accounting()
+    else:
+        print("Usage:")
+        print("  python3 portfolio_manager_v2.py migrate     # Migrate to FIFO accounting")
+        print("  python3 portfolio_manager_v2.py sync        # Sync fills from Kalshi") 
+        print("  python3 portfolio_manager_v2.py sync --dry  # Dry run sync")
+        print("  python3 portfolio_manager_v2.py reconcile   # Show accounting status")

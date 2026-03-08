@@ -11914,5 +11914,113 @@
     "ensemble_mean": 58.3,
     "ensemble_std": 2.06,
     "source_spread": 8.6
+  },
+  {
+    "ts": "2026-03-08T05:05:14.553414+00:00",
+    "city": "Phoenix",
+    "ticker": "KXHIGHTPHX-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (icon, gfs, ecmwf)",
+    "ensemble_mean": 85.73,
+    "ensemble_std": 2.82,
+    "source_spread": 5.2
+  },
+  {
+    "ts": "2026-03-08T05:05:38.588634+00:00",
+    "city": "Oklahoma City",
+    "ticker": "KXHIGHTOKC-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (icon, gfs, ecmwf)",
+    "ensemble_mean": 68.83,
+    "ensemble_std": 0.81,
+    "source_spread": 1.7
+  },
+  {
+    "ts": "2026-03-08T07:02:41.262275+00:00",
+    "city": "Chicago",
+    "ticker": "KXHIGHCHI-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (ecmwf, gfs, icon)",
+    "ensemble_mean": 59.65,
+    "ensemble_std": 0.99,
+    "source_spread": 1.9
+  },
+  {
+    "ts": "2026-03-08T07:03:20.169208+00:00",
+    "city": "Miami",
+    "ticker": "KXHIGHMIA-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (ecmwf, gfs, icon)",
+    "ensemble_mean": 81.53,
+    "ensemble_std": 1.99,
+    "source_spread": 4.1
+  },
+  {
+    "ts": "2026-03-08T09:02:58.011334+00:00",
+    "city": "Austin",
+    "ticker": "KXHIGHAUS-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (icon, gfs, ecmwf)",
+    "ensemble_mean": 69.7,
+    "ensemble_std": 0.98,
+    "source_spread": 2.3
+  },
+  {
+    "ts": "2026-03-08T09:03:22.150633+00:00",
+    "city": "Minneapolis",
+    "ticker": "KXHIGHTMIN-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (icon, gfs, ecmwf)",
+    "ensemble_mean": 55.6,
+    "ensemble_std": 1.76,
+    "source_spread": 4.3
+  },
+  {
+    "ts": "2026-03-08T13:03:17.386508+00:00",
+    "city": "Minneapolis",
+    "ticker": "KXHIGHTMIN-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (ecmwf, gfs, icon)",
+    "ensemble_mean": 55.98,
+    "ensemble_std": 2.24,
+    "source_spread": 5.4
+  },
+  {
+    "ts": "2026-03-08T18:03:40.242949+00:00",
+    "city": "Atlanta",
+    "ticker": "KXHIGHTATL-?-?",
+    "direction": "?",
+    "edge": null,
+    "entry_price_cents": null,
+    "reason_skipped": "MIN_FAMILIES: 3/4 (gfs, icon, ecmwf)",
+    "ensemble_mean": 76.55,
+    "ensemble_std": 1.04,
+    "source_spread": 2.2
+  },
+  {
+    "ts": "2026-03-08T22:04:54.011212+00:00",
+    "city": "Las Vegas",
+    "ticker": "KXHIGHTLV-26MAR09-T75",
+    "direction": "YES",
+    "edge": 0.1774,
+    "entry_price_cents": 2,
+    "reason_skipped": "evening_filter: edge 17.7% < 20%",
+    "ensemble_mean": 76.1,
+    "ensemble_std": 1.88,
+    "source_spread": 6.6
   }
 ]
