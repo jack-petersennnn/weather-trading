@@ -375,7 +375,7 @@
     "min_error": 0.0,
     "total_predictions": 10,
     "direction_accuracy": 70.0,
-    "updated": "2026-03-08T15:00:01.846103+00:00",
+    "updated": "2026-03-09T15:00:01.734676+00:00",
     "best_city": "Miami",
     "best_city_mae": 0.1,
     "worst_city": "Chicago",
@@ -414,49 +414,49 @@
     }
   },
   "source_accuracy": {
-    "ICON": {
-      "mae": 2.01,
-      "weight": 1.501
-    },
-    "Visual Crossing": {
-      "mae": 2.46,
-      "weight": 1.253
+    "Tomorrow.io": {
+      "mae": 3.42,
+      "weight": 0.943
     },
     "Best Match": {
       "mae": 2.97,
       "weight": 1.08
     },
+    "Visual Crossing": {
+      "mae": 2.46,
+      "weight": 1.253
+    },
     "GFS": {
       "mae": 2.66,
       "weight": 1.171
-    },
-    "Ensemble ICON": {
-      "mae": 2.93,
-      "weight": 1.061
-    },
-    "Ensemble ECMWF": {
-      "mae": 1.63,
-      "weight": 1.8
-    },
-    "NWS Hourly": {
-      "mae": 6.85,
-      "weight": 0.0
-    },
-    "ECMWF": {
-      "mae": 2.07,
-      "weight": 1.523
     },
     "NWS Forecast": {
       "mae": 5.69,
       "weight": 0.0
     },
-    "Tomorrow.io": {
-      "mae": 3.42,
-      "weight": 0.943
-    },
     "Ensemble GFS": {
       "mae": 2.44,
       "weight": 1.247
+    },
+    "ICON": {
+      "mae": 2.01,
+      "weight": 1.501
+    },
+    "ECMWF": {
+      "mae": 2.07,
+      "weight": 1.523
+    },
+    "Ensemble ICON": {
+      "mae": 2.93,
+      "weight": 1.061
+    },
+    "NWS Hourly": {
+      "mae": 6.85,
+      "weight": 0.0
+    },
+    "Ensemble ECMWF": {
+      "mae": 1.63,
+      "weight": 1.8
     }
   }
 }

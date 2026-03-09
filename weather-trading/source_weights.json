@@ -1,48 +1,32 @@
 {
   "weights": {
-    "ICON": 1.501,
-    "Visual Crossing": 1.253,
-    "Best Match": 1.08,
-    "GFS": 1.171,
-    "Ensemble ICON": 1.061,
-    "Ensemble ECMWF": 1.8,
-    "NWS Hourly": 0.0,
-    "ECMWF": 1.523,
-    "NWS Forecast": 0.0,
     "Tomorrow.io": 0.943,
-    "Ensemble GFS": 1.247
+    "Best Match": 1.08,
+    "Visual Crossing": 1.253,
+    "GFS": 1.171,
+    "NWS Forecast": 0.0,
+    "Ensemble GFS": 1.247,
+    "ICON": 1.501,
+    "ECMWF": 1.523,
+    "Ensemble ICON": 1.061,
+    "NWS Hourly": 0.0,
+    "Ensemble ECMWF": 1.8
   },
-  "last_calibrated": "2026-03-08T18:02:13.299076+00:00",
+  "last_calibrated": "2026-03-09T15:00:01.745487+00:00",
   "source_mae": {
-    "ICON": 2.04,
-    "Visual Crossing": 2.46,
-    "Best Match": 2.97,
-    "GFS": 1.32,
-    "Ensemble ICON": 2.05,
-    "Ensemble ECMWF": 2.57,
-    "NWS Hourly": 2.0,
-    "ECMWF": 2.56,
-    "NWS Forecast": 1.88,
     "Tomorrow.io": 3.42,
-    "Ensemble GFS": 1.34
+    "Best Match": 2.97,
+    "Visual Crossing": 2.46,
+    "GFS": 2.66,
+    "NWS Forecast": 5.69,
+    "Ensemble GFS": 2.44,
+    "ICON": 2.01,
+    "ECMWF": 2.07,
+    "Ensemble ICON": 2.93,
+    "NWS Hourly": 6.85,
+    "Ensemble ECMWF": 1.63
   },
   "calibration_history": [
-    {
-      "timestamp": "2026-02-28T15:00:02.060576+00:00",
-      "weights": {
-        "Best Match": 1.08,
-        "ICON": 1.501,
-        "GFS": 1.171,
-        "NWS Forecast": 0.0,
-        "Visual Crossing": 1.253,
-        "NWS Hourly": 0.0,
-        "Ensemble GFS": 1.247,
-        "Tomorrow.io": 0.943,
-        "Ensemble ICON": 1.061,
-        "ECMWF": 1.523,
-        "Ensemble ECMWF": 1.8
-      }
-    },
     {
       "timestamp": "2026-03-01T15:00:01.861917+00:00",
       "weights": {
@@ -198,6 +182,22 @@
         "NWS Forecast": 5.69,
         "Tomorrow.io": 3.42,
         "Ensemble GFS": 2.44
+      }
+    },
+    {
+      "timestamp": "2026-03-09T15:00:01.745610+00:00",
+      "weights": {
+        "Tomorrow.io": 0.943,
+        "Best Match": 1.08,
+        "Visual Crossing": 1.253,
+        "GFS": 1.171,
+        "NWS Forecast": 0.0,
+        "Ensemble GFS": 1.247,
+        "ICON": 1.501,
+        "ECMWF": 1.523,
+        "Ensemble ICON": 1.061,
+        "NWS Hourly": 0.0,
+        "Ensemble ECMWF": 1.8
       }
     }
   ]
