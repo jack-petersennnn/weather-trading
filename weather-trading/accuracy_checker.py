@@ -33,8 +33,44 @@ CITIES_COORDS = {
     "Austin":      {"lat": 30.2672, "lon": -97.7431, "tz": "America/Chicago"},
 }
 
+# ACIS station IDs — same stations Kalshi settles on (NWS CLI integer high temps)
+CITY_ACIS_STATIONS = {
+    "New York": "KNYC", "Chicago": "KMDW", "Miami": "KMIA", "Denver": "KDEN",
+    "Los Angeles": "KLAX", "Austin": "KAUS", "Philadelphia": "KPHL",
+    "Phoenix": "KPHX", "Las Vegas": "KLAS", "Atlanta": "KATL", "Boston": "KBOS",
+    "Seattle": "KSEA", "San Francisco": "KSFO", "Houston": "KHOU",
+    "San Antonio": "KSAT", "New Orleans": "KMSY", "Oklahoma City": "KOKC",
+    "Dallas": "KDFW", "Minneapolis": "KMSP", "Washington DC": "KDCA",
+}
 
-def get_actual_temp(lat, lon, tz, date_str):
+
+def get_actual_temp(lat, lon, tz, date_str, city=None):
+    """Get actual high temp. Uses ACIS (Kalshi settlement source) when city is known,
+    falls back to Open-Meteo archive (rounded) for unmapped cities."""
+    if city and city in CITY_ACIS_STATIONS:
+        station = CITY_ACIS_STATIONS[city]
+        try:
+            body = json.dumps({
+                "sid": station,
+                "sdate": date_str,
+                "edate": date_str,
+                "elems": [{"name": "maxt"}]
+            }).encode()
+            req = urllib.request.Request(
+                "https://data.rcc-acis.org/StnData",
+                data=body,
+                headers={"Content-Type": "application/json", "User-Agent": "KingClaw-Acc/3.1"}
+            )
+            with urllib.request.urlopen(req, timeout=15) as r:
+                data = json.loads(r.read().decode())
+            for row in data.get("data", []):
+                val = row[1]
+                if val not in ("M", "T", "S", ""):
+                    return int(val)
+            return None
+        except:
+            pass  # fall through to Open-Meteo
+    # Fallback: Open-Meteo (rounded to integer for consistency)
     tz_encoded = tz.replace("/", "%2F")
     url = (f"https://archive-api.open-meteo.com/v1/archive?"
            f"latitude={lat}&longitude={lon}"
@@ -46,7 +82,7 @@ def get_actual_temp(lat, lon, tz, date_str):
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read())
         temps = data.get("daily", {}).get("temperature_2m_max", [])
-        return temps[0] if temps and temps[0] is not None else None
+        return round(temps[0]) if temps and temps[0] is not None else None
     except:
         return None
 
@@ -101,7 +137,7 @@ def run():
             continue
         
         # Get actual temp
-        actual = get_actual_temp(coords["lat"], coords["lon"], coords["tz"], target_date)
+        actual = get_actual_temp(coords["lat"], coords["lon"], coords["tz"], target_date, city=city)
         if actual is None:
             print(f"  {city} {target_date}: no actual data yet")
             continue

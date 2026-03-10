@@ -21,6 +21,16 @@ CITIES_COORDS = {
     "Austin":      {"lat": 30.2672, "lon": -97.7431, "tz": "America/Chicago"},
 }
 
+# ACIS station IDs — same stations Kalshi settles on (NWS CLI integer high temps)
+CITY_ACIS_STATIONS = {
+    "New York": "KNYC", "Chicago": "KMDW", "Miami": "KMIA", "Denver": "KDEN",
+    "Los Angeles": "KLAX", "Austin": "KAUS", "Philadelphia": "KPHL",
+    "Phoenix": "KPHX", "Las Vegas": "KLAS", "Atlanta": "KATL", "Boston": "KBOS",
+    "Seattle": "KSEA", "San Francisco": "KSFO", "Houston": "KHOU",
+    "San Antonio": "KSAT", "New Orleans": "KMSY", "Oklahoma City": "KOKC",
+    "Dallas": "KDFW", "Minneapolis": "KMSP", "Washington DC": "KDCA",
+}
+
 # Default weights for reference
 DEFAULT_WEIGHTS = {
     "NWS Hourly": 1.5, "ECMWF": 1.4, "NWS Forecast": 1.2,
@@ -43,7 +53,42 @@ def fetch_json(url, timeout=15):
         return None
 
 
-def get_actual_temp(lat, lon, tz, date_str):
+def get_actual_temp_acis(city, date_str):
+    """Get actual high temp from RCC-ACIS (same source Kalshi settles on).
+    Returns integer °F matching the NWS CLI report, or None if not yet available."""
+    station = CITY_ACIS_STATIONS.get(city)
+    if not station:
+        return get_actual_temp_openmeteo(city, date_str)  # fallback for unmapped cities
+    try:
+        body = json.dumps({
+            "sid": station,
+            "sdate": date_str,
+            "edate": date_str,
+            "elems": [{"name": "maxt"}]
+        }).encode()
+        req = urllib.request.Request(
+            "https://data.rcc-acis.org/StnData",
+            data=body,
+            headers={"Content-Type": "application/json", "User-Agent": "KingClaw-Accuracy/3.1"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read().decode())
+        for row in data.get("data", []):
+            val = row[1]
+            if val not in ("M", "T", "S", ""):
+                return int(val)
+        return None
+    except Exception as e:
+        print(f"    ✗ ACIS error for {city}: {e}")
+        return get_actual_temp_openmeteo(city, date_str)  # fallback
+
+
+def get_actual_temp_openmeteo(city, date_str):
+    """Fallback: Open-Meteo archive (fractional, NOT what Kalshi settles on)."""
+    coords = CITIES_COORDS.get(city)
+    if not coords:
+        return None
+    lat, lon, tz = coords["lat"], coords["lon"], coords["tz"]
     tz_encoded = tz.replace("/", "%2F")
     url = (f"https://archive-api.open-meteo.com/v1/archive?"
            f"latitude={lat}&longitude={lon}"
@@ -54,7 +99,14 @@ def get_actual_temp(lat, lon, tz, date_str):
     if not data or "daily" not in data:
         return None
     temps = data["daily"].get("temperature_2m_max", [])
-    return temps[0] if temps and temps[0] is not None else None
+    return round(temps[0]) if temps and temps[0] is not None else None
+
+
+def get_actual_temp(lat, lon, tz, date_str, city=None):
+    """Get actual high temp. Uses ACIS (Kalshi settlement source) when city is known."""
+    if city and city in CITY_ACIS_STATIONS:
+        return get_actual_temp_acis(city, date_str)
+    return get_actual_temp_openmeteo(city or "unknown", date_str)
 
 
 def load_existing():
@@ -291,7 +343,7 @@ def run():
             continue
 
         print(f"  Checking {city} {target_date}...", end=" ")
-        actual = get_actual_temp(coords["lat"], coords["lon"], coords["tz"], target_date)
+        actual = get_actual_temp(coords["lat"], coords["lon"], coords["tz"], target_date, city=city)
 
         if actual is None:
             print("no actual data yet")
