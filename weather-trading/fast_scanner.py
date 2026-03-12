@@ -922,6 +922,14 @@ def run():
                     edge=_best["edge"], entry_price_cents=_best["entry_price_cents"],
                     reason_skipped=f"source_spread: {source_spread_val:.1f}F > {spread_skip_threshold:.0f}F",
                     ensemble_mean=mean, ensemble_std=std, source_spread=source_spread_val,
+                    our_probability=_best.get("our_prob"),
+                    market_probability=_best.get("market_price"),
+                    strike=_best.get("strike"),
+                    bracket=_best.get("strike_type"),
+                    target_date=str(target_date),
+                    sigma_multiplier=sigma_multiplier,
+                    sources_used=list(forecasts.keys()),
+                    source_forecasts={k: round(v, 1) for k, v in forecasts.items() if v is not None},
                 )
             continue
         elif source_spread_val > spread_half_threshold:
@@ -994,6 +1002,14 @@ def run():
                 edge=_best_sigma["edge"], entry_price_cents=_best_sigma["entry_price_cents"],
                 reason_skipped="2sigma_buffer",
                 ensemble_mean=mean, ensemble_std=std, source_spread=source_spread_val,
+                our_probability=_best_sigma.get("our_prob"),
+                market_probability=_best_sigma.get("market_price"),
+                strike=_best_sigma.get("strike"),
+                bracket=_best_sigma.get("strike_type"),
+                target_date=str(target_date),
+                sigma_multiplier=sigma_multiplier,
+                sources_used=list(forecasts.keys()),
+                source_forecasts={k: round(v, 1) for k, v in forecasts.items() if v is not None},
             )
         
         # === NEXT-DAY EVENING FILTER ===
@@ -1011,6 +1027,13 @@ def run():
                         edge=o["edge"], entry_price_cents=o["entry_price_cents"],
                         reason_skipped=f"evening_filter: edge {o['edge']:.1%} < 20%",
                         ensemble_mean=mean, ensemble_std=std, source_spread=source_spread_val,
+                        our_probability=o.get("our_prob"),
+                        market_probability=o.get("market_price"),
+                        strike=o.get("strike"),
+                        bracket=o.get("strike_type"),
+                        target_date=str(target_date),
+                        sigma_multiplier=sigma_multiplier,
+                        sources_used=list(forecasts.keys()),
                     )
             opps = evening_filtered
             next_day_max_spend = 500  # $5 cap for next-day evening entries
@@ -1490,6 +1513,27 @@ def run():
                 **_ms_details,
             })
             continue
+        
+        # Log as paper trade (full context journal entry)
+        hypothetical_tracker.log_hypothetical(
+            city=city, ticker=best["ticker"], direction=best["direction"],
+            edge=best["edge"], entry_price_cents=entry_cents,
+            reason_skipped=None,  # None = WOULD HAVE TRADED
+            ensemble_mean=mean, ensemble_std=std,
+            source_spread=stats.get("source_spread_f", 0) or 0,
+            our_probability=best.get("our_prob"),
+            market_probability=best.get("market_price"),
+            kelly_fraction=kelly_f,
+            contracts=contracts,
+            expected_profit_cents=round(best["edge"] * contracts * 100, 1) if best.get("edge") else None,
+            strike=best.get("strike"),
+            bracket=best.get("strike_type"),
+            target_date=str(target_date),
+            sigma_multiplier=sigma_multiplier,
+            sources_used=list(forecasts.keys()),
+            source_forecasts={k: round(v, 1) for k, v in forecasts.items() if v is not None},
+            notes=f"WOULD TRADE: {contracts}x {best['direction']} @ {entry_cents}¢ = ${contracts*entry_cents/100:.2f}",
+        )
         
         # Place it
         try:
