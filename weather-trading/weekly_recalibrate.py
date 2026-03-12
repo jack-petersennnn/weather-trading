@@ -7,31 +7,18 @@ the 365-day backtest results, then regenerate city configs.
 import json, math, os, sys, statistics
 from datetime import datetime, timedelta, timezone
 from urllib.request import urlopen, Request
-from urllib.parse import quote
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# City coordinates for Open-Meteo archive API
-CITY_COORDS = {
-    "New York":      (40.7831, -73.9712, "America/New_York"),
-    "Chicago":       (41.8781, -87.6298, "America/Chicago"),
-    "Miami":         (25.7617, -80.1918, "America/New_York"),
-    "Denver":        (39.7392, -104.9903, "America/Denver"),
-    "Austin":        (30.2672, -97.7431, "America/Chicago"),
-    "Atlanta":       (33.749, -84.388, "America/New_York"),
-    "Boston":        (42.3601, -71.0589, "America/New_York"),
-    "Dallas":        (32.7767, -96.797, "America/Chicago"),
-    "Houston":       (29.7604, -95.3698, "America/Chicago"),
-    "Las Vegas":     (36.1699, -115.1398, "America/Los_Angeles"),
-    "Minneapolis":   (44.9778, -93.265, "America/Chicago"),
-    "New Orleans":   (29.9511, -90.0715, "America/Chicago"),
-    "Oklahoma City": (35.4676, -97.5164, "America/Chicago"),
-    "Philadelphia":  (39.9526, -75.1652, "America/New_York"),
-    "Phoenix":       (33.4484, -112.074, "America/Phoenix"),
-    "San Antonio":   (29.4241, -98.4936, "America/Chicago"),
-    "San Francisco": (37.7749, -122.4194, "America/Los_Angeles"),
-    "Seattle":       (47.6062, -122.3321, "America/Los_Angeles"),
-    "Washington DC": (38.9072, -77.0369, "America/New_York"),
+# ACIS station IDs — same stations Kalshi settles on (NWS CLI integer high temps)
+ACIS_STATIONS = {
+    "New York": "KNYC", "Chicago": "KMDW", "Miami": "KMIA", "Denver": "KDEN",
+    "Los Angeles": "KLAX", "Austin": "KAUS", "Philadelphia": "KPHL",
+    "Phoenix": "KPHX", "Las Vegas": "KLAS", "Atlanta": "KATL", "Boston": "KBOS",
+    "Seattle": "KSEA", "San Francisco": "KSFO", "Houston": "KHOU",
+    "San Antonio": "KSAT", "New Orleans": "KMSY", "Oklahoma City": "KOKC",
+    "Dallas": "KDFW", "Minneapolis": "KMSP", "Washington DC": "KDCA",
 }
 
 def fetch_json(url):
@@ -45,35 +32,40 @@ def fetch_json(url):
 
 
 def step1_pull_actuals(dates):
-    """Pull ACIS actuals for all 19 cities for given dates via Open-Meteo archive."""
-    print("\n=== Step 1: Pull actuals from Open-Meteo Archive ===")
-    actuals = {}  # city -> date -> temp_max_f
+    """Pull ACIS actuals for all cities for given dates (integer °F, same as Kalshi settlement)."""
+    print("\n=== Step 1: Pull actuals from RCC-ACIS (Kalshi settlement source) ===")
+    actuals = {}  # city -> date -> temp_max_f (integer)
     
     start_date = min(dates)
     end_date = max(dates)
     
-    for city, (lat, lon, tz) in CITY_COORDS.items():
-        tz_enc = quote(tz, safe='')
-        url = (f"https://archive-api.open-meteo.com/v1/archive?"
-               f"latitude={lat}&longitude={lon}"
-               f"&start_date={start_date}&end_date={end_date}"
-               f"&daily=temperature_2m_max&temperature_unit=fahrenheit"
-               f"&timezone={tz_enc}")
-        data = fetch_json(url)
-        if not data or "daily" not in data:
-            print(f"  ✗ {city}: no data")
-            continue
-        
-        daily_dates = data["daily"].get("time", [])
-        daily_temps = data["daily"].get("temperature_2m_max", [])
-        
-        actuals[city] = {}
-        for d, t in zip(daily_dates, daily_temps):
-            if d in dates and t is not None:
-                actuals[city][d] = t
-        
-        count = len(actuals[city])
-        print(f"  ✓ {city}: {count} days")
+    for city, station in ACIS_STATIONS.items():
+        try:
+            body = json.dumps({
+                "sid": station,
+                "sdate": start_date,
+                "edate": end_date,
+                "elems": [{"name": "maxt"}]
+            }).encode()
+            req = Request(
+                "https://data.rcc-acis.org/StnData",
+                data=body,
+                headers={"Content-Type": "application/json", "User-Agent": "weather-recal/2.0"}
+            )
+            with urlopen(req, timeout=15) as r:
+                data = json.loads(r.read().decode())
+            
+            actuals[city] = {}
+            for row in data.get("data", []):
+                date_str = row[0]
+                val = row[1]
+                if date_str in dates and val not in ("M", "T", "S", ""):
+                    actuals[city][date_str] = int(val)
+            
+            count = len(actuals[city])
+            print(f"  ✓ {city} ({station}): {count} days")
+        except Exception as e:
+            print(f"  ✗ {city}: {e}")
     
     return actuals
 
@@ -86,7 +78,7 @@ def step2_3_compute_weekly_stats(actuals, forecasts, dates):
     stats = {}
     
     for date in dates:
-        for city in CITY_COORDS:
+        for city in ACIS_STATIONS:
             actual = actuals.get(city, {}).get(date)
             if actual is None:
                 continue
